@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="t d">
+  <title id="t">How LDL cholesterol builds plaque in an artery</title>
+  <desc id="d">Two side views of an artery. In the healthy artery blood flows freely. In the other, LDL particles enter the wall and a fatty plaque narrows the channel, which can block blood flow.</desc>
+  <style>
+    .title{font:700 20px sans-serif;fill:#134e4a}
+    .h{font:700 15px sans-serif;fill:#134e4a;text-anchor:middle}
+    .s{font:13px sans-serif;fill:#334155}
+    .wall{fill:#fecaca;stroke:#b91c1c;stroke-width:2}
+    .lumen{fill:#fff1f2}
+    .rbc{fill:#dc2626}
+    .ldl{fill:#f59e0b;stroke:#b45309;stroke-width:1.5}
+    .hdl{fill:#38bdf8;stroke:#0369a1;stroke-width:1.5}
+    .plaque{fill:#fde68a;stroke:#b45309;stroke-width:2}
+    .arrow{fill:none;stroke:#334155;stroke-width:2;marker-end:url(#a)}
+    .note{fill:#e6f4f2;stroke:#0f766e;stroke-width:2}
+    .nt{font:13px sans-serif;fill:#134e4a}
+  </style>
+  <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#334155"/></marker></defs>
+  <rect width="760" height="400" fill="#fff" rx="10"/>
+  <text x="24" y="34" class="title">How LDL cholesterol builds plaque</text>
+
+  <text class="h" x="190" y="66">Healthy artery</text>
+  <rect class="wall" x="30" y="80" width="320" height="34" rx="6"/><rect class="wall" x="30" y="196" width="320" height="34" rx="6"/>
+  <rect class="lumen" x="30" y="114" width="320" height="82"/>
+  <circle class="rbc" cx="70" cy="140" r="9"/><circle class="rbc" cx="150" cy="170" r="9"/><circle class="rbc" cx="240" cy="135" r="9"/><circle class="rbc" cx="310" cy="165" r="9"/>
+  <path class="arrow" d="M60,155 L330,155"/>
+  <text class="s" x="190" y="252" style="text-anchor:middle">Blood flows freely through a wide channel.</text>
+
+  <text class="h" x="570" y="66">Plaque has built up</text>
+  <rect class="wall" x="410" y="80" width="320" height="34" rx="6"/><rect class="wall" x="410" y="196" width="320" height="34" rx="6"/>
+  <rect class="lumen" x="410" y="114" width="320" height="82"/>
+  <path class="plaque" d="M500,114 C520,114 530,146 570,146 C610,146 620,114 640,114 Z"/>
+  <path class="plaque" d="M520,196 C540,196 550,170 580,170 C610,170 620,196 640,196 Z"/>
+  <circle class="ldl" cx="450" cy="132" r="7"/><circle class="ldl" cx="470" cy="176" r="7"/>
+  <circle class="ldl" cx="560" cy="120" r="7"/><circle class="ldl" cx="590" cy="130" r="7"/><circle class="ldl" cx="570" cy="190" r="7"/>
+  <circle class="ldl" cx="700" cy="150" r="7"/>
+  <circle class="hdl" cx="690" cy="182" r="6"/>
+  <circle class="rbc" cx="445" cy="155" r="9"/><circle class="rbc" cx="665" cy="150" r="9"/>
+  <path class="arrow" d="M420,155 L520,155"/>
+  <text class="s" x="570" y="252" style="text-anchor:middle">The channel is narrow, and a clot can block it.</text>
+
+  <circle class="ldl" cx="60" cy="290" r="7"/><text class="s" x="76" y="294">LDL: carries cholesterol into artery walls when there is too much</text>
+  <circle class="hdl" cx="60" cy="316" r="6"/><text class="s" x="76" y="320">HDL: carries cholesterol back to the liver</text>
+  <circle class="rbc" cx="60" cy="342" r="8"/><text class="s" x="76" y="346">Red blood cells flowing in the blood</text>
+  <rect class="note" x="20" y="360" width="720" height="30" rx="8"/>
+  <text class="nt" x="36" y="380">Plaque builds slowly over years, which is why the LDL goal depends on your total risk, not one number.</text>
+</svg>

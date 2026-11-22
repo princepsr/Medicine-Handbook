@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="t d">
+  <title id="t">Blood cells and how a clot forms</title>
+  <desc id="d">Top row: red blood cells carry oxygen, white blood cells defend against germs, platelets plug leaks. Bottom row: a cut in a vessel, platelets stick and form a plug, then fibrin threads make a mesh that holds the clot.</desc>
+  <style>
+    .title{font:700 20px sans-serif;fill:#134e4a}
+    .h{font:700 15px sans-serif;fill:#134e4a;text-anchor:middle}
+    .s{font:13px sans-serif;fill:#334155;text-anchor:middle}
+    .rbc{fill:#dc2626}
+    .rbcin{fill:#fca5a5}
+    .wbc{fill:#a78bfa;stroke:#6d28d9;stroke-width:2}
+    .nuc{fill:#6d28d9}
+    .plt{fill:#f9a8d4;stroke:#be185d;stroke-width:1.5}
+    .vessel{fill:#fee2e2;stroke:#b91c1c;stroke-width:2}
+    .fib{stroke:#475569;stroke-width:2;fill:none}
+    .box{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+    .arrow{fill:none;stroke:#0f766e;stroke-width:3;marker-end:url(#a)}
+    .note{fill:#e6f4f2;stroke:#0f766e;stroke-width:2}
+    .nt{font:13px sans-serif;fill:#134e4a}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f766e"/></marker></defs>
+  <rect width="760" height="420" fill="#fff" rx="10"/>
+  <text x="24" y="34" class="title">Blood cells and how a clot forms</text>
+
+  <rect class="box" x="20" y="52" width="232" height="152" rx="10"/>
+  <circle class="rbc" cx="136" cy="100" r="30"/><circle class="rbcin" cx="136" cy="100" r="12"/>
+  <text class="h" x="136" y="152">Red blood cells</text><text class="s" x="136" y="171">Carry oxygen using haemoglobin</text><text class="s" x="136" y="189">(the CBC counts them)</text>
+
+  <rect class="box" x="264" y="52" width="232" height="152" rx="10"/>
+  <circle class="wbc" cx="380" cy="100" r="32"/><circle class="nuc" cx="372" cy="96" r="9"/><circle class="nuc" cx="390" cy="104" r="8"/><circle class="nuc" cx="384" cy="86" r="6"/>
+  <text class="h" x="380" y="152">White blood cells</text><text class="s" x="380" y="171">Defend against germs;</text><text class="s" x="380" y="189">rise in many infections</text>
+
+  <rect class="box" x="508" y="52" width="232" height="152" rx="10"/>
+  <path class="plt" d="M600,96 q10,-16 22,-4 q16,2 6,16 q4,16 -14,10 q-16,6 -14,-10 q-8,-8 0,-12 z"/>
+  <path class="plt" d="M650,112 q8,-12 18,-3 q12,2 4,12 q2,12 -10,8 q-12,4 -10,-8 q-6,-6 -2,-9 z"/>
+  <text class="h" x="624" y="152">Platelets</text><text class="s" x="624" y="171">Tiny fragments that plug leaks</text><text class="s" x="624" y="189">and start a clot</text>
+
+  <text class="h" x="380" y="232" style="font-size:16px">How a clot forms</text>
+  <rect class="box" x="20" y="244" width="232" height="108" rx="10"/>
+  <rect class="vessel" x="32" y="262" width="208" height="46" rx="4"/>
+  <path d="M120,262 L140,262 L136,252 L124,252 Z" fill="#fff"/><path d="M118,262 L142,262" stroke="#b91c1c" stroke-width="3"/>
+  <circle class="rbc" cx="60" cy="285" r="8"/><circle class="rbc" cx="200" cy="285" r="8"/>
+  <text class="h" x="136" y="332">1. A vessel is cut</text>
+
+  <rect class="box" x="264" y="244" width="232" height="108" rx="10"/>
+  <rect class="vessel" x="276" y="262" width="208" height="46" rx="4"/>
+  <path d="M360,262 L400,262" stroke="#fff" stroke-width="8"/>
+  <path class="plt" d="M364,264 q4,-8 10,-2 q8,0 3,8 q2,8 -7,5 q-8,3 -7,-5 q-4,-4 1,-6 z"/>
+  <path class="plt" d="M380,266 q4,-8 10,-2 q8,0 3,8 q2,8 -7,5 q-8,3 -7,-5 q-4,-4 1,-6 z"/>
+  <circle class="rbc" cx="304" cy="285" r="8"/><circle class="rbc" cx="450" cy="285" r="8"/>
+  <text class="h" x="380" y="332">2. Platelets plug the gap</text>
+
+  <rect class="box" x="508" y="244" width="232" height="108" rx="10"/>
+  <rect class="vessel" x="520" y="262" width="208" height="46" rx="4"/>
+  <path d="M600,262 L650,262" stroke="#fff" stroke-width="8"/>
+  <path class="fib" d="M598,266 L652,284 M600,282 L650,266 M610,262 L640,300 M640,262 L612,300 M598,296 L652,276"/>
+  <circle class="rbc" cx="620" cy="282" r="7"/><circle class="rbc" cx="636" cy="290" r="7"/>
+  <circle class="rbc" cx="548" cy="285" r="8"/><circle class="rbc" cx="700" cy="285" r="8"/>
+  <text class="h" x="624" y="332">3. Fibrin mesh holds it</text>
+
+  
+  <rect class="note" x="20" y="366" width="720" height="40" rx="8"/>
+  <text class="nt" x="36" y="384">Fibrin is a protein that forms threads. Blood thinners work at different steps, which is why they need</text>
+  <text class="nt" x="36" y="399">monitoring and why they must never be stopped or doubled without your doctor.</text>
+</svg>

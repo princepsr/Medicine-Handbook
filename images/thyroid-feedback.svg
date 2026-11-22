@@ -1,0 +1,33 @@
+<svg viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thyroid feedback loop: pituitary sends TSH to the thyroid, which makes T4 and T3 that set body speed; blood level feeds back to the pituitary">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+  <rect width="760" height="320" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">The thyroid feedback loop</text>
+
+  <rect x="30" y="80" width="190" height="80" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="125" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e3a8a">Pituitary gland</text>
+  <text x="125" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e3a8a">(under the brain)</text>
+
+  <rect x="285" y="80" width="190" height="80" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="380" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#14532d">Thyroid gland</text>
+  <text x="380" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#14532d">(front of the neck)</text>
+
+  <rect x="540" y="80" width="190" height="80" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="635" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#78350f">Body speed</text>
+  <text x="635" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#78350f">heart, warmth, energy</text>
+
+  <line x1="220" y1="120" x2="283" y2="120" stroke="#374151" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="252" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">TSH</text>
+
+  <line x1="475" y1="120" x2="538" y2="120" stroke="#374151" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="507" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">T4, T3</text>
+
+  <path d="M635 160 L635 245 L125 245 L125 162" fill="none" stroke="#374151" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#a)"/>
+  <text x="380" y="236" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#111827">blood level of T4 and T3 is sensed</text>
+
+  <text x="380" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#111827">Enough hormone: pituitary sends LESS TSH.  Too little hormone: pituitary sends MORE TSH.</text>
+  <text x="380" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">So underactive thyroid = TSH high.  Overactive thyroid = TSH low.</text>
+</svg>

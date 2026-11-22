@@ -1,0 +1,44 @@
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stages of liver disease: healthy liver, fatty liver, inflammation, fibrosis (scarring), cirrhosis. Early stages can often improve.">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+  <rect width="760" height="300" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Stages of liver disease (not interchangeable)</text>
+
+  <rect x="15" y="60" width="130" height="110" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="80" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14532d">Healthy</text>
+  <text x="80" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14532d">Normal liver</text>
+  <text x="80" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14532d">cells, no fat</text>
+
+  <rect x="160" y="60" width="130" height="110" rx="12" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="225" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#713f12">Fatty liver</text>
+  <text x="225" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#713f12">Fat inside liver</text>
+  <text x="225" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#713f12">cells. Often silent</text>
+
+  <rect x="305" y="60" width="130" height="110" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+  <text x="370" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c2d12">Inflammation</text>
+  <text x="370" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7c2d12">Liver irritated.</text>
+  <text x="370" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7c2d12">Enzymes rise</text>
+
+  <rect x="450" y="60" width="130" height="110" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="515" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7f1d1d">Fibrosis</text>
+  <text x="515" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f1d1d">Scar tissue forms</text>
+  <text x="515" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f1d1d">(FIB-4, FibroScan)</text>
+
+  <rect x="595" y="60" width="150" height="110" rx="12" fill="#e5e7eb" stroke="#4b5563" stroke-width="2"/>
+  <text x="670" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Cirrhosis</text>
+  <text x="670" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111827">Badly scarred liver</text>
+  <text x="670" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111827">that works poorly</text>
+
+  <line x1="145" y1="115" x2="158" y2="115" stroke="#374151" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="290" y1="115" x2="303" y2="115" stroke="#374151" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="435" y1="115" x2="448" y2="115" stroke="#374151" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="580" y1="115" x2="593" y2="115" stroke="#374151" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <path d="M370 190 L225 190" stroke="#16a34a" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+  <text x="380" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#111827">Early stages can often improve with weight loss, activity,</text>
+  <text x="380" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#111827">sugar control and no alcohol.</text>
+  <text x="380" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">Cirrhosis is much harder to reverse. Finding scarring early is the goal.</text>
+</svg>

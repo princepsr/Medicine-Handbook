@@ -1,0 +1,12 @@
+# Personal health data must never be pushed.
+my-reports/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+!images/**
+
+
+# Generated mdBook output (rebuild with build-mdbook.ps1).
+mdbook/src/
+mdbook/book/
