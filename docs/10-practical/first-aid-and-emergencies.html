@@ -1,0 +1,405 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>First Aid and Emergencies - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="first-aid-and-emergencies"><a class="header" href="#first-aid-and-emergencies">First Aid and Emergencies</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet. This chapter gives awareness, not training. <strong>Follow a certified first-aid course</strong> (for example from the Indian Red Cross, St John Ambulance or a hospital) and practise on a manikin (a training dummy). For CPR (pressing on the chest to keep blood moving), the official courses and guidance (Red Cross, MoHFW, 112) are the authority, not this page.</em></p>
+<blockquote class="blockquote-tag blockquote-tag-warning">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<p><strong>In an emergency: call for help first.</strong> Dial <strong>112</strong> (the national emergency number) or <strong>108</strong> (ambulance, in many states). Then give first aid while help comes. Do not give food, water or medicines to a person who is unconscious. Do not move someone with a possible neck or back injury unless they are in danger.</p>
+</blockquote>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li><strong>Call first, then act.</strong> Check for danger, then the person: <strong>is the person responsive? breathing? bleeding?</strong></li>
+<li>Learn the basics in a course: <strong>CPR</strong>, <strong>stopping bleeding</strong>, <strong>choking</strong>, and <strong>recognising stroke and heart attack</strong>.</li>
+<li>Many traditional "remedies" (butter on burns, cutting a snakebite, tying tight bands, putting things in a seizing person's mouth) <strong>cause harm</strong>.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-the-steps-in-any-emergency"><a class="header" href="#1-the-steps-in-any-emergency">1. The steps in any emergency</a></h2>
+<ol>
+<li><strong>Check for danger</strong> to you and the person (traffic, fire, electricity, gas). Do not become a second victim.</li>
+<li><strong>Check response:</strong> tap the shoulders and shout. Is the person awake?</li>
+<li><strong>Call for help:</strong> <strong>112</strong> or <strong>108</strong>, or ask someone nearby to call while you act. State the <strong>place, what happened, the number of people and their condition.</strong> Stay on the line.</li>
+<li><strong>Check breathing:</strong> look at the chest for no more than 10 seconds.</li>
+<li><strong>Give first aid</strong> until help arrives.</li>
+<li><strong>Stay with the person,</strong> keep them warm and calm, and give the ambulance staff (paramedics) a clear account.</li>
+</ol>
+<h3 id="emergency-numbers-india"><a class="header" href="#emergency-numbers-india">Emergency numbers (India)</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Number</th><th>Use</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>112</strong></td><td>National emergency number (police, fire, ambulance)</td></tr>
+<tr><td><strong>108</strong></td><td>Ambulance in many states</td></tr>
+<tr><td><strong>National Poisons Information Centre</strong> (AIIMS, New Delhi)</td><td>Poisoning advice: toll-free <strong>1800 116 117</strong>, 24 hours. Call as soon as poisoning is suspected, without waiting for symptoms (number confirmed on the AIIMS and NCDC pages)</td></tr>
+<tr><td><strong>Tele-MANAS (14416)</strong></td><td>Free mental health support, 24 hours, run by the Ministry of Health (MoHFW)</td></tr>
+</tbody>
+</table>
+</div>
+<p>Save these numbers on your phone, and know the <strong>nearest hospital with an emergency department</strong>.</p>
+<h2 id="2-red-flag-emergencies-call-112-or-108-at-once"><a class="header" href="#2-red-flag-emergencies-call-112-or-108-at-once">2. Red-flag emergencies: call 112 or 108 at once</a></h2>
+<ul>
+<li>Not responsive, or not breathing normally (gasping is not normal breathing)</li>
+<li>Chest pressure or pain spreading to the arm or jaw, with sweating or breathlessness (possible <strong>heart attack</strong>)</li>
+<li><strong>Stroke</strong> signs: <strong>F</strong>ace drooping, <strong>A</strong>rm weakness, <strong>S</strong>peech difficulty, <strong>T</strong>ime to call. Note when symptoms began</li>
+<li>Severe breathing trouble, blue lips, or a severe allergic reaction (swollen lips or throat, wheeze, faintness)</li>
+<li>Heavy bleeding that does not stop with pressure</li>
+<li>A seizure lasting over 5 minutes, or a first seizure</li>
+<li>Confusion with high fever or neck stiffness; heatstroke</li>
+<li>Poisoning, a snakebite, a serious burn, a head or neck injury</li>
+</ul>
+<p><strong>Do not drive yourself</strong> if you have heart attack or stroke symptoms.</p>
+<h2 id="3-cpr-learn-it-in-a-course"><a class="header" href="#3-cpr-learn-it-in-a-course">3. CPR: learn it in a course</a></h2>
+<p><strong>CPR (cardiopulmonary resuscitation)</strong> keeps blood moving to the brain until the heart can be restarted. It saves lives when started early.</p>
+<p>CPR must be learned hands-on. Take a course from the <strong>Indian Red Cross</strong>, a hospital, or a programme backed by the <strong>Ministry of Health and Family Welfare (MoHFW)</strong>, and follow the <strong>112</strong> call-taker's instructions during a real emergency. The basic idea, for an adult who is unresponsive and not breathing normally:</p>
+<ol>
+<li>Call <strong>112</strong> or <strong>108</strong> and ask for an <strong>AED</strong> (automated external defibrillator, a device that checks the heart and gives a shock if needed) if one is near.</li>
+<li>Lay the person on a firm, flat surface.</li>
+<li>Push hard and fast in the centre of the chest, and let the chest rise fully between pushes. Courses teach the exact depth and rate. <code>⚠ verify against current guidelines</code></li>
+<li>If an AED arrives, turn it on and follow its voice prompts.</li>
+</ol>
+<p>Starting is far better than waiting, and you will not be blamed for trying. Techniques for children and infants differ, so ask your trainer.</p>
+<h2 id="4-bleeding"><a class="header" href="#4-bleeding">4. Bleeding</a></h2>
+<ol>
+<li><strong>Press firmly and directly</strong> on the wound with a clean cloth or pad. Keep pressing.</li>
+<li><strong>Raise</strong> the injured limb if possible (unless broken).</li>
+<li><strong>Add more cloth</strong> if blood soaks through; do not remove the first pad.</li>
+<li><strong>Call 112 or 108</strong> for heavy bleeding, or a wound with an object stuck in it (<strong>do not remove it</strong>).</li>
+<li>A <strong>tourniquet</strong> is for life-threatening limb bleeding that pressure cannot stop. Use one only if you were trained.</li>
+<li><strong>Nosebleed:</strong> sit, lean forward (not back), and pinch the soft part of the nose for 10 minutes.</li>
+</ol>
+<h2 id="5-choking"><a class="header" href="#5-choking">5. Choking</a></h2>
+<ul>
+<li>If the person can cough, speak or breathe, encourage coughing.</li>
+<li>If they cannot speak, breathe or cough, call for help and give <strong>5 firm back blows</strong> between the shoulder blades, then <strong>5 abdominal thrusts</strong> if the person is an adult or a child over about 1 year. Alternate until the object comes out. If the person becomes unresponsive, start CPR.</li>
+<li><strong>Infants (under 1 year)</strong> need a different method (back blows and chest thrusts, not abdominal thrusts). A course is essential.</li>
+</ul>
+<h2 id="6-burns-and-scalds"><a class="header" href="#6-burns-and-scalds">6. Burns and scalds</a></h2>
+<ol>
+<li><strong>Stop the burning:</strong> move away from the source; for clothing on fire, stop, drop and roll.</li>
+<li><strong>Cool the burn under cool running water for 20 minutes.</strong></li>
+<li><strong>Remove rings, watches and clothing</strong> near the burn, unless stuck.</li>
+<li><strong>Cover loosely</strong> with a clean non-fluffy cover.</li>
+<li><strong>Do not</strong> apply ice, butter, toothpaste, oil, ghee, turmeric or other home remedies, and do not burst blisters.</li>
+<li><strong>Seek medical care</strong> for burns larger than the person's palm, burns on the face, hands, feet, genitals or joints, deep or white or charred skin, chemical or electrical burns, and burns in children or older adults.</li>
+</ol>
+<h2 id="7-snakebite"><a class="header" href="#7-snakebite">7. Snakebite</a></h2>
+<p>India has a large burden of snakebite, and WHO notes that many victims choose traditional practices over hospital care.</p>
+<p><strong>Do:</strong> keep the person calm and still, remove rings and tight items near the bite, keep the limb still like a fracture, and <strong>get to a hospital with antivenom (the medicine that counters snake venom) as fast as possible</strong> (call 108). India's standard antivenom is made against the "big four" snakes: common cobra, common krait, Russell's viper and saw-scaled viper. It may not cover other snakes. Note the time. Do not try to catch the snake.</p>
+<p><strong>Do not:</strong> cut or suck the wound, tie a tight tourniquet, use ice, give alcohol, or waste time on traditional healers or "snake stones". These delay antivenom and cause harm.</p>
+<h2 id="8-dog-bites-and-rabies"><a class="header" href="#8-dog-bites-and-rabies">8. Dog bites and rabies</a></h2>
+<p><strong>Rabies is almost always fatal once symptoms start, but it is almost entirely preventable</strong> (WHO: virtually 100% fatal after symptoms; a vaccine-preventable disease). Rabies is a virus caught from the saliva of an infected animal, usually a dog.</p>
+<ol>
+<li><strong>Wash the wound at once with soap and running water for at least 15 minutes.</strong></li>
+<li><strong>Do not</strong> apply chilli or turmeric, or tie the wound.</li>
+<li><strong>Go to a hospital the same day</strong> for anti-rabies vaccination, and for rabies immunoglobulin (ready-made antibodies against the virus) if the bite broke the skin. Government hospitals and anti-rabies clinics often provide the vaccine free. <code>⚠ verify</code></li>
+<li><strong>Complete the full vaccine schedule.</strong> This also applies to cat and monkey bites, and licks on broken skin.</li>
+</ol>
+<h2 id="9-seizures-fits"><a class="header" href="#9-seizures-fits">9. Seizures (fits)</a></h2>
+<blockquote class="blockquote-tag blockquote-tag-important">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p>
+<p><strong>Seizure first aid</strong></p>
+<p><strong>Stay calm. Note the time. Keep the person safe.</strong></p>
+<ol>
+<li><strong>Clear the area.</strong> Move hard or sharp things away. Cushion the head with something soft.</li>
+<li><strong>Loosen tight clothing</strong> around the neck.</li>
+<li><strong>Do not hold the person down.</strong></li>
+<li><strong>Put nothing in the mouth</strong> (no spoon, cloth, finger, key or onion). A person cannot swallow their tongue. An <strong>iron key or shoe does not help</strong>.</li>
+<li>When the jerking stops, <strong>turn the person onto their side</strong> (the recovery position) so saliva or vomit can drain. Check that they are breathing.</li>
+<li><strong>Stay until fully awake.</strong> Speak gently. They may be drowsy and confused for minutes to hours.</li>
+<li><strong>Give no food, water or tablets</strong> until they are fully awake.</li>
+</ol>
+<p><strong>Call 112 or 108 if:</strong> the seizure lasts <strong>more than 5 minutes</strong>, a second seizure follows, the person does not wake up, is injured, is pregnant or has diabetes, has trouble breathing, or it is their <strong>first</strong> seizure.</p>
+<p>Never stop epilepsy medicine suddenly. More in <a href="../01-body/brain-and-nervous-system.html">The brain and nervous system</a>.</p>
+</blockquote>
+<h2 id="10-other-common-situations"><a class="header" href="#10-other-common-situations">10. Other common situations</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Situation</th><th>What to do</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Fainting</strong></td><td>Lay the person flat and raise the legs; loosen tight clothing; check breathing; if not waking within a minute or two, call for help</td></tr>
+<tr><td><strong>Low blood sugar in a person with diabetes</strong></td><td>If they can swallow, give fast sugar (see <a href="../02-diseases/diabetes.html">Diabetes</a> for the 15-gram rule). If unconscious or unable to swallow, call 108 and put nothing in the mouth</td></tr>
+<tr><td><strong>Severe allergic reaction (anaphylaxis)</strong></td><td>Call 108 at once. Use an adrenaline auto-injector (a pen that gives a lifesaving shot) if the person has one. Go to hospital even if the person improves</td></tr>
+<tr><td><strong>Asthma attack</strong></td><td>Sit upright, use the reliever inhaler as per the action plan, call 108 if no improvement (see <a href="../02-diseases/asthma-and-copd.html">Asthma and COPD</a>)</td></tr>
+<tr><td><strong>Heart attack</strong></td><td>Call 112 or 108. Sit the person down. Staff may advise chewing an aspirin if not allergic; do not delay the call (see <a href="../02-diseases/coronary-heart-disease.html">Coronary heart disease</a>)</td></tr>
+<tr><td><strong>Fractures or sprains</strong></td><td>Keep the limb still and supported, and seek care. Do not realign it</td></tr>
+<tr><td><strong>Head, neck or spine injury</strong></td><td>Do not move the person unless in danger; support the head and neck</td></tr>
+<tr><td><strong>Heatstroke</strong></td><td>Emergency. Move to shade, cool the body with water and fanning, call 108</td></tr>
+<tr><td><strong>Drowning, electric shock</strong></td><td>Call for help. For electric shock, switch off the power first</td></tr>
+<tr><td><strong>Diarrhoea and dehydration</strong></td><td>ORS (oral rehydration solution); seek care for blood in stool, high fever, or signs of dehydration</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="11-poisoning-and-overdose"><a class="header" href="#11-poisoning-and-overdose">11. Poisoning and overdose</a></h2>
+<ul>
+<li><strong>Call a poison helpline or 108.</strong> Have the container, tablets or substance with you; note what, how much, and when.</li>
+<li><strong>Do not induce vomiting</strong> and do not give salt water, milk or other "antidotes" unless advised.</li>
+<li><strong>Paracetamol overdose</strong> can be silent at first; go to hospital even if the person feels well.</li>
+<li><strong>Carbon monoxide</strong> (an invisible poisonous gas from burning fuel, from heaters or generators in closed rooms): get fresh air at once and call for help.</li>
+<li><strong>Keep medicines and chemicals out of reach of children</strong>, in original containers.</li>
+</ul>
+<h2 id="12-preparing-at-home"><a class="header" href="#12-preparing-at-home">12. Preparing at home</a></h2>
+<ul>
+<li><strong>First-aid kit:</strong> sterile gauze and dressings, bandages, tape, scissors, gloves, ORS sachets, your regular medicines, and emergency numbers. Check expiry dates.</li>
+<li><strong>Take a certified first-aid course</strong> that includes CPR and choking.</li>
+<li><strong>Know the nearest emergency hospital</strong> and keep a medicine and allergy list on your phone.</li>
+</ul>
+<h2 id="13-good-samaritan-protection"><a class="header" href="#13-good-samaritan-protection">13. Good Samaritan protection</a></h2>
+<p>Under the <strong>Motor Vehicles Act</strong> and Supreme Court guidelines, a bystander who helps an injured person should not be forced to stay, pay, or give personal details. <code>⚠ verify</code></p>
+<h2 id="14-ask-a-doctor-or-trainer"><a class="header" href="#14-ask-a-doctor-or-trainer">14. Ask a doctor or trainer</a></h2>
+<ol>
+<li>Can you teach me CPR and the choking manoeuvre?</li>
+<li>What should I do for someone in my family with diabetes, asthma, epilepsy or severe allergies?</li>
+<li>Which hospital near me can handle a heart attack, stroke, snakebite and rabies?</li>
+</ol>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>First aid</strong> immediate help before medical care arrives · <strong>CPR</strong> cardiopulmonary resuscitation · <strong>AED</strong> automated external defibrillator · <strong>Recovery position</strong> lying on the side to keep the airway clear · <strong>Antivenom</strong> the treatment for snake venom · <strong>Rabies immunoglobulin</strong> antibodies given for serious rabies exposure · <strong>Anaphylaxis</strong> a severe allergic reaction · <strong>ORS</strong> oral rehydration solution · <strong>Tourniquet</strong> a band that stops blood flow to a limb · <strong>Good Samaritan</strong> a helper of an injured stranger.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>Indian Resuscitation Council guidelines; American Heart Association and European Resuscitation Council guidelines. <code>⚠ verify</code></li>
+<li>WHO fact sheet: Snakebite envenoming; MoHFW/NCDC Standard Treatment Guidelines for Management of Snake Bite; National Action Plan for Prevention and Control of Snakebite Envenoming (NAPSE, 2024). (The MoHFW National Snakebite Management Protocol dates from 2009, updated 2016, not 2024.)</li>
+<li>WHO fact sheet: Rabies; National Rabies Control Programme and Indian guidelines on rabies post-exposure prophylaxis (NCDC/MoHFW). <code>⚠ verify</code></li>
+<li>St John Ambulance and Indian Red Cross first-aid manuals. <code>⚠ verify</code></li>
+<li>Motor Vehicles (Amendment) Act, 2019 and Supreme Court Good Samaritan guidelines (2016). <code>⚠ verify</code></li>
+<li>International League Against Epilepsy (ILAE) and NICE epilepsy first-aid guidance (seizure first aid box). <code>⚠ verify</code></li>
+</ol>
+<p><strong>Not verified:</strong> CPR details (taught in courses), free anti-rabies vaccine availability and the Indian rabies steps (WHO confirms the 15-minute wash, vaccine and immunoglobulin), the 112 and 108 numbers (only seen in news reports, no MoHFW page), the seizure 5-minute call threshold (Epilepsy Foundation, CDC pages would not open) and the Good Samaritan details. Confirmed this pass: poison centre and Tele-MANAS numbers, antivenom and big-four wording, the rabies fatality statement. First aid should be learned in a practical course.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../09-indian-healthcare/patient-rights-and-complaints.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../10-practical/worked-examples.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../09-indian-healthcare/patient-rights-and-complaints.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../10-practical/worked-examples.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

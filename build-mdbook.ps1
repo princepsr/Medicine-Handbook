@@ -72,4 +72,5 @@ foreach ($x in @(@('ROADMAP.md','Roadmap and scope'), @('REVIEW-GUIDE.md','Guide
 if ($NoBuild) { Write-Host "Source ready in $src"; return }
 if (-not (Get-Command mdbook -ErrorAction SilentlyContinue)) { throw 'mdbook is not installed. Install it from https://rust-lang.github.io/mdBook/' }
 & mdbook build $book
-Write-Host "Built: $(Join-Path $book 'book\index.html')"
+New-Item -ItemType File -Path (Join-Path (Join-Path $root 'docs') '.nojekyll') -Force | Out-Null
+Write-Host "Built: $(Join-Path (Join-Path $root 'docs') 'index.html')"

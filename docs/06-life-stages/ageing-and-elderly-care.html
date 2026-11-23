@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Ageing and Elderly Care - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="ageing-and-elderly-care"><a class="header" href="#ageing-and-elderly-care">Ageing and Elderly Care</a></h1>
+<p><em>Status: Draft. A doctor (ideally a geriatrician, a doctor who specialises in older people) has not reviewed it yet. Older bodies differ greatly. Always follow your own doctor's advice.</em></p>
+<p>Read <a href="../04-medicines/common-drug-classes.html">Common drug classes</a> and <a href="../04-medicines/interactions-and-special-groups.html">Interactions and special groups</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>Ageing is not a disease, but it changes how the body copes. Many problems in later life are <strong>common, linked and treatable</strong>: falls, many medicines, memory loss, poor sight and hearing, constipation and urinary trouble.</li>
+<li><strong>Falls</strong> are a leading cause of injury in older people. Most can be prevented.</li>
+<li><strong>Polypharmacy</strong> (many medicines at once) causes side effects and falls. A yearly <strong>medicine review</strong> matters.</li>
+<li><strong>Dementia is not normal ageing.</strong> Some memory loss has treatable causes.</li>
+<li>Carers need care too. Plan ahead: <strong>advance care planning</strong>, and beware <strong>scams aimed at the elderly</strong>.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-what-is-it"><a class="header" href="#1-what-is-it">1. What is it?</a></h2>
+<p>In India, people aged 60 and over are counted as <strong>elderly</strong> (senior citizens). The number is rising fast: about <strong>10 to 11% of Indians were over 60 in 2021, and it is projected to reach around 20% by 2050</strong> <code>⚠ verify</code> (see the India Ageing Report of UNFPA, the United Nations population agency). The <strong>Longitudinal Ageing Study in India (LASI)</strong>, a national survey of older people, found that chronic disease is very common among older Indians <code>⚠ verify</code>, commonly high blood pressure, diabetes, joint problems and eye or hearing loss.</p>
+<h2 id="2-the-normal-body"><a class="header" href="#2-the-normal-body">2. The normal body</a></h2>
+<p>With age, muscles and bones weaken (loss of muscle is called <strong>sarcopenia</strong>; thin bones are <strong>osteoporosis</strong>). <strong>Kidneys and liver clear medicines more slowly</strong>, so drugs stay in the body longer. Balance and blood pressure control slow, so blood pressure may drop when standing up (<strong>postural hypotension</strong>). Thirst is weaker, so dehydration is easy.</p>
+<h2 id="3-what-goes-wrong"><a class="header" href="#3-what-goes-wrong">3. What goes wrong</a></h2>
+<h3 id="falls"><a class="header" href="#falls">Falls</a></h3>
+<p>A <strong>fall</strong> is coming to rest on the ground unintentionally. About <strong>one in three people over 65 falls each year</strong> (WHO). <code>⚠ verify for India</code> Falls cause <strong>hip and wrist fractures, head injuries and loss of confidence</strong>, which leads to less walking and more weakness.</p>
+<p>Causes: weak muscles, poor balance, <strong>medicines</strong> (sleeping tablets, some blood pressure and sugar medicines), low blood pressure on standing, poor sight, and <strong>home hazards</strong> (loose rugs, wet bathroom floors, low lighting, Indian squat toilets with no hand rail).</p>
+<p>Prevention:</p>
+<ul>
+<li><strong>Strength and balance exercise</strong> (walking, tai chi, physiotherapy). This is the best-proven measure.</li>
+<li><strong>Review medicines</strong> and check <strong>blood pressure lying and standing</strong>.</li>
+<li><strong>Wear snug, non-slip footwear</strong> (not loose chappals).</li>
+<li><strong>Fix the home</strong>: night lights, grab bars in the bathroom, non-slip mats, a raised toilet seat.</li>
+</ul>
+<h3 id="polypharmacy-and-the-beers-caution"><a class="header" href="#polypharmacy-and-the-beers-caution">Polypharmacy and the Beers caution</a></h3>
+<p><strong>Polypharmacy</strong> is regularly taking many medicines (often defined as five or more). It is <strong>common in India</strong>, with several doctors prescribing separately, plus over-the-counter drugs, ayurvedic or herbal products and supplements. Each extra drug adds the chance of <strong>side effects and interactions</strong>.</p>
+<p>The <strong>American Geriatrics Society Beers Criteria</strong> is a list of medicines that are <strong>potentially inappropriate in older people</strong> because the risks usually outweigh the benefits. It is a caution, not a ban, and each case is individual. Examples of groups it warns about:</p>
+<ul>
+<li><strong>Sleeping and anti-anxiety tablets</strong> (sedative drug groups called benzodiazepines and "Z-drugs"): drowsiness, confusion, falls, fractures.</li>
+<li><strong>Older antihistamines</strong> (for example chlorpheniramine, found in many cold and sleep remedies): confusion, dry mouth, constipation.</li>
+<li><strong>NSAID painkillers</strong> (non-steroidal anti-inflammatory drugs, for example ibuprofen, diclofenac): stomach bleeding, kidney damage. See <a href="../04-medicines/painkillers-steroids-acidity-supplements.html">Painkillers, steroids, acidity medicines and supplements</a>.</li>
+<li><strong>Sulfonylurea diabetes tablets</strong> (a class that pushes the body to make more insulin) such as glibenclamide, where low sugar can be dangerous. See <a href="../02-diseases/diabetes.html">Diabetes</a>.</li>
+</ul>
+<p>Do not stop any medicine yourself. <strong>Ask your doctor for a "brown bag review"</strong>: put every tablet, syrup, patch, drop and herbal product in a bag and take them to one doctor. Ask about each one: why, how long, what if it is stopped (this handbook gives no doses). <strong>Deprescribing</strong> is the safe, planned stopping of unneeded medicines.</p>
+<h3 id="memory-loss-and-dementia"><a class="header" href="#memory-loss-and-dementia">Memory loss and dementia</a></h3>
+<p><strong>Dementia</strong> is a group of brain conditions that cause <strong>progressive decline in memory, thinking, judgement and daily function</strong>. It is <strong>not normal ageing</strong>. The commonest type is <strong>Alzheimer's disease</strong>; another is <strong>vascular dementia</strong> (from small strokes). The <strong>LASI-DAD study</strong> (the dementia part of LASI, published in 2023) estimated that about <strong>7.4%, roughly 8.8 million</strong>, Indians aged 60 and above live with dementia. A later re-analysis of the same data gave somewhat lower figures (about 6.6 to 6.8%), so treat the number as an estimate. The earlier Dementia in India 2020 report estimated 5.3 million <code>⚠ verify</code>.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Normal ageing</th><th>Possible dementia</th></tr>
+</thead>
+<tbody>
+<tr><td>Forgets a name, remembers later</td><td>Forgets recent events, asks the same thing repeatedly</td></tr>
+<tr><td>Misplaces keys now and then</td><td>Puts things in odd places, cannot retrace steps</td></tr>
+<tr><td>Slightly slower to find a word</td><td>Gets lost in a familiar street</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Treatable causes of memory problems</strong> should be checked first: <strong>vitamin B12 deficiency, thyroid disease, depression, infection (urinary infection causing sudden confusion), medicines, alcohol and hearing loss</strong>. <strong>Delirium</strong> (sudden confusion over hours to days, often from infection, dehydration or medicines) is an <strong>emergency</strong>, unlike slow dementia.</p>
+<p>Diagnosis uses history from family, a memory test, blood tests, and sometimes a brain scan. Medicines for Alzheimer's can help manage symptoms for some people, but there is no cure (WHO). Support matters more: routine, a safe home, activity and social contact. WHO lists hearing and vision loss among the conditions that raise dementia risk, and a 2024 Lancet Commission (an expert review in a medical journal) lists 14 modifiable risk factors (ones a person can change) <code>⚠ verify the Lancet list</code>.</p>
+<h3 id="vision-and-hearing"><a class="header" href="#vision-and-hearing">Vision and hearing</a></h3>
+<p>Poor <strong>vision and hearing</strong> increase falls, isolation, depression and dementia risk. See <a href="skin-eyes-ears-and-teeth.html">Skin, eyes, ears and teeth</a>. Older people should have <strong>eyes checked every year or two</strong> and <strong>hearing checked</strong> if they ask people to repeat. Hearing aids and cataract surgery (free or low cost at government hospitals and under national schemes) often bring large benefits. <code>⚠ verify the availability</code></p>
+<h3 id="constipation-and-urinary-problems"><a class="header" href="#constipation-and-urinary-problems">Constipation and urinary problems</a></h3>
+<p><strong>Constipation</strong> is very common in older people, partly from <strong>medicines</strong>. <strong>New constipation, blood in the stool, black stool or weight loss</strong> need a check.</p>
+<p><strong>Urinary incontinence</strong> (leaking urine) is common, not "normal", and <strong>often treatable</strong>. A <strong>urinary tract infection</strong> in older people may show up as <strong>confusion or a fall</strong> rather than burning; treat only when there are symptoms. See <a href="../03-tests/urine-tests.html">Urine tests</a>. Sudden <strong>inability to pass urine</strong>, blood in urine or severe pain is an emergency.</p>
+<h2 id="4-vaccines-for-older-adults"><a class="header" href="#4-vaccines-for-older-adults">4. Vaccines for older adults</a></h2>
+<p>See <a href="../07-prevention/vaccines-and-immunisation.html">Vaccines and immunisation</a>. Commonly advised in later life, after talking to a doctor: <strong>influenza</strong> every year, <strong>pneumococcal</strong> vaccine (against a lung and blood bacterium), a <strong>tetanus-diphtheria</strong> booster, and the <strong>shingles</strong> vaccine (shingles is a painful blistering rash from the chickenpox virus).</p>
+<h2 id="5-caring-for-the-carer"><a class="header" href="#5-caring-for-the-carer">5. Caring for the carer</a></h2>
+<p>A <strong>carer (caregiver)</strong> is a family member or helper who looks after someone who cannot manage alone. In India, <strong>most care is given by family</strong>, often women, with little training or support. <strong>Carer burnout</strong> is exhaustion that makes caring harder and risks the carer's health.</p>
+<p>What helps:</p>
+<ul>
+<li><strong>Share the load</strong> among family; ask for specific help.</li>
+<li><strong>Learn about the condition.</strong> NGOs such as the <strong>Alzheimer's and Related Disorders Society of India (ARDSI)</strong> and <strong>HelpAge India</strong> offer training and support groups. <code>⚠ verify</code></li>
+<li>Look for <strong>respite care</strong> (short breaks where someone else cares).</li>
+<li>Watch for <strong>elder abuse</strong>: neglect, shouting, financial control, physical harm. The <strong>Elderline (14567)</strong> helpline, run by the Ministry of Social Justice and Empowerment, is toll free, open 8 am to 8 pm every day, and gives advice and help.</li>
+<li>The <strong>Maintenance and Welfare of Parents and Senior Citizens Act, 2007</strong> makes children and heirs responsible for the maintenance of parents; there are tribunals for complaints. A 2019 amendment bill that would have removed the Rs 10,000 monthly maintenance cap lapsed, so the 2007 Act stands. <code>⚠ verify the 2019 amendment</code></li>
+</ul>
+<h2 id="6-advance-care-planning"><a class="header" href="#6-advance-care-planning">6. Advance care planning</a></h2>
+<p><strong>Advance care planning</strong> means thinking about, discussing and recording what kind of care you would want if you became too ill to speak for yourself. It is done <strong>while the person can think clearly</strong>.</p>
+<p>Steps:</p>
+<ol>
+<li><strong>Choose someone you trust</strong> to speak for you (a "healthcare proxy").</li>
+<li><strong>Talk with family and your doctor</strong> about what matters: comfort, independence, whether you would want a breathing machine or CPR (<strong>cardiopulmonary resuscitation</strong>, pushing on the chest to restart the heart) in a very serious illness.</li>
+<li><strong>Write it down.</strong> In India, the Supreme Court in <strong>Common Cause v. Union of India (2018)</strong> recognised the <strong>right to refuse life-prolonging treatment</strong> and allowed <strong>advance medical directives (living wills)</strong>, and procedures were simplified on 24 January 2023 (signed before two witnesses and attested by a notary or gazetted officer; a magistrate's countersignature is no longer needed), though many places still do not have the process in place.</li>
+<li>Learn about <strong>palliative care</strong> (care to relieve pain and distress in serious illness; not only for the dying).</li>
+</ol>
+<h2 id="7-scams-aimed-at-the-elderly"><a class="header" href="#7-scams-aimed-at-the-elderly">7. Scams aimed at the elderly</a></h2>
+<p>Older people are targeted because of savings, trust and less familiarity with technology. Common scams in India:</p>
+<ul>
+<li><strong>"Digital arrest" and fake police, CBI or customs calls</strong> demanding money or video-call "custody". No agency arrests or collects money over a video call.</li>
+<li><strong>Fake bank, KYC (know your customer, the identity check banks do) or electricity-bill calls and messages</strong>, and <strong>OTP (one-time password) theft</strong>. Never share an OTP, PIN or card number.</li>
+<li><strong>Miracle cure</strong> ads and <strong>"free health camps"</strong> that sell expensive devices or supplements. See <a href="../09-indian-healthcare/health-misinformation.html">Health misinformation</a>.</li>
+<li><strong>UPI "collect request"</strong> tricks (you approve a payment request, thinking you are receiving money), and fake customer-care numbers found through search results.</li>
+</ul>
+<p>Protection:</p>
+<ul>
+<li><strong>Stop, do not hurry</strong>, and speak to a trusted person before paying.</li>
+<li>Report cyber fraud quickly at <strong>1930</strong> (National Cyber Crime helpline) or <strong>cybercrime.gov.in</strong>. <code>⚠ verify</code></li>
+<li>Set <strong>transaction limits</strong> on accounts used by elders and ask a family member to review statements.</li>
+</ul>
+<h2 id="8-misinformation-and-how-you-get-misled-india"><a class="header" href="#8-misinformation-and-how-you-get-misled-india">8. Misinformation and how you get misled (India)</a></h2>
+<ul>
+<li>"Weakness is normal at this age, so nothing can be done": falls, urine leaks, hearing loss and low mood are often <strong>treatable</strong>.</li>
+<li>"Memory tonics and brain boosters prevent dementia": no supplement has been proven to prevent dementia. <code>⚠ verify</code></li>
+</ul>
+<h2 id="9-ask-your-doctor"><a class="header" href="#9-ask-your-doctor">9. Ask your doctor</a></h2>
+<ol>
+<li>Do I still need each of my medicines? Which could be stopped or changed?</li>
+<li>Could any of my medicines cause dizziness, confusion or falls?</li>
+<li>What are my wishes if I become very ill, and whom should my family contact?</li>
+</ol>
+<h2 id="10-red-flags"><a class="header" href="#10-red-flags">10. Red flags</a></h2>
+<p><strong>Emergency (call 112 or 108):</strong> a fall with severe pain, unable to bear weight, head injury with drowsiness or vomiting, sudden confusion, sudden weakness of face, arm or speech (see <a href="../02-diseases/stroke.html">Stroke</a>), chest pain, fainting, unable to pass urine, vomiting blood or black stool, difficulty breathing.</p>
+<p><strong>See a doctor soon:</strong> repeated falls, new memory trouble, unexplained weight loss, new constipation, low mood or hopelessness, reduced hearing or vision, new urine leaks.</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Geriatrician</strong> a doctor for older people · <strong>Postural hypotension</strong> a blood pressure drop on standing · <strong>Polypharmacy</strong> many medicines · <strong>Beers criteria</strong> a list of medicines to use with caution in older people · <strong>Deprescribing</strong> planned stopping of unneeded medicines · <strong>Dementia</strong> progressive decline in thinking and daily function · <strong>Delirium</strong> sudden confusion · <strong>Incontinence</strong> leaking urine · <strong>Carer</strong> one who gives care · <strong>Advance directive (living will)</strong> written wishes for future care · <strong>Palliative care</strong> relief of pain and distress in serious illness · <strong>CPR</strong> cardiopulmonary resuscitation.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>UNFPA and Institute for Social and Economic Change. India Ageing Report 2023; IIPS and MoHFW. Longitudinal Ageing Study in India (LASI) Wave 1.</li>
+<li>WHO. Falls fact sheet; WHO guidelines on integrated care for older people (ICOPE); WHO dementia fact sheet.</li>
+<li>American Geriatrics Society. 2023 Updated Beers Criteria for potentially inappropriate medication use in older adults. <em>J Am Geriatr Soc</em> 2023.</li>
+<li>Alzheimer's and Related Disorders Society of India. Dementia in India report; Lancet Commission on dementia prevention, intervention and care (2024).</li>
+<li>NICE guidelines on falls, dementia, urinary incontinence in women, lower urinary tract symptoms in men, and multimorbidity and polypharmacy.</li>
+<li>MoHFW. National Programme for Health Care of the Elderly (NPHCE); Ministry of Social Justice and Empowerment: Maintenance and Welfare of Parents and Senior Citizens Act.</li>
+<li>Supreme Court of India. Common Cause v. Union of India (2018).</li>
+<li>MHA and Indian Cybercrime Coordination Centre advisories on cyber fraud.</li>
+</ol>
+<p><strong>Not verified:</strong> the Indian elderly population share and projections, the LASI chronic disease share, the fall rate, the 5.3 million (2020) dementia figure, the Lancet list of 14 risk factors, Beers items as applied in India, the 1930 number, the 2019 amendment to the senior citizens act, and the availability of free cataract and hearing aid schemes. Confirm against the cited sources.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../05-nutrition/nutrition-and-the-indian-diet.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../06-life-stages/childrens-health.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../05-nutrition/nutrition-and-the-indian-diet.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../06-life-stages/childrens-health.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

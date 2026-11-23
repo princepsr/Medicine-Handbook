@@ -7,6 +7,6 @@ my-reports/
 !images/**
 
 
-# Generated mdBook output (rebuild with build-mdbook.ps1).
+# Generated mdBook source copy (rebuild with build-mdbook.ps1). docs/ is committed so it can be served.
 mdbook/src/
-mdbook/book/
+!docs/**

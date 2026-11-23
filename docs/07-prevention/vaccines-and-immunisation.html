@@ -1,0 +1,372 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Vaccines and Immunisation - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="vaccines-and-immunisation"><a class="header" href="#vaccines-and-immunisation">Vaccines and Immunisation</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet. Schedules change. Always confirm the current schedule with your doctor, the Ministry of Health (MoHFW) or the Indian Academy of Pediatrics (IAP). Last checked: November 2026.</em></p>
+<p>Read <a href="../01-body/immune-system.html">The immune system</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>A vaccine teaches the immune system to recognise a germ <strong>without</strong> causing the disease. It is one of the most effective health measures ever developed.</li>
+<li>India's <strong>Universal Immunisation Programme (UIP)</strong> gives childhood and pregnancy vaccines <strong>free at government centres</strong>. Extra vaccines are recommended privately by the IAP, and adults also need some.</li>
+<li>Vaccines have <strong>mild, common side effects</strong> and <strong>very rare serious ones</strong>. The diseases they prevent are far more dangerous.</li>
+<li>Keep a <strong>vaccination record</strong> (U-WIN digital record or a card).</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-how-vaccines-work"><a class="header" href="#1-how-vaccines-work">1. How vaccines work</a></h2>
+<p>See <a href="../01-body/immune-system.html">The immune system</a>. In short:</p>
+<ol>
+<li>The vaccine shows the body a harmless piece or weakened or killed form of a germ (the <strong>antigen</strong>), or instructions to make a piece.</li>
+<li>The adaptive immune system makes <strong>antibodies</strong> and <strong>memory cells</strong>.</li>
+<li>If the real germ arrives later, the body responds quickly and strongly.</li>
+</ol>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Type</th><th>How</th><th>Examples</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Live attenuated</strong></td><td>A weakened germ</td><td>BCG, oral polio, measles, rubella, MMR, rotavirus, varicella (chickenpox), some typhoid and yellow fever</td></tr>
+<tr><td><strong>Inactivated / killed</strong></td><td>Dead germs</td><td>Injectable polio, hepatitis A, rabies, some influenza</td></tr>
+<tr><td><strong>Subunit / conjugate / toxoid</strong></td><td>A piece of the germ or a made-safe toxin</td><td>Hepatitis B, HPV, pneumococcal, typhoid conjugate, Hib, DPT (diphtheria, pertussis, tetanus)</td></tr>
+<tr><td><strong>mRNA and viral vector</strong></td><td>Instructions to make an antigen</td><td>Some COVID-19 vaccines</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Herd immunity:</strong> when most of a community is immune, a germ cannot spread easily, which protects those who cannot be vaccinated (newborns, people with weak immunity).</p>
+<h2 id="2-indias-childhood-schedule-uip-outline"><a class="header" href="#2-indias-childhood-schedule-uip-outline">2. India's childhood schedule (UIP, outline)</a></h2>
+<p>Provided free at government health centres, anganwadis and outreach sessions. The schedule has been updated over time; this is an outline. <code>⚠ verify the current MoHFW schedule</code></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Age</th><th>Vaccines (typical)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>At birth</strong></td><td>BCG (TB), oral polio (zero dose), hepatitis B (birth dose)</td></tr>
+<tr><td><strong>6, 10 and 14 weeks</strong></td><td>Pentavalent (DPT + hepatitis B + Hib), oral polio and rotavirus at all three visits; fractional injectable polio (fIPV) and pneumococcal (PCV) at 6 and 14 weeks</td></tr>
+<tr><td><strong>9 to 12 months</strong></td><td>Measles-rubella (MR) first dose, PCV booster, JE in endemic districts (vitamin A doses are also part of the schedule; check timing locally)</td></tr>
+<tr><td><strong>16 to 24 months</strong></td><td>MR second dose, DPT booster, oral polio booster</td></tr>
+<tr><td><strong>5 to 6 years</strong></td><td>DPT booster</td></tr>
+<tr><td><strong>10 and 16 years</strong></td><td>Td (tetanus and diphtheria)</td></tr>
+<tr><td><strong>Pregnant women</strong></td><td>Td (tetanus and diphtheria) in pregnancy</td></tr>
+</tbody>
+</table>
+</div>
+<p>Additional vaccines recommended by the <strong>Indian Academy of Pediatrics</strong> (often given privately) commonly include: <strong>typhoid conjugate, hepatitis A, influenza (yearly), varicella, MMR, HPV, and boosters</strong>. The IAP publishes a schedule every year. <code>⚠ verify</code></p>
+<p><strong>U-WIN</strong> is India's digital platform for recording routine immunisation, and replaces the card as an electronic record for many centres. <code>⚠ verify</code></p>
+<h2 id="3-adult-vaccines"><a class="header" href="#3-adult-vaccines">3. Adult vaccines</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Vaccine</th><th>Who and when (general guidance)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Influenza</strong></td><td>Yearly, especially for people over 50 or 65, pregnant women, those with diabetes, heart, lung, kidney disease, or weak immunity, and healthcare workers</td></tr>
+<tr><td><strong>Td / Tdap (tetanus, diphtheria, pertussis)</strong></td><td>A booster every 10 years; after a deep or dirty wound if the last dose was long ago; Tdap in each pregnancy as advised</td></tr>
+<tr><td><strong>Hepatitis B</strong></td><td>If not previously vaccinated or immune: healthcare workers, people with diabetes, chronic liver or kidney disease, those with multiple partners, travellers; check immunity with a blood test if unsure</td></tr>
+<tr><td><strong>Hepatitis A</strong></td><td>If not immune, especially for those with liver disease, travellers, and food handlers</td></tr>
+<tr><td><strong>Pneumococcal</strong></td><td>Adults 65 and over in many guidelines (some now start at 50), and younger adults with chronic heart, lung, kidney or liver disease, diabetes, no spleen, or weak immunity</td></tr>
+<tr><td><strong>HPV</strong></td><td>Protects against the virus that causes cervical and other cancers; given in adolescence ideally (two doses at 9 to 14 years) and up to the mid-20s or older (three doses) after discussion with a doctor. India began a free national HPV programme in February 2026 (reportedly one dose for 14-year-old girls at government facilities, with over 80 lakh doses given by September 2026); the IAP separately recommends two doses at 9 to 14 years in private practice. Check the official release for current details. <code>⚠ verify</code></td></tr>
+<tr><td><strong>Shingles (herpes zoster)</strong></td><td>Adults 50 and over, often a private vaccine; discuss with a doctor</td></tr>
+<tr><td><strong>COVID-19</strong></td><td>As per the current national guidance for high-risk groups</td></tr>
+<tr><td><strong>Typhoid</strong></td><td>Typhoid conjugate vaccine for children and travellers; adults at risk</td></tr>
+<tr><td><strong>Rabies (before exposure)</strong></td><td>People at high risk of animal bites (veterinarians, animal handlers); otherwise vaccination follows an exposure (see <a href="../10-practical/first-aid-and-emergencies.html">First aid and emergencies</a>)</td></tr>
+<tr><td><strong>Travel</strong></td><td>Yellow fever (certificate needed for travel from some countries), meningococcal and polio (for Hajj and some other travel), others depending on destination; check at least 4 to 6 weeks before travel <code>⚠ verify</code></td></tr>
+</tbody>
+</table>
+</div>
+<p>People with <strong>weak immunity</strong>, <strong>cancer treatment</strong>, <strong>no spleen</strong>, <strong>organ transplant</strong> or <strong>long-term steroids</strong> need individual advice: <strong>live vaccines are usually avoided</strong>, and some others are especially important.</p>
+<h2 id="4-safety"><a class="header" href="#4-safety">4. Safety</a></h2>
+<ul>
+<li><strong>Common, mild side effects:</strong> sore arm, a low fever, tiredness or irritability for a day or two. These show the body responding.</li>
+<li><strong>Serious reactions</strong> such as severe allergy (anaphylaxis) are <strong>very rare</strong>, usually in the first minutes to an hour, which is why people are asked to wait about <strong>15 to 30 minutes</strong> after a dose.</li>
+<li><strong>Reporting:</strong> side effects after immunisation are monitored through the national <strong>AEFI</strong> (adverse events following immunisation) system, and you can tell your health worker or doctor.</li>
+<li><strong>Who should delay or check first:</strong> a <strong>moderate or severe illness with fever</strong> (mild colds are fine), <strong>a previous severe allergy to a vaccine component</strong>, <strong>pregnancy</strong> (live vaccines are generally avoided; some inactivated vaccines are advised), <strong>weak immunity</strong> (avoid live vaccines).</li>
+<li><strong>Benefits far exceed risks</strong> for the vaccines in routine schedules.</li>
+</ul>
+<h2 id="5-myths-and-facts"><a class="header" href="#5-myths-and-facts">5. Myths and facts</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Myth</th><th>Fact</th></tr>
+</thead>
+<tbody>
+<tr><td>"Vaccines cause <strong>autism</strong>"</td><td>Large studies in many countries found no link</td></tr>
+<tr><td>"<strong>Natural infection</strong> is better than a vaccine"</td><td>Natural infection can cause serious illness, disability or death; vaccines give protection without the disease</td></tr>
+<tr><td>"Too many vaccines <strong>overload</strong> the immune system"</td><td>A child's immune system handles thousands of antigens daily; the vaccine antigens are a tiny fraction</td></tr>
+<tr><td>"Vaccines contain <strong>dangerous chemicals</strong>"</td><td>Ingredients are in very small amounts and are tested; the same substances occur naturally or in food</td></tr>
+<tr><td>"If others are vaccinated, <strong>mine is not needed</strong>"</td><td>Herd immunity weakens when too few are vaccinated, and outbreaks return</td></tr>
+<tr><td>"<strong>Diseases are already gone</strong>"</td><td>Measles, diphtheria, whooping cough and others return when vaccination falls</td></tr>
+<tr><td>"Vaccines <strong>cause</strong> the disease"</td><td>Live vaccines can cause a very mild form in rare cases; inactivated vaccines cannot cause the disease</td></tr>
+<tr><td>"<strong>Ayurvedic or home remedies</strong> can replace vaccines"</td><td>No evidence</td></tr>
+<tr><td>"<strong>Vaccines cause infertility</strong>"</td><td>No evidence</td></tr>
+<tr><td>"A vaccine <strong>side effect means the vaccine is dangerous</strong>"</td><td>Mild effects are expected and show an immune response</td></tr>
+</tbody>
+</table>
+</div>
+<p>See <a href="../09-indian-healthcare/health-misinformation.html">Health misinformation</a> for how to check claims.</p>
+<h2 id="6-practical-tips"><a class="header" href="#6-practical-tips">6. Practical tips</a></h2>
+<ol>
+<li><strong>Keep every immunisation record</strong> (the U-WIN record, a vaccination card, or scans). Take them to each visit.</li>
+<li><strong>Do not skip boosters;</strong> if a dose is late, you usually <strong>continue the schedule</strong>, not restart it. Ask your doctor.</li>
+<li><strong>Free vaccines:</strong> use government centres for the UIP vaccines. For private ones, ask the price and check the <strong>brand, batch and expiry</strong> (see <a href="../04-medicines/fdc-and-spurious-drugs.html">Fixed-dose combinations and spurious drugs</a>).</li>
+<li><strong>Before a baby, pregnancy or surgery:</strong> check vaccines (rubella, hepatitis B, tetanus, influenza, Tdap).</li>
+<li><strong>Before travel:</strong> plan early.</li>
+<li><strong>After a deep wound or animal bite:</strong> tetanus and rabies prevention are urgent.</li>
+</ol>
+<h2 id="7-ask-your-doctor"><a class="header" href="#7-ask-your-doctor">7. Ask your doctor</a></h2>
+<ol>
+<li>Which vaccines do <strong>I</strong> (or my child) need now, and which are free?</li>
+<li>Is my immunisation record complete? Which doses are overdue?</li>
+<li>Do I have a condition or medicine that changes which vaccines are safe?</li>
+<li>What reactions are normal, and what should make me call you?</li>
+<li>Which vaccines do I need before travel, pregnancy or a planned surgery?</li>
+</ol>
+<h2 id="8-red-flags"><a class="header" href="#8-red-flags">8. Red flags</a></h2>
+<p><strong>Emergency after a vaccine:</strong> swelling of the face or throat, difficulty breathing, widespread hives, faintness or collapse (usually within minutes to an hour). <strong>Prompt review:</strong> a very high fever, a seizure, persistent crying for hours in an infant, severe pain or swelling at the injection site that keeps growing, or any worrying symptom within days.</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Vaccine</strong> a safe lesson for the immune system · <strong>Antigen</strong> a germ piece that triggers immunity · <strong>Live attenuated</strong> a weakened live germ · <strong>Conjugate / subunit / toxoid</strong> vaccines made from a piece of the germ or a safe toxin · <strong>mRNA</strong> genetic instructions to make an antigen · <strong>Booster</strong> an extra dose that renews protection · <strong>Herd immunity</strong> community protection · <strong>UIP</strong> Universal Immunisation Programme · <strong>IAP</strong> Indian Academy of Pediatrics · <strong>AEFI</strong> adverse event following immunisation · <strong>U-WIN</strong> India's digital immunisation record · <strong>Pentavalent</strong> a five-in-one vaccine.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>Ministry of Health and Family Welfare, National Immunisation Schedule (India) and UIP guidelines. <code>⚠ verify</code></li>
+<li>Indian Academy of Pediatrics, Advisory Committee on Vaccines and Immunization Practices (ACVIP): recommended immunisation schedule (latest). <code>⚠ verify</code></li>
+<li>WHO position papers on vaccines (who.int). <code>⚠ verify</code></li>
+<li>U-WIN portal (MoHFW). <code>⚠ verify</code></li>
+<li>Large studies on MMR and autism (for example Hviid A, et al. <em>Ann Intern Med</em> 2019). <code>⚠ verify</code></li>
+</ol>
+<p><strong>Not verified:</strong> the exact current UIP schedule, the IAP additions, the adult vaccine groups, the HPV rollout status in India, the U-WIN description and the travel vaccine requirements are claims to confirm against the cited sources.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../07-prevention/screening-and-checkups.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../08-decisions/second-opinions-and-treatment-decisions.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../07-prevention/screening-and-checkups.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../08-decisions/second-opinions-and-treatment-decisions.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

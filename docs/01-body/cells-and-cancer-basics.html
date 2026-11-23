@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Cells, Genes and How Cancer Starts - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="cells-genes-and-how-cancer-starts"><a class="header" href="#cells-genes-and-how-cancer-starts">Cells, Genes and How Cancer Starts</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet. Last checked: November 2026.</em></p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>Every cell is a tiny factory run by instructions in DNA. Cells grow, divide and die in a controlled way.</li>
+<li>Cancer starts when changes (mutations) in genes remove the brakes or jam the accelerator on cell growth.</li>
+<li>A <strong>biopsy</strong> (looking at the cells) is the only way to confirm cancer. Blood markers and scans suggest but do not prove.</li>
+<li>Many cancers are preventable (tobacco, hepatitis B, HPV) or curable when found early (screening).</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-the-cell"><a class="header" href="#1-the-cell">1. The cell</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Part</th><th>Job</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Membrane</strong></td><td>The cell's skin: controls what enters and leaves; holds receptors (see <a href="endocrine-system.html">The endocrine system</a>)</td></tr>
+<tr><td><strong>Nucleus</strong></td><td>The control room, holding <strong>DNA</strong></td></tr>
+<tr><td><strong>Mitochondria</strong></td><td>Power stations: turn glucose, fat and oxygen into <strong>ATP</strong>, the cell's energy currency</td></tr>
+<tr><td><strong>Ribosomes</strong></td><td>Build proteins from instructions</td></tr>
+<tr><td><strong>Endoplasmic reticulum and Golgi</strong></td><td>Fold, package and ship proteins and fats</td></tr>
+<tr><td><strong>Lysosomes</strong></td><td>Recycling bins that digest waste</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="2-from-dna-to-protein"><a class="header" href="#2-from-dna-to-protein">2. From DNA to protein</a></h2>
+<ul>
+<li><strong>DNA</strong> is a very long molecule that stores instructions in a four-letter code.</li>
+<li>A <strong>gene</strong> is a stretch of DNA that holds the instructions for one protein.</li>
+<li>Humans have <strong>23 pairs of chromosomes</strong> (long coiled packages of DNA), one set from each parent, with roughly 20,000 genes. <code>⚠ verify</code></li>
+<li><strong>Reading a gene:</strong> DNA is copied into <strong>RNA</strong>, which is read by ribosomes to build a <strong>protein</strong>. Proteins do almost everything: enzymes, hormones, antibodies, structural parts.</li>
+</ul>
+<p>A <strong>mutation</strong> is a change in the DNA code. Many are harmless. Some break a protein. Mutations can be inherited or can arise during life from copying errors or damage (tobacco smoke, UV light, some viruses).</p>
+<h2 id="3-tissues-and-cell-turnover"><a class="header" href="#3-tissues-and-cell-turnover">3. Tissues and cell turnover</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Tissue</th><th>Examples</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Epithelial</strong> (linings and glands)</td><td>Skin, gut lining, liver, glands</td></tr>
+<tr><td><strong>Connective</strong></td><td>Bone, fat, blood, tendons</td></tr>
+<tr><td><strong>Muscle</strong></td><td>Skeletal, cardiac, smooth</td></tr>
+<tr><td><strong>Nerve</strong></td><td>Brain, nerves</td></tr>
+</tbody>
+</table>
+</div>
+<p>Different tissues renew at different speeds: gut lining and blood cells in days to weeks, skin about monthly, nerve cells almost never. Cells that divide often have more chances for errors to arise.</p>
+<h2 id="4-controlled-growth-the-cell-cycle"><a class="header" href="#4-controlled-growth-the-cell-cycle">4. Controlled growth: the cell cycle</a></h2>
+<p>A cell divides in a cycle (<strong>mitosis</strong>) with <strong>checkpoints</strong>: it checks that its DNA is undamaged before copying and splitting.</p>
+<ul>
+<li><strong>Growth signals</strong> push the cycle forward.</li>
+<li><strong>Checkpoints and brake genes</strong> stop it if something is wrong.</li>
+<li><strong>Apoptosis</strong>, programmed cell death, removes cells that are damaged or no longer needed. The cell dismantles itself neatly.</li>
+<li>The <strong>immune system</strong> also removes abnormal cells (see <a href="immune-system.html">The immune system</a>).</li>
+</ul>
+<h2 id="5-how-cancer-starts"><a class="header" href="#5-how-cancer-starts">5. How cancer starts</a></h2>
+<p>Cancer is a disease of <strong>uncontrolled, invasive</strong> growth caused by accumulated mutations.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Gene type</th><th>Normal role</th><th>In cancer</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Proto-oncogene</strong></td><td>Accelerator for growth</td><td>A mutation jams it <strong>on</strong> (now called an oncogene)</td></tr>
+<tr><td><strong>Tumour suppressor gene</strong> (for example <em>TP53</em>, <em>BRCA1/2</em>)</td><td>Brake and DNA repair</td><td>A mutation breaks the brake</td></tr>
+</tbody>
+</table>
+</div>
+<p>Usually <strong>several</strong> mutations must accumulate, which is why cancer becomes commoner with age. Cells that become cancerous gain abilities:</p>
+<ul>
+<li>ignore stop signals and escape apoptosis</li>
+<li>divide without limit</li>
+<li>build their own blood vessels (<strong>angiogenesis</strong>) to feed the tumour</li>
+<li><strong>invade</strong> nearby tissue and <strong>spread</strong> (<strong>metastasis</strong>) through blood or lymph to distant organs</li>
+</ul>
+<h3 id="benign-or-malignant"><a class="header" href="#benign-or-malignant">Benign or malignant</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th></th><th>Benign tumour</th><th>Malignant tumour (cancer)</th></tr>
+</thead>
+<tbody>
+<tr><td>Growth</td><td>Slow, stays in place</td><td>Faster, invades nearby tissue</td></tr>
+<tr><td>Spread</td><td>No</td><td>Can metastasise</td></tr>
+<tr><td>Danger</td><td>Usually low; can press on organs</td><td>Can be life-threatening</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="main-types-by-tissue-of-origin"><a class="header" href="#main-types-by-tissue-of-origin">Main types by tissue of origin</a></h3>
+<p><strong>Carcinoma</strong> (from linings and glands; the commonest group), <strong>sarcoma</strong> (from bone, muscle, connective tissue), <strong>leukaemia</strong> (blood cells in the marrow and blood), <strong>lymphoma</strong> (lymph tissue), <strong>brain and nerve tumours</strong>.</p>
+<h2 id="6-causes-and-prevention"><a class="header" href="#6-causes-and-prevention">6. Causes and prevention</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Cause</th><th>Examples</th><th>What helps</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Tobacco</strong> (smoked and <strong>chewed</strong>)</td><td>Lung, mouth, throat, oesophagus, bladder cancers. Chewed tobacco and betel quid are a major cause of <strong>mouth cancer</strong> in India. <code>⚠ verify</code></td><td>Not using tobacco</td></tr>
+<tr><td><strong>Infections</strong></td><td><strong>HPV</strong> (cervical and throat), <strong>hepatitis B and C</strong> (liver), <em><strong>H. pylori</strong></em> (stomach)</td><td>HPV and hepatitis B vaccines; treating hepatitis C and <em>H. pylori</em></td></tr>
+<tr><td><strong>Alcohol and obesity</strong></td><td>Liver, breast, colon and other cancers</td><td>Limit alcohol; keep a healthy weight</td></tr>
+<tr><td><strong>UV light</strong></td><td>Skin cancer</td><td>Shade, covering up, sunscreen</td></tr>
+<tr><td><strong>Radiation, some chemicals</strong></td><td>Occupational and environmental exposure</td><td>Safety measures</td></tr>
+<tr><td><strong>Inherited genes</strong></td><td>A small share of cancers (about 5 to 10%) (for example <em>BRCA</em> in breast and ovarian)</td><td>Family-history counselling and genetic testing where advised</td></tr>
+<tr><td><strong>Ageing</strong></td><td>More time to collect mutations</td><td>Screening as advised</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="7-how-cancer-is-found-and-confirmed"><a class="header" href="#7-how-cancer-is-found-and-confirmed">7. How cancer is found and confirmed</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Step</th><th>What it shows</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Symptoms or screening</strong></td><td>A lump, bleeding, or an abnormal screening result</td></tr>
+<tr><td><strong>Imaging</strong> (ultrasound, X-ray, CT, MRI, PET)</td><td>Where a growth is and how far it extends. It <strong>suggests</strong> but cannot prove cancer.</td></tr>
+<tr><td><strong>Biopsy</strong></td><td>A sample of the tissue examined under a microscope by a <strong>pathologist</strong>. <strong>This is the only way to confirm cancer.</strong></td></tr>
+<tr><td><strong>Staging</strong></td><td>How far it has spread. Commonly the <strong>TNM</strong> system: <strong>T</strong>umour size, <strong>N</strong>odes involved, <strong>M</strong>etastasis.</td></tr>
+<tr><td><strong>Tumour markers</strong> (blood: PSA, CA-125, CEA, AFP and others)</td><td>Proteins that may rise in some cancers, but also in harmless conditions. Most are <strong>not</strong> reliable for screening. They are mostly used to follow known disease.</td></tr>
+</tbody>
+</table>
+</div>
+<blockquote class="blockquote-tag blockquote-tag-important">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p>
+<p><strong>No cancer treatment should start without a tissue diagnosis</strong> (except in rare emergencies). If someone advises treatment based on a scan or marker alone, ask for a biopsy and a second opinion.</p>
+</blockquote>
+<h2 id="8-treatment-overview-no-doses"><a class="header" href="#8-treatment-overview-no-doses">8. Treatment (overview, no doses)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Treatment</th><th>How it works</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Surgery</strong></td><td>Removes the tumour</td></tr>
+<tr><td><strong>Radiotherapy</strong></td><td>Focused radiation damages cancer cells' DNA</td></tr>
+<tr><td><strong>Chemotherapy</strong></td><td>Drugs that kill fast-dividing cells (so also hair, gut and blood cells, causing side effects)</td></tr>
+<tr><td><strong>Targeted therapy</strong></td><td>Drugs aimed at a specific mutation or protein in the cancer</td></tr>
+<tr><td><strong>Hormone therapy</strong></td><td>Blocks hormones that feed some breast and prostate cancers</td></tr>
+<tr><td><strong>Immunotherapy</strong></td><td>Helps the immune system attack the cancer</td></tr>
+</tbody>
+</table>
+</div>
+<p>Choice depends on cancer type, stage, genetics and your health, and is usually decided by a team (<strong>tumour board</strong>).</p>
+<h2 id="9-screening-and-warning-signs"><a class="header" href="#9-screening-and-warning-signs">9. Screening and warning signs</a></h2>
+<p><strong>Screening</strong> tests look for cancer or pre-cancer in people with no symptoms. Commonly discussed ones (the exact advice depends on age, risk and country, so confirm with your doctor and Indian guidance): <code>⚠ verify</code></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Cancer</th><th>Screening test</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Cervical</strong></td><td>VIA every 5 years at ages 30 to 65 in India's national programme; Pap smear and HPV tests are also used</td></tr>
+<tr><td><strong>Breast</strong></td><td>Clinical breast examination (national programme, ages 30 to 65, every 5 years); mammography as advised by your doctor</td></tr>
+<tr><td><strong>Colon</strong></td><td>Stool blood test or colonoscopy at the age advised (not part of India's national screening programme; ask your doctor)</td></tr>
+<tr><td><strong>Mouth</strong></td><td>Oral visual examination (national programme, ages 30 to 65), especially for tobacco users</td></tr>
+<tr><td><strong>Lung</strong></td><td>Low-dose CT in selected heavy smokers (based on US guidance; not part of India's national programme)</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Warning signs to report:</strong> a new lump, a mole or sore that does not heal, unexplained weight loss, persistent cough or hoarseness for more than about three weeks, unusual bleeding or discharge, a change in bowel or bladder habit, difficulty swallowing, or a persistent white or red patch in the mouth.</p>
+<h2 id="10-how-you-get-misled"><a class="header" href="#10-how-you-get-misled">10. How you get misled</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Claim</th><th>Reality</th></tr>
+</thead>
+<tbody>
+<tr><td>"Cancer can be cured by an alkaline diet, turmeric, juices or a herbal product"</td><td>No such claim is proven. <strong>Delaying proven treatment for these can cost lives.</strong> Good nutrition helps you through treatment but does not replace it.</td></tr>
+<tr><td>"A tumour-marker blood test screens for cancer"</td><td>Most markers are not screening tests</td></tr>
+<tr><td>"Whole-body scan to detect cancer early"</td><td>Such scans often find harmless things, leading to worry and further tests</td></tr>
+<tr><td>"Biopsy spreads cancer"</td><td>A myth: a properly done biopsy does not cause spread</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>DNA / gene / chromosome</strong> the instruction molecule / one instruction / a coiled package of DNA · <strong>Mutation</strong> a change in DNA · <strong>Mitosis</strong> cell division · <strong>Apoptosis</strong> programmed cell death · <strong>Oncogene</strong> a stuck accelerator gene · <strong>Tumour suppressor</strong> a brake gene · <strong>Benign / malignant</strong> non-cancerous / cancerous · <strong>Metastasis</strong> spread to distant organs · <strong>Carcinoma / sarcoma / leukaemia / lymphoma</strong> cancers of linings / connective tissue / blood cells / lymph tissue · <strong>Biopsy</strong> a tissue sample · <strong>Pathologist</strong> the doctor who examines tissue · <strong>TNM</strong> the staging system · <strong>Tumour marker</strong> a blood protein that may rise in cancer · <strong>Screening</strong> testing people without symptoms.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>OpenStax. <em>Anatomy and Physiology 2e</em> and <em>Biology 2e</em> (openstax.org): cell structure, genetics, cell cycle.</li>
+<li>Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation. <em>Cell</em> 2011.</li>
+<li>ICMR National Cancer Registry Programme and Indian screening guidance (to be added). <code>⚠ verify</code></li>
+<li>WHO tobacco and cancer fact sheets. <code>⚠ verify</code></li>
+</ol>
+<p><strong>Not verified:</strong> the gene count, the share of cancers that are inherited, and the Indian screening advice should be checked against the cited sources.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../01-body/brain-and-nervous-system.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../01-body/digestive-system.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../01-body/brain-and-nervous-system.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../01-body/digestive-system.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

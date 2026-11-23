@@ -1,0 +1,481 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Thyroid - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="thyroid"><a class="header" href="#thyroid">Thyroid</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet. Last checked: November 2026.</em></p>
+<p>Read <a href="../00-start-here/01-how-to-judge-medical-advice.html">How to judge medical advice</a> and <a href="../03-tests/01-how-lab-reports-work.html">How lab reports work</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>The thyroid is a small gland in the neck that sets how fast your body runs.</li>
+<li>The brain controls it with a signal called TSH. High TSH usually means the thyroid is underactive. Low TSH usually means it is overactive.</li>
+<li>One mildly abnormal TSH is common and often goes back to normal. Repeat before labelling it.</li>
+<li>Thyroid medicine is not a weight-loss tool, and it should never be stopped or changed without a doctor.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-what-is-it"><a class="header" href="#1-what-is-it">1. What is it?</a></h2>
+<p>The <strong>thyroid</strong> is a small butterfly-shaped <strong>gland</strong> at the front of your neck, just below the Adam's apple. (A gland is an organ that makes a chemical and releases it into the blood.)</p>
+<p>It makes <strong>thyroid hormones</strong>. (A hormone is a chemical messenger that travels in the blood and tells organs how to behave.) These hormones set the <strong>speed of your body</strong>: heartbeat, warmth, digestion and energy.</p>
+<p>Think of a room heater with a thermostat:</p>
+<ul>
+<li>Too little hormone: the whole body runs slow.</li>
+<li>Too much hormone: the whole body runs fast.</li>
+</ul>
+<p>A <strong>thyroid disorder</strong> means the gland makes too little hormone, too much hormone, or has a lump or swelling.</p>
+<p><img src="../images/anatomy/endocrine-system.png" alt="Body diagram labelling the hormone glands: pineal, pituitary, thyroid and parathyroid, thymus, adrenal glands, pancreas and ovaries"></p>
+<p><em>Figure 1: The hormone glands. The thyroid sits in the neck; the pituitary sits under the brain. Image: Blausen.com staff, CC BY 3.0 (see <a href="../IMAGE-CREDITS.html">IMAGE-CREDITS</a>).</em></p>
+<h2 id="2-the-normal-body"><a class="header" href="#2-the-normal-body">2. The normal body</a></h2>
+<p>The thyroid is controlled by the brain:</p>
+<p><img src="../images/thyroid-feedback.svg" alt="The thyroid feedback loop: the pituitary sends TSH to the thyroid, which makes T4 and T3 to set body speed; the blood level feeds back to the pituitary"></p>
+<p><em>Figure 2: The thyroid feedback loop.</em></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Name</th><th>What it is</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>TSH</strong> (thyroid-stimulating hormone)</td><td>The <strong>message from the brain</strong> telling the thyroid to work. The pituitary makes it, not the thyroid.</td></tr>
+<tr><td><strong>T4</strong> (thyroxine)</td><td>The main hormone the thyroid releases.</td></tr>
+<tr><td><strong>T3</strong></td><td>The more active form. Most is made from T4 in the body's tissues.</td></tr>
+</tbody>
+</table>
+</div>
+<p>The thyroid needs <strong>iodine</strong>, a mineral from food and iodised salt, to make its hormones.</p>
+<blockquote class="blockquote-tag blockquote-tag-important">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p>
+<p><strong>TSH moves opposite to the thyroid's output.</strong> Underactive thyroid: the brain pushes harder, so TSH goes <strong>up</strong>. Overactive thyroid: the brain backs off, so TSH goes <strong>down</strong>.</p>
+</blockquote>
+<p>Thyroid hormones act on almost every organ: the heart (rate and strength), the gut (speed of digestion), skin and hair, body temperature, mood, periods and fertility, and the growth and brain development of children.</p>
+<h2 id="3-what-goes-wrong"><a class="header" href="#3-what-goes-wrong">3. What goes wrong</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Condition</th><th>Meaning</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Hypothyroidism</strong></td><td>Underactive thyroid. Too little hormone.</td></tr>
+<tr><td><strong>Hyperthyroidism</strong></td><td>Overactive thyroid. Too much hormone.</td></tr>
+<tr><td><strong>Subclinical hypothyroidism</strong></td><td>TSH is above the lab's range but T4 is normal. Often no clear symptoms.</td></tr>
+<tr><td><strong>Goitre</strong></td><td>Swelling of the thyroid.</td></tr>
+<tr><td><strong>Thyroid nodule</strong></td><td>A lump in the thyroid.</td></tr>
+</tbody>
+</table>
+</div>
+<p><img src="../images/anatomy/thyroid-goiter.png" alt="An enlarged thyroid (goitre) with arrows showing the swelling in all directions, next to a body outline showing where the thyroid sits"></p>
+<p><em>Figure 3: An enlarged thyroid (goitre). The arrows show the swelling. Image: Blausen.com staff, CC BY 3.0.</em></p>
+<h2 id="4-causes-and-risk-factors"><a class="header" href="#4-causes-and-risk-factors">4. Causes and risk factors</a></h2>
+<ul>
+<li><strong>Hashimoto's thyroiditis</strong> is the commonest cause of an underactive thyroid in places with enough iodine. [1] <code>⚠ verify for India</code> It is an <strong>autoimmune</strong> disease: the immune system (the body's defence army) mistakenly attacks the thyroid.</li>
+<li><strong>Graves' disease</strong> is the commonest autoimmune cause of an overactive thyroid. [4]</li>
+<li><strong>Nodules</strong> can overproduce hormone, or can be harmless lumps.</li>
+<li>Too little or too much iodine, some medicines, past neck radiation, pregnancy, and a family history raise the risk.</li>
+<li>Women get thyroid problems more often than men. In a survey of eight Indian cities, hypothyroidism was found in about 1 in 10 adults overall (10.95%), and more in women (15.9%) than in men (5.0%). That survey covered city dwellers only. [5]</li>
+</ul>
+<h2 id="5-symptoms"><a class="header" href="#5-symptoms">5. Symptoms</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Underactive (slow body)</th><th>Overactive (fast body)</th></tr>
+</thead>
+<tbody>
+<tr><td>Tiredness, feeling cold</td><td>Weight loss despite eating well</td></tr>
+<tr><td>Constipation, dry skin</td><td>Fast or pounding heartbeat</td></tr>
+<tr><td>Hair thinning, modest weight gain</td><td>Sweating, feeling hot</td></tr>
+<tr><td>Heavy periods, slow heartbeat</td><td>Shaky hands, anxiety, loose stools</td></tr>
+</tbody>
+</table>
+</div>
+<blockquote class="blockquote-tag blockquote-tag-tip">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p>
+<p>Tiredness, hair fall and weight gain have many other causes: poor sleep, low iron, stress, low vitamin levels and ordinary ageing. A normal thyroid test is useful information too.</p>
+</blockquote>
+<h2 id="6-diagnosis-and-tests"><a class="header" href="#6-diagnosis-and-tests">6. Diagnosis and tests</a></h2>
+<h3 id="marker-cards"><a class="header" href="#marker-cards">Marker cards</a></h3>
+<h4 id="tsh"><a class="header" href="#tsh">TSH</a></h4>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td>What it measures</td><td>The brain's signal telling the thyroid how hard to work</td></tr>
+<tr><td>Why the body needs it</td><td>It keeps thyroid hormone at the right level</td></tr>
+<tr><td>Can be raised by</td><td>Underactive thyroid; recovery after a severe illness; some medicines</td></tr>
+<tr><td>Can be lowered by</td><td>Overactive thyroid; too much thyroid medicine; early pregnancy; severe illness; biotin interference (see below)</td></tr>
+<tr><td>What else you need</td><td>Free T4, symptoms, age, pregnancy status, medicines, a repeat test</td></tr>
+<tr><td>Example range (varies by lab)</td><td>Roughly 0.4 to 4.0–4.5 mIU/L. Some labs and Indian studies of people over 60 give a higher upper limit. Pregnancy needs its own ranges. [2][3] <code>⚠ verify</code></td></tr>
+</tbody>
+</table>
+</div>
+<p>mIU/L means milli-international units per litre.</p>
+<h4 id="free-t4-ft4"><a class="header" href="#free-t4-ft4">Free T4 (FT4)</a></h4>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td>What it measures</td><td>The thyroid hormone that is "free" and active in the blood</td></tr>
+<tr><td>Why the body needs it</td><td>It is the main output of the thyroid</td></tr>
+<tr><td>Can be raised by</td><td>Overactive thyroid; taking thyroid tablets just before the blood test</td></tr>
+<tr><td>Can be lowered by</td><td>Underactive thyroid; rarely a pituitary problem</td></tr>
+<tr><td>What else you need</td><td>TSH</td></tr>
+<tr><td>Example range</td><td>Varies by lab and method</td></tr>
+</tbody>
+</table>
+</div>
+<h4 id="free-t3-ft3-anti-tpo-antibodies-ultrasound"><a class="header" href="#free-t3-ft3-anti-tpo-antibodies-ultrasound">Free T3 (FT3), Anti-TPO antibodies, Ultrasound</a></h4>
+<ul>
+<li><strong>Free T3:</strong> mainly used when an overactive thyroid is suspected. Often not needed for an underactive one.</li>
+<li><strong>Anti-TPO antibodies:</strong> show an autoimmune cause such as Hashimoto's. They do not by themselves mean you need treatment.</li>
+<li><strong>Thyroid ultrasound:</strong> shows size and nodules. It does not tell you how well the gland works. Nodules are scored (often <strong>TI-RADS</strong>), and a high score may lead to <strong>FNAC</strong> (fine-needle aspiration cytology: a thin needle takes a few cells to look at).</li>
+</ul>
+<h3 id="common-patterns-examples-your-doctor-interprets-them"><a class="header" href="#common-patterns-examples-your-doctor-interprets-them">Common patterns (examples; your doctor interprets them)</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>TSH</th><th>Free T4</th><th>Usual meaning</th></tr>
+</thead>
+<tbody>
+<tr><td>High</td><td>Low</td><td>Underactive thyroid</td></tr>
+<tr><td>High</td><td>Normal</td><td>Subclinical hypothyroidism (repeat before acting)</td></tr>
+<tr><td>Low</td><td>High</td><td>Overactive thyroid</td></tr>
+<tr><td>Low</td><td>Normal</td><td>Possible mild overactivity (repeat, look for cause)</td></tr>
+<tr><td>Normal</td><td>Normal</td><td>Thyroid probably fine</td></tr>
+</tbody>
+</table>
+</div>
+<p>A rare pituitary problem can give a "normal" TSH with low T4. A doctor looks for this if the picture does not fit.</p>
+<h3 id="what-can-change-the-result"><a class="header" href="#what-can-change-the-result">What can change the result</a></h3>
+<ul>
+<li><strong>Time of day.</strong> TSH is highest at night and in the early hours and lowest in the daytime. [6] Repeat at a similar time.</li>
+<li><strong>Recent illness.</strong> Wait until you have recovered, then repeat.</li>
+<li><strong>Biotin</strong> (vitamin B7, found in hair, skin and nail tablets). In common thyroid tests it can make TSH read falsely low and T4/T3 falsely high, which looks like an overactive thyroid. [7] Tell the lab and ask your doctor whether to pause it first.</li>
+<li><strong>Taking your thyroid tablet right before the test.</strong> Ask whether to take it after the blood draw.</li>
+</ul>
+<h3 id="subclinical-hypothyroidism-the-commonest-confusion"><a class="header" href="#subclinical-hypothyroidism-the-commonest-confusion">Subclinical hypothyroidism: the commonest confusion</a></h3>
+<ul>
+<li>A single raised TSH is often <strong>temporary</strong>. European guidance advises <strong>repeating TSH, free T4 and antibodies after about 2 to 3 months</strong>. [3]</li>
+<li>Whether to treat depends on how high the TSH is, your age, symptoms, antibodies, and pregnancy or planning pregnancy. [3]</li>
+<li>In a large trial of 737 adults aged 65 and over with persistently mildly raised TSH, thyroid tablets gave <strong>no benefit</strong> for tiredness or hypothyroid symptoms compared with placebo (a dummy tablet) at one year. [8]</li>
+</ul>
+<h2 id="7-treatment"><a class="header" href="#7-treatment">7. Treatment</a></h2>
+<blockquote class="blockquote-tag blockquote-tag-warning">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<p>No doses here. Doses are set by a doctor using blood tests.</p>
+</blockquote>
+<h3 id="underactive-thyroid-levothyroxine"><a class="header" href="#underactive-thyroid-levothyroxine">Underactive thyroid: levothyroxine</a></h3>
+<p><strong>Levothyroxine</strong> is a manufactured copy of T4. It replaces what your thyroid is not making. Many people need it for a long time, but ask your doctor how long <strong>you</strong> will need it. <code>⚠ verify</code></p>
+<ul>
+<li>Guidelines advise taking it <strong>consistently, with water, about 60 minutes before breakfast or at bedtime</strong>. Keep it apart from <strong>iron and calcium tablets</strong>, which can reduce absorption. [1] Soy foods can also interfere, so keep timing consistent. <code>⚠ verify</code></li>
+<li>A <strong>TSH test about 6 to 8 weeks after any dose change</strong> shows whether the dose is right. Do not judge a dose before that. [9]</li>
+<li><strong>Stay on one brand</strong> where possible, so the dose behaves consistently. If a chemist swaps the brand, tell your doctor. [1]</li>
+<li><strong>Too much</strong> is not harmless. It can cause a racing heart, poor sleep and thinner bones. A TSH pushed very low by medicine needs review.</li>
+<li><strong>Never use thyroid tablets to lose weight.</strong> It is dangerous.</li>
+<li>Do not stop because you "feel fine". Feeling fine is usually because of the tablet.</li>
+</ul>
+<h3 id="overactive-thyroid"><a class="header" href="#overactive-thyroid">Overactive thyroid</a></h3>
+<p>Options are antithyroid tablets (such as <strong>carbimazole</strong>, which the body converts to <strong>methimazole</strong>), <strong>radioactive iodine</strong>, or <strong>surgery</strong>. The choice depends on the cause. [4]</p>
+<blockquote class="blockquote-tag blockquote-tag-caution">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M4.47.22A.749.749 0 0 1 5 0h6c.199 0 .389.079.53.22l4.25 4.25c.141.14.22.331.22.53v6a.749.749 0 0 1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749 0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Caution</p>
+<p>On carbimazole or similar tablets, a <strong>sore throat or fever</strong> needs a call to your doctor <strong>the same day</strong>. Rarely (about 0.1 to 0.3% of people) these medicines lower the white blood cells that fight infection. [4][10]</p>
+</blockquote>
+<h3 id="pregnancy"><a class="header" href="#pregnancy">Pregnancy</a></h3>
+<p>Thyroid hormone matters for the baby's brain. If you are pregnant or planning to be and have any thyroid problem, <strong>tell your doctor early</strong>. Dose needs often change, and pregnancy has its own TSH ranges. [2]</p>
+<h2 id="8-complications"><a class="header" href="#8-complications">8. Complications</a></h2>
+<ul>
+<li><strong>Untreated underactive thyroid:</strong> raised cholesterol, heart strain, infertility, problems in pregnancy; very rarely a life-threatening slowdown (myxoedema coma).</li>
+<li><strong>Untreated overactive thyroid:</strong> irregular heartbeat (atrial fibrillation), thinner bones, and rarely a dangerous surge (thyroid storm).</li>
+<li><strong>Too much treatment:</strong> the same problems as an overactive thyroid.</li>
+<li><strong>Nodules:</strong> cancer is found in a minority, about 7 to 15% of nodules. Most are not cancer. [11]</li>
+</ul>
+<h2 id="9-prevention-and-self-management"><a class="header" href="#9-prevention-and-self-management">9. Prevention and self-management</a></h2>
+<ul>
+<li>Use iodised salt in normal amounts. Too much iodine (kelp tablets, "iodine boosters") can itself disturb the thyroid.</li>
+<li>Keep every thyroid report and note the lab, date and time of day.</li>
+<li>Take medicine at the same time each day. Repeat TSH on schedule.</li>
+<li>Tell your doctor about pregnancy plans, biotin, iron, calcium and any new medicine.</li>
+</ul>
+<h2 id="10-misinformation-and-how-you-get-misled-india"><a class="header" href="#10-misinformation-and-how-you-get-misled-india">10. Misinformation and how you get misled (India)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>What happens</th><th>What to ask or do</th></tr>
+</thead>
+<tbody>
+<tr><td>Levothyroxine started after <strong>one</strong> slightly high TSH</td><td>"Can we repeat TSH with an FT4 in 2 to 3 months before starting?"</td></tr>
+<tr><td>Treating mildly high TSH in an older person with no symptoms</td><td>Ask about the TRUST trial result. Ask what benefit is expected.</td></tr>
+<tr><td>A <strong>"thyroid package"</strong> with many tests for everyone</td><td>Ask which tests you need. TSH is usually the start.</td></tr>
+<tr><td>"Thyroid cure" with herbs or diets</td><td>No diet or herb has been shown to replace thyroid hormone. In one study, some "thyroid support" supplements made from animal thyroid ("glandular" products) contained measurable real thyroid hormone, which can harm you silently. [12]</td></tr>
+<tr><td>Told to avoid cabbage, cauliflower and soy completely</td><td>These matter mainly with iodine deficiency or very large intakes. Ask before cutting out foods. <code>⚠ verify</code></td></tr>
+<tr><td>Blaming the thyroid for every symptom</td><td>Ask what else could cause it and which test would show it.</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="11-ask-your-doctor"><a class="header" href="#11-ask-your-doctor">11. Ask your doctor</a></h2>
+<ol>
+<li>Is my TSH high, low or normal? What is the range on <em>this</em> report?</li>
+<li>Is my free T4 normal? What pattern is this?</li>
+<li>Should we repeat before deciding? When?</li>
+<li>Could biotin, a recent illness or the time of day have affected this?</li>
+<li>Do I need antibody tests or an ultrasound? How will they change the plan?</li>
+<li>If you advise a medicine: for how long, when do we recheck, and what signs mean too much?</li>
+<li>I am (or may become) pregnant. What changes?</li>
+<li>If a lump was found: what is its TI-RADS score? Do we need FNAC?</li>
+</ol>
+<h2 id="12-red-flags"><a class="header" href="#12-red-flags">12. Red flags</a></h2>
+<p><strong>See a doctor promptly:</strong> a lump that grows quickly, a hoarse voice that does not clear, or trouble swallowing or breathing with a neck swelling.</p>
+<p><strong>Go to emergency care:</strong> severe drowsiness, confusion or a very slow heartbeat with known underactive thyroid; or a very fast heartbeat, high fever, agitation or fainting with an overactive thyroid.</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Gland</strong> an organ that releases a chemical into the blood · <strong>Hormone</strong> a chemical messenger · <strong>Pituitary</strong> a pea-sized gland under the brain · <strong>TSH</strong> the brain's signal to the thyroid · <strong>T4, T3</strong> thyroid hormones · <strong>Autoimmune</strong> the immune system attacks the body's own tissue · <strong>Hashimoto's / Graves'</strong> autoimmune thyroid diseases (underactive / overactive) · <strong>Subclinical</strong> abnormal test, normal hormone, few symptoms · <strong>Goitre</strong> swollen thyroid · <strong>Nodule</strong> lump · <strong>TI-RADS</strong> ultrasound score for how suspicious a nodule looks · <strong>FNAC</strong> needle sample of cells · <strong>Levothyroxine</strong> manufactured T4 · <strong>Placebo</strong> dummy tablet.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>Jonklaas J, et al. Guidelines for the treatment of hypothyroidism (ATA). <em>Thyroid</em> 2014;24(12):1670-1751.</li>
+<li>Alexander EK, et al. 2017 ATA guidelines for thyroid disease in pregnancy. <em>Thyroid</em> 2017;27(3):315-389.</li>
+<li>Pearce SHS, et al. ETA guideline: management of subclinical hypothyroidism. <em>Eur Thyroid J</em> 2013;2:215-228.</li>
+<li>Ross DS, et al. ATA guidelines for hyperthyroidism. <em>Thyroid</em> 2016;26(10):1343-1421.</li>
+<li>Unnikrishnan AG, et al. Prevalence of hypothyroidism in adults: eight cities of India. <em>Indian J Endocrinol Metab</em> 2013;17(4):647-652.</li>
+<li>Daily rhythm of TSH: Frontiers in Endocrinology review, 2021 (doi 10.3389/fendo.2021.619568).</li>
+<li>US FDA safety communications on biotin interference with lab tests, 28 Nov 2017 and 5 Nov 2019.</li>
+<li>Stott DJ, et al. TRUST trial. <em>N Engl J Med</em> 2017;376:2534-2544.</li>
+<li>ATA patient brochure on hypothyroidism and levothyroxine labelling (6 to 8 weeks).</li>
+<li>ATA Clinical Thyroidology for the Public, 2016: antithyroid drug side effects.</li>
+<li>Haugen BR, et al. 2015 ATA guidelines on thyroid nodules and thyroid cancer. <em>Thyroid</em> 2016;26(1):1-133.</li>
+<li>Kang GY, et al. Thyroid hormone content of dietary supplements. <em>Thyroid</em> 2013. (A later letter noted the method may give false positives.)</li>
+</ol>
+<p><strong>Not verified:</strong> Hashimoto's as commonest cause in India; how long levothyroxine is needed; typical TSH range printed by Indian labs; the soy and goitrogen statements. Marked <code>⚠ verify</code>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../02-diseases/stroke.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../02-diseases/tuberculosis.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../02-diseases/stroke.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../02-diseases/tuberculosis.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

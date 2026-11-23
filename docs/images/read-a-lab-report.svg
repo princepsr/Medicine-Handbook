@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="t d">
+  <title id="t">How to read a lab report in five steps</title>
+  <desc id="d">Five boxes in a row: check the details, find the range on this report, see how far outside, read it with partner tests, then decide repeat, mention or urgent.</desc>
+  <style>
+    .box{fill:#e6f4f2;stroke:#0f766e;stroke-width:2}
+    .num{fill:#0f766e}
+    .n{font:700 20px sans-serif;fill:#fff;text-anchor:middle}
+    .h{font:700 15px sans-serif;fill:#134e4a;text-anchor:middle}
+    .s{font:13px sans-serif;fill:#134e4a;text-anchor:middle}
+    .arrow{fill:none;stroke:#0f766e;stroke-width:3;marker-end:url(#a)}
+    .title{font:700 20px sans-serif;fill:#134e4a}
+    .note{font:italic 13px sans-serif;fill:#475569}
+    .warn{fill:#fffbeb;stroke:#b45309;stroke-width:2}
+    .wt{font:13px sans-serif;fill:#92400e}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f766e"/></marker></defs>
+  <rect width="760" height="330" fill="#ffffff" rx="10"/>
+  <text x="24" y="36" class="title">Reading a lab report: five steps</text>
+  <g>
+    <rect class="box" x="20" y="64" width="128" height="150" rx="10"/><circle class="num" cx="84" cy="64" r="16"/><text class="n" x="84" y="71">1</text>
+    <text class="h" x="84" y="108">Check the</text><text class="h" x="84" y="127">details</text>
+    <text class="s" x="84" y="154">Name, age, sex,</text><text class="s" x="84" y="172">date, lab</text><text class="s" x="84" y="190">Fasting? Ill?</text>
+  </g>
+  <g>
+    <rect class="box" x="168" y="64" width="128" height="150" rx="10"/><circle class="num" cx="232" cy="64" r="16"/><text class="n" x="232" y="71">2</text>
+    <text class="h" x="232" y="108">Use this</text><text class="h" x="232" y="127">report's range</text>
+    <text class="s" x="232" y="154">Ranges differ by</text><text class="s" x="232" y="172">lab, age, sex and</text><text class="s" x="232" y="190">method</text>
+  </g>
+  <g>
+    <rect class="box" x="316" y="64" width="128" height="150" rx="10"/><circle class="num" cx="380" cy="64" r="16"/><text class="n" x="380" y="71">3</text>
+    <text class="h" x="380" y="108">How far</text><text class="h" x="380" y="127">outside?</text>
+    <text class="s" x="380" y="154">A little over is</text><text class="s" x="380" y="172">common and often</text><text class="s" x="380" y="190">just needs a repeat</text>
+  </g>
+  <g>
+    <rect class="box" x="464" y="64" width="128" height="150" rx="10"/><circle class="num" cx="528" cy="64" r="16"/><text class="n" x="528" y="71">4</text>
+    <text class="h" x="528" y="108">Read it with</text><text class="h" x="528" y="127">partner tests</text>
+    <text class="s" x="528" y="154">TSH with free T4,</text><text class="s" x="528" y="172">Hb with MCV and</text><text class="s" x="528" y="190">ferritin</text>
+  </g>
+  <g>
+    <rect class="box" x="612" y="64" width="128" height="150" rx="10"/><circle class="num" cx="676" cy="64" r="16"/><text class="n" x="676" y="71">5</text>
+    <text class="h" x="676" y="108">Decide the</text><text class="h" x="676" y="127">next step</text>
+    <text class="s" x="676" y="154">Urgent, repeat,</text><text class="s" x="676" y="172">or just mention</text><text class="s" x="676" y="190">at your next visit</text>
+  </g>
+  <path class="arrow" d="M150,139 L164,139"/><path class="arrow" d="M298,139 L312,139"/><path class="arrow" d="M446,139 L460,139"/><path class="arrow" d="M594,139 L608,139"/>
+  <rect class="warn" x="20" y="238" width="720" height="62" rx="10"/>
+  <text class="wt" x="36" y="262">Also think about non-disease causes (dehydration, a recent illness, medicines, biotin supplements)</text>
+  <text class="wt" x="36" y="282">and compare with your earlier reports. A report is a clue, not a diagnosis. Show it to your doctor.</text>
+  <text class="note" x="24" y="320">Example ranges and steps only. See the lab chapters for details.</text>
+</svg>

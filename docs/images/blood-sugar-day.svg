@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="t d">
+  <title id="t">Blood sugar through a day (illustration)</title>
+  <desc id="d">Two illustrative curves over a day with three meals. In a person without diabetes blood sugar rises a little after meals and returns to normal. With uncontrolled diabetes it rises much higher and stays high. Reference lines mark 70, 100 and 126 milligrams per decilitre.</desc>
+  <style>
+    .title{font:700 20px sans-serif;fill:#134e4a}
+    .s{font:13px sans-serif;fill:#334155}
+    .l{font:12px sans-serif;fill:#475569}
+    .axis{stroke:#94a3b8;stroke-width:2}
+    .ref{stroke:#94a3b8;stroke-width:1.5;stroke-dasharray:5 4}
+    .low{stroke:#b45309;stroke-width:1.5;stroke-dasharray:5 4}
+    .dm{stroke:#b91c1c;stroke-width:1.5;stroke-dasharray:5 4}
+    .n{fill:none;stroke:#0f766e;stroke-width:4}
+    .d{fill:none;stroke:#b91c1c;stroke-width:4}
+    .meal{fill:#0f172a}
+    .note{fill:#fffbeb;stroke:#b45309;stroke-width:2}
+    .nt{font:13px sans-serif;fill:#92400e}
+  </style>
+  <rect width="760" height="380" fill="#fff" rx="10"/>
+  <text x="24" y="34" class="title">Blood sugar through a day (illustration)</text>
+  <line class="axis" x1="62" y1="320" x2="62" y2="64"/><line class="axis" x1="62" y1="320" x2="560" y2="320"/>
+  <line class="low" x1="62" y1="300" x2="560" y2="300"/>
+  <line class="ref" x1="62" y1="270" x2="560" y2="270"/>
+  <line class="dm" x1="62" y1="244" x2="560" y2="244"/>
+  <text class="l" x="568" y="304" style="fill:#b45309">70: below this is low</text>
+  <text class="l" x="568" y="274">100: fasting, upper normal</text>
+  <text class="l" x="568" y="248" style="fill:#b91c1c">126: fasting, diabetes range</text>
+  <text class="l" x="20" y="200" transform="rotate(-90 28 200)">mg/dL (illustrative)</text>
+  <g transform="scale(0.77,1)">
+    <path class="n" d="M80,282 L170,282 C200,282 210,240 235,242 C270,245 300,278 330,280 L350,280 C380,280 390,236 415,238 C445,240 470,276 500,278 L550,278 C580,278 590,232 615,234 C650,238 680,276 720,280"/>
+    <path class="d" d="M80,210 L170,208 C210,208 225,120 260,115 C310,112 330,190 345,200 L350,200 C390,200 400,100 440,95 C490,92 520,180 545,195 L550,195 C590,195 600,95 645,92 C690,90 710,170 720,185"/>
+  </g>
+  <g class="s" style="text-anchor:middle">
+    <polygon class="meal" points="131,336 126,346 136,346"/><text x="131" y="362">Breakfast</text>
+    <polygon class="meal" points="270,336 265,346 275,346"/><text x="270" y="362">Lunch</text>
+    <polygon class="meal" points="424,336 419,346 429,346"/><text x="424" y="362">Dinner</text>
+  </g>
+  <text class="s" x="568" y="150" style="fill:#0f766e;font-weight:700">Teal: no diabetes</text>
+  <text class="s" x="568" y="168">small rise, quick return</text>
+  <text class="s" x="568" y="198" style="fill:#b91c1c;font-weight:700">Red: poorly controlled</text>
+  <text class="s" x="568" y="216">high peaks, slow return</text>
+  <rect class="note" x="568" y="82" width="176" height="46" rx="8"/>
+  <text class="nt" x="576" y="102">Made-up curves to show</text><text class="nt" x="576" y="118">the idea, not real data</text>
+  <text class="l" x="568" y="346">Below 70: take 15 g fast sugar,</text><text class="l" x="568" y="362">recheck in 15 minutes.</text>
+</svg>

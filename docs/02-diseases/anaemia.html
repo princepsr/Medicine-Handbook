@@ -1,0 +1,390 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Anaemia - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="anaemia"><a class="header" href="#anaemia">Anaemia</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet. Last checked: November 2026.</em></p>
+<p>Read <a href="../01-body/blood.html">Blood</a>, <a href="../03-tests/cbc.html">CBC</a> and <a href="../03-tests/vitamins-and-iron-studies.html">Vitamin and iron tests</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>Anaemia means too little haemoglobin, so the blood carries less oxygen. It is a <strong>sign</strong>, not a disease. Always ask: <strong>what is the cause?</strong></li>
+<li>In India the commonest cause is <strong>iron deficiency</strong>, but <strong>B12 or folate deficiency, thalassaemia trait, blood loss and chronic disease</strong> are also common.</li>
+<li>Giving iron without finding the cause can miss serious problems (bleeding) and does nothing for thalassaemia trait.</li>
+<li>Anaemia affects more than half of Indian women and many children.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-what-is-it"><a class="header" href="#1-what-is-it">1. What is it?</a></h2>
+<p><strong>Anaemia</strong> means a haemoglobin below the normal range for age and sex. The WHO uses about 13 g/dL for men, 12 g/dL for non-pregnant women and 11 g/dL in pregnancy (2011; the 2024 WHO update lowers the second-trimester cut-off to 10.5), and for children 11 g/dL at 6 to 59 months, 11.5 at 5 to 11 years and 12 at 12 to 14 years. <code>⚠ verify</code></p>
+<p>India has one of the world's highest anaemia burdens. In the National Family Health Survey 5 (2019-21), roughly 57% of women aged 15 to 49 and about two-thirds of children aged 6 to 59 months were anaemic. <code>⚠ verify</code></p>
+<h2 id="2-the-normal-body"><a class="header" href="#2-the-normal-body">2. The normal body</a></h2>
+<p>Red cells, made in the bone marrow, carry oxygen on <strong>haemoglobin</strong>, which contains <strong>iron</strong>. Making red cells needs <strong>iron, vitamin B12, folate, a hormone from the kidney (EPO) and healthy marrow</strong>. Red cells live about 120 days (see <a href="../01-body/blood.html">Blood</a>).</p>
+<h2 id="3-what-goes-wrong"><a class="header" href="#3-what-goes-wrong">3. What goes wrong</a></h2>
+<p>Anaemia arises in three ways:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Mechanism</th><th>Examples</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Too little made</strong></td><td>Iron, B12 or folate deficiency; kidney disease (low EPO); chronic inflammation; marrow disease; thalassaemia</td></tr>
+<tr><td><strong>Too much lost</strong></td><td>Bleeding: heavy periods, piles, stomach or bowel bleeding, hookworm, frequent blood donation, surgery</td></tr>
+<tr><td><strong>Too fast destroyed</strong></td><td>Haemolysis: inherited conditions, immune attack, malaria, some drugs</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="4-causes-and-risk-factors-india"><a class="header" href="#4-causes-and-risk-factors-india">4. Causes and risk factors (India)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Cause</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Iron deficiency</strong></td><td>The commonest. Low intake of iron-rich foods, poor absorption (tea with meals, phytates in grains and pulses, coeliac disease), heavy periods, pregnancy, rapid growth, worm infections</td></tr>
+<tr><td><strong>Vitamin B12 deficiency</strong></td><td>Vegetarian diets, metformin, long-term acid tablets, gut disease</td></tr>
+<tr><td><strong>Folate deficiency</strong></td><td>Poor intake, alcohol, pregnancy</td></tr>
+<tr><td><strong>Thalassaemia trait and other haemoglobin disorders</strong></td><td>Common in India; small cells with a mildly low haemoglobin; <strong>iron does not help</strong></td></tr>
+<tr><td><strong>Chronic disease</strong></td><td>Infections (TB), inflammation, cancer</td></tr>
+<tr><td><strong>Chronic kidney disease</strong></td><td>See <a href="chronic-kidney-disease.html">Chronic kidney disease</a></td></tr>
+<tr><td><strong>Pregnancy and adolescence</strong></td><td>Increased needs</td></tr>
+</tbody>
+</table>
+</div>
+<p>Anaemia in an <strong>adult man or a woman after menopause</strong> needs a search for <strong>blood loss from the gut</strong> until proven otherwise.</p>
+<h2 id="5-symptoms"><a class="header" href="#5-symptoms">5. Symptoms</a></h2>
+<p>Tiredness, weakness, pale skin and inner eyelids, breathlessness on effort, fast heartbeat, headache, dizziness, poor concentration, hair fall, brittle nails, cold hands. <strong>Pica</strong> (craving ice, clay or raw rice) suggests iron deficiency. Mild anaemia may cause no symptoms.</p>
+<h2 id="6-diagnosis-and-tests"><a class="header" href="#6-diagnosis-and-tests">6. Diagnosis and tests</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Step</th><th>Test</th><th>What it tells you</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td><strong>Haemoglobin</strong></td><td>Is it anaemia? How severe?</td></tr>
+<tr><td>2</td><td><strong>MCV, RDW, RBC count</strong></td><td>Cell size: small (iron deficiency, thalassaemia), normal (blood loss, chronic disease, kidney), large (B12 or folate)</td></tr>
+<tr><td>3</td><td><strong>Ferritin, iron, TIBC, transferrin saturation</strong></td><td>Iron stores (see <a href="../03-tests/vitamins-and-iron-studies.html">Vitamin and iron tests</a>)</td></tr>
+<tr><td>4</td><td><strong>B12, folate</strong></td><td>Deficiency</td></tr>
+<tr><td>5</td><td><strong>Peripheral smear, reticulocyte count</strong></td><td>Cell shape; whether the marrow is responding</td></tr>
+<tr><td>6</td><td><strong>Haemoglobin analysis (HPLC)</strong></td><td>Thalassaemia and variants</td></tr>
+<tr><td>7</td><td><strong>Look for the cause</strong></td><td>Stool for occult blood and worms, endoscopy or colonoscopy where indicated, kidney tests, pregnancy and menstrual history</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Severity (WHO, non-pregnant adults):</strong> mild is 11 to 12.9 g/dL in men and 11 to 11.9 in women, moderate 8 to 10.9, and severe below 8. In pregnancy and in children 6 to 59 months, severe is below 7. <code>⚠ verify</code></p>
+<h2 id="7-treatment"><a class="header" href="#7-treatment">7. Treatment</a></h2>
+<blockquote class="blockquote-tag blockquote-tag-warning">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<p>No doses here. Iron has real side effects and overdose in children is dangerous. Keep iron tablets out of reach of children.</p>
+</blockquote>
+<h3 id="iron-deficiency"><a class="header" href="#iron-deficiency">Iron deficiency</a></h3>
+<ul>
+<li><strong>Find and treat the cause</strong>, such as bleeding or poor absorption.</li>
+<li><strong>Oral iron</strong> is first-line for most people. Common side effects: nausea, constipation, dark stools. Ways doctors reduce them: lower or alternate-day dosing (a small study in young women found that alternate-day dosing raised the share of iron absorbed; whether it gives a better haemoglobin rise is not settled, and WHO recommends daily dosing), or a different preparation. <code>⚠ verify</code></li>
+<li><strong>Improve absorption:</strong> take with vitamin C (a lemon drink or fruit); keep tea, coffee and calcium tablets two hours away from iron.</li>
+<li>Haemoglobin usually rises within weeks; treatment often continues for <strong>a few months after it is normal</strong> to refill stores, as your doctor advises.</li>
+<li><strong>Iron infusion (intravenous iron)</strong> is used for severe deficiency, intolerance or poor absorption, kidney disease, late pregnancy, or when quick correction is needed. It is given in a medical setting.</li>
+<li><strong>Blood transfusion</strong> is for severe or symptomatic anaemia or emergencies, not for routine correction.</li>
+</ul>
+<p>India's <strong>Anaemia Mukt Bharat</strong> programme provides iron and folic acid supplements to six groups: children 6 to 59 months, children 5 to 9 years, adolescents 10 to 19, women of reproductive age, and pregnant and lactating women, with testing, deworming and nutrition counselling. <code>⚠ verify</code></p>
+<h3 id="food-for-iron"><a class="header" href="#food-for-iron">Food for iron</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Source</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Haem iron</strong> (meat, fish, eggs)</td><td>Absorbed best</td></tr>
+<tr><td><strong>Non-haem iron</strong> (green leafy vegetables, pulses, jaggery, ragi, fortified foods)</td><td>Absorbed less; <strong>vitamin C</strong> helps; tea and coffee with meals reduce absorption</td></tr>
+<tr><td><strong>Cooking in iron utensils</strong></td><td>Adds a little iron to food</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="b12-and-folate"><a class="header" href="#b12-and-folate">B12 and folate</a></h3>
+<p>Replace according to the cause: tablets or injections for B12 (injections when absorption is the problem or symptoms are severe); folic acid for folate deficiency. <strong>Do not give folic acid alone to someone who might be B12 deficient</strong>: it can hide the anaemia while nerve damage progresses.</p>
+<h3 id="thalassaemia-trait"><a class="header" href="#thalassaemia-trait">Thalassaemia trait</a></h3>
+<p>No treatment is needed. <strong>Do not take long courses of iron</strong> unless iron deficiency is proven. <strong>Tell your partner before pregnancy</strong>; if both are carriers, genetic counselling and prenatal testing are available. Severe forms (<strong>thalassaemia major</strong>) need lifelong transfusions and chelation treatment under a specialist.</p>
+<h2 id="8-complications"><a class="header" href="#8-complications">8. Complications</a></h2>
+<p>Heart strain and heart failure in severe or long-standing anaemia, poor pregnancy outcomes (low birth weight, early birth, maternal risk), poor growth and learning in children, reduced work capacity, and, in untreated B12 deficiency, permanent nerve damage.</p>
+<h2 id="9-prevention-and-self-management"><a class="header" href="#9-prevention-and-self-management">9. Prevention and self-management</a></h2>
+<ul>
+<li><strong>Eat</strong> iron-rich and vitamin C-rich foods; include pulses, greens, eggs, fish or meat if you eat them.</li>
+<li><strong>Separate tea and coffee</strong> from meals.</li>
+<li><strong>Take pregnancy and adolescent iron-folic acid tablets</strong> as advised.</li>
+<li><strong>Deworm</strong> children as programmes advise.</li>
+<li><strong>Treat heavy periods</strong>; discuss them with a doctor.</li>
+<li><strong>Get tested</strong> if you are tired, pale, or have risk factors.</li>
+<li><strong>Check B12</strong> if vegetarian or on metformin or long-term acid tablets.</li>
+</ul>
+<h2 id="10-misinformation-and-how-you-get-misled-india"><a class="header" href="#10-misinformation-and-how-you-get-misled-india">10. Misinformation and how you get misled (India)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>What happens</th><th>What to do</th></tr>
+</thead>
+<tbody>
+<tr><td>"Haemoglobin syrup" or "blood tonic" for a low haemoglobin without finding the cause</td><td>Ask for MCV, ferritin, B12 and a cause search</td></tr>
+<tr><td>Months of iron for thalassaemia trait</td><td>Ask whether a haemoglobin analysis is needed</td></tr>
+<tr><td>Iron injections or transfusions for mild anaemia</td><td>Oral iron usually works; ask why an infusion or transfusion is needed</td></tr>
+<tr><td>B12 or iron started without a level</td><td>Ask for the test result that shows need</td></tr>
+<tr><td>Folic acid alone for anaemia</td><td>Check B12 first</td></tr>
+<tr><td>Missing a bleeding source in a man or a post-menopausal woman</td><td>Ask about gut investigation</td></tr>
+<tr><td>Iron tablets taken with tea or calcium</td><td>Spacing makes a big difference</td></tr>
+<tr><td>"Beetroot or pomegranate will fix it fast"</td><td>Good foods, but not a replacement for treatment when anaemia is significant</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="11-ask-your-doctor"><a class="header" href="#11-ask-your-doctor">11. Ask your doctor</a></h2>
+<ol>
+<li>What is my haemoglobin, and what type of anaemia is it?</li>
+<li>What is the cause? Should we look for bleeding?</li>
+<li>Do I need iron studies, B12, folate or a haemoglobin analysis?</li>
+<li>Which treatment: tablets, an iron infusion, or a vitamin injection? For how long?</li>
+<li>When do we recheck, and how fast should the haemoglobin rise?</li>
+<li>If I am pregnant or planning pregnancy, or a carrier of thalassaemia, what should we do?</li>
+</ol>
+<h2 id="12-red-flags"><a class="header" href="#12-red-flags">12. Red flags</a></h2>
+<p><strong>Emergency:</strong> severe breathlessness, chest pain, fainting, a very fast heartbeat, or heavy bleeding. <strong>Prompt review:</strong> black or bloody stools, very heavy periods, vomiting blood, or numbness and tingling with anaemia.</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Anaemia</strong> too little haemoglobin · <strong>Haemoglobin</strong> the oxygen protein · <strong>Ferritin</strong> iron stores · <strong>MCV</strong> red-cell size · <strong>Microcytic / macrocytic</strong> small / large red cells · <strong>Thalassaemia trait</strong> a carrier state causing small red cells · <strong>Haemolysis</strong> red cells breaking down early · <strong>Pica</strong> craving non-food items · <strong>Reticulocyte</strong> a young red cell · <strong>Transferrin saturation</strong> the share of iron carrier that is loaded · <strong>Iron infusion</strong> intravenous iron · <strong>Chelation</strong> removing excess iron · <strong>Anaemia Mukt Bharat</strong> India's anaemia control programme.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>WHO. Haemoglobin concentrations for the diagnosis of anaemia and assessment of severity (2011); WHO guideline on iron supplementation. <code>⚠ verify</code></li>
+<li>NFHS-5 (2019-21), International Institute for Population Sciences; Anaemia Mukt Bharat (MoHFW). <code>⚠ verify</code></li>
+<li>Camaschella C. Iron-deficiency anemia. <em>N Engl J Med</em> 2015; Stoffel NU, et al. Iron absorption from oral iron supplements given on consecutive versus alternate days. <em>Lancet Haematol</em> 2017. <code>⚠ verify</code></li>
+<li>Indian guidance on thalassaemia screening (National Health Mission). <code>⚠ verify</code></li>
+</ol>
+<p><strong>Not verified:</strong> NFHS-5 figures, alternate-day iron evidence, severity bands and the programme details are claims to confirm against the cited sources.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../01-body/reproductive-system.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../02-diseases/asthma-and-copd.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../01-body/reproductive-system.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../02-diseases/asthma-and-copd.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

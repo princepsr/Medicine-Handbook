@@ -1,0 +1,448 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Brain and Nervous System - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="the-brain-and-nervous-system"><a class="header" href="#the-brain-and-nervous-system">The Brain and Nervous System</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet.</em></p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>The nervous system is the body's fast communication network: billions of nerve cells (neurons) pass electrical signals and chemical messages.</li>
+<li>The brain stores almost no energy. It needs a constant flow of oxygen and glucose, which is why low sugar causes confusion and a blocked artery causes a stroke within minutes.</li>
+<li>Each side of the brain mostly controls the <strong>opposite</strong> side of the body.</li>
+<li>Many medicines for mood, sleep, seizures and pain work at the junctions between neurons (synapses).</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-structure"><a class="header" href="#1-structure">1. Structure</a></h2>
+<p><img src="../images/anatomy/brain-lateral.png" alt="An illustration of the brain seen from the side"></p>
+<p><em>Figure 1: The brain, seen from the side. Image: Blausen.com staff, CC BY 3.0 (see <a href="../IMAGE-CREDITS.html">IMAGE-CREDITS</a>).</em></p>
+<p>The adult brain weighs about 1.3 to 1.4 kg and holds on the order of 86 billion neurons. <code>⚠ verify</code> It is about 2% of body weight but uses roughly a fifth of the body's oxygen and energy at rest. <code>⚠ verify</code></p>
+<h3 id="the-two-divisions"><a class="header" href="#the-two-divisions">The two divisions</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Division</th><th>Parts</th><th>Job</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Central nervous system (CNS)</strong></td><td>Brain and spinal cord</td><td>Processing and decisions</td></tr>
+<tr><td><strong>Peripheral nervous system (PNS)</strong></td><td>All nerves outside the brain and spinal cord</td><td>Carry signals to and from the body</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="the-neuron-the-basic-cell"><a class="header" href="#the-neuron-the-basic-cell">The neuron: the basic cell</a></h3>
+<pre><code> dendrites --&gt; CELL BODY --&gt; AXON (wrapped in myelin) --&gt; synapse
+ (receive)     (decides)     (carries signal away)        (passes it on)
+
+ Figure 2: A neuron.
+</code></pre>
+<ul>
+<li><strong>Dendrites</strong> receive signals.</li>
+<li>The <strong>cell body</strong> adds them up and decides whether to fire.</li>
+<li>The <strong>axon</strong> is a long cable carrying the signal. It is wrapped in <strong>myelin</strong>, a fatty insulating sheath that makes signals travel much faster. In diseases that damage myelin (such as multiple sclerosis) signals slow or fail.</li>
+<li>The <strong>synapse</strong> is the tiny gap between one neuron and the next.</li>
+</ul>
+<h3 id="the-main-regions"><a class="header" href="#the-main-regions">The main regions</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Region</th><th>Where</th><th>Main jobs</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Cerebrum</strong> (two hemispheres)</td><td>The large upper part</td><td>Thinking, memory, language, voluntary movement, senses</td></tr>
+<tr><td><strong>Frontal lobe</strong></td><td>Front</td><td>Planning, judgement, personality, voluntary movement</td></tr>
+<tr><td><strong>Parietal lobe</strong></td><td>Top and middle</td><td>Touch and body position</td></tr>
+<tr><td><strong>Temporal lobe</strong></td><td>Side</td><td>Hearing, memory, language understanding</td></tr>
+<tr><td><strong>Occipital lobe</strong></td><td>Back</td><td>Vision</td></tr>
+<tr><td><strong>Cerebellum</strong></td><td>Back and below</td><td>Coordination, balance, smooth movement</td></tr>
+<tr><td><strong>Brainstem</strong> (midbrain, pons, medulla)</td><td>Joins brain to spinal cord</td><td><strong>Breathing, heart rate, blood pressure, consciousness, swallowing</strong>; damage here is life-threatening</td></tr>
+<tr><td><strong>Thalamus</strong></td><td>Deep</td><td>Relay station for senses</td></tr>
+<tr><td><strong>Hypothalamus</strong></td><td>Deep, just above the pituitary</td><td>Controls temperature, hunger, thirst, sleep and the pituitary hormones (see <a href="endocrine-system.html">The endocrine system</a>)</td></tr>
+<tr><td><strong>Hippocampus</strong></td><td>Deep in the temporal lobe</td><td>Forming new memories</td></tr>
+<tr><td><strong>Basal ganglia</strong></td><td>Deep</td><td>Smooth control of movement (affected in Parkinson's disease)</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Crossed control:</strong> the left hemisphere mainly controls the <strong>right</strong> side of the body and vice versa. So a stroke on the left side of the brain typically weakens the right arm and leg. Language is usually handled by the left hemisphere.</p>
+<h3 id="protection"><a class="header" href="#protection">Protection</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Layer</th><th>What it does</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Skull and vertebrae</strong></td><td>Bony armour</td></tr>
+<tr><td><strong>Meninges</strong></td><td>Three membranes (dura, arachnoid, pia) around the brain and cord. <strong>Meningitis</strong> is infection of them.</td></tr>
+<tr><td><strong>Cerebrospinal fluid (CSF)</strong></td><td>A clear fluid made in cavities inside the brain (ventricles); cushions the brain and clears waste. Roughly 150 mL in total. <code>⚠ verify</code></td></tr>
+<tr><td><strong>Blood-brain barrier</strong></td><td>Tightly joined cells lining brain capillaries that <strong>block most germs, toxins and many medicines</strong> from entering.</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="2-how-it-works-step-by-step"><a class="header" href="#2-how-it-works-step-by-step">2. How it works, step by step</a></h2>
+<h3 id="how-one-neuron-passes-a-message"><a class="header" href="#how-one-neuron-passes-a-message">How one neuron passes a message</a></h3>
+<ol>
+<li>A neuron receives enough input and fires an <strong>action potential</strong>, a wave of electrical charge that races down the axon.</li>
+<li>At the end of the axon, the signal makes <strong>calcium</strong> enter, which releases chemical messengers (<strong>neurotransmitters</strong>) into the synapse.</li>
+<li>The neurotransmitter crosses the gap and binds <strong>receptors</strong> on the next neuron, which then becomes more (or less) likely to fire.</li>
+<li>The neurotransmitter is cleared away or recycled.</li>
+</ol>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Neurotransmitter</th><th>Main role</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Glutamate</strong></td><td>Main excitatory (speed-up) messenger</td></tr>
+<tr><td><strong>GABA</strong></td><td>Main inhibitory (slow-down) messenger</td></tr>
+<tr><td><strong>Dopamine</strong></td><td>Movement, motivation, reward; low in Parkinson's disease</td></tr>
+<tr><td><strong>Serotonin</strong></td><td>Mood, sleep, appetite</td></tr>
+<tr><td><strong>Noradrenaline</strong></td><td>Alertness, stress response</td></tr>
+<tr><td><strong>Acetylcholine</strong></td><td>Muscle contraction, memory</td></tr>
+</tbody>
+</table>
+</div>
+<p>Many medicines work at this step: antidepressants raise serotonin or noradrenaline; anti-epileptic medicines damp excess firing; sedatives boost GABA. That is why stopping some of them suddenly can be dangerous, and why a doctor adjusts them gradually.</p>
+<h3 id="the-brains-blood-supply"><a class="header" href="#the-brains-blood-supply">The brain's blood supply</a></h3>
+<p>Four arteries (two <strong>carotid</strong> at the front of the neck and two <strong>vertebral</strong> at the back) feed a ring of vessels at the base of the brain, the <strong>circle of Willis</strong>, which spreads blood to all regions and gives some back-up if one artery narrows.</p>
+<p>The brain <strong>stores almost no oxygen or glucose</strong>. If blood flow stops, unconsciousness comes within seconds and permanent damage within minutes. Likewise, <strong>low blood sugar starves the brain</strong>, causing confusion, sweating, fits or fainting. (See the diabetes chapter for the 15-gram rule.)</p>
+<h3 id="sensing-and-moving-the-reflex-arc"><a class="header" href="#sensing-and-moving-the-reflex-arc">Sensing and moving: the reflex arc</a></h3>
+<p>A <strong>reflex</strong> is an automatic response that does not wait for the brain. Touch a hot pan: a <strong>sensory nerve</strong> sends the signal to the spinal cord, which sends a signal straight back through a <strong>motor nerve</strong> to the muscle, and you pull away. The brain learns about it afterwards. Doctors test reflexes (tapping the knee) to check nerves and spinal cord.</p>
+<h3 id="the-autonomic-nervous-system"><a class="header" href="#the-autonomic-nervous-system">The autonomic nervous system</a></h3>
+<p>This runs organs without conscious control.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Side</th><th>Effect</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Sympathetic</strong> ("fight or flight")</td><td>Faster heart, widened airways, more sugar released, digestion slowed</td></tr>
+<tr><td><strong>Parasympathetic</strong> ("rest and digest")</td><td>Slower heart, digestion active (the <strong>vagus nerve</strong> is its main route)</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="3-the-senses"><a class="header" href="#3-the-senses">3. The senses</a></h2>
+<h3 id="the-eye"><a class="header" href="#the-eye">The eye</a></h3>
+<p>Light passes through the <strong>cornea</strong> (clear front window) and the <strong>lens</strong> (which focuses), and lands on the <strong>retina</strong>, a layer of light-sensing cells at the back. <strong>Rods</strong> work in dim light; <strong>cones</strong> give colour and sharp detail. The retina turns light into signals sent along the <strong>optic nerve</strong> to the occipital lobe.</p>
+<p>Diabetes damages the tiny retinal blood vessels (<strong>diabetic retinopathy</strong>), found early only by an eye exam. Other common eye problems: <strong>cataract</strong> (the lens turns cloudy), <strong>glaucoma</strong> (high eye pressure damages the optic nerve).</p>
+<h3 id="the-ear"><a class="header" href="#the-ear">The ear</a></h3>
+<p>Sound waves vibrate the <strong>eardrum</strong>, three tiny bones carry the vibration, and the <strong>cochlea</strong> (a snail-shaped organ in the inner ear) turns it into nerve signals. Next to the cochlea, the <strong>semicircular canals</strong> sense head movement and give balance. Trouble here causes <strong>vertigo</strong> (a spinning sensation).</p>
+<h2 id="4-how-the-nervous-system-is-tested"><a class="header" href="#4-how-the-nervous-system-is-tested">4. How the nervous system is tested</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Test</th><th>What it shows</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Neurological examination</strong></td><td>Strength, reflexes, sensation, coordination, speech, vision, memory</td></tr>
+<tr><td><strong>CT scan</strong></td><td>Quick scan; excellent for bleeding and stroke in emergencies</td></tr>
+<tr><td><strong>MRI</strong></td><td>More detailed picture of brain tissue, with no radiation</td></tr>
+<tr><td><strong>EEG</strong> (electroencephalogram)</td><td>Records brain electrical activity; used in epilepsy</td></tr>
+<tr><td><strong>Nerve conduction studies and EMG</strong></td><td>Speed of nerve signals; muscle electrical activity</td></tr>
+<tr><td><strong>Lumbar puncture</strong></td><td>A sample of CSF, to check for infection or inflammation</td></tr>
+<tr><td><strong>Blood tests</strong></td><td>Sugar, sodium, B12, thyroid, which often cause neurological symptoms</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="5-when-the-system-fails-summary"><a class="header" href="#5-when-the-system-fails-summary">5. When the system fails (summary)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Problem</th><th>What goes wrong</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Stroke</strong></td><td>Blood supply to part of the brain is cut off by a <strong>clot</strong> (the commoner kind, <strong>ischaemic</strong>) or a <strong>burst vessel</strong> (<strong>haemorrhagic</strong>)</td></tr>
+<tr><td><strong>Epilepsy</strong></td><td>Recurrent bursts of abnormal electrical activity (seizures)</td></tr>
+<tr><td><strong>Migraine</strong></td><td>Recurrent severe headaches, often with nausea and light sensitivity</td></tr>
+<tr><td><strong>Parkinson's disease</strong></td><td>Loss of dopamine-making cells: tremor, stiffness, slow movement</td></tr>
+<tr><td><strong>Dementia</strong> (for example Alzheimer's)</td><td>Progressive loss of memory and thinking</td></tr>
+<tr><td><strong>Neuropathy</strong></td><td>Damage to peripheral nerves (diabetes, B12 deficiency, alcohol): numbness, burning, weakness</td></tr>
+<tr><td><strong>Meningitis</strong></td><td>Infection or inflammation of the membranes around the brain</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="stroke-recognise-it-fast"><a class="header" href="#stroke-recognise-it-fast">Stroke: recognise it fast</a></h3>
+<p>Use <strong>FAST</strong>: <strong>F</strong>ace drooping, <strong>A</strong>rm weakness, <strong>S</strong>peech difficulty, <strong>T</strong>ime to call emergency help. Treatments that dissolve or remove a clot work only in the <strong>first hours</strong>, so every minute counts. <code>⚠ verify the time window per current guidance</code></p>
+<h2 id="headache-and-epilepsy-what-to-know"><a class="header" href="#headache-and-epilepsy-what-to-know">Headache and epilepsy: what to know</a></h2>
+<h3 id="headache"><a class="header" href="#headache">Headache</a></h3>
+<p>The brain itself has no pain nerves. Headache pain comes from the covering of the brain, blood vessels, muscles and nerves around it. Most headaches are <strong>primary</strong>, meaning the headache is the disease itself. The commonest is <strong>tension-type headache</strong>: a dull, pressing band on both sides, mild to moderate. A few headaches are <strong>secondary</strong>, meaning another problem causes them (infection, high blood pressure, head injury, bleeding, or a tumour, an abnormal lump of cells).</p>
+<p><strong>Red flags: get urgent care (112 or 108) for:</strong></p>
+<ul>
+<li>a sudden, severe "thunderclap" headache (pain that peaks within a minute), "the worst of my life"</li>
+<li>headache with fever and stiff neck, rash or confusion</li>
+<li>headache after a head injury</li>
+<li>headache with weakness, numbness, or speech or vision trouble (see <a href="../02-diseases/stroke.html">Stroke</a>)</li>
+<li>a new headache after age 50, or one that keeps worsening over weeks</li>
+<li>headache in pregnancy or just after delivery</li>
+</ul>
+<p><strong>Migraine</strong> in plain words: repeated attacks of throbbing pain, often on one side, with nausea (feeling sick) and dislike of light and noise, lasting hours to about 3 days. Some people get an <strong>aura</strong> first (flashing lights or zig-zag lines for a few minutes). Migraine runs in families and is more common in women. Triggers differ by person: missed meals, poor sleep, stress, periods, bright light. A diary of triggers helps. Most typical migraine does not need a brain scan (a CT or MRI picture of the brain). Many "sinus headaches" are really migraine.</p>
+<p><strong>Medication-overuse headache:</strong> taking painkillers on most days can itself keep headaches going. Guidelines usually mean pain medicine on 10 or more days a month (simple painkillers: 15 or more). <code>⚠ verify</code> Treatment is to cut down the overused painkiller <strong>under a doctor's guidance</strong>. Headache often gets worse for days before it improves. See <a href="../04-medicines/painkillers-steroids-acidity-supplements.html">Painkillers, steroids and acidity medicines</a>.</p>
+<h3 id="epilepsy-and-seizures"><a class="header" href="#epilepsy-and-seizures">Epilepsy and seizures</a></h3>
+<p>A <strong>seizure</strong> is a short burst of abnormal electrical activity in the brain. It can change movement, feeling, awareness or behaviour. <strong>Epilepsy</strong> is a tendency to repeated seizures with no immediate cause. One seizure does not mean epilepsy. About 5 to 6 in 1,000 people in India are estimated to live with it, and many are never treated. <code>⚠ verify</code></p>
+<ul>
+<li>A <strong>tonic-clonic seizure</strong> stiffens and jerks the whole body, then leaves deep sleep or confusion. A <strong>focal seizure</strong> starts in one area (a twitching hand, a strange feeling). <strong>Absence</strong> seizures are a blank stare for seconds, common in children.</li>
+<li>In India, <strong>neurocysticercosis</strong> (brain infection by the young stage of the pork tapeworm) is a recognised cause of epilepsy, as the WHO epilepsy fact sheet lists.</li>
+<li><strong>Anti-seizure medicines</strong> could let up to 7 in 10 people become seizure-free, says WHO. Missing doses is the commonest cause of breakthrough seizures (seizures that return despite treatment).</li>
+<li><strong>Never stop epilepsy medicine suddenly.</strong> It can cause severe, repeated seizures. Any slow withdrawal must be planned by the doctor.</li>
+<li><strong>Do not switch brands casually</strong> and ask a doctor before pregnancy: some medicines (notably valproate) carry a higher risk of birth defects.</li>
+</ul>
+<p><strong>Myths that cause harm:</strong></p>
+<ul>
+<li>An <strong>iron key, shoe or onion</strong> in the hand does <strong>not</strong> stop a seizure. Never put a spoon, cloth or finger in the mouth: it can break teeth or block the airway.</li>
+<li>Epilepsy is <strong>not</strong> a curse, possession or an infection you can catch.</li>
+<li>A healer cannot replace medicine. Delay means more injuries.</li>
+<li>Epilepsy medicines are not addictive and do not "ruin the brain".</li>
+</ul>
+<p><strong>Driving:</strong> rules differ by country and state. In India the licence application asks you to declare conditions such as epilepsy. Driving with uncontrolled seizures is unsafe. Ask your neurologist (a brain and nerve doctor) for written advice on when driving is safe. Many doctors advise a seizure-free period first, often a year or more. <code>⚠ verify</code></p>
+<p><strong>Seizure first aid</strong> is in <a href="../10-practical/first-aid-and-emergencies.html">First aid and emergencies</a>. Call 112 or 108 if a seizure lasts over 5 minutes.</p>
+<h2 id="6-red-flags"><a class="header" href="#6-red-flags">6. Red flags</a></h2>
+<p>Go to emergency care for: <strong>sudden weakness, numbness, face droop, speech or vision loss, a sudden severe "worst ever" headache, seizure for the first time, confusion with fever and neck stiffness, or loss of consciousness.</strong></p>
+<h2 id="7-why-this-matters-for-your-reports"><a class="header" href="#7-why-this-matters-for-your-reports">7. Why this matters for your reports</a></h2>
+<ul>
+<li>A <strong>normal CT or MRI</strong> does not rule out every cause of symptoms; many problems (migraine, epilepsy between seizures) look normal on scans.</li>
+<li><strong>B12, sugar, thyroid and sodium</strong> are cheap blood tests that explain a surprising number of nerve and brain symptoms. They are worth checking before concluding something worse.</li>
+<li>Scans often show <strong>incidental findings</strong> (small harmless changes common with age). Ask whether a finding explains your symptoms before accepting treatment for it.</li>
+</ul>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Neuron</strong> a nerve cell · <strong>Axon / dendrite</strong> the output cable / input branches · <strong>Myelin</strong> the insulating sheath · <strong>Synapse</strong> the gap between neurons · <strong>Neurotransmitter</strong> a chemical message across a synapse · <strong>Action potential</strong> the electrical wave in a neuron · <strong>CNS / PNS</strong> brain and spinal cord / nerves outside · <strong>Cerebrum / cerebellum / brainstem</strong> the thinking brain / the coordination brain / the life-support stem · <strong>Meninges</strong> the protective membranes · <strong>CSF</strong> cerebrospinal fluid · <strong>Blood-brain barrier</strong> the filter that protects the brain · <strong>Reflex arc</strong> an automatic nerve loop · <strong>Autonomic nervous system</strong> the automatic organ-control system · <strong>Retina</strong> the light-sensing layer of the eye · <strong>Cochlea</strong> the hearing organ.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>OpenStax. <em>Anatomy and Physiology 2e</em> (openstax.org): the nervous system and special senses.</li>
+<li>Guyton and Hall, <em>Textbook of Medical Physiology</em> (edition to be named). <code>⚠ verify</code></li>
+<li>Stroke guidance (for time windows): to be cited from Indian and international stroke guidelines in the disease chapter. <code>⚠ verify</code></li>
+<li>International Headache Society, ICHD-3; NICE guidelines on headaches (CG150) and epilepsies (NG217). <code>⚠ verify</code></li>
+<li>International League Against Epilepsy (ILAE) and WHO fact sheet on epilepsy; ICMR and Indian Academy of Neurology publications on epilepsy burden and neurocysticercosis. <code>⚠ verify</code></li>
+</ol>
+<p><strong>Not verified:</strong> brain weight, neuron count, the one-fifth oxygen figure, CSF volume and stroke treatment time windows are standard figures or claims to confirm against the cited sources. In the headache and epilepsy section, also confirm the Indian epilepsy prevalence, the medication-overuse day counts, valproate risk wording and current Indian driving rules. Confirmed against the WHO epilepsy fact sheet: seizure-free share (worded as up to 7 in 10; earlier text said two-thirds) and neurocysticercosis as a cause. WHO gives 4 to 10 per 1,000 worldwide; the India figure of 5 to 6 per 1,000 is still unconfirmed. The ICHD-3 text could not be opened, so the medication-overuse day counts (seen only in reviews) stay unconfirmed.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../01-body/bones-muscles-skin.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../01-body/cells-and-cancer-basics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../01-body/bones-muscles-skin.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../01-body/cells-and-cancer-basics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

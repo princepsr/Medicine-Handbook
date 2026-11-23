@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 880" role="img" aria-labelledby="t d">
+  <title id="t">Medical Literacy Handbook (India), cover</title>
+  <desc id="d">A teal book cover with the title Medical Literacy Handbook, the subtitle India edition, a heartbeat line, and the line: understand your body, your reports and your medicines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0"/><stop offset="0.5" stop-color="#5eead4" stop-opacity="0.9"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="880" rx="18" fill="url(#bg)"/>
+  <rect x="26" y="26" width="588" height="828" rx="12" fill="none" stroke="#99f6e4" stroke-opacity="0.55" stroke-width="2"/>
+
+  <!-- cross emblem -->
+  <circle cx="320" cy="170" r="62" fill="#ffffff" fill-opacity="0.12" stroke="#99f6e4" stroke-width="2"/>
+  <rect x="304" y="132" width="32" height="76" rx="8" fill="#ffffff"/>
+  <rect x="282" y="154" width="76" height="32" rx="8" fill="#ffffff"/>
+
+  <text x="320" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#ffffff">Medical</text>
+  <text x="320" y="356" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#ffffff">Literacy</text>
+  <text x="320" y="412" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#ffffff">Handbook</text>
+
+  <rect x="150" y="436" width="340" height="3" fill="url(#band)"/>
+  <text x="320" y="476" text-anchor="middle" font-family="sans-serif" font-size="22" letter-spacing="6" fill="#99f6e4">INDIA EDITION</text>
+
+  <!-- heartbeat line -->
+  <path d="M60,560 L200,560 L228,560 L246,512 L272,612 L298,528 L316,560 L580,560" fill="none" stroke="#5eead4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="320" y="652" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#ffffff">Understand your body,</text>
+  <text x="320" y="682" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#ffffff">your reports and your medicines,</text>
+  <text x="320" y="712" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#ffffff">and know when you are being misled.</text>
+
+  <rect x="120" y="760" width="400" height="54" rx="10" fill="#000000" fill-opacity="0.22"/>
+  <text x="320" y="784" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#ccfbf1">Private draft. A guide to asking better questions.</text>
+  <text x="320" y="804" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#ccfbf1">Not medical advice. Not reviewed by a doctor yet.</text>
+</svg>

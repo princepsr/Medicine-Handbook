@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Children&#x27;s Health - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="childrens-health"><a class="header" href="#childrens-health">Children's Health</a></h1>
+<p><em>Status: Draft. A doctor (ideally a paediatrician, a doctor who treats children) has not reviewed it yet. Child health advice changes with age and weight. Always confirm with your child's doctor.</em></p>
+<p>Read <a href="../01-body/immune-system.html">The immune system</a> and <a href="../07-prevention/vaccines-and-immunisation.html">Vaccines and immunisation</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>A child is not a small adult. Children grow fast, dehydrate fast and get sick in different ways. <strong>Growth and development are the best everyday health check.</strong></li>
+<li><strong>Breast milk alone for the first six months</strong>, then family foods alongside breastfeeding, is the standard advice in India and worldwide.</li>
+<li>Most childhood fevers, coughs, colds and loose motions are caused by <strong>viruses</strong> (tiny germs that antibiotics cannot kill) and get better without <strong>antibiotics</strong> (medicines that kill bacteria). <strong>ORS and zinc</strong> are the life-saving treatment for diarrhoea.</li>
+<li><strong>Cough syrups and antibiotics are often misused.</strong> Know the <strong>danger signs</strong> that mean "go to a doctor today".</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-what-is-it-why-children-are-different"><a class="header" href="#1-what-is-it-why-children-are-different">1. What is it? Why children are different</a></h2>
+<p>Children have small bodies, so a small loss of fluid is a big loss. Their immune system (the body's defence force) is still learning, so they catch many infections, often six to eight colds a year <code>⚠ verify</code>. <strong>Food, vaccines and care in the first 1,000 days (from pregnancy to age two) shape health for life</strong>.</p>
+<h2 id="2-the-normal-body-growth-and-milestones"><a class="header" href="#2-the-normal-body-growth-and-milestones">2. The normal body: growth and milestones</a></h2>
+<p><strong>Growth</strong> means gaining height, weight and head size at a steady pace. <strong>Development</strong> means gaining skills: moving, speaking, playing, thinking.</p>
+<p>A <strong>growth chart</strong> plots your child's weight, length or height and head size against many healthy children. The WHO charts (used in India for children under five, and printed in the MCP card, the Mother and Child Protection card) show <strong>lines called centiles or Z-scores</strong>. A <strong>Z-score</strong> says how far a child is from the average: 0 is average, minus 2 is low.</p>
+<p>The <strong>direction of the line matters more than one dot.</strong> A child who stays on the same curve is usually fine. A child who <strong>drops across curves</strong> or stops gaining needs a check.</p>
+<p><strong>Stunting</strong> is too short for age (long-term shortage of food or repeated illness). <strong>Wasting</strong> is too thin for height (recent shortage). <strong>Underweight</strong> is too light for age.</p>
+<p>A <strong>milestone</strong> is a skill most children show by a certain age. Ages are typical examples; healthy children vary. <code>⚠ verify against the CDC and IAP milestone lists</code></p>
+<p>Examples: a social smile at about 2 months, sitting and babbling at 6 to 9 months, one or two words at 12 months, two-word phrases at 2 years.</p>
+<p>Concern signs: <strong>no social smile by about 3 months, no babbling by 9 to 12 months, no words by 16 months, or any loss of a skill the child already had.</strong> Early help works best. The government's <strong>Rashtriya Bal Swasthya Karyakram (RBSK)</strong> offers free screening for birth defects and developmental delays at anganwadis (village child-care centres) and schools. <code>⚠ verify</code></p>
+<h2 id="3-breastfeeding-and-weaning"><a class="header" href="#3-breastfeeding-and-weaning">3. Breastfeeding and weaning</a></h2>
+<p><strong>Breastfeeding.</strong> WHO, UNICEF and the IAP advise:</p>
+<ol>
+<li><strong>Start within the first hour of birth.</strong> The first thick yellow milk (<strong>colostrum</strong>) is rich in antibodies (proteins that fight germs).</li>
+<li><strong>Exclusive breastfeeding for six months</strong>: no water, honey, gripe water, ghutti, formula or animal milk.</li>
+<li><strong>Continue breastfeeding up to two years or more</strong> along with other foods.</li>
+</ol>
+<p>India's NFHS-5 (National Family Health Survey, 2019 to 2021) found that about <strong>64% of babies under six months were exclusively breastfed</strong> <code>⚠ verify</code>. <strong>Honey must not be given before age one</strong> (it can cause infant botulism, a rare serious illness from bacteria spores).</p>
+<p><strong>Infant formula</strong> is a safe option when breastfeeding is not possible, if prepared exactly as the label says. Do not dilute it to save money.</p>
+<p><strong>Weaning (complementary feeding)</strong> means starting other foods at <strong>six completed months</strong>:</p>
+<ul>
+<li>Start with soft, mashed home foods such as khichdi, mashed banana, rice with ghee and egg.</li>
+<li>Add a new food every few days. Aim for variety, with iron-rich foods (see anaemia below).</li>
+<li>Do not add salt or sugar early. Avoid whole nuts (choking risk). Avoid <strong>Cerelac-type sweetened products as the main food</strong>.</li>
+</ul>
+<h2 id="4-fever"><a class="header" href="#4-fever">4. Fever</a></h2>
+<p>See <a href="../02-diseases/common-fevers-india.html">Common fevers in India</a>.</p>
+<p><strong>Fever</strong> is a rise in body temperature, usually a sign the body is fighting an infection. It is <strong>not itself a disease</strong>. A common cut-off is <strong>38 °C (100.4 °F) or above</strong>.</p>
+<ul>
+<li>Fever in a baby <strong>under three months</strong> is <strong>always a reason to see a doctor the same day</strong>. <code>⚠ verify</code></li>
+<li>In older children, <strong>how the child looks matters more than the number.</strong> A child who plays, drinks and smiles between fevers is usually not seriously ill.</li>
+<li>Treat the <strong>child's discomfort</strong>, not the number. Dress lightly and offer fluids. Do not use cold water or alcohol rubs.</li>
+<li>A doctor may advise paracetamol based on weight. Never guess the amount (this handbook gives no doses). <strong>Avoid aspirin in children</strong> (risk of Reye syndrome, a rare serious liver and brain illness). See <a href="../04-medicines/painkillers-steroids-acidity-supplements.html">Painkillers, steroids, acidity medicines and supplements</a>.</li>
+<li>Febrile fits (seizures from a quick rise in temperature) look frightening but are usually harmless. Place the child on the side and go for a check. See <a href="../10-practical/first-aid-and-emergencies.html">First aid and emergencies</a>.</li>
+</ul>
+<p>A common cold lasts about 7 to 10 days and no antibiotic helps.</p>
+<h2 id="5-diarrhoea-and-ors"><a class="header" href="#5-diarrhoea-and-ors">5. Diarrhoea and ORS</a></h2>
+<p><strong>Diarrhoea</strong> is three or more loose watery stools in a day. The danger is <strong>dehydration</strong> (loss of water and salts), not the loose stool itself. Diarrhoea is the third leading cause of death in children under five worldwide (WHO).</p>
+<p><strong>ORS (oral rehydration solution)</strong> is a measured mix of salts and sugar that helps the gut absorb water.</p>
+<ul>
+<li>Use <strong>ORS packets</strong> sold at pharmacies and given free by government centres, mixed <strong>exactly as the packet says</strong> in clean water. <strong>Do not use packaged fruit "ORS" drinks</strong> sold in shops; they have too much sugar. The IAP (Indian Academy of Pediatrics) objected to products labelled "ORS" that do not meet the WHO formula, and in October 2025 the FSSAI (Food Safety and Standards Authority of India) ordered that "ORS" may not be used on food or drink labels unless the product matches the WHO formula. <code>⚠ verify the FSSAI order text</code></li>
+<li><strong>Zinc</strong> (a mineral) given for the number of days a doctor or the programme advises shortens diarrhoea. ORS and zinc are supplied free to households with children under five under the national <strong>STOP Diarrhoea Campaign</strong> (earlier the Intensified Diarrhoea Control Fortnight).</li>
+<li><strong>Keep breastfeeding and keep feeding</strong> during diarrhoea.</li>
+<li><strong>Antibiotics are not needed for most diarrhoea.</strong> Anti-motility drugs (those that stop the gut moving) should not be given to young children.</li>
+</ul>
+<p>Seek help at once for <strong>blood in the stool, very frequent watery stool, repeated vomiting, sunken eyes, no urine for six to eight hours, unusual sleepiness, or inability to drink.</strong></p>
+<h2 id="6-malnutrition-and-anaemia"><a class="header" href="#6-malnutrition-and-anaemia">6. Malnutrition and anaemia</a></h2>
+<p><strong>Malnutrition</strong> means the body is not getting the right amount of food or nutrients. It includes undernutrition (stunting, wasting) and also overweight. NFHS-5 found that about <strong>36% of Indian children under five were stunted, 19% wasted and 32% underweight</strong>, and that the number who were overweight was rising <code>⚠ verify</code>.</p>
+<p>A child with <strong>severe acute malnutrition</strong> (very thin, swollen feet, or a very small upper-arm circumference on the MUAC tape, a colour-coded measuring band) needs <strong>treatment at a Nutrition Rehabilitation Centre or by a doctor</strong>, not just home food.</p>
+<p><strong>Anaemia</strong> means too few red blood cells or too little haemoglobin (the protein that carries oxygen). Read <a href="../02-diseases/anaemia.html">Anaemia</a>. NFHS-5 found about <strong>67% of children aged 6 to 59 months were anaemic</strong> <code>⚠ verify</code>. Iron shortage is the commonest cause. Prevention: iron-rich foods (dal, green leafy vegetables, eggs, meat, fish) with vitamin C, <strong>delayed cord clamping at birth</strong>, deworming, and the <strong>government iron and folic acid programme</strong> (Anaemia Mukt Bharat). A doctor should test before iron medicine is started, because too much iron is harmful.</p>
+<h2 id="7-danger-signs-when-to-go-to-a-doctor-today"><a class="header" href="#7-danger-signs-when-to-go-to-a-doctor-today">7. Danger signs: when to go to a doctor today</a></h2>
+<p>The <strong>IMNCI</strong> (Integrated Management of Neonatal and Childhood Illness, a WHO and Indian programme) lists <strong>general danger signs</strong> in a sick child:</p>
+<ul>
+<li><strong>Cannot drink or breastfeed</strong>, or <strong>vomits everything</strong></li>
+<li><strong>Convulsions</strong> (fits)</li>
+<li><strong>Unusually sleepy, floppy or hard to wake</strong></li>
+<li><strong>Fast breathing</strong> or <strong>chest drawing in</strong> (the lower chest pulls inward when breathing in), <strong>grunting</strong>, or blue lips</li>
+<li><strong>Fever lasting more than two to three days</strong>, or any fever with a <strong>rash that does not fade when pressed</strong></li>
+<li><strong>Dehydration signs</strong> (see above), or <strong>no urine</strong> for eight hours</li>
+</ul>
+<p>Fast breathing example (WHO, approximate): above 60 breaths a minute under 2 months, above 50 for 2 to 11 months, above 40 for 1 to 5 years. <code>⚠ verify</code></p>
+<p>Call <strong>112</strong> or <strong>108</strong> for severe signs. ASHA (accredited social health activist) workers can give first advice and refer.</p>
+<h2 id="8-antibiotic-and-cough-syrup-misuse"><a class="header" href="#8-antibiotic-and-cough-syrup-misuse">8. Antibiotic and cough syrup misuse</a></h2>
+<p><strong>Antibiotics</strong> kill bacteria. They <strong>do not work on viruses</strong>, which cause most colds, coughs, sore throats and diarrhoea. Giving them when not needed does harm: diarrhoea, rashes, allergies, and <strong>antibiotic resistance</strong> (germs that no longer die). Read <a href="../04-medicines/antibiotics-and-resistance.html">Antibiotics and resistance</a>.</p>
+<ul>
+<li><strong>Do not give leftover antibiotics.</strong> If a doctor prescribes one, ask why and for how long.</li>
+</ul>
+<p><strong>Cough and cold syrups.</strong></p>
+<ul>
+<li>Many contain <strong>fixed-dose combinations (FDCs)</strong>, two or more drugs in one bottle (see <a href="../04-medicines/fdc-and-spurious-drugs.html">Fixed-dose combinations and spurious drugs</a>).</li>
+<li>Evidence shows <strong>most cough and cold medicines do not help young children and can harm</strong>. The US FDA advises against them under two years; India's DCGI (Drugs Controller General of India, the national drug regulator) said in December 2023 that <strong>the fixed-dose combination of chlorpheniramine and phenylephrine (two medicines in one syrup) should not be used for children under four years</strong> and labels must say so. In 2025 the DGHS (Directorate General of Health Services) advised that cough and cold medicines should not be prescribed or given to children under two. <code>⚠ verify the exact notices</code></li>
+<li>In 2022 to 2023, <strong>contaminated cough syrups</strong> made in India were linked to child deaths abroad (The Gambia, Uzbekistan) and in India (Madhya Pradesh, 2025) because of poisonous <strong>diethylene glycol</strong> <code>⚠ verify</code>. Safer care: <strong>honey for children over one year, fluids, saline nose drops, rest</strong>.</li>
+</ul>
+<h2 id="9-vaccines"><a class="header" href="#9-vaccines">9. Vaccines</a></h2>
+<p>Full schedule and explanations are in <a href="../07-prevention/vaccines-and-immunisation.html">Vaccines and immunisation</a>. Key points for parents:</p>
+<ul>
+<li>Vaccines under India's <strong>Universal Immunisation Programme</strong> are <strong>free</strong> at government centres and start <strong>at birth</strong>.</li>
+<li><strong>Keep the card</strong> (or U-WIN record). A mild illness is usually not a reason to skip.</li>
+<li>Myths: vaccines do not cause autism, and they do not "weaken" the immune system.</li>
+</ul>
+<h2 id="10-misinformation-and-how-you-get-misled-india"><a class="header" href="#10-misinformation-and-how-you-get-misled-india">10. Misinformation and how you get misled (India)</a></h2>
+<ul>
+<li>"Gripe water, ghutti or water is needed in summer": <strong>not true</strong>; breast milk alone is enough.</li>
+<li>"A drip (IV fluid) is needed for loose motions": most children recover with ORS. See <a href="../09-indian-healthcare/health-misinformation.html">Health misinformation</a>.</li>
+</ul>
+<h2 id="11-ask-your-doctor"><a class="header" href="#11-ask-your-doctor">11. Ask your doctor</a></h2>
+<ol>
+<li>Is my child's weight and height on track? Show me on the chart.</li>
+<li>Is this infection viral or bacterial? Is an antibiotic really needed?</li>
+<li>How much fluid, and which signs mean I should return?</li>
+<li>Is this syrup safe at this age?</li>
+</ol>
+<h2 id="12-red-flags"><a class="header" href="#12-red-flags">12. Red flags</a></h2>
+<p><strong>Emergency (112 or 108):</strong> fits that do not stop, blue lips, severe difficulty breathing, floppy or unrousable child, a <strong>rash that does not fade</strong>, signs of severe dehydration, a suspected poisoning, a head injury with vomiting or drowsiness.</p>
+<p><strong>Same day:</strong> fever in a baby under three months; fever more than three days; a baby who will not feed; blood in stool; ear discharge; fast breathing.</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Paediatrician</strong> child doctor · <strong>Growth chart</strong> a graph of a child's size · <strong>Z-score</strong> distance from the average · <strong>Stunting / wasting / underweight</strong> low height, weight-for-height, weight for age · <strong>Milestone</strong> an expected skill for an age · <strong>Colostrum</strong> first breast milk · <strong>Exclusive breastfeeding</strong> only breast milk · <strong>Complementary feeding (weaning)</strong> adding family foods · <strong>ORS</strong> oral rehydration solution · <strong>Dehydration</strong> loss of body water · <strong>Anaemia</strong> low haemoglobin · <strong>IMNCI</strong> Integrated Management of Neonatal and Childhood Illness · <strong>Antibiotic resistance</strong> germs that no longer respond to antibiotics · <strong>FDC</strong> fixed-dose combination · <strong>RBSK</strong> national child health screening programme.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>WHO and UNICEF. Infant and young child feeding; WHO Child Growth Standards; WHO/UNICEF ORS and zinc recommendations.</li>
+<li>International Institute for Population Sciences and MoHFW. National Family Health Survey 5 (NFHS-5), 2019 to 2021.</li>
+<li>MoHFW. IMNCI, RBSK, Anaemia Mukt Bharat, STOP Diarrhoea Campaign, Universal Immunisation Programme documents.</li>
+<li>Indian Academy of Pediatrics (IAP). Immunisation timetable; guidance on fluid therapy and antibiotic use; ORS labelling statements.</li>
+<li>DCGI / CDSCO notices on fixed-dose cough and cold products (2023); WHO medical product alerts on contaminated syrups (2022 and 2023).</li>
+<li>NICE (UK) guideline on fever in under-fives; AAP (USA) guidance on fever and on cough and cold medicine in children.</li>
+<li>CDC and AAP developmental milestone checklists.</li>
+<li>ICMR-NIN. Dietary Guidelines for Indians, 2024.</li>
+</ol>
+<p><strong>Not verified:</strong> the NFHS-5 percentages, the 6 to 8 colds a year figure, the fast-breathing cut-offs, the exact DCGI, DGHS and FSSAI notice texts (reported by news and search summaries only; official pages blocked or not found), the contaminated syrup events and deaths, the current RBSK statements, the WHO diarrhoea fact (confirmed: third leading cause worldwide; India-only ranking not confirmed), the milestone ages, and the exact fever advice for babies under three months. Confirm against the cited sources.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../06-life-stages/ageing-and-elderly-care.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../06-life-stages/pregnancy-and-childbirth.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../06-life-stages/ageing-and-elderly-care.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../06-life-stages/pregnancy-and-childbirth.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

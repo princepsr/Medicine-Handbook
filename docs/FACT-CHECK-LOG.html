@@ -1,0 +1,447 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Fact-check log - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-0392ca55.css">
+        <link rel="stylesheet" href="css/chrome-fc474251.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="fact-check-log"><a class="header" href="#fact-check-log">Fact-check log</a></h1>
+<p>A first fact-check pass was run on all chapters (body, tests, start-here and the three disease chapters). It was done by AI agents using web searches, <strong>not by a doctor</strong>.</p>
+<blockquote class="blockquote-tag blockquote-tag-warning">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<p><strong>Read this before trusting any number.</strong> Many agents could only run a handful of searches and checked a lot from standard textbook knowledge, not from the original page. "Confirmed" below means "consistent with what the agent found or recalled", not "verified against a primary source". A doctor still needs to review every chapter.</p>
+</blockquote>
+<h2 id="what-was-changed-35--11-edits"><a class="header" href="#what-was-changed-35--11-edits">What was changed (35 + 11 edits)</a></h2>
+<ul>
+<li><strong>Added Indian sources or figures:</strong> Indian hypertension guideline (140/90 vs US 130/80); NFHS-5 anaemia figures; India's share of world TB cases; Lipid Association of India LDL targets; India's national screening programme (VIA, clinical breast examination, oral visual examination); India menopause average; viral hepatitis as the commonest cause of acute liver failure in India.</li>
+<li><strong>Corrected wording:</strong> statin muscle aches (about 27% on both statin and placebo); triglyceride and pancreatitis thresholds; R value for liver patterns; AST:ALT clue; ferritin cut-off with inflammation (WHO about 70 ng/mL, not 100); vitamin D guideline status (2024 Endocrine Society advises against routine testing); cholesterol made "by the body, mainly liver and gut"; liver blood share; lobule count removed; intestine length (about 3 m in life, 6 m after death); lactose intolerance and PPI wording; DiRECT 5-year remission (about 13%); HbA1c in thalassaemia and variants; MR vs MMR vaccine; biotin interference (falsely low and high).</li>
+<li><strong>Softened or removed unsupported claims:</strong> "a few milligrams of iron per ng/mL" ferritin statement; B12 prevalence figure.</li>
+</ul>
+<h2 id="still-unverified-or-open"><a class="header" href="#still-unverified-or-open">Still unverified or open</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Area</th><th>Open item</th></tr>
+</thead>
+<tbody>
+<tr><td>Whole book</td><td>Chapters were written from standard physiology. Source lines such as "Guyton and Hall (edition to be named)" and "OpenStax" were not checked page by page.</td></tr>
+<tr><td>Heart, lungs, blood</td><td>Resting heart rate, ejection fraction range, SpO2 level, 0.70 COPD cut-off, WHO anaemia cut-offs (agents recalled these; not fetched)</td></tr>
+<tr><td>Kidney, liver, digestion</td><td>KDIGO stages, glucose spill threshold (about 180 mg/dL), H. pylori and NSAID statement, transit time, large intestine length, liver weight, hepatocyte share, regeneration</td></tr>
+<tr><td>Endocrine, metabolism, brain</td><td>T4:T3 output ratio, share of T3 from tissues, BMR share, example electrolyte ranges, stroke time windows (none given in text)</td></tr>
+<tr><td>Immune, bones, reproductive, cancer</td><td>UIP schedule detail, 99% calcium in bone, egg numbers, PSA statement, HPV/hepatitis B/H. pylori as cancer causes (standard teaching, not searched)</td></tr>
+<tr><td>Tests</td><td>All example reference ranges in CBC, LFT/KFT, lipids, urine; dengue transfusion threshold (Indian guideline text not read); NABL scheme details; Widal and dengue timing statements; non-fasting lipid acceptance; Friedewald limit; urine thresholds</td></tr>
+<tr><td>Diseases</td><td>Hashimoto's as commonest cause <strong>in India</strong> (no source); how long levothyroxine is needed; ADA diagnostic table (recalled, not fetched); iron deficiency raising HbA1c; NLEM 2022 listing of metformin and glimepiride (PDF not read); usual Indian ALT limit; UDCA and silymarin evidence</td></tr>
+<tr><td>Policy</td><td>The NMC "cut practice" rule in the lab-reports chapter; Indian vitamin D testing guidance</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="next-verification-steps"><a class="header" href="#next-verification-steps">Next verification steps</a></h2>
+<ol>
+<li>Doctor review of each chapter (the main safeguard).</li>
+<li>Check the items above against primary documents (ADA Standards of Care, KDIGO, NLEM 2022 PDF, NVBDCP dengue guideline 2023, NP-NCD guidelines).</li>
+<li>Fill in sources that still say "(to be added)".</li>
+</ol>
+<hr>
+<h2 id="second-pass-medicines-chapters-04-medicines"><a class="header" href="#second-pass-medicines-chapters-04-medicines">Second pass: medicines chapters (04-medicines)</a></h2>
+<p>Four agents checked the eight medicines chapters. They ran only a handful of searches each, mostly reading search summaries rather than primary documents, and many topics were not searched at all.</p>
+<p><strong>Changed or added</strong></p>
+<ul>
+<li>Nimesulide: India banned oral immediate-release nimesulide above 100 mg in December 2025 (notification S.O. 6091(E)).</li>
+<li>Schedule H1 (in force March 2014), Schedule X, Red Line campaign (2016), MRP (packaged-goods rules, not the Drugs Rules), NAP-AMR 2.0 (2025 to 2029), ranitidine (not banned in India), generic-prescribing rule (2002 regulations, clause 1.5 amended 2016; 2023 NMC regulations put on hold August 2023).</li>
+<li>Jan Aushadhi (about 17,990 Kendras at 31 December 2025; prices 50 to 80% lower; basket about 2,100 medicines), GST on medicines (5% since 22 September 2025), QR codes (required for top 300 brands since 1 August 2023), no finalised e-pharmacy rules, 10% yearly cap on non-scheduled drugs (DPCO paragraph 20), the 344-FDC ban history, cough-syrup advice for children, PvPI helpline.</li>
+<li>Montelukast boxed warning, febuxostat boxed warning, valproate (UK practice), NSAIDs from about 20 weeks of pregnancy, sick-day rules (added SGLT2 inhibitors and sulfonylureas), narrow-margin drug examples, side-effect frequency bands.</li>
+</ul>
+<p><strong>Still unverified (medicines)</strong></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Area</th><th>Open item</th></tr>
+</thead>
+<tbody>
+<tr><td>Antibiotics</td><td>India's consumption and resistance burden, AWaRe grouping, course-duration evidence, diarrhoea guidance, fluoroquinolone and azithromycin warnings, doxycycline in pregnancy, metronidazole and alcohol, C. difficile</td></tr>
+<tr><td>Painkillers etc.</td><td>NSAID, paracetamol and steroid statements; steroid-cream ringworm epidemic (no regulator or dermatology-society source found); hidden steroids and heavy metals in herbal products; PPI risk strength; FSSAI rules; domperidone Indian rules</td></tr>
+<tr><td>Prescriptions</td><td>Abbreviation list, the "1-0-1" notation, Schedule G, whether the Red Line covers medicines other than antibiotics</td></tr>
+<tr><td>Generics, FDCs</td><td>Whether Jan Aushadhi medicines are all lab-tested; which Indian drugs need bioequivalence studies; the 2018 FDC ban counts; exact cough-syrup death counts and causation; current NLEM (2022) status</td></tr>
+<tr><td>Drug classes</td><td>Most class cautions (ACE inhibitors, thiazides, beta-blockers, nitrates, digoxin, DOACs, statins, bisphosphonates, SSRIs, benzodiazepines, carbamazepine HLA-B<em>1502 testing, allopurinol HLA-B</em>5801, colchicine), most interaction pairs, Beers examples</td></tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id="third-pass-seven-new-disease-chapters-02-diseases"><a class="header" href="#third-pass-seven-new-disease-chapters-02-diseases">Third pass: seven new disease chapters (02-diseases)</a></h2>
+<p>High blood pressure, coronary heart disease, chronic kidney disease, anaemia, asthma and COPD, common fevers in India and tuberculosis were checked by four agents. As before, they ran only a handful of searches each, mostly reading search summaries, and several topics were not searched.</p>
+<p><strong>Changed or added</strong></p>
+<ul>
+<li><strong>Blood pressure:</strong> ICMR-INDIAB prevalence (35.5%, with NFHS-5 lower), Indian home and 24-hour thresholds, salt intake (8 to 11 g a day), targets differ by guideline, the Lewington risk statement (each 20 mmHg above about 115/75 in ages 40 to 89), ACC/AHA 2025 keeps 130/80.</li>
+<li><strong>Coronary disease:</strong> South Asians develop it roughly 5 to 10 years earlier (not "a decade"); STEMI/NSTEMI defined by ECG, not by complete versus partial blockage; ISCHEMIA conditions and exclusions; stent caps (13 February 2017: Rs 7,260 and Rs 29,600; revised 2018); cardiac rehabilitation wording; heart failure drug classes (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2 inhibitor, water tablets); aspirin only for selected people aged 40 to 70.</li>
+<li><strong>Kidney disease:</strong> KDIGO 2024 blood-pressure and SGLT2 inhibitor wording; PMNDP free dialysis for below-poverty-line patients at district hospitals (PM-JAY link only partly confirmed).</li>
+<li><strong>Anaemia:</strong> WHO cut-offs by age, severity bands, six Anaemia Mukt Bharat groups, alternate-day iron evidence limited (WHO recommends daily).</li>
+<li><strong>Asthma and COPD:</strong> household cooking smoke wording; fish medicine has no scientific evidence; GINA does not recommend a reliever alone.</li>
+<li><strong>Fevers:</strong> dengue febrile phase 2 to 7 days, recovery phase, NCVBDC warning-sign list, IgM from about day 5, platelet transfusion only with bleeding (preventive below about 10,000), papaya leaf extract (low-quality studies), malaria ACT depends on region and G6PD test advised where available, vivax can also be severe, typhoid fluoroquinolone resistance very high in India, typhoid vaccine availability to be confirmed.</li>
+<li><strong>Tuberculosis:</strong> the Indian national regimen is 2HRZE then 4HRE (three drugs, including ethambutol, in the second phase), TB meningitis courses are longer, Ni-kshay Poshan Yojana Rs 1,000 a month (from October 2024), infectiousness falls with treatment but the time varies, BPaLM approved in India in 2024.</li>
+</ul>
+<p><strong>Still unverified (new chapters)</strong></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Area</th><th>Open item</th></tr>
+</thead>
+<tbody>
+<tr><td>Blood pressure</td><td>Measurement technique details, the secondary-cause share, "check yearly after 30", salt figures vary by survey</td></tr>
+<tr><td>Coronary disease</td><td>CVD as India's leading cause of death, risk-assessment ages, emergency numbers by state, aspirin chewing advice (standard teaching, not fetched)</td></tr>
+<tr><td>Kidney disease</td><td>CKDu in India, herbal/bhasma toxicity, Indian prevalence, whether Ayushman Bharat covers dialysis</td></tr>
+<tr><td>Anaemia</td><td>Time to haemoglobin rise, the 2024 WHO cut-offs (recalled, not fetched)</td></tr>
+<tr><td>Asthma and COPD</td><td>GOLD 0.70 cut-off (recalled), the National Tobacco Quitline details, Ujjwala's effect on disease</td></tr>
+<tr><td>Fevers</td><td>Aedes and Anopheles habits, leptospirosis and scrub typhus clues, ORS, Widal and blood culture claims (ICMR or IAP source still needed), TCV in the Indian schedule, current Indian typhoid guideline</td></tr>
+<tr><td>Tuberculosis</td><td>TB preventive treatment groups and age cut-offs, India's elimination target year, CBNAAT/Truenat availability, BCG and Mantoux/IGRA, mandatory notification, bone TB duration</td></tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id="fourth-pass-decisions-indian-healthcare-and-practical-chapters"><a class="header" href="#fourth-pass-decisions-indian-healthcare-and-practical-chapters">Fourth pass: decisions, Indian healthcare and practical chapters</a></h2>
+<p>Second opinions and treatment decisions, hospital bills and insurance, patient rights and complaints, health misinformation, first aid and worked examples were checked by four agents. They ran only a handful of searches each (mostly summaries, no primary PDFs), and much of the legal and policy detail could not be confirmed.</p>
+<p><strong>Changed or added</strong></p>
+<ul>
+<li><strong>Insurance:</strong> Ombudsman limit Rs 50 lakh (from Rs 30 lakh in 2023) with the complaint-first procedure and one-year filing limit; PED waiting at most 3 years and 5-year moratorium on continuous cover from 1 April 2024; PM-JAY Rs 5 lakh per family and the 70-and-above extension (October 2024); out-of-pocket spending 39.4% of health spending in 2021-22; MRP is a ceiling not a fair price; rate display only in states that adopted the Clinical Establishments Act; knee implant caps revised since 2017.</li>
+<li><strong>Patient rights:</strong> the Charter went to states in 2019 as a recommendation, extended to 20 rights in 2021 (legal force unconfirmed); records rule is Regulation 1.3.2 (72 hours); e-Jagriti replaced e-Daakhil (2025); consumer commission limits by the value paid; filing fee nil up to Rs 5 lakh; Good Samaritan under Section 134A and the 2016 Supreme Court ruling; Shantha covers paid services only.</li>
+<li><strong>Decisions and misinformation:</strong> National Medical Register lookup steps; the 2023 living-will simplification; Magic Remedies Act schedule (diabetes and cancer confirmed, heart disease not); CCPA penalties; PIB Fact Check scope; the 2008 JAMA Ayurvedic heavy-metals study.</li>
+<li><strong>First aid:</strong> AIIMS poison centre 1800 116 117; check breathing for up to 10 seconds, no pulse check for lay rescuers; tourniquet placement; RIG for every category III exposure; antivenom does not cover every snake; limb at about heart level; juice quantity for low sugar; heatstroke and anaphylaxis additions.</li>
+<li><strong>Worked examples:</strong> consistent repeat-TSH advice, the liver example arithmetic, a note on thalassaemia trait and ferritin.</li>
+</ul>
+<p><strong>Still unverified (these chapters)</strong></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Area</th><th>Open item</th></tr>
+</thead>
+<tbody>
+<tr><td>Decisions and misinformation</td><td>ASCI complaint process, the 1915 helpline, FSSAI and WHO infodemic details, vaccine-autism and other myth statements, NABH voluntary status, current National Medical Register coverage</td></tr>
+<tr><td>Insurance</td><td>30-day initial waiting period (typical, not a rule), Bima Bharosa, current knee-implant cap amounts, number of states that adopted the Clinical Establishments Act</td></tr>
+<tr><td>Patient rights</td><td>Legal enforceability of the Charter, the two-year limitation period, the 1915 helpline, the exact holdings in Parmanand Katara and Jacob Mathew, current consumer filing-fee table, Good Samaritan clauses, any newer NMC regulations</td></tr>
+<tr><td>First aid</td><td>CPR figures and choking order (from training standards, not fetched), snakebite death estimates (about 50,000 to 58,000, estimates vary), Tele-MANAS 14416, 112/108/102 numbers, burns cooling time, seizure 5-minute rule, ABHA features and phone medical ID</td></tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id="fifth-pass-nutrition-obesity-vaccines-screening-and-lifestyle"><a class="header" href="#fifth-pass-nutrition-obesity-vaccines-screening-and-lifestyle">Fifth pass: nutrition, obesity, vaccines, screening and lifestyle</a></h2>
+<p>The two nutrition chapters, obesity and metabolic syndrome, vaccines and immunisation, screening and check-ups, and lifestyle were checked by four agents. As before, they ran a handful of searches each (the ICMR-NIN 2024 PDF itself would not load, so ICMR items rest on news summaries) and several topics were not searched.</p>
+<p><strong>Changed or added</strong></p>
+<ul>
+<li><strong>Nutrition:</strong> ICMR-NIN plate wording (at least eight food groups, about half vegetables and fruit; the quarter-and-quarter split is a simple rule, not the ICMR plate), cereals at no more than about 45% of energy (current intake 50 to 70%), pulses and animal foods 6 to 9% against 14% recommended, added sugar under 5% of energy per ICMR-NIN (WHO under 10%, conditionally 5%), oil about 25 to 30 g a day, front-of-pack labels proposed but not in force (before the Supreme Court), "+F" logo, coeliac prevalence 1.0 to 1.2% in northern India, WHO 2023 sweeteners wording, intermittent fasting evidence reworded to the umbrella review.</li>
+<li><strong>Obesity:</strong> NFHS-5 figures use BMI 25 and above (WHO cut-off), calorie-deficit rule softened to 0.25 to 0.5 kg a week, GLP-1 launches (tirzepatide March 2025, semaglutide June 2025), 2022 ASMBS/IFSO surgery thresholds, IDF and 2009 harmonised definitions cited separately.</li>
+<li><strong>Vaccines:</strong> India's free national HPV programme (February 2026, reportedly one dose for 14-year-old girls; IAP recommends two doses at 9 to 14 privately), PCV and fIPV at 6 and 14 weeks, vitamin A timing left to local advice, pneumococcal adults 65 and over (some guidelines 50).</li>
+<li><strong>Screening:</strong> mammography every 2 years at 40 to 74 (US 2024), colorectal from 45 (US 2021), PSA shared decision 55 to 69 (US 2018), ICMR diabetes screening from 30 (expert panel 25), NP-NCD cancer screening every 5 years at 30 to 65.</li>
+<li><strong>Lifestyle:</strong> steps (2025 review: about 7,000 steps, roughly 47% lower risk of death than 2,000), tobacco 28.6% (21.4% smokeless, 10.7% smoking), Quit Line 1800-11-2356, quitting medicines wording, e-cigarette ban details, sleep for over-65s, N95 seal advice.</li>
+</ul>
+<p><strong>Still unverified (these chapters)</strong></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Area</th><th>Open item</th></tr>
+</thead>
+<tbody>
+<tr><td>Nutrition</td><td>The ICMR-NIN 2024 content (primary PDF not read), the FSSAI trans fat limit, multigrain and brown bread labelling, IARC processed meat, keto with SGLT2 inhibitors, protein supplement contamination, millets and glycaemic effect, religious fasting advice for diabetes</td></tr>
+<tr><td>Obesity</td><td>STEP 1 and SURMOUNT-1 results, waist-to-height ratio, IDF criteria and the 5 to 10% weight-loss benefit (recalled, not fetched), NFHS-6 figures, current GLP-1 prices and generics</td></tr>
+<tr><td>Vaccines</td><td>The exact national schedule PDF, HPV programme numbers and dose, adult vaccine groups, travel vaccine rules, anaphylaxis wait time, late dose continues the schedule</td></tr>
+<tr><td>Screening</td><td>Lipid and DEXA ages, hepatitis B/C screening, HPV testing interval, the antenatal list</td></tr>
+<tr><td>Lifestyle</td><td>The muscle-strengthening and sleep bands (WHO/AASM text not opened), COTPA provisions, darker-skin cancer risk statement, road injury figures, alcohol prevalence details</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="sixth-pass-imaging-and-ecg-stroke-mental-health-basics-pcos-and-womens-health-digestive-diseases-pocket-cards-glossary"><a class="header" href="#sixth-pass-imaging-and-ecg-stroke-mental-health-basics-pcos-and-womens-health-digestive-diseases-pocket-cards-glossary">Sixth pass: imaging and ECG, stroke, mental health basics, PCOS and women's health, digestive diseases, pocket cards, glossary</a></h2>
+<p>Four report-only agents checked the files, mostly through search snippets. Many items rest on recalled guideline content and stay flagged.</p>
+<p><strong>Changed</strong></p>
+<ul>
+<li><strong>Digestive:</strong> alarm-feature age moved from 50 to 55 to about 60 (ACG/CAG 2017), with earlier checks for family history, and endoscopy described as a doctor's case-by-case decision; "fair, fat, female, forty" softened; reflux PPI course "about 8 weeks" (ACG 2022); H. pylori test of cure at least 4 weeks after treatment, PPIs stopped 2 weeks before, and bismuth quadruple therapy for 14 days preferred (ACG 2024); the unsupported "clarithromycin resistance is high in India" changed to "common in many regions".</li>
+<li><strong>Pocket cards:</strong> glucose row now says fasting and adds the prediabetes band.</li>
+<li><strong>Stroke:</strong> ischaemic share 85 to 87%; neurons "an estimated 1.9 million per minute in a typical large stroke (modelled average)" (Saver 2006); thrombectomy access reworded to limited, mostly urban centres; TIA risk "first few days to weeks".</li>
+<li><strong>Mental health:</strong> treatment gap about 85% overall, above 60% for nearly every condition (NMHS 2015-16); Section 115 wording replaces "decriminalised"; NCRB 2022 about 1.7 lakh suicides, and the unsupported "young people, farmers, students, women" removed.</li>
+<li><strong>Imaging:</strong> radiation comparisons (chest X-ray few to about 10 days, abdominal CT about 2 to 3 years); metformin by eGFR (30), contrast kidney risk narrowed; gadolinium NSF wording; pregnancy row; LVEF about 52 to 74% and 40% or below reduced; back pain "about 6 weeks".</li>
+<li><strong>PCOS and women's health:</strong> India prevalence about 5 to 20%, pooled about 10%; AMH can replace ultrasound in adults; "a fifth to a third" and "many women have fibroids by 50" removed as unsourced; metformin, spironolactone, letrozole (off-label in India), tranexamic acid, heavy-period (about 8 days), hormone therapy, emergency contraception, MTP Act and gestational diabetes testing (first visit plus 24 to 28 weeks) wording corrected or extended.</li>
+</ul>
+<p><strong>Still unverified (these chapters)</strong></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Area</th><th>Open item</th></tr>
+</thead>
+<tbody>
+<tr><td>Imaging</td><td>ACR dose card and contrast manual read only through secondary sources; NICE back-pain red-flag list; PCPNDT penalties; ST-T changes, LVH, diastolic dysfunction, fasting and bladder preparation, MR-conditional pacemakers, DEXA and PET doses</td></tr>
+<tr><td>Stroke</td><td>Thrombolysis 4.5 h and thrombectomy windows, secondary prevention drugs, BE-FAST wording, "no aspirin before CT", Indian burden claims</td></tr>
+<tr><td>Mental health</td><td>MHCA rights list, antidepressant onset and black-box warning, benzodiazepines, lithium and valproate, ECT, PHQ-9 and GAD-7, whether BNS changed the suicide-attempt position</td></tr>
+<tr><td>PCOS</td><td>Endometriosis delay, MoHFW antenatal wording, DIPSI cut-offs, the 2022 Supreme Court MTP ruling, emergency contraception OTC status, Sources list citations</td></tr>
+<tr><td>Digestive</td><td>Rome IV, IBS, low-FODMAP, Indian H. pylori resistance figures, gallbladder polyp thresholds, rectal-bleeding age</td></tr>
+<tr><td>Pocket cards and glossary</td><td>Example ranges and BE-FAST not searched; Tele-MANAS 14416 confirmed only for the mental health file; the glossary was not checked line by line</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="seventh-pass-the-14-chapters-written-after-the-sixth-pass"><a class="header" href="#seventh-pass-the-14-chapters-written-after-the-sixth-pass">Seventh pass: the 14 chapters written after the sixth pass</a></h2>
+<p>Five report-only agents checked cholesterol, hepatitis and cirrhosis, kidney stones/UTI/AKI, pneumonia, migraine and epilepsy, prostate, osteoporosis and arthritis, common cancers, cancer treatment, labs, children, pregnancy, ageing, and skin/eyes/ears/teeth. Most checks used search snippets, not primary documents. The drafts had been written from memory, so many items remain unverified.</p>
+<p><strong>Changed</strong></p>
+<ul>
+<li><strong>Cholesterol:</strong> very-high-risk goals now name ESC/EAS (below 55 mg/dL) and the Lipid Association of India 2020 (below 50, and 30 or lower for extreme risk); the unsupported "no known too-low danger" replaced; bempedoic acid and inclisiran reworded.</li>
+<li><strong>Hepatitis:</strong> hepatitis E vaccine (Hevaxin, reported approved 2025) replaces "not widely available"; hepatitis A noted as private and not in the free schedule; NVHCP estimate wording.</li>
+<li><strong>Kidney:</strong> "stone belt" removed (no source); urine-volume advice aligned with AUA and EAU.</li>
+<li><strong>Pneumonia:</strong> oxygen thresholds made consistent (below 94% review, below 92% emergency, children below 90%); WHO fast-breathing cut-offs added.</li>
+<li><strong>Migraine and epilepsy:</strong> Indian prevalence stated as a rate (5 to 6 per 1,000); the Rights of Persons with Disabilities Act wording made firmer (epilepsy not named).</li>
+<li><strong>Osteoporosis:</strong> the Indian FRAX claim softened.</li>
+<li><strong>Cancers:</strong> about 1.4 million cases (GLOBOCAN 2022), NP-NCD replaces NPCDCS, non-smoker lung share removed, National Cancer Grid about 390 members, stem-cell wording attributed to ICMR 2017.</li>
+<li><strong>Labs:</strong> pre-analytical share 46 to 68%; commissions called unethical under NMC ethics rules (the "illegal" and Clinical Establishments claims removed); the unsourced report-withholding rule replaced; records rights tied to the Patients' Rights Charter.</li>
+<li><strong>Children:</strong> STOP Diarrhoea Campaign replaces the fortnight.</li>
+<li><strong>Pregnancy:</strong> MMR 88 (SRS 2020 to 22); caesarean figures (21.5%, 47% private, 14% public, Telangana about 81%); WHO statement corrected (no target rate); PMMVY amounts.</li>
+<li><strong>Ageing:</strong> dementia figure re-sourced to LASI-DAD 2023; living will 2023 procedure; 2019 amendment lapsed; "three in four" removed.</li>
+<li><strong>Skin and ears:</strong> headphone 60/60 rule removed; glutathione wording.</li>
+</ul>
+<p><strong>Also applied afterwards:</strong> hepatitis B birth-dose timing and liver-cancer surveillance wording, PM-JAY cover, morphine, baking-soda wording, calcium, PMSMA dates, cream-regulation wording, diabetic eye exam in pregnancy, Kerala trial wording, Quit Line forms, HPV 2026 details, driving and supplement wording.</p>
+<p><strong>Still left from the reports:</strong> iron-tablet schedule, tobacco-share wording, knee-implant cap wording, cranberry and sick-day lists, Sources-list items and the 'Not verified' boxes in each chapter.</p>
+<p><strong>Still unverified (these chapters)</strong></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Area</th><th>Open item</th></tr>
+</thead>
+<tbody>
+<tr><td>Cholesterol, hepatitis</td><td>Statin myths and numbers, HCV cure rate, HBV antiviral rules, transplant schemes, Indian awareness figures</td></tr>
+<tr><td>Kidney, pneumonia</td><td>Sick-day medicines, ESBL rates, adult pneumococcal advice, oximeter bias, oseltamivir</td></tr>
+<tr><td>Neuro, men, bones</td><td>Driving rules, CGRP costs, PSA screening ages in India, DEXA and vitamin D prevalence, knee-implant price caps</td></tr>
+<tr><td>Cancers</td><td>Gallbladder regional rates, colorectal programme, mammography ages, PM-JAY packages, alternative-medicine survival study</td></tr>
+<tr><td>Labs</td><td>NABL verification steps (the NABL page was not reachable), complaint routes, Free Diagnostics Service test counts</td></tr>
+<tr><td>Life stages</td><td>JSY amounts, IFA schedule, postpartum depression rate, newborn bath timing, cataract and hearing schemes, fluorosis areas</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="scope-pass-no-new-fact-check"><a class="header" href="#scope-pass-no-new-fact-check">Scope pass (no new fact-check)</a></h2>
+<p>Six chapters were folded or cut and the oldest-checked long chapters were trimmed. Folded text was moved, not rewritten, so it keeps the corrections from earlier passes, but the merged and trimmed chapters have not been re-checked. The removed originals were deleted afterwards at the author's request.</p>
+<h2 id="eighth-pass-primary-source-check-and-jargon-test-on-the-changed-chapters"><a class="header" href="#eighth-pass-primary-source-check-and-jargon-test-on-the-changed-chapters">Eighth pass: primary-source check and jargon test on the changed chapters</a></h2>
+<p>Four agents re-checked the merged and trimmed chapters (liver, lipid profile, screening, cancers, osteoporosis, labs, chest infections, headache and epilepsy, kidney, first aid, children, pregnancy, ageing, skin/eyes/ears/teeth, PCOS) and added short definitions at first use. Many government and guideline sites would not open (403, 404 or certificate errors), so most items were confirmed only through search summaries. Only claims confirmed from an official page or a quoted official document lost their <code>⚠ verify</code> tag.</p>
+<p><strong>Corrected:</strong> hepatitis C treatment length (usually 12 to 24 weeks, some 8 to 12, per WHO); anti-seizure medicines "up to 7 in 10" seizure-free (WHO); neurocysticercosis described as a recognised cause; diarrhoea "third leading cause worldwide"; the National Snakebite Management Protocol source date; the ADA diabetic eye exam wording; the fluoride toothpaste amounts confirmed; the "yearly" eye-exam line changed to "as often as the eye doctor advises"; NPPA knee-implant cap wording; NMC ethics regulations (2023 version reported in abeyance); sick-day medicine groups (KDIGO 2024 notes the evidence is weak).</p>
+<p><strong>Still unverified:</strong> see the Not verified box at the end of each chapter. The largest groups are Indian scheme amounts, some helplines and notices, screening intervals, vaccine advice for adults, and several prevalence figures.</p>
+<p>Also added: "Last checked: November 2026" on each chapter, new glossary entries, a new pocket card, two diagrams, and a <a href="REVIEW-GUIDE.html">guide for the reviewing doctor</a>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="REVIEW-GUIDE.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="IMAGE-CREDITS.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="REVIEW-GUIDE.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="IMAGE-CREDITS.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

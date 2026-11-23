@@ -1,0 +1,441 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Coronary Heart Disease and Heart Attack - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="coronary-heart-disease-and-heart-attack"><a class="header" href="#coronary-heart-disease-and-heart-attack">Coronary Heart Disease and Heart Attack</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet.</em></p>
+<p>Read <a href="../01-body/heart-and-circulation.html">The heart and circulation</a>, <a href="../01-body/hormones-metabolism-homeostasis.html">Metabolism and cholesterol</a> and <a href="high-blood-pressure.html">High blood pressure</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>Coronary heart disease is a slow build-up of fatty plaque in the arteries that feed the heart muscle. A <strong>heart attack</strong> happens when a plaque cracks and a clot blocks the artery.</li>
+<li>South Asians, including Indians, tend to get it <strong>earlier</strong> and with less warning. Do not dismiss chest or upper-belly discomfort as "gas".</li>
+<li>A heart attack is an <strong>emergency where minutes matter</strong>. Call emergency services; do not drive yourself.</li>
+<li>For stable disease, medicines and lifestyle are the base. A stent or bypass is chosen for specific reasons, not for every blockage.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-what-is-it"><a class="header" href="#1-what-is-it">1. What is it?</a></h2>
+<p><strong>Coronary heart disease (CHD)</strong>, also called <strong>coronary artery disease</strong>, is narrowing of the <strong>coronary arteries</strong>, the vessels that supply the heart muscle (see <a href="../01-body/heart-and-circulation.html">The heart and circulation</a>). The cause is <strong>atherosclerosis</strong>: plaque of cholesterol, fat, scar tissue and inflammatory cells in the artery wall.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Condition</th><th>Meaning</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Stable angina</strong></td><td>Chest discomfort on effort or stress that settles with rest; the narrowed artery cannot supply enough blood during demand</td></tr>
+<tr><td><strong>Acute coronary syndrome (ACS)</strong></td><td>The umbrella term for sudden problems from a cracked plaque</td></tr>
+<tr><td><strong>Unstable angina</strong></td><td>Chest pain at rest, or new or worsening, with no heart-muscle death yet</td></tr>
+<tr><td><strong>Heart attack (myocardial infarction, MI)</strong></td><td>Part of the heart muscle dies because its blood supply is blocked. <strong>STEMI</strong> (ST-elevation MI) shows persistent ST-segment elevation on the ECG, usually from a sudden, complete block; <strong>NSTEMI</strong> shows no ST elevation (the artery is often partly blocked, but can be fully blocked)</td></tr>
+<tr><td><strong>Heart failure</strong></td><td>The weakened heart pumps too little (see Section 8)</td></tr>
+<tr><td><strong>Sudden cardiac arrest</strong></td><td>The heart stops pumping effectively, often from a dangerous rhythm</td></tr>
+</tbody>
+</table>
+</div>
+<p>Cardiovascular disease is the leading cause of death in India, and South Asians, including Indians, tend to develop coronary disease roughly 5 to 10 years earlier than people in many Western countries. <code>⚠ verify</code></p>
+<h2 id="2-the-normal-body"><a class="header" href="#2-the-normal-body">2. The normal body</a></h2>
+<p>Coronary arteries start from the aorta and run over the heart's surface. The heart muscle has high oxygen demands and cannot store much, so any block quickly shows (see <a href="../01-body/heart-and-circulation.html">The heart and circulation</a>).</p>
+<h2 id="3-what-goes-wrong"><a class="header" href="#3-what-goes-wrong">3. What goes wrong</a></h2>
+<ol>
+<li>Damage to the artery lining (high pressure, high sugar, smoking, high LDL) lets LDL cholesterol enter the wall and start inflammation (see <a href="../01-body/hormones-metabolism-homeostasis.html">Metabolism and cholesterol</a>).</li>
+<li>A plaque grows slowly, narrowing the artery.</li>
+<li>A plaque can <strong>crack</strong>. Platelets and clotting proteins form a <strong>clot</strong> on it (see <a href="../01-body/blood.html">Blood</a>).</li>
+<li>The clot <strong>blocks</strong> the artery. The heart muscle beyond it starts to die within minutes to hours.</li>
+</ol>
+<p>Plaques that cause heart attacks are often <strong>not the tightest ones</strong>. A moderate narrowing that cracks can cause a heart attack, which is why controlling the risks matters even when a scan shows "only 40 to 50% narrowing".</p>
+<h2 id="4-causes-and-risk-factors"><a class="header" href="#4-causes-and-risk-factors">4. Causes and risk factors</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Risk</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>High LDL cholesterol; low HDL; high triglycerides</strong></td><td>Indians often have low HDL with high triglycerides <code>⚠ verify</code></td></tr>
+<tr><td><strong>High blood pressure</strong></td><td>See <a href="high-blood-pressure.html">High blood pressure</a></td></tr>
+<tr><td><strong>Diabetes and prediabetes</strong></td><td>See <a href="diabetes.html">Diabetes</a></td></tr>
+<tr><td><strong>Smoking and chewing tobacco</strong></td><td>Among the strongest</td></tr>
+<tr><td><strong>Belly fat, inactivity, poor diet</strong></td><td>Many Indians develop disease at a lower body weight than Western people</td></tr>
+<tr><td><strong>Family history of early heart disease</strong></td><td>A father or brother under 55, or a mother or sister under 65</td></tr>
+<tr><td><strong>High Lp(a)</strong></td><td>An inherited risk particle (see <a href="../03-tests/lipid-profile.html">Lipid profile</a>)</td></tr>
+<tr><td><strong>Chronic kidney disease</strong></td><td>See <a href="chronic-kidney-disease.html">Chronic kidney disease</a></td></tr>
+<tr><td><strong>Air pollution, stress, poor sleep</strong></td><td>Contribute</td></tr>
+<tr><td><strong>Age and being male</strong> (women's risk rises after menopause)</td><td></td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="5-symptoms"><a class="header" href="#5-symptoms">5. Symptoms</a></h2>
+<h3 id="the-classic-heart-attack"><a class="header" href="#the-classic-heart-attack">The classic heart attack</a></h3>
+<ul>
+<li><strong>Chest pressure, tightness, squeezing or heaviness</strong>, lasting more than a few minutes</li>
+<li>Spreading to the <strong>left arm, both arms, jaw, neck or back</strong></li>
+<li><strong>Sweating, nausea, breathlessness, lightheadedness</strong></li>
+</ul>
+<h3 id="atypical-common-in-women-people-with-diabetes-and-older-adults"><a class="header" href="#atypical-common-in-women-people-with-diabetes-and-older-adults">Atypical (common in women, people with diabetes and older adults)</a></h3>
+<p>Breathlessness, unusual tiredness, <strong>upper belly discomfort or "gas" or indigestion that does not settle</strong>, jaw or back pain, or dizziness, sometimes with no chest pain at all.</p>
+<blockquote class="blockquote-tag blockquote-tag-important">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p>
+<p><strong>Do not wait to see if it settles.</strong> If chest or upper-belly discomfort comes with sweating, breathlessness or fear, or lasts more than about 10 to 15 minutes, call emergency services (<strong>112</strong>, or <strong>108</strong> for an ambulance in many states) right away.</p>
+</blockquote>
+<h3 id="stable-angina"><a class="header" href="#stable-angina">Stable angina</a></h3>
+<p>A pressure-like discomfort in the chest on walking, climbing or stress, relieved by rest within a few minutes. See a doctor promptly if you notice a new pattern.</p>
+<h2 id="6-diagnosis-and-tests"><a class="header" href="#6-diagnosis-and-tests">6. Diagnosis and tests</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Test</th><th>What it shows</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>ECG</strong></td><td>Rhythm and signs of a heart attack. Can be normal between episodes</td></tr>
+<tr><td><strong>Troponin</strong></td><td>The key blood marker of heart-muscle injury; repeated over hours (see <a href="../03-tests/inflammation-infection-and-heart-markers.html">Inflammation, infection and heart markers</a>)</td></tr>
+<tr><td><strong>Echocardiogram</strong></td><td>Heart pumping strength (ejection fraction), valves, damaged areas</td></tr>
+<tr><td><strong>Treadmill (stress) test or stress imaging</strong></td><td>Shows narrowing that appears on effort</td></tr>
+<tr><td><strong>CT coronary calcium score</strong></td><td>Counts calcium in coronary plaque; helps estimate risk in some people</td></tr>
+<tr><td><strong>CT coronary angiography</strong></td><td>Images the arteries non-invasively</td></tr>
+<tr><td><strong>Coronary angiography</strong> (catheter)</td><td>A dye test through a tube in the wrist or groin; shows blockages and allows a stent in the same procedure</td></tr>
+<tr><td><strong>Lipid profile, sugar, kidney tests</strong></td><td>Risk factors</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="7-treatment"><a class="header" href="#7-treatment">7. Treatment</a></h2>
+<blockquote class="blockquote-tag blockquote-tag-warning">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<p>No doses here. Do not stop aspirin, clopidogrel, statins or other heart medicines on your own, especially after a stent or heart attack.</p>
+</blockquote>
+<h3 id="during-a-heart-attack"><a class="header" href="#during-a-heart-attack">During a heart attack</a></h3>
+<ul>
+<li><strong>Call emergency services.</strong> Do not drive yourself.</li>
+<li>Emergency services may advise chewing an <strong>aspirin</strong> if you are not allergic. Do not delay the call to look for one.</li>
+<li>The aim is to <strong>reopen the artery quickly</strong> ("time is muscle"):
+<ul>
+<li><strong>Primary angioplasty (PCI)</strong>: a balloon opens the artery and a <strong>stent</strong> (a small mesh tube) keeps it open.</li>
+<li><strong>Thrombolysis</strong>: a "clot-busting" injection, used when angioplasty cannot be reached in time.</li>
+</ul>
+</li>
+<li>Every hour of delay costs heart muscle. Go to the <strong>nearest hospital with a cath lab and 24-hour cardiac care</strong>, and ask the ambulance team where to go. <code>⚠ verify availability</code></li>
+</ul>
+<h3 id="long-term-medicines-see-common-drug-classes"><a class="header" href="#long-term-medicines-see-common-drug-classes">Long-term medicines (see <a href="../04-medicines/common-drug-classes.html">Common drug classes</a>)</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Medicine</th><th>Why</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Aspirin or another antiplatelet</strong> (for example clopidogrel after a stent)</td><td>Stop clots forming</td></tr>
+<tr><td><strong>Statin</strong> (often high strength after a heart attack)</td><td>Lower LDL and stabilise plaque</td></tr>
+<tr><td><strong>Beta-blocker</strong></td><td>Slows the heart; protects after a heart attack</td></tr>
+<tr><td><strong>ACE inhibitor or ARB</strong></td><td>Protect the heart and lower pressure</td></tr>
+<tr><td><strong>Nitrates</strong></td><td>Relieve angina</td></tr>
+<tr><td><strong>Diabetes and blood pressure control</strong></td><td>Part of treatment</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="stents-bypass-and-medicines-for-stable-disease"><a class="header" href="#stents-bypass-and-medicines-for-stable-disease">Stents, bypass and medicines for stable disease</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Option</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Medicines and lifestyle</strong></td><td>The base of treatment for everyone</td></tr>
+<tr><td><strong>Stent (PCI)</strong></td><td>Opens a blocked artery. Clearly life-saving in a heart attack. For <strong>stable</strong> disease it mainly relieves symptoms</td></tr>
+<tr><td><strong>Bypass surgery (CABG)</strong></td><td>Uses a vein or artery graft to go around blockages; preferred in some patterns (multiple blocked vessels, diabetes, weak heart)</td></tr>
+</tbody>
+</table>
+</div>
+<p>A large trial in stable coronary disease (ISCHEMIA, 2020) found that, in people with stable disease and moderate or severe ischaemia on stress testing, an early invasive strategy did <strong>not</strong> reduce the combined outcome of heart death, heart attack, hospital admission for unstable angina or heart failure, or cardiac arrest, although it improved angina in people who had it. The trial excluded left main disease, a weak heart (ejection fraction below 35%) and recent heart attack. <code>⚠ verify</code> So in stable disease with no emergency, it is reasonable to ask for time, a clear explanation, and a second opinion.</p>
+<p>On 13 February 2017 India's price regulator <strong>capped stent prices</strong> at Rs 7,260 (bare-metal) and Rs 29,600 (drug-eluting); the caps were revised in 2018, so ask for the current ceiling. Ask for the stent's brand, price and the invoice. <code>⚠ verify</code></p>
+<h3 id="cardiac-rehabilitation"><a class="header" href="#cardiac-rehabilitation">Cardiac rehabilitation</a></h3>
+<p>A supervised programme of exercise, education and support after a heart attack or procedure. It improves fitness and quality of life, reduces hospital readmission and may lower the risk of heart death, and it is underused.</p>
+<h2 id="8-complications"><a class="header" href="#8-complications">8. Complications</a></h2>
+<ul>
+<li><strong>Heart failure:</strong> the weakened heart cannot pump enough; breathlessness (especially lying flat), ankle swelling and tiredness. Treated with medicines (an ACE inhibitor, ARB or ARNI; a beta-blocker; a mineralocorticoid receptor antagonist such as spironolactone; an SGLT2 inhibitor; and water tablets for fluid) and monitored with echocardiography and BNP or NT-proBNP.</li>
+<li><strong>Dangerous rhythms and sudden cardiac death</strong></li>
+<li><strong>Repeat heart attacks</strong></li>
+<li><strong>Stroke</strong> (see <a href="../01-body/brain-and-nervous-system.html">The brain and nervous system</a>)</li>
+</ul>
+<h2 id="9-prevention-and-self-management"><a class="header" href="#9-prevention-and-self-management">9. Prevention and self-management</a></h2>
+<ul>
+<li><strong>Do not use tobacco</strong> in any form. This is the single most effective step.</li>
+<li><strong>Control pressure, sugar and cholesterol.</strong> Know your numbers.</li>
+<li><strong>Eat</strong> less refined carbohydrate, fried and processed food and trans fats (vanaspati and hydrogenated oils); more vegetables, pulses, nuts and whole grains.</li>
+<li><strong>Stay active</strong>, roughly 150 minutes a week of brisk activity, and keep the waist in check.</li>
+<li><strong>Sleep, stress and alcohol:</strong> moderate or avoid.</li>
+<li><strong>Check risk early</strong> if your family has early heart disease; consider asking about a risk assessment from about age 30 to 40. <code>⚠ verify</code></li>
+<li><strong>Daily aspirin is not routinely recommended</strong> for people <strong>without</strong> heart disease, because bleeding risk can outweigh benefit. It may be considered only in some people aged 40 to 70 at higher risk with low bleeding risk, and it should not be started after 70. Do not start it on your own. <code>⚠ verify</code></li>
+</ul>
+<h3 id="cholesterol-in-brief"><a class="header" href="#cholesterol-in-brief">Cholesterol in brief</a></h3>
+<p><strong>LDL</strong> ("bad") cholesterol is the main fuel for plaque, and damage depends on how high it is and for how many years. Because of this, your <strong>LDL goal depends on your total risk</strong>. After a heart attack or stent it is much lower than for a healthy young person. <strong>Statins</strong> are among the best-studied medicines and lower heart attacks and strokes. Serious side effects are rare and most myths about them are wrong. Inherited high cholesterol (<strong>familial hypercholesterolaemia</strong>, FH) and a high <strong>Lp(a)</strong> (an inherited sticky particle) raise risk whatever you eat, so ask whether your family should be checked. Diet helps a little to moderately and cannot replace a statin after a heart attack. Do not stop a statin because of one normal report; the report is normal because of the tablet. How to read each line of the report, the goal numbers, and the statin truths and myths are in <a href="../03-tests/lipid-profile.html">Lipid profile</a>.</p>
+<h2 id="10-misinformation-and-how-you-get-misled-india"><a class="header" href="#10-misinformation-and-how-you-get-misled-india">10. Misinformation and how you get misled (India)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>What happens</th><th>What to do</th></tr>
+</thead>
+<tbody>
+<tr><td>"Gas pain" dismissed, or treated at home, with sweating and breathlessness</td><td>Call emergency services; do not wait</td></tr>
+<tr><td>"You have 70% blockage, you need a stent immediately" with no symptoms or no stress test</td><td>Ask if it is an emergency, what the symptoms and test results show, and about medicines first; get a second opinion</td></tr>
+<tr><td>Several stents in one sitting without explanation</td><td>Ask why each is needed and what the alternatives are</td></tr>
+<tr><td>Expensive "heart check-up" packages for the healthy</td><td>Ask which tests change your treatment</td></tr>
+<tr><td>"Reverse blockages" with herbal products, special diets or "chelation"</td><td>Not proven to replace treatment; stopping prescribed medicines can be dangerous</td></tr>
+<tr><td>Stopping statins or antiplatelets after a stent because "the blockage is fixed"</td><td>These protect the whole artery system; ask before stopping</td></tr>
+<tr><td>"Cholesterol-free" foods are heart-healthy</td><td>Check for refined oils, sugar and trans fats</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="11-ask-your-doctor"><a class="header" href="#11-ask-your-doctor">11. Ask your doctor</a></h2>
+<ol>
+<li>What is my heart-risk, and what are my targets for pressure, sugar and cholesterol?</li>
+<li>Do my symptoms and tests show a blockage? How severe? Is it an emergency?</li>
+<li>Do I need a stent or bypass, or can we start with medicines? What is the evidence in my case?</li>
+<li>What does each heart medicine do? For how long?</li>
+<li>What should I do if chest pain returns? When do I call emergency services?</li>
+<li>When can I return to work, exercise and travel? Can I join cardiac rehabilitation?</li>
+</ol>
+<h2 id="12-red-flags"><a class="header" href="#12-red-flags">12. Red flags</a></h2>
+<p><strong>Emergency (call 112 or 108):</strong> chest pressure or pain lasting more than a few minutes, especially with sweating, breathlessness, nausea or spreading to the arm or jaw; fainting; a very fast or irregular heartbeat with breathlessness; sudden severe breathlessness; or a person who collapses and does not respond (start chest compressions if you know how and call for help).</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Coronary arteries</strong> the heart's own blood vessels · <strong>Atherosclerosis</strong> plaque narrowing arteries · <strong>Angina</strong> chest discomfort from low oxygen to the heart · <strong>Acute coronary syndrome</strong> sudden coronary problems · <strong>Myocardial infarction (MI)</strong> heart attack · <strong>STEMI / NSTEMI</strong> complete / partial blockage patterns · <strong>Troponin</strong> a marker of heart-muscle injury · <strong>PCI / angioplasty</strong> opening an artery with a balloon and stent · <strong>Stent</strong> a small mesh tube · <strong>CABG</strong> coronary artery bypass graft surgery · <strong>Thrombolysis</strong> clot-busting treatment · <strong>Ejection fraction</strong> the share of blood pumped per beat · <strong>Heart failure</strong> a pump that cannot meet the body's needs · <strong>Cardiac rehabilitation</strong> supervised recovery programme.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>Byrne RA, et al. 2023 ESC guidelines for acute coronary syndromes; Fihn SD, et al. and 2024 ESC guidelines for chronic coronary syndromes. <code>⚠ verify</code></li>
+<li>Thygesen K, et al. Fourth Universal Definition of Myocardial Infarction (2018). <code>⚠ verify</code></li>
+<li>Maron DJ, et al. Initial invasive or conservative strategy for stable coronary disease (ISCHEMIA). <em>N Engl J Med</em> 2020. <code>⚠ verify</code></li>
+<li>Prabhakaran D, et al. Cardiovascular diseases in India: current epidemiology and future directions. <em>Circulation</em> 2016; ICMR and Cardiological Society of India guidance. <code>⚠ verify</code></li>
+<li>NPPA orders on coronary stent price capping (February 2017). <code>⚠ verify</code></li>
+<li>Arnett DK, et al. 2019 ACC/AHA guideline on primary prevention of cardiovascular disease (aspirin). <code>⚠ verify</code></li>
+<li>Cholesterol sources and caveats: see Sources and Not verified in <a href="../03-tests/lipid-profile.html">Lipid profile</a>.</li>
+</ol>
+<p><strong>Not verified:</strong> the age gap in Indian coronary disease, the ISCHEMIA summary, the stent price-cap details, the emergency numbers and ambulance availability by state, and the aspirin statement are claims to confirm against the cited sources.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../02-diseases/common-fevers-india.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../02-diseases/diabetes.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../02-diseases/common-fevers-india.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../02-diseases/diabetes.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,466 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Asthma and COPD - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="asthma-and-copd"><a class="header" href="#asthma-and-copd">Asthma and COPD</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet.</em></p>
+<p>Read <a href="../01-body/lungs-and-breathing.html">The lungs and breathing</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li><strong>Asthma</strong> is airway inflammation that makes the airways narrow <strong>on and off</strong>. It can start at any age and is usually reversible with the right treatment.</li>
+<li><strong>COPD</strong> is lasting damage to the airways and air sacs, usually from smoke (tobacco, or smoke from cooking fires). It gets worse slowly and is only partly reversible.</li>
+<li>Both are treated mainly with <strong>inhalers</strong>. Inhalers are not addictive and are not "a last resort". Using them correctly matters more than the brand.</li>
+<li><strong>Stopping smoking</strong> is the most important step in COPD. Avoiding triggers and using a <strong>preventer</strong> inhaler is the key in asthma.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-what-are-they"><a class="header" href="#1-what-are-they">1. What are they?</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th></th><th>Asthma</th><th>COPD (chronic obstructive pulmonary disease)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>What it is</strong></td><td>Inflamed, twitchy airways that narrow in episodes</td><td>Lasting airway narrowing from damaged airways (chronic bronchitis) and destroyed air sacs (emphysema)</td></tr>
+<tr><td><strong>Usual age at start</strong></td><td>Often childhood, but any age</td><td>Usually over 40</td></tr>
+<tr><td><strong>Main cause</strong></td><td>Allergy, genes, triggers, infections</td><td><strong>Smoking</strong>, biomass smoke, air pollution, dust, past TB</td></tr>
+<tr><td><strong>Pattern</strong></td><td>Comes and goes; often worse at night or early morning</td><td>Persistent, slowly worsening, with flare-ups</td></tr>
+<tr><td><strong>Reversible?</strong></td><td>Largely, with treatment</td><td>Only partly</td></tr>
+</tbody>
+</table>
+</div>
+<p>Some people have features of both. India has a large burden of both, driven by tobacco, indoor cooking smoke and outdoor air pollution. <code>⚠ verify</code></p>
+<h2 id="2-the-normal-body"><a class="header" href="#2-the-normal-body">2. The normal body</a></h2>
+<p>Air travels down the bronchi and bronchioles to the alveoli. The bronchioles have muscle that can tighten, and the lining makes mucus (see <a href="../01-body/lungs-and-breathing.html">Lungs and breathing</a>).</p>
+<h2 id="3-what-goes-wrong"><a class="header" href="#3-what-goes-wrong">3. What goes wrong</a></h2>
+<p><strong>Asthma:</strong> triggers cause (1) <strong>inflammation</strong> and swelling of the airway lining, (2) <strong>tightening</strong> of the airway muscles, and (3) <strong>extra mucus</strong>. The airway narrows and air is hard to breathe out, causing wheeze.</p>
+<p><strong>COPD:</strong> years of smoke irritation inflame and scar the airways and <strong>destroy the walls between air sacs</strong>, so lungs lose their springiness and trap air. Breathing out becomes slow and incomplete.</p>
+<h2 id="4-causes-and-risk-factors"><a class="header" href="#4-causes-and-risk-factors">4. Causes and risk factors</a></h2>
+<h3 id="asthma"><a class="header" href="#asthma">Asthma</a></h3>
+<ul>
+<li><strong>Allergens:</strong> dust mites, pollen, mould, pets, cockroaches</li>
+<li><strong>Irritants:</strong> tobacco smoke, incense, mosquito coils, cooking smoke, strong smells, air pollution</li>
+<li><strong>Triggers:</strong> cold air, exercise, viral infections, stress, some medicines (aspirin and other NSAIDs in some people, beta-blockers)</li>
+<li><strong>Family history</strong> of asthma, hay fever or eczema</li>
+</ul>
+<h3 id="copd"><a class="header" href="#copd">COPD</a></h3>
+<ul>
+<li><strong>Smoking</strong> (cigarettes, beedis, hookah) and <strong>second-hand smoke</strong></li>
+<li><strong>Biomass smoke:</strong> wood, dung and crop-waste cooking fires indoors, household cooking smoke is a major cause of COPD in India, including in women who have never smoked <code>⚠ verify</code></li>
+<li><strong>Outdoor air pollution</strong> and <strong>occupational dust and fumes</strong></li>
+<li><strong>Past tuberculosis</strong> scarring</li>
+<li><strong>Rare inherited alpha-1 antitrypsin deficiency</strong></li>
+</ul>
+<p>India's <strong>Pradhan Mantri Ujjwala Yojana</strong> provides LPG connections to reduce household smoke. <code>⚠ verify</code></p>
+<h2 id="5-symptoms"><a class="header" href="#5-symptoms">5. Symptoms</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Asthma</th><th>COPD</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Wheeze</strong> (a whistling sound on breathing out)</td><td>Long-term cough, often with <strong>sputum</strong> (phlegm), especially in the morning</td></tr>
+<tr><td><strong>Cough</strong>, especially at night or early morning</td><td><strong>Breathlessness</strong> on effort that slowly gets worse</td></tr>
+<tr><td><strong>Chest tightness</strong></td><td>Wheeze; repeated "chest infections"</td></tr>
+<tr><td><strong>Breathlessness</strong>, varying through the day</td><td>Flare-ups (<strong>exacerbations</strong>) with worse cough, more sputum, more breathlessness</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="6-diagnosis-and-tests"><a class="header" href="#6-diagnosis-and-tests">6. Diagnosis and tests</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Test</th><th>What it shows</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Spirometry</strong></td><td>Measures how much and how fast you can blow out (see <a href="../01-body/lungs-and-breathing.html">Lungs and breathing</a>). A <strong>low FEV1/FVC ratio</strong> shows obstruction</td></tr>
+<tr><td><strong>Reversibility test</strong></td><td>Spirometry before and after a reliever inhaler. Asthma often improves clearly; <strong>COPD is confirmed if the ratio stays below about 0.70 after the reliever</strong> <code>⚠ verify</code></td></tr>
+<tr><td><strong>Peak flow meter</strong></td><td>A cheap hand-held device measuring the fastest breath out; useful for home tracking in asthma</td></tr>
+<tr><td><strong>Chest X-ray</strong></td><td>Rules out other problems (pneumonia, TB, masses); often normal in asthma</td></tr>
+<tr><td><strong>Allergy tests, blood eosinophils, exhaled nitric oxide</strong></td><td>Help classify asthma in some people</td></tr>
+<tr><td><strong>Oxygen saturation, blood gas</strong></td><td>Check severity</td></tr>
+<tr><td><strong>CT scan, alpha-1 antitrypsin test</strong></td><td>Selected cases</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Always check for TB</strong> in a long-standing cough (see <a href="tuberculosis.html">Tuberculosis</a>).</p>
+<h2 id="7-treatment"><a class="header" href="#7-treatment">7. Treatment</a></h2>
+<blockquote class="blockquote-tag blockquote-tag-warning">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<p>No doses here. Do not stop an inhaled steroid because you feel better. Do not use a reliever inhaler more and more without telling your doctor.</p>
+</blockquote>
+<h3 id="asthma-1"><a class="header" href="#asthma-1">Asthma</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Treatment</th><th>What it does</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Reliever</strong> (fast-acting bronchodilator, for example salbutamol)</td><td>Opens airways in minutes during symptoms</td></tr>
+<tr><td><strong>Preventer</strong> (inhaled steroid, sometimes combined with a long-acting bronchodilator)</td><td>Calms airway inflammation, taken <strong>every day</strong>, even when well</td></tr>
+<tr><td><strong>Combination inhalers</strong></td><td>GINA does not recommend a reliever alone; it prefers inhaled-steroid-containing treatment for adults and teenagers, with low-dose inhaled steroid plus formoterol as the reliever where suitable <code>⚠ verify</code></td></tr>
+<tr><td><strong>Add-ons</strong></td><td>Montelukast, long-acting antimuscarinics, biological injections for severe asthma, allergy treatment</td></tr>
+<tr><td><strong>Oral steroid short courses</strong></td><td>For attacks</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Needing a reliever more than twice a week, or waking at night with symptoms, means asthma is not controlled.</strong> See your doctor.</p>
+<h3 id="copd-1"><a class="header" href="#copd-1">COPD</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Treatment</th><th>What it does</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Stop smoking</strong></td><td>Slows the decline in lung function more than any medicine</td></tr>
+<tr><td><strong>Long-acting bronchodilators</strong> (LAMA, LABA, or both)</td><td>Keep airways open</td></tr>
+<tr><td><strong>Inhaled steroids</strong></td><td>Added in selected people (frequent flare-ups, raised eosinophils)</td></tr>
+<tr><td><strong>Reliever inhaler</strong></td><td>For breathlessness</td></tr>
+<tr><td><strong>Pulmonary rehabilitation</strong></td><td>Supervised exercise and education; improves breathlessness and quality of life</td></tr>
+<tr><td><strong>Vaccines</strong></td><td>Influenza, pneumococcal, COVID-19, and others as advised</td></tr>
+<tr><td><strong>Oxygen</strong></td><td>For people with persistently low oxygen</td></tr>
+<tr><td><strong>Treat flare-ups</strong></td><td>Often with a reliever, a short oral steroid course and an antibiotic when infection is likely</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="inhaler-technique-very-important"><a class="header" href="#inhaler-technique-very-important">Inhaler technique (very important)</a></h3>
+<ul>
+<li><strong>Poor technique wastes the dose.</strong> Ask a doctor, nurse or pharmacist to watch you use the device, and check again each year.</li>
+<li><strong>Metered-dose inhalers</strong> are used with a <strong>spacer</strong> (a tube that holds the medicine) for children and many adults, to improve delivery.</li>
+<li><strong>Rinse your mouth</strong> after using an inhaled steroid, to prevent thrush and hoarseness.</li>
+<li><strong>Do not share</strong> inhalers. Keep a spare.</li>
+<li>Know the difference: <strong>reliever</strong> (blue-style, used when needed) and <strong>preventer</strong> (used daily).</li>
+</ul>
+<h3 id="an-asthma-action-plan"><a class="header" href="#an-asthma-action-plan">An asthma action plan</a></h3>
+<p>A written plan from your doctor lists your daily medicine, your peak flow zones, what to do when symptoms rise, and when to seek urgent help. Keep a copy.</p>
+<h2 id="8-complications"><a class="header" href="#8-complications">8. Complications</a></h2>
+<ul>
+<li><strong>Severe attacks and hospital admission</strong> (life-threatening if not treated quickly)</li>
+<li><strong>COPD:</strong> frequent flare-ups, respiratory failure, heart strain on the right side (<strong>cor pulmonale</strong>), weight loss, anxiety and depression, lung cancer risk (especially smokers)</li>
+<li><strong>Poorly controlled asthma:</strong> missed school and work; airway changes over time</li>
+</ul>
+<h2 id="9-prevention-and-self-management"><a class="header" href="#9-prevention-and-self-management">9. Prevention and self-management</a></h2>
+<ul>
+<li><strong>No tobacco, no smoke exposure.</strong> For quitting, ask your doctor about counselling and medicines; India's National Tobacco Quitline can help. <code>⚠ verify</code></li>
+<li><strong>Clean cooking:</strong> use LPG or improved stoves; ventilate the kitchen.</li>
+<li><strong>Reduce allergen exposure:</strong> wash bedding in hot water, avoid dust, keep damp areas dry; avoid triggers.</li>
+<li><strong>Check air quality</strong>; reduce outdoor exercise on very polluted days; consider a well-fitted respirator mask (N95-type) in heavy pollution.</li>
+<li><strong>Vaccinate</strong> as advised.</li>
+<li><strong>Stay active.</strong></li>
+<li><strong>Take preventers regularly</strong> and review technique and control with your doctor.</li>
+</ul>
+<h2 id="10-misinformation-and-how-you-get-misled-india"><a class="header" href="#10-misinformation-and-how-you-get-misled-india">10. Misinformation and how you get misled (India)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>What happens</th><th>What to do</th></tr>
+</thead>
+<tbody>
+<tr><td>"Inhalers are addictive" or "a last resort"</td><td>They are not addictive. Inhaled medicines use tiny doses delivered to the lungs, with fewer side effects than tablets or syrups</td></tr>
+<tr><td>Oral tablets or syrups instead of inhalers for long-term asthma</td><td>Inhalers are preferred; ask about the reason if you are given only oral medicines</td></tr>
+<tr><td>Repeated steroid injections or tablets for every flare-up</td><td>Ask about a preventer and a long-term plan</td></tr>
+<tr><td><strong>"Fish medicine"</strong> (the Hyderabad fish prasadam) or other secret cures for asthma, sold at fairs</td><td>There is no scientific evidence that it works; stopping inhalers is dangerous <code>⚠ verify</code></td></tr>
+<tr><td>"Asthma goes away" or "grow out of it" so stop treatment</td><td>Asthma can return; do not stop preventers without advice</td></tr>
+<tr><td>Antibiotics for every wheeze</td><td>Most wheeze is not bacterial</td></tr>
+<tr><td>Reliever overuse, never seeing a doctor</td><td>Frequent reliever use signals poor control</td></tr>
+<tr><td>COPD labelled as "just a smoker's cough" and untreated</td><td>Spirometry confirms; effective treatment exists</td></tr>
+<tr><td>Herbal "lung cleansing"</td><td>Not proven; stopping smoking is what works</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="11-ask-your-doctor"><a class="header" href="#11-ask-your-doctor">11. Ask your doctor</a></h2>
+<ol>
+<li>Is this asthma, COPD, or both? Did I have spirometry?</li>
+<li>Which inhaler is my preventer and which is my reliever? When do I use each?</li>
+<li>Can you watch my inhaler technique? Do I need a spacer?</li>
+<li>What are my triggers, and how do I reduce them?</li>
+<li>What is my action plan, and when should I go to hospital?</li>
+<li>Which vaccines do I need?</li>
+<li>For COPD: can you help me stop smoking? Can I join pulmonary rehabilitation?</li>
+<li>Could TB or another cause of cough be present?</li>
+</ol>
+<h2 id="12-red-flags"><a class="header" href="#12-red-flags">12. Red flags</a></h2>
+<p><strong>Emergency:</strong> severe breathlessness, being unable to speak in full sentences, blue lips, <strong>a reliever that does not help or is needed more often than every 4 hours</strong>, exhaustion, confusion or drowsiness, or a peak flow far below your usual. In an asthma attack, take your reliever as your action plan states, sit upright, and call emergency services if it is not improving.</p>
+<h2 id="chest-infections-cold-flu-and-pneumonia"><a class="header" href="#chest-infections-cold-flu-and-pneumonia">Chest infections: cold, flu and pneumonia</a></h2>
+<p>Wheeze, cough and breathlessness often start with an infection. People with asthma or COPD get sicker from chest infections, so it helps to tell the common ones apart. For how the lungs work, see <a href="../01-body/lungs-and-breathing.html">Lungs and breathing</a>.</p>
+<h3 id="cold-flu-or-pneumonia"><a class="header" href="#cold-flu-or-pneumonia">Cold, flu or pneumonia?</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th></th><th>Cold</th><th>Flu (influenza)</th><th>Pneumonia</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>What it is</strong></td><td>Infection of the nose and throat</td><td>A harder viral illness</td><td>Infection of the <strong>alveoli</strong> (the tiny air sacs of the lungs), which fill with fluid or pus</td></tr>
+<tr><td><strong>Cause</strong></td><td>Many viruses (tiny germs that antibiotics cannot kill)</td><td>Influenza virus</td><td>Bacteria (germs that antibiotics can kill; commonest: <em>Streptococcus pneumoniae</em>, or "pneumococcus"), viruses, sometimes fungi (moulds)</td></tr>
+<tr><td><strong>Start</strong></td><td>Gradual</td><td>Sudden, with high fever and body aches</td><td>Often after a cold or flu, or sudden</td></tr>
+<tr><td><strong>Breathing</strong></td><td>Normal</td><td>Normal, with cough</td><td><strong>Fast, hard, chest pain</strong></td></tr>
+<tr><td><strong>Usual course</strong></td><td>About a week</td><td>Days to two weeks</td><td>Slower; may need hospital</td></tr>
+</tbody>
+</table>
+</div>
+<p>Think of the lung as a sponge. In pneumonia the sponge is soaked, so less oxygen reaches the blood. That is why pneumonia is more dangerous than a cold. Children under 5, adults over 65, and people with malnutrition (too little food or nutrients), diabetes, COPD, asthma, heart disease or weak immunity (a body that fights germs poorly) are at higher risk.</p>
+<h3 id="danger-signs"><a class="header" href="#danger-signs">Danger signs</a></h3>
+<p><strong>Adults:</strong> breathless at rest or while speaking, fast breathing, blue or grey lips, confusion, chest pain on breathing in, coughing blood, or a fever lasting over 3 days. An older person may show only confusion or falls.</p>
+<p><strong>Children:</strong> a health worker counts breaths for one full minute while the child is calm. The WHO fast-breathing cut-offs are 60 or more breaths a minute under 2 months, 50 or more at 2 to 11 months, and 40 or more at 1 to 5 years. <code>⚠ verify</code> (WHO's pneumonia fact sheet confirms that fast breathing or chest indrawing marks pneumonia in children under 5, but gives no numbers.) Also watch for <strong>chest indrawing</strong> (the lower chest pulls in when breathing in), blue lips, being unable to drink or breastfeed, fits, or unusual sleepiness. In a baby under 2 months, <strong>any fever or any breathing trouble</strong> is an emergency.</p>
+<p>Go to a hospital at once, or call <strong>112</strong> or <strong>108</strong>.</p>
+<h3 id="oxygen-reading"><a class="header" href="#oxygen-reading">Oxygen reading</a></h3>
+<p>A <strong>pulse oximeter</strong> (a finger clip) estimates the share of your blood that carries oxygen (<strong>SpO2</strong>). Example only, ranges vary: about 95 to 100% is usual in healthy people. A reading <strong>below about 94% with symptoms needs medical review. A reading persistently below 92% is an emergency.</strong> <code>⚠ verify</code> For children, WHO guidance advises oxygen and referral below 90% (a level called hypoxaemia, meaning low blood oxygen).</p>
+<p>Readings can be wrong. Cold fingers, nail polish, movement and a poor fit cause errors. Oximeters can over-read in darker skin, and carbon monoxide poisoning (a gas from burning fuel) gives a falsely normal number. People with COPD may have a lower usual reading. A "normal" number does not cancel trouble breathing: still see a doctor.</p>
+<h3 id="antibiotics-not-for-every-cough"><a class="header" href="#antibiotics-not-for-every-cough">Antibiotics: not for every cough</a></h3>
+<p><strong>Antibiotics</strong> kill bacteria. They do not work on cold, flu or most bronchitis, and wheeze in asthma is not bacterial. Each unnecessary course helps germs become <strong>resistant</strong> (no longer killed by the drug). Do not buy antibiotic strips from a chemist for a cough, do not use leftover tablets, and avoid fixed-dose cold-and-cough mixtures. If your doctor prescribes an antibiotic for pneumonia, ask how long to take it. See <a href="../04-medicines/antibiotics-and-resistance.html">Antibiotics and resistance</a> and <a href="../04-medicines/fdc-and-spurious-drugs.html">FDC and spurious drugs</a>.</p>
+<h3 id="vaccines"><a class="header" href="#vaccines">Vaccines</a></h3>
+<ul>
+<li><strong>Pneumococcal vaccine</strong> (PCV): given to infants in India's Universal Immunisation Programme (the free government childhood vaccine schedule). Adults over 65, and younger adults with COPD, diabetes, or heart, liver or kidney disease, are commonly advised to take it. <code>⚠ verify</code></li>
+<li><strong>Influenza vaccine:</strong> yearly, because the virus changes. Advised for older adults, pregnant women, people with chronic lung disease, and health workers.</li>
+<li>The injected flu vaccine cannot cause flu.</li>
+</ul>
+<p>See <a href="../07-prevention/vaccines-and-immunisation.html">Vaccines and immunisation</a>.</p>
+<h3 id="india"><a class="header" href="#india">India</a></h3>
+<p>Pneumonia is among the leading infectious causes of death in Indian children under 5. Air pollution, cooking smoke and malnutrition are major reasons. <code>⚠ verify</code> Under the <strong>SAANS</strong> campaign (Social Awareness and Action to Neutralise Pneumonia Successfully), health workers are trained to spot and treat childhood pneumonia early. A cough lasting over 2 weeks needs a test for tuberculosis (TB, a lung infection). See <a href="tuberculosis.html">Tuberculosis</a>.</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Asthma</strong> reversible airway narrowing from inflammation · <strong>COPD</strong> chronic obstructive pulmonary disease · <strong>Chronic bronchitis / emphysema</strong> airway inflammation / air-sac destruction · <strong>Wheeze</strong> a whistling breath · <strong>Exacerbation</strong> a flare-up · <strong>Spirometry</strong> the breathing test · <strong>FEV1/FVC</strong> the ratio showing obstruction · <strong>Peak flow</strong> the fastest breath out · <strong>Reliever / preventer</strong> rescue / daily inhaler · <strong>Bronchodilator</strong> an airway opener · <strong>LAMA / LABA</strong> long-acting antimuscarinic / beta-agonist · <strong>Spacer</strong> an inhaler tube · <strong>Pulmonary rehabilitation</strong> supervised exercise for lung disease · <strong>Biomass fuel</strong> wood, dung or crop waste burned for cooking · <strong>Pneumonia</strong> infection of the lung's air sacs · <strong>Alveoli</strong> the tiny air sacs of the lung · <strong>Pneumococcus</strong> the commonest bacterium causing pneumonia · <strong>Influenza</strong> the flu virus · <strong>Oxygen saturation (SpO2)</strong> percentage of blood carrying oxygen · <strong>Pulse oximeter</strong> a finger clip that estimates it · <strong>Antibiotic</strong> a medicine against bacteria · <strong>Resistance</strong> germs no longer killed by a drug · <strong>PCV</strong> pneumococcal conjugate vaccine · <strong>SAANS</strong> India's childhood pneumonia campaign.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>Global Initiative for Asthma (GINA) Report (latest); Global Initiative for Chronic Obstructive Lung Disease (GOLD) Report (latest). <code>⚠ verify</code></li>
+<li>Indian Chest Society and National College of Chest Physicians (India) guidelines on asthma and COPD. <code>⚠ verify</code></li>
+<li>India State-Level Disease Burden Initiative: chronic respiratory diseases in India. <em>Lancet Glob Health</em> 2018. <code>⚠ verify</code></li>
+<li>Pradhan Mantri Ujjwala Yojana (Ministry of Petroleum and Natural Gas); National Tobacco Quitline (MoHFW). <code>⚠ verify</code></li>
+<li>WHO fact sheets: Pneumonia in children; Influenza; Antimicrobial resistance. WHO Pocket Book of Hospital Care for Children.</li>
+<li>MoHFW SAANS campaign (NCDC guidance note and campaign letters; confirmed name, aims and ASHA role) and IMNCI guidance; Universal Immunisation Programme schedule; IAP immunisation schedule. <code>⚠ verify</code></li>
+<li>Sjoding MW, et al. Racial bias in pulse oximetry. <em>N Engl J Med</em> 2020.</li>
+</ol>
+<p><strong>Not verified:</strong> the Indian burden statement, the biomass-smoke statement, the GINA preventer-reliever wording, the 0.70 cut-off, the fish-medicine statement and quitline details are claims to confirm against the cited sources. In the chest-infection section, still unconfirmed: the child fast-breathing cut-offs (WHO fact sheet gives no numbers; IMCI chart not opened), the 94% and 92% adult oxygen thresholds, adult pneumococcal advice in India, and the India child-pneumonia burden. Confirmed this pass: WHO child oxygen threshold below 90% (via WHO guidance quoted in papers), SAANS name and purpose, and that pneumonia is the largest infectious killer of children worldwide (WHO).</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../02-diseases/anaemia.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../02-diseases/chronic-kidney-disease.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../02-diseases/anaemia.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../02-diseases/chronic-kidney-disease.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

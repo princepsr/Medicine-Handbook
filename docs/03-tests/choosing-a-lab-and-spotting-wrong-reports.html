@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Choosing a Lab and Spotting Wrong Reports - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="choosing-a-lab-and-spotting-wrong-reports"><a class="header" href="#choosing-a-lab-and-spotting-wrong-reports">Choosing a Lab and Spotting Wrong Reports</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet. Last checked: November 2026.</em></p>
+<p>Read <a href="01-how-lab-reports-work.html">How lab reports work</a> first. For misleading health claims in general, see <a href="../09-indian-healthcare/health-misinformation.html">Health misinformation</a>.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>A wrong lab result usually comes from a <strong>step before or after the machine</strong>: wrong sample, wrong handling, wrong label or a typing error.</li>
+<li>Prefer a lab <strong>accredited by NABL</strong> (the national body for lab quality) for the <strong>test you need</strong>. Check on the NABL website, not just the logo.</li>
+<li>A result that does not fit how you feel, or that jumps from your last value, deserves a <strong>repeat</strong>, ideally at the same lab and the same time of day.</li>
+<li>Beware of <strong>packages with dozens of tests</strong>, <strong>scare messages</strong> and <strong>doctor-lab commissions</strong>.</li>
+<li>You have a <strong>right to your report</strong> and to a clear explanation of the method and range.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-why-this-matters"><a class="header" href="#1-why-this-matters">1. Why this matters</a></h2>
+<p>A lab is a factory that turns a body sample into a number. Doctors act on that number: a drug started, a surgery planned, a disease declared. A wrong number can cause harm in both directions: a missed disease or a false alarm. India has tens of thousands of labs, from hospital labs to street-corner collection centres, and quality varies widely. <code>⚠ verify</code></p>
+<h2 id="2-nabl-accreditation-and-how-to-check-it"><a class="header" href="#2-nabl-accreditation-and-how-to-check-it">2. NABL accreditation, and how to check it</a></h2>
+<p><strong>NABL</strong> (National Accreditation Board for Testing and Calibration Laboratories) is a board under the government that checks whether a lab follows the international standard <strong>ISO 15189</strong> (the quality standard for medical labs). Inspectors review staff training, machines, quality checks and records.</p>
+<p>How to check:</p>
+<ol>
+<li>Ask the lab for its <strong>NABL certificate number</strong>.</li>
+<li>Search the lab on the NABL website (nabl-india.org) under accredited labs. Check that the name, city and <strong>validity date</strong> match.</li>
+<li>Check the <strong>scope</strong>: accreditation is <strong>test by test</strong>. A lab may be accredited for blood sugar but not for hormones or genetic tests. The scope lists them.</li>
+<li>Look for the <strong>NABL symbol on the report</strong> and the lab's number. Reports for non-accredited tests should not carry the mark. <code>⚠ verify</code></li>
+<li><strong>Collection centres:</strong> the main lab may be accredited, while a franchise collection point may not be handled the same way. Ask who collects and how samples travel.</li>
+</ol>
+<p><strong>NABH</strong> (National Accreditation Board for Hospitals and Healthcare Providers) accredits <strong>hospitals</strong>, not labs. A hospital with NABH may still send tests outside.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p>Accreditation reduces risk. It does <strong>not</strong> guarantee that every report is right. Non-accredited labs can be good, and accredited ones can make mistakes. The checks below still apply.</p>
+</blockquote>
+<h2 id="3-the-path-of-a-sample-and-where-it-goes-wrong"><a class="header" href="#3-the-path-of-a-sample-and-where-it-goes-wrong">3. The path of a sample, and where it goes wrong</a></h2>
+<p>Labs speak of three phases:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Phase</th><th>Steps</th><th>Share of errors (roughly)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Pre-analytical</strong> (before the machine)</td><td>Order, preparation, collection, labelling, transport, storage</td><td>Most errors, often about half or more (46 to 68% in one well-known review) <code>⚠ verify</code></td></tr>
+<tr><td><strong>Analytical</strong> (in the machine)</td><td>Testing, calibration, quality checks</td><td>A small share</td></tr>
+<tr><td><strong>Post-analytical</strong> (after)</td><td>Typing, reporting, flags, delivery</td><td>A meaningful share</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="pre-analytical-errors-you-can-prevent"><a class="header" href="#pre-analytical-errors-you-can-prevent">Pre-analytical errors you can prevent</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Problem</th><th>Effect (example)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Not fasting when asked</strong> (or fasting too long)</td><td>False high sugar or triglycerides (a blood fat). See <a href="lipid-profile.html">Lipid profile</a></td></tr>
+<tr><td><strong>Wrong time</strong></td><td>Cortisol (a stress hormone) and some hormones change through the day. Iron is higher in the morning</td></tr>
+<tr><td><strong>Recent exercise, illness, stress, alcohol</strong></td><td>Raised CK (a muscle enzyme), white count, sugar</td></tr>
+<tr><td><strong>Hand squeezing, long tourniquet (tight band)</strong></td><td>False high potassium</td></tr>
+<tr><td><strong>Drip arm</strong></td><td>Blood drawn above an intravenous line is diluted or contaminated</td></tr>
+<tr><td><strong>Wrong tube or a clotted sample</strong></td><td>A CBC (complete blood count) needs an anticoagulant tube (one with a drug that stops clotting). See <a href="cbc.html">CBC</a></td></tr>
+<tr><td><strong>Delay or heat in transport</strong></td><td>Sugar falls as cells use it; some tests degrade</td></tr>
+<tr><td><strong>Haemolysis</strong> (red cells burst in the tube)</td><td>False high potassium and some enzymes</td></tr>
+<tr><td><strong>Wrong label or sample mix-up</strong></td><td>You get someone else's result. Always <strong>check the name, age and sex on the report</strong>. A report with a wrong sex or age can mean wrong ranges</td></tr>
+<tr><td><strong>Urine samples</strong></td><td>Not midstream, not clean, left for hours. See <a href="urine-tests.html">Urine tests</a></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="home-sample-collection"><a class="header" href="#home-sample-collection">Home-sample collection</a></h3>
+<p>Home collection is convenient, and many reputable labs offer it. Risks: samples travel in the sun for hours, tubes may be mislabelled, the collector may be untrained, or the <strong>fasting rule</strong> is ignored. Ask: <em>"Is the collector trained? How long till the sample reaches the lab? Is the sample kept cool?"</em> For sensitive tests (hormones, blood cultures, infection tests), prefer a collection at the lab itself.</p>
+<h3 id="analytical-and-reporting-errors"><a class="header" href="#analytical-and-reporting-errors">Analytical and reporting errors</a></h3>
+<ul>
+<li><strong>Machine problems</strong> (calibration drift, reagent expiry) are controlled by daily <strong>internal quality control</strong> and by <strong>external quality assessment (EQAS)</strong>, in which labs test unknown samples and compare scores. Ask whether the lab joins one. <code>⚠ verify</code></li>
+<li><strong>Typing and unit errors:</strong> a decimal slip, a mixed unit (mg/dL versus mmol/L), a result pasted into the wrong row, or a <strong>missing flag</strong>. Read the unit and the range on every line.</li>
+<li><strong>Copy-paste, "template" reports</strong> that show normal findings for tests that were not done.</li>
+<li><strong>Smear review:</strong> for CBC, an abnormal value should be double-checked by a blood smear. See <a href="cbc.html">CBC</a>.</li>
+</ul>
+<h2 id="4-differences-between-labs"><a class="header" href="#4-differences-between-labs">4. Differences between labs</a></h2>
+<p>Two correct labs can give <strong>different numbers</strong> for the same blood, because they use <strong>different machines, methods and reference ranges</strong>. Examples (labelled example): a vitamin D result may differ by a large amount between methods, and <strong>thyroid, vitamin B12 and some hormone tests are well known to vary</strong>. <code>⚠ verify</code></p>
+<p>What to do:</p>
+<ul>
+<li><strong>Compare trends within one lab</strong>, not between labs.</li>
+<li>Read the <strong>range printed on your own report</strong>, not an internet range. Ranges also differ by age, sex and pregnancy.</li>
+<li>If you must switch labs, tell your doctor and consider a new baseline.</li>
+<li>A result slightly outside the range, with no symptoms, is often normal variation. See <a href="01-how-lab-reports-work.html">How lab reports work</a>.</li>
+</ul>
+<h2 id="5-interferences-biotin-and-others"><a class="header" href="#5-interferences-biotin-and-others">5. Interferences: biotin and others</a></h2>
+<p>An <strong>interference</strong> is a substance in the sample that disturbs the test chemistry.</p>
+<ul>
+<li><strong>Biotin</strong> (vitamin B7, found in many hair, skin and nail supplements, often in high amounts). Many hormone and heart tests use a biotin-based method. High biotin can give <strong>falsely low or falsely high</strong> results, for example in <strong>thyroid tests, troponin (a heart-attack marker), vitamin D and some hormones</strong>. The US FDA (the American drug and device regulator) issued warnings in 2017 and 2019, mainly about falsely low troponin. Tell the lab you take biotin, and ask your doctor how long to stop it before testing (<strong>often a few days; follow your doctor's advice</strong> <code>⚠ verify</code>).</li>
+<li><strong>Haemolysis, lipaemia</strong> (fat-rich blood) and <strong>jaundice</strong> can disturb many tests.</li>
+<li><strong>Medicines and heterophile antibodies</strong> (rare antibodies that confuse some tests) can give a result that does not fit the person. If a thyroid, hormone or tumour-marker result does not match your health, ask whether an interference is possible and whether the lab can test using a different method.</li>
+<li><strong>Cross-reaction</strong> in rapid tests, for instance for dengue or typhoid (Widal, a blood test for typhoid), can give false positives. See <a href="../02-diseases/common-fevers-india.html">Common fevers in India</a>.</li>
+</ul>
+<h2 id="6-when-to-repeat-a-test"><a class="header" href="#6-when-to-repeat-a-test">6. When to repeat a test</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Situation</th><th>Action</th></tr>
+</thead>
+<tbody>
+<tr><td>A <strong>surprising or alarming value</strong> with no symptoms</td><td>Repeat, before treatment</td></tr>
+<tr><td><strong>Result differs sharply from earlier values</strong></td><td>Repeat, in the same lab if possible</td></tr>
+<tr><td>Result <strong>does not match</strong> the clinical picture</td><td>Discuss with the doctor. Repeat, or use another method</td></tr>
+<tr><td><strong>Preparation went wrong</strong> (not fasted, sick, just exercised)</td><td>Repeat after proper preparation</td></tr>
+<tr><td>Minor drift near the range edge, no symptoms</td><td>Often repeat in weeks to months, as the doctor advises</td></tr>
+<tr><td><strong>Life-changing diagnosis</strong> (cancer, HIV, hepatitis, genetic disease)</td><td>Confirm with a second sample and, where relevant, a <strong>confirmatory test</strong> by another method</td></tr>
+<tr><td><strong>Emergency</strong> (chest pain, bleeding, severe illness)</td><td>Do <strong>not</strong> delay treatment to repeat. The doctor decides</td></tr>
+</tbody>
+</table>
+</div>
+<p>Do not repeat tests again and again hoping for a "better" number. Each repeat adds cost and anxiety, and chance variation can produce a new surprise.</p>
+<h2 id="7-packages-upselling-and-commissions"><a class="header" href="#7-packages-upselling-and-commissions">7. Packages, upselling and commissions</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Practice</th><th>Why it matters</th><th>What to do</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>"Full body check-up" with 80 to 100 tests</strong></td><td>Many tests have no purpose for a healthy person. More tests mean more chance of a false abnormal result and follow-up tests</td><td>Choose tests that fit <strong>age, sex, family history and symptoms</strong>. See <a href="../07-prevention/screening-and-checkups.html">Screening and check-ups</a></td></tr>
+<tr><td><strong>Add-ons "for just a little more"</strong></td><td>Pushing vitamins, hormones and tumour markers</td><td>Ask: <em>"Which decision will this test change?"</em></td></tr>
+<tr><td><strong>Scare reports</strong> ("Your sample shows danger") by call centres</td><td>A hook to sell treatment or more tests</td><td>Take any alarm to your own doctor</td></tr>
+<tr><td><strong>Tumour-marker panels in healthy people</strong></td><td>Poor for screening</td><td>See <a href="../02-diseases/common-cancers-in-india.html">Common cancers in India</a></td></tr>
+<tr><td><strong>Discounted "offers" and cheap prices</strong></td><td>Very low prices may mean corners cut (old reagents, no quality control)</td><td>Compare <strong>accreditation</strong>, not just price</td></tr>
+<tr><td><strong>Doctor-lab commissions ("cut practice")</strong></td><td>A doctor or collection agent may get a share of the fee for sending patients, which pushes unnecessary tests and certain labs. It is <strong>unethical</strong> under the ethics rules of the National Medical Commission (NMC, the doctors' regulator). The 2023 NMC regulations that name this were reported held in abeyance, with the older 2002 code applying; check the NMC site <code>⚠ verify</code></td><td>Ask: <em>"Why this test? Can I choose my own lab?"</em> You can <strong>take the prescription to any lab</strong> you wish. A doctor should not force one</td></tr>
+</tbody>
+</table>
+</div>
+<p>Also check <strong>price lists</strong>: many states require labs to display rates, and the same test varies widely in price. Government hospitals offer many tests at low cost, and the <strong>Free Diagnostics Service Initiative</strong> (launched in 2015 under the National Health Mission) offers listed tests free at public health facilities.</p>
+<h2 id="8-your-right-to-your-report"><a class="header" href="#8-your-right-to-your-report">8. Your right to your report</a></h2>
+<ul>
+<li>You are entitled to <strong>a copy of your report, with the method, unit, range and the reporting doctor's name and registration</strong>. NABL standards expect the report to include the lab's name, patient ID, sample time, and an authorised signature. <code>⚠ verify</code></li>
+<li>You have a right to <strong>your medical records</strong> under the National Medical Commission ethics regulations and the Charter of Patients' Rights (a charter, not a law; the Clinical Establishments Act applies only in states that have adopted it). See <a href="../09-indian-healthcare/patient-rights-and-complaints.html">Patient rights and complaints</a>. <code>⚠ verify</code></li>
+<li>If a lab refuses to give you your report, ask in writing and complain. <code>⚠ verify</code></li>
+<li><strong>Keep your reports</strong> in one folder and bring them to each visit. Photograph them. See <a href="../04-medicines/reading-a-prescription.html">Reading a prescription</a> for the same habit with medicines.</li>
+<li><strong>Complaints:</strong> first to the lab's manager, then the <strong>state Clinical Establishments authority</strong>, <strong>NABL</strong> (for accredited labs, there is a complaint process), the <strong>district or state consumer forum</strong>, and the <strong>medical council</strong> if a doctor is involved. <code>⚠ verify</code></li>
+</ul>
+<h2 id="9-a-quick-checklist-before-you-trust-a-result"><a class="header" href="#9-a-quick-checklist-before-you-trust-a-result">9. A quick checklist before you trust a result</a></h2>
+<ol>
+<li>Is the <strong>name, age and sex</strong> right?</li>
+<li>Is the <strong>date and time of the sample</strong> right, and did I follow the preparation?</li>
+<li>Does the lab have <strong>NABL accreditation for this test</strong>?</li>
+<li>Are the <strong>units and range</strong> printed, and is the flag consistent?</li>
+<li>Do I take <strong>biotin or other supplements</strong>, or any drug that may interfere?</li>
+<li>Does the result <strong>fit how I feel and my past results</strong>?</li>
+<li>If in doubt, <strong>repeat</strong> and discuss it with a doctor.</li>
+</ol>
+<h2 id="ask-your-doctor"><a class="header" href="#ask-your-doctor">Ask your doctor</a></h2>
+<ol>
+<li>Does this result fit my symptoms, or should we repeat it?</li>
+<li>Could my supplement (biotin), a medicine or my preparation have changed this?</li>
+<li>Should I use the same lab for follow-up?</li>
+<li>Which of these tests will change what we do?</li>
+<li>May I choose the lab?</li>
+</ol>
+<h2 id="red-flags"><a class="header" href="#red-flags">Red flags</a></h2>
+<p>Get a second opinion or a repeat promptly if: <strong>your report carries someone else's details</strong>, <strong>a life-changing diagnosis rests on a single unconfirmed result</strong>, <strong>a result sharply disagrees with how you feel</strong>, <strong>a lab or agent pressures you with fear</strong>, or <strong>a doctor insists on one particular lab</strong>. Do not delay emergency care waiting for a repeat.</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>NABL</strong> National Accreditation Board for Testing and Calibration Laboratories · <strong>NABH</strong> accreditation board for hospitals · <strong>ISO 15189</strong> the international quality standard for medical labs · <strong>Scope</strong> the list of tests a lab is accredited for · <strong>Pre-analytical / analytical / post-analytical</strong> before / during / after the machine · <strong>Haemolysis</strong> burst red cells in the tube · <strong>Tourniquet</strong> a tight band on the arm · <strong>Interference</strong> a substance that disturbs a test · <strong>Biotin</strong> vitamin B7 · <strong>Heterophile antibody</strong> an antibody that confuses some tests · <strong>EQAS</strong> external quality assessment scheme · <strong>Internal quality control</strong> daily checks of machines · <strong>Reference range</strong> the usual range for a test, which varies by lab · <strong>Confirmatory test</strong> a second test by a different method · <strong>Cut practice</strong> payment to a doctor for referring patients.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>NABL (nabl-india.org): accreditation process, ISO 15189 scope and symbol rules.</li>
+<li>ISO 15189:2022, medical laboratories: requirements for quality and competence.</li>
+<li>Plebani M. Errors in clinical laboratories or errors in laboratory medicine? <em>Clin Chem Lab Med</em> 2006 (PubMed); later reviews on pre-analytical errors.</li>
+<li>US FDA. Safety communication on biotin interference with lab tests (2017, updated 2019).</li>
+<li>National Medical Commission. Professional Conduct Regulations, on commissions and records. MoHFW. Clinical Establishments Act and the Charter of Patients' Rights (NHRC).</li>
+<li>MoHFW. Free Diagnostics Service Initiative. WHO. Laboratory quality standards.</li>
+</ol>
+<p><strong>Not verified:</strong> the share of errors that are pre-analytical, India's lab count, whether a NABL mark may appear only on accredited tests, the current NMC wording on commissions, the right-to-records details, the report-withholding point, the complaint routes, the biotin washout period and the exact Free Diagnostics Service test list are to confirm against the cited sources. The inter-lab variation examples are illustrative.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../03-tests/cbc.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../03-tests/imaging-and-ecg-reports.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../03-tests/cbc.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../03-tests/imaging-and-ecg-reports.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

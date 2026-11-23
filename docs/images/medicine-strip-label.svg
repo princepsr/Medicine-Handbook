@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" role="img" aria-labelledby="t d">
+  <title id="t">What to look for on a medicine strip</title>
+  <desc id="d">A drawing of a tablet strip with six numbered parts: brand name, generic name and strength, prescription-only mark, batch number, manufacturing and expiry dates, and price, manufacturer and licence number.</desc>
+  <style>
+    .title{font:700 20px sans-serif;fill:#134e4a}
+    .strip{fill:#e5e7eb;stroke:#6b7280;stroke-width:2}
+    .pill{fill:#f8fafc;stroke:#9ca3af;stroke-width:2}
+    .brand{font:700 20px sans-serif;fill:#1d4ed8}
+    .gen{font:13px sans-serif;fill:#111827}
+    .mini{font:11px monospace;fill:#111827}
+    .rx{font:700 22px serif;fill:#b91c1c}
+    .redline{fill:#fee2e2;stroke:#b91c1c;stroke-width:1.5}
+    .redt{font:700 10px sans-serif;fill:#b91c1c}
+    .tag{fill:#0f766e;stroke:#fff;stroke-width:2}
+    .tn{font:700 12px sans-serif;fill:#fff;text-anchor:middle}
+    .lab{font:700 14px sans-serif;fill:#134e4a}
+    .s{font:13px sans-serif;fill:#334155}
+    .note{font:italic 13px sans-serif;fill:#475569}
+  </style>
+  <rect width="880" height="380" fill="#fff" rx="10"/>
+  <text x="24" y="34" class="title">What to look for on a medicine strip</text>
+
+  <rect class="strip" x="30" y="56" width="400" height="196" rx="12"/>
+  <g>
+    <circle class="pill" cx="70" cy="176" r="16"/><circle class="pill" cx="110" cy="176" r="16"/><circle class="pill" cx="150" cy="176" r="16"/>
+    <circle class="pill" cx="190" cy="176" r="16"/><circle class="pill" cx="230" cy="176" r="16"/><circle class="pill" cx="270" cy="176" r="16"/>
+    <circle class="pill" cx="310" cy="176" r="16"/><circle class="pill" cx="350" cy="176" r="16"/><circle class="pill" cx="390" cy="176" r="16"/>
+  </g>
+  <text class="brand" x="46" y="92">BRANDNAME 500</text>
+  <circle class="tag" cx="250" cy="85" r="11"/><text class="tn" x="250" y="89">1</text>
+  <text class="gen" x="46" y="112">Genericsalt Tablets IP 500 mg</text>
+  <circle class="tag" cx="248" cy="107" r="11"/><text class="tn" x="248" y="111">2</text>
+  <text class="rx" x="352" y="100">Rx</text>
+  <rect class="redline" x="46" y="124" width="368" height="18" rx="3"/>
+  <text class="redt" x="52" y="137">SCHEDULE H DRUG: SOLD ONLY ON A DOCTOR'S PRESCRIPTION</text>
+  <circle class="tag" cx="402" cy="94" r="11"/><text class="tn" x="402" y="98">3</text>
+  <text class="mini" x="46" y="212">B.No. AB1234</text>
+  <circle class="tag" cx="142" cy="208" r="11"/><text class="tn" x="142" y="212">4</text>
+  <text class="mini" x="170" y="212">Mfg. 03/2026</text><text class="mini" x="266" y="212">Exp. 02/2028</text>
+  <circle class="tag" cx="372" cy="208" r="11"/><text class="tn" x="372" y="212">5</text>
+  <text class="mini" x="46" y="232">M.R.P. Rs. 00.00 per strip</text><text class="mini" x="226" y="232">Mfg. Lic. No. XX/000</text>
+  <circle class="tag" cx="404" cy="228" r="11"/><text class="tn" x="404" y="232">6</text>
+  <text class="mini" x="46" y="248">Made by: Sample Pharma Ltd.</text>
+
+  <circle class="tag" cx="470" cy="76" r="11"/><text class="tn" x="470" y="80">1</text>
+  <text class="lab" x="494" y="74">Brand name</text><text class="s" x="494" y="91">The company's product name</text>
+  <circle class="tag" cx="470" cy="116" r="11"/><text class="tn" x="470" y="120">2</text>
+  <text class="lab" x="494" y="114">Generic (salt) name and strength</text><text class="s" x="494" y="131">The ingredient: match it to your prescription</text>
+  <circle class="tag" cx="470" cy="156" r="11"/><text class="tn" x="470" y="160">3</text>
+  <text class="lab" x="494" y="154">Prescription-only mark</text><text class="s" x="494" y="171">Rx or the Schedule H line: needs a prescription</text>
+  <circle class="tag" cx="470" cy="196" r="11"/><text class="tn" x="470" y="200">4</text>
+  <text class="lab" x="494" y="194">Batch number</text><text class="s" x="494" y="211">Needed if there is a recall or a problem</text>
+  <circle class="tag" cx="470" cy="236" r="11"/><text class="tn" x="470" y="240">5</text>
+  <text class="lab" x="494" y="234">Manufacturing and expiry dates</text><text class="s" x="494" y="251">Never use after the expiry month</text>
+  <circle class="tag" cx="470" cy="276" r="11"/><text class="tn" x="470" y="280">6</text>
+  <text class="lab" x="494" y="274">Price, maker and licence number</text><text class="s" x="494" y="291">M.R.P. is the highest legal price per strip</text>
+
+  <rect x="20" y="300" width="840" height="54" rx="8" fill="#e6f4f2" stroke="#0f766e" stroke-width="2"/>
+  <text class="s" x="36" y="322" style="fill:#134e4a">Also check: the strip is sealed, the print is clear, and you have a bill from a licensed pharmacy.</text>
+  <text class="s" x="36" y="342" style="fill:#134e4a">A missing batch number, blurred print or no maker details is a reason to refuse the strip.</text>
+  <text class="note" x="24" y="372">Illustration only, not a real product.</text>
+</svg>

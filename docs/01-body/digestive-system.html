@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Digestive System - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="the-digestive-system"><a class="header" href="#the-digestive-system">The Digestive System</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet. Last checked: November 2026.</em></p>
+<p>For the liver and gallbladder, see <a href="liver-and-gallbladder.html">Liver and gallbladder</a>. For the pancreas's hormones, see <a href="endocrine-system.html">The endocrine system</a>.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>Digestion turns food into pieces small enough to cross the gut wall: starch into glucose, protein into amino acids, fat into fatty acids.</li>
+<li>Most of that happens in the <strong>small intestine</strong>, helped by bile (from the liver) and enzymes (from the pancreas).</li>
+<li>The <strong>large intestine</strong> reclaims water and houses trillions of helpful bacteria.</li>
+<li>Many common problems (acidity, ulcers, B12 and iron deficiency, lactose intolerance) trace back to one step in this chain.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-structure-one-long-tube-with-helpers"><a class="header" href="#1-structure-one-long-tube-with-helpers">1. Structure: one long tube with helpers</a></h2>
+<p><img src="../images/anatomy/digestive-system.png" alt="An illustration of the digestive system, from mouth to intestines"></p>
+<p><em>Figure 1: The digestive system. Image: Blausen.com staff, CC BY 3.0 (see <a href="../IMAGE-CREDITS.html">IMAGE-CREDITS</a>).</em></p>
+<p>Food passes through one continuous tube several metres long. <code>⚠ verify</code> Its walls have layers of muscle and a lining that absorbs or secretes.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Part</th><th>Main job</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Mouth</strong></td><td>Chewing; saliva starts starch digestion</td></tr>
+<tr><td><strong>Oesophagus</strong> (gullet)</td><td>Squeezes food down by waves of muscle contraction (<strong>peristalsis</strong>)</td></tr>
+<tr><td><strong>Stomach</strong></td><td>Stores food, churns it with acid, starts protein digestion</td></tr>
+<tr><td><strong>Small intestine</strong></td><td>Finishes digestion; absorbs nearly all nutrients</td></tr>
+<tr><td><strong>Large intestine (colon)</strong></td><td>Absorbs water; holds the gut bacteria; forms stool</td></tr>
+<tr><td><strong>Rectum and anus</strong></td><td>Store and release stool</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Helpers outside the tube:</strong> the <strong>liver</strong> (makes bile), <strong>gallbladder</strong> (stores bile), and <strong>pancreas</strong> (makes digestive enzymes).</p>
+<h2 id="2-how-it-works-step-by-step"><a class="header" href="#2-how-it-works-step-by-step">2. How it works, step by step</a></h2>
+<h3 id="step-1-mouth-and-oesophagus"><a class="header" href="#step-1-mouth-and-oesophagus">Step 1: Mouth and oesophagus</a></h3>
+<p>Chewing breaks food into pieces. <strong>Saliva</strong> contains an enzyme, <strong>amylase</strong>, that starts breaking starch into sugars (which is why bread tastes sweeter the longer you chew). Swallowing sends food into the oesophagus, where <strong>peristalsis</strong> carries it to the stomach even if you are upside down. A ring of muscle, the <strong>lower oesophageal sphincter</strong>, closes after food passes. When it is weak or relaxes at the wrong time, acid flows back up: <strong>acid reflux (GERD)</strong>.</p>
+<h3 id="step-2-the-stomach"><a class="header" href="#step-2-the-stomach">Step 2: The stomach</a></h3>
+<p>The stomach holds a litre or more and mixes food with <strong>gastric juice</strong>.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Cell in the stomach lining</th><th>What it releases</th><th>Role</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Parietal cells</strong></td><td><strong>Hydrochloric acid</strong> and <strong>intrinsic factor</strong></td><td>Acid kills germs and activates pepsin. <strong>Intrinsic factor is needed to absorb vitamin B12 later.</strong></td></tr>
+<tr><td><strong>Chief cells</strong></td><td><strong>Pepsinogen</strong>, which acid turns into <strong>pepsin</strong></td><td>Begins breaking down protein</td></tr>
+<tr><td><strong>Mucus cells</strong></td><td>A thick mucus layer</td><td>Protects the stomach wall from its own acid</td></tr>
+<tr><td><strong>G cells</strong></td><td>The hormone <strong>gastrin</strong></td><td>Tells parietal cells to make more acid</td></tr>
+</tbody>
+</table>
+</div>
+<p>Food leaves the stomach as a thick liquid (<strong>chyme</strong>) in small squirts.</p>
+<p><strong>Why this matters:</strong></p>
+<ul>
+<li><strong>Ulcers</strong> form when the protective mucus is overcome, most often by the bacterium <em><strong>Helicobacter pylori</strong></em> or by painkillers (NSAIDs). <code>⚠ verify</code></li>
+<li><strong>Acid-lowering medicines</strong> called <strong>PPIs</strong> (proton pump inhibitors, such as pantoprazole and omeprazole) switch off the acid-making pump. They are effective, but taken for years they can lower B12 and magnesium levels (shown in drug warnings) and may reduce iron absorption (shown in observational studies). Ask your doctor whether you still need yours. <code>⚠ verify</code></li>
+<li><strong>Low B12</strong> can come from lack of intrinsic factor (an autoimmune stomach condition), a vegetarian diet, long-term PPIs or metformin (see <a href="../02-diseases/diabetes.html">Diabetes</a>).</li>
+</ul>
+<h3 id="step-3-the-small-intestine"><a class="header" href="#step-3-the-small-intestine">Step 3: The small intestine</a></h3>
+<p>About 3 metres long in a living person (about 6 metres after death, when the muscle relaxes) <code>⚠ verify</code> and divided into three parts: <strong>duodenum</strong>, <strong>jejunum</strong> and <strong>ileum</strong>.</p>
+<p><strong>Why it absorbs so well:</strong> its inner surface is folded into millions of finger-like <strong>villi</strong>, each covered with even tinier <strong>microvilli</strong>. Together they give a surface area many times that of a flat tube. Each villus has a blood capillary and a lymph vessel in the middle.</p>
+<h4 id="what-arrives-in-the-duodenum"><a class="header" href="#what-arrives-in-the-duodenum">What arrives in the duodenum</a></h4>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Arrives from</th><th>What it brings</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Stomach</strong></td><td>Acidic chyme</td></tr>
+<tr><td><strong>Pancreas</strong> (through the pancreatic duct)</td><td><strong>Bicarbonate</strong> to neutralise acid, plus digestive enzymes</td></tr>
+<tr><td><strong>Liver and gallbladder</strong> (through the bile duct)</td><td><strong>Bile</strong></td></tr>
+</tbody>
+</table>
+</div>
+<p>The bile duct and pancreatic duct join near the duodenum. A gallstone stuck at that junction can block both, causing jaundice or inflammation of the pancreas (<strong>pancreatitis</strong>).</p>
+<h4 id="digesting-each-food-type"><a class="header" href="#digesting-each-food-type">Digesting each food type</a></h4>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Food</th><th>Enzymes</th><th>Final pieces</th><th>How absorbed</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Carbohydrate</strong></td><td>Amylase (pancreas); brush-border enzymes such as <strong>lactase</strong> and <strong>sucrase</strong> on the villi</td><td><strong>Glucose</strong>, fructose, galactose</td><td>Into the villus blood capillary, then the portal vein to the liver</td></tr>
+<tr><td><strong>Protein</strong></td><td>Pepsin (stomach); <strong>trypsin</strong> and others (pancreas, made as inactive forms that wake up only in the gut)</td><td><strong>Amino acids</strong> and small chains</td><td>Into blood</td></tr>
+<tr><td><strong>Fat</strong></td><td><strong>Bile</strong> breaks big fat drops into tiny ones (emulsifies); <strong>lipase</strong> (pancreas) cuts them</td><td><strong>Fatty acids and glycerol</strong></td><td>Repackaged inside the cell into <strong>chylomicrons</strong> that enter the <strong>lymph</strong> first, then reach the blood</td></tr>
+</tbody>
+</table>
+</div>
+<h4 id="absorbing-vitamins-and-minerals"><a class="header" href="#absorbing-vitamins-and-minerals">Absorbing vitamins and minerals</a></h4>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Nutrient</th><th>Where</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Iron</strong></td><td>Duodenum</td><td>Absorbed better with vitamin C and from meat; blocked by tea, calcium, and phytates in grains and pulses. Coeliac disease and PPIs reduce it.</td></tr>
+<tr><td><strong>Calcium</strong></td><td>Duodenum and jejunum</td><td>Needs vitamin D</td></tr>
+<tr><td><strong>Vitamin B12</strong></td><td>End of the ileum</td><td>Needs intrinsic factor. Crohn's disease of the ileum or surgery there causes deficiency.</td></tr>
+<tr><td><strong>Fat-soluble vitamins (A, D, E, K)</strong></td><td>Small intestine</td><td>Need bile and fat</td></tr>
+<tr><td><strong>Bile acids</strong></td><td>Ileum</td><td>About 95% reabsorbed and returned to the liver, a loop called the <strong>enterohepatic circulation</strong></td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Lactose intolerance</strong> occurs when the lactase enzyme is low, so milk sugar passes undigested to the colon, where bacteria ferment it, causing gas, bloating and loose stools. Lactase usually falls after childhood in most adults worldwide, and a large share of Indian adults are affected, though many can still take some milk or curd without symptoms. It is a normal variation, not damage. <code>⚠ verify</code></p>
+<h3 id="step-4-the-large-intestine-colon"><a class="header" href="#step-4-the-large-intestine-colon">Step 4: The large intestine (colon)</a></h3>
+<p>About 1.5 metres long. <code>⚠ verify</code> It absorbs water and salts and compacts the leftover into stool. Passage through the whole gut usually takes one to three days. <code>⚠ verify</code></p>
+<h4 id="the-gut-bacteria-microbiota"><a class="header" href="#the-gut-bacteria-microbiota">The gut bacteria (microbiota)</a></h4>
+<p>The colon holds trillions of bacteria. They:</p>
+<ul>
+<li>ferment fibre into <strong>short-chain fatty acids</strong>, which feed the colon lining</li>
+<li>make some vitamins (for example vitamin K)</li>
+<li>train the immune system and crowd out harmful germs</li>
+</ul>
+<p><strong>Antibiotics</strong> can disturb this community and cause diarrhoea. Rebuilding it is not a matter of buying costly "probiotics"; evidence supports specific products only for specific uses. <code>⚠ verify</code></p>
+<h3 id="step-5-stool"><a class="header" href="#step-5-stool">Step 5: Stool</a></h3>
+<p>Stool is mostly water, fibre, bacteria and shed gut cells. Its brown colour comes from bilirubin changed by bacteria (see <a href="liver-and-gallbladder.html">Liver and gallbladder</a>). <strong>Pale stool</strong> suggests bile is not reaching the gut. <strong>Black, tarry stool</strong> suggests bleeding high in the gut.</p>
+<h2 id="3-how-digestion-is-controlled"><a class="header" href="#3-how-digestion-is-controlled">3. How digestion is controlled</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Signal</th><th>Source</th><th>Effect</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Gastrin</strong></td><td>Stomach</td><td>More acid</td></tr>
+<tr><td><strong>Secretin</strong></td><td>Duodenum (when acid arrives)</td><td>Pancreas releases <strong>bicarbonate</strong></td></tr>
+<tr><td><strong>CCK</strong> (cholecystokinin)</td><td>Duodenum (when fat arrives)</td><td>Gallbladder squeezes out bile; pancreas releases enzymes</td></tr>
+<tr><td><strong>Incretins</strong> (GLP-1, GIP)</td><td>Gut (when food arrives)</td><td>Boost insulin release (see <a href="endocrine-system.html">The endocrine system</a>)</td></tr>
+<tr><td><strong>Enteric nervous system</strong></td><td>Nerve network inside the gut wall, sometimes called the "second brain"</td><td>Runs peristalsis and secretion largely on its own, talking to the brain</td></tr>
+</tbody>
+</table>
+</div>
+<p>Stress can change gut movement and secretion through this brain-gut link, which is why anxiety can cause loose stools or cramps.</p>
+<h2 id="4-how-the-gut-is-tested"><a class="header" href="#4-how-the-gut-is-tested">4. How the gut is tested</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Test</th><th>What it tells you</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Stool routine and culture</strong></td><td>Infection, parasites, blood</td></tr>
+<tr><td><strong>Stool occult blood</strong></td><td>Hidden blood, used to screen for bowel problems</td></tr>
+<tr><td><strong><em>H. pylori</em> tests</strong> (stool antigen, breath test)</td><td>Whether the ulcer-causing bacterium is present</td></tr>
+<tr><td><strong>Endoscopy</strong> (camera down the gullet and stomach)</td><td>Looks at oesophagus, stomach and duodenum; allows a biopsy</td></tr>
+<tr><td><strong>Colonoscopy</strong> (camera up the colon)</td><td>Looks at the colon; removes polyps; screens for cancer</td></tr>
+<tr><td><strong>Ultrasound</strong></td><td>Gallstones, liver, pancreas</td></tr>
+<tr><td><strong>Coeliac blood test</strong> (tTG-IgA)</td><td>Screens for coeliac disease (immune reaction to gluten)</td></tr>
+<tr><td><strong>Faecal calprotectin</strong></td><td>A stool marker of gut inflammation, helping separate inflammatory bowel disease from irritable bowel</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="5-when-the-system-fails-summary"><a class="header" href="#5-when-the-system-fails-summary">5. When the system fails (summary)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Problem</th><th>What goes wrong</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>GERD</strong></td><td>Acid refluxes into the oesophagus</td></tr>
+<tr><td><strong>Gastritis, peptic ulcer</strong></td><td>Stomach or duodenal lining damaged by acid, <em>H. pylori</em> or NSAIDs</td></tr>
+<tr><td><strong>Irritable bowel syndrome (IBS)</strong></td><td>A functional problem (gut works abnormally but looks normal): cramps, bloating, constipation or diarrhoea</td></tr>
+<tr><td><strong>Inflammatory bowel disease (IBD)</strong></td><td><strong>Crohn's disease</strong> or <strong>ulcerative colitis</strong>: lasting immune inflammation of the gut</td></tr>
+<tr><td><strong>Coeliac disease</strong></td><td>Gluten triggers an immune attack on the small-intestine lining, causing poor absorption (iron, B12, calcium)</td></tr>
+<tr><td><strong>Gallstones, pancreatitis</strong></td><td>Bile or pancreatic blockage or inflammation</td></tr>
+<tr><td><strong>Infective diarrhoea</strong></td><td>Contaminated food or water. The main danger is <strong>dehydration</strong>: oral rehydration solution (<strong>ORS</strong>) is life-saving.</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="6-red-flags"><a class="header" href="#6-red-flags">6. Red flags</a></h2>
+<p>See a doctor promptly for: <strong>black or bloody stools</strong>, <strong>vomiting blood</strong>, <strong>difficulty or pain swallowing</strong>, <strong>unintended weight loss</strong>, <strong>persistent change in bowel habit</strong>, <strong>severe or persistent belly pain</strong>, signs of dehydration (very little urine, dizziness, dry mouth), or yellow eyes with pale stools.</p>
+<h2 id="7-why-this-matters-for-your-reports"><a class="header" href="#7-why-this-matters-for-your-reports">7. Why this matters for your reports</a></h2>
+<ul>
+<li>Digestion links to <strong>nutrient deficiency tests</strong>: low iron, B12, vitamin D or calcium can start in the gut.</li>
+<li><strong>Liver tests</strong> with raised ALP and GGT may point to a bile-flow problem in the ducts rather than the liver cells.</li>
+<li>A long-term "acidity tablet" is worth reviewing with your doctor.</li>
+<li>Digestion is also where <strong>medicines</strong> are absorbed: food, antacids, iron and calcium can change how much of some drugs reaches the blood.</li>
+</ul>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Peristalsis</strong> squeezing waves that move food · <strong>Sphincter</strong> a ring of muscle that opens and closes a passage · <strong>GERD</strong> acid reflux disease · <strong>Gastric juice</strong> stomach acid and enzymes · <strong>Intrinsic factor</strong> a stomach protein needed to absorb B12 · <strong>Pepsin / trypsin / amylase / lipase</strong> protein, protein, starch and fat enzymes · <strong>Chyme</strong> the churned food liquid · <strong>Villi / microvilli</strong> finger-like projections that absorb · <strong>Chylomicron</strong> a fat package carried in lymph · <strong>Enterohepatic circulation</strong> the loop of bile acids between gut and liver · <strong>Microbiota</strong> the gut's bacteria · <strong>PPI</strong> proton pump inhibitor, an acid-lowering medicine · <em><strong>H. pylori</strong></em> a stomach bacterium that causes ulcers · <strong>ORS</strong> oral rehydration solution.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>OpenStax. <em>Anatomy and Physiology 2e</em> (openstax.org): the digestive system.</li>
+<li>Guyton and Hall, <em>Textbook of Medical Physiology</em> (edition to be named). <code>⚠ verify</code></li>
+<li>ACG and Indian Society of Gastroenterology guidance on <em>H. pylori</em>, GERD and PPI use (to be added in the disease chapters). <code>⚠ verify</code></li>
+</ol>
+<p><strong>Not verified:</strong> tube lengths, transit time, the <em>H. pylori</em> and NSAID statement, PPI nutrient effects, lactose intolerance prevalence in India, and the probiotic statement are standard figures or claims to confirm against the cited sources.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../01-body/cells-and-cancer-basics.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../01-body/endocrine-system.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../01-body/cells-and-cancer-basics.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../01-body/endocrine-system.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

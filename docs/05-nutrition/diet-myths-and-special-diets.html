@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Diet Myths and Special Diets - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="diet-myths-and-special-diets"><a class="header" href="#diet-myths-and-special-diets">Diet Myths and Special Diets</a></h1>
+<p><em>Status: Draft. A doctor or dietitian has not reviewed it yet. Last checked: November 2026.</em></p>
+<p>Read <a href="nutrition-and-the-indian-diet.html">Nutrition and the Indian diet</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-warning">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<p>If you have diabetes (especially on insulin or sulfonylureas), kidney or liver disease, heart disease, an eating disorder, or you are pregnant, breastfeeding, a child or an older adult, <strong>talk to your doctor before starting a special diet or a fast.</strong> Some (strict fasting, very low-carbohydrate diets) can be dangerous with certain medicines.</p>
+</blockquote>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>Most "special diets" work, when they work, by <strong>reducing calories</strong> or <strong>removing ultra-processed food</strong>, not by magic.</li>
+<li>The best diet is the one that is <strong>safe, nutritionally adequate, affordable, and that you can follow for years</strong>.</li>
+<li>Claims of <strong>cure</strong> (diabetes, cancer, thyroid, fatty liver) from a diet alone are false. Diet supports treatment.</li>
+<li>Be wary of anything that <strong>cuts out whole food groups</strong> without a medical reason.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-how-to-judge-a-diet"><a class="header" href="#1-how-to-judge-a-diet">1. How to judge a diet</a></h2>
+<p>Ask:</p>
+<ol>
+<li><strong>Is it nutritionally complete</strong> (protein, fibre, vitamins, minerals)?</li>
+<li><strong>Can I follow it for years,</strong> at home, with my family and budget?</li>
+<li><strong>What is the evidence</strong> in people like me, not just in animals or claims?</li>
+<li><strong>Who profits</strong> (products, supplements, programmes)?</li>
+<li><strong>Does it say a food group is "poison"?</strong> A red flag.</li>
+<li><strong>Does it ask me to stop medicines?</strong> A big red flag.</li>
+<li><strong>Is it safe with my conditions and medicines?</strong></li>
+</ol>
+<h2 id="2-popular-diets-and-what-the-evidence-says"><a class="header" href="#2-popular-diets-and-what-the-evidence-says">2. Popular diets and what the evidence says</a></h2>
+<h3 id="intermittent-fasting-and-time-restricted-eating"><a class="header" href="#intermittent-fasting-and-time-restricted-eating">Intermittent fasting and time-restricted eating</a></h3>
+<ul>
+<li><strong>What:</strong> eating only in certain hours (for example an 8-hour window) or on certain days.</li>
+<li><strong>Evidence:</strong> it can help weight loss and sugar control modestly, with umbrella-review evidence of modest weight and cardiometabolic benefit in adults with overweight or obesity (long-term outcomes are unknown). It is not magic. <code>⚠ verify</code></li>
+<li><strong>Cautions:</strong> <strong>diabetes on insulin or sulfonylureas</strong> (risk of low sugar), <strong>pregnancy and breastfeeding</strong>, <strong>eating disorders</strong>, <strong>children and teenagers</strong>, older frail people, those with a history of gallstones or low blood pressure. Take medicines as advised; get a plan from your doctor.</li>
+<li><strong>Fasting for religious reasons</strong> (for example Navratri, Ramadan, Ekadashi): people with diabetes, kidney disease or heart disease should ask their doctor <strong>beforehand</strong> how to adjust medicines and meals and what warning signs to watch for.</li>
+</ul>
+<h3 id="low-carbohydrate-and-ketogenic-keto-diets"><a class="header" href="#low-carbohydrate-and-ketogenic-keto-diets">Low-carbohydrate and ketogenic ("keto") diets</a></h3>
+<ul>
+<li><strong>What:</strong> very low carbohydrate, high fat, causing the body to burn fat and make <strong>ketones</strong>.</li>
+<li><strong>Evidence:</strong> can cause quick weight loss and lower blood sugar in the short term; long-term benefit over other diets is unclear, and many people cannot keep them up. <code>⚠ verify</code></li>
+<li><strong>Cautions:</strong> <strong>diabetes medicines</strong> (insulin, sulfonylureas, SGLT2 inhibitors: risk of low sugar or ketoacidosis), <strong>kidney disease</strong>, <strong>liver disease</strong>, <strong>pancreatitis or gallbladder disease</strong>, <strong>pregnancy</strong>, high LDL cholesterol in some people, constipation, nutrient gaps. Medical supervision is needed with diabetes.</li>
+<li>A more moderate <strong>lower refined-carbohydrate</strong> diet (less white rice, maida and sugar, more pulses, vegetables and whole grains) is easier and safer.</li>
+</ul>
+<h3 id="high-protein-diets-and-protein-supplements"><a class="header" href="#high-protein-diets-and-protein-supplements">High-protein diets and protein supplements</a></h3>
+<ul>
+<li>Many Indians eat <strong>too little protein</strong> and could benefit from more pulses, dairy, eggs, fish, meat, soy and nuts.</li>
+<li><strong>Protein powders and shakes</strong> are rarely necessary for healthy people with a decent diet. Quality varies, and <strong>some products have been found to contain contaminants or undeclared ingredients.</strong> <code>⚠ verify</code></li>
+<li><strong>Kidney disease</strong> needs advice on protein amounts; <strong>liver disease</strong> also needs a plan.</li>
+<li><strong>Whole foods first.</strong> If you use a supplement, choose a trusted brand and tell your doctor.</li>
+</ul>
+<h3 id="vegetarian-and-vegan-diets"><a class="header" href="#vegetarian-and-vegan-diets">Vegetarian and vegan diets</a></h3>
+<ul>
+<li><strong>Can be healthy and nutritionally complete</strong> if planned.</li>
+<li><strong>Watch:</strong> <strong>vitamin B12</strong> (vegans need a supplement or fortified foods; vegetarians often need one), <strong>iron</strong>, <strong>calcium</strong>, <strong>protein quality</strong> (combine pulses and grains: dal with rice or roti), <strong>zinc</strong>, <strong>omega-3</strong> (flaxseed, walnuts, algae supplements).</li>
+<li>Very <strong>low B12</strong> causes anaemia and nerve damage (see <a href="../03-tests/vitamins-and-iron-studies.html">Vitamin and iron tests</a>).</li>
+</ul>
+<h3 id="gluten-free-diets"><a class="header" href="#gluten-free-diets">Gluten-free diets</a></h3>
+<ul>
+<li><strong>Needed</strong> for <strong>coeliac disease</strong> (an immune reaction to gluten, a protein in wheat, barley and rye) and some gluten-sensitive people. Coeliac disease is reported in about 1% of adults in northern India in large surveys (about 1.0 to 1.2%; lower in the south), and is <strong>diagnosed by blood tests and a biopsy while still eating gluten</strong>. <code>⚠ verify</code></li>
+<li><strong>Not healthier</strong> for people without these conditions. Starting a gluten-free diet <strong>before testing</strong> can hide coeliac disease.</li>
+<li>Gluten-free packaged foods can be higher in sugar and fat.</li>
+</ul>
+<h3 id="millets"><a class="header" href="#millets">Millets</a></h3>
+<ul>
+<li><strong>Millets</strong> (ragi, jowar, bajra and others) are nutritious, high in fibre and several minerals, and generally lower in glycaemic effect than refined rice or flour. Good replacements for part of the cereals.</li>
+<li><strong>Not a cure</strong> for diabetes or any disease, and not a licence to eat unlimited amounts.</li>
+</ul>
+<h3 id="low-fat-dash-and-mediterranean-style-diets"><a class="header" href="#low-fat-dash-and-mediterranean-style-diets">Low-fat, DASH and Mediterranean-style diets</a></h3>
+<ul>
+<li><strong>DASH</strong> (fruit, vegetables, low-fat dairy, whole grains, little salt) lowers blood pressure.</li>
+<li><strong>Mediterranean-style</strong> (vegetables, fruit, pulses, nuts, olive oil or other unsaturated oil, fish, little red meat) is linked to heart benefits in many studies. Indian equivalents using local foods work too.</li>
+<li>Both are <strong>patterns</strong>, not rigid rules.</li>
+</ul>
+<h3 id="detox-and-cleanses"><a class="header" href="#detox-and-cleanses">"Detox" and cleanses</a></h3>
+<p>No juice, tea or kit "detoxifies" the body; the liver and kidneys do that (see <a href="../02-diseases/liver.html">Liver and fatty liver</a>). Cleanses may cause diarrhoea, dehydration, electrolyte problems and nutrient loss.</p>
+<h3 id="alkaline-diets-and-water"><a class="header" href="#alkaline-diets-and-water">"Alkaline" diets and water</a></h3>
+<p>The body keeps blood pH tightly controlled (see <a href="../01-body/hormones-metabolism-homeostasis.html">Metabolism</a>). Food and "alkaline water" do not change it. There is no good evidence that alkaline diets prevent or treat cancer or other disease.</p>
+<h2 id="3-common-single-food-myths"><a class="header" href="#3-common-single-food-myths">3. Common single-food myths</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Claim</th><th>What is true</th></tr>
+</thead>
+<tbody>
+<tr><td>"Ghee is poison" or "ghee is a superfood"</td><td>Fine in small amounts in a mixed diet; neither extreme is supported</td></tr>
+<tr><td>"Coconut oil is healthy for the heart"</td><td>It raises LDL in many people; not proven heart-protective</td></tr>
+<tr><td>"Eggs raise cholesterol dangerously"</td><td>For most healthy people, eggs in moderation are acceptable; ask if you have high cholesterol or diabetes</td></tr>
+<tr><td>"Fruit is bad for diabetes because of sugar"</td><td>Whole fruit in sensible portions is generally fine; fruit juice is worse</td></tr>
+<tr><td>"Jaggery, honey and brown sugar are healthy sugar"</td><td>They are still added sugar</td></tr>
+<tr><td>"Eating at night makes you fat"</td><td>Total calories and quality matter more; late heavy meals may affect sleep and reflux</td></tr>
+<tr><td>"Skipping breakfast is bad / breakfast is essential"</td><td>Evidence is mixed; what you eat matters more</td></tr>
+<tr><td>"Sweeteners are a healthy replacement for sugar"</td><td>The WHO (2023) conditionally suggests not using non-sugar sweeteners to control weight or reduce disease risk (this does not apply to people who already have diabetes, and it is not a safety judgement) <code>⚠ verify</code></td></tr>
+<tr><td>"Processed meat is fine"</td><td>The WHO's cancer agency classes processed meat as a cause of cancer (Group 1); limit it <code>⚠ verify</code></td></tr>
+<tr><td>"Microwaved food is dangerous"</td><td>No good evidence of harm from microwave cooking itself</td></tr>
+<tr><td>"Cold water or ice after meals harms digestion"</td><td>No good evidence</td></tr>
+<tr><td>"Lemon water melts fat"</td><td>No</td></tr>
+<tr><td>"Rice makes you fat; roti does not"</td><td>Total calories and portions matter; refined versus whole grain matters more</td></tr>
+<tr><td>"Diabetics must avoid all rice, fruit and sweets"</td><td>A plan, portion control and quality matter; ask a dietitian</td></tr>
+<tr><td>"Boiled water or special water prevents disease"</td><td>Safe water prevents infection; "magic water" claims are false</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="4-weight-loss-shortcuts"><a class="header" href="#4-weight-loss-shortcuts">4. Weight-loss shortcuts</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Claim</th><th>What is true</th></tr>
+</thead>
+<tbody>
+<tr><td>"Fat burner", "slimming tea", "detox tea", "belly fat capsules"</td><td>No proven benefit; some contain stimulants, laxatives or hidden drugs</td></tr>
+<tr><td>"Thyroid tablets to lose weight"</td><td>Dangerous; see <a href="../02-diseases/thyroid.html">Thyroid</a></td></tr>
+<tr><td>"Lose 10 kg in 10 days"</td><td>Crash diets lose water and muscle and are usually regained</td></tr>
+<tr><td>"Spot reduction" of belly fat</td><td>Not possible</td></tr>
+<tr><td>"Weight-loss injections" from unverified clinics</td><td>Prescription medicines have real risks; see <a href="../02-diseases/obesity-and-metabolic-syndrome.html">Obesity and metabolic syndrome</a></td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="5-a-sensible-approach"><a class="header" href="#5-a-sensible-approach">5. A sensible approach</a></h2>
+<ol>
+<li><strong>Eat mostly whole, minimally processed food;</strong> half the plate vegetables and fruit.</li>
+<li><strong>Cut back</strong> on sugary drinks, sweets, fried snacks, refined flour, and salt.</li>
+<li><strong>Make a few changes at a time</strong> and keep them.</li>
+<li><strong>Include protein</strong> with each meal.</li>
+<li><strong>Cook at home</strong> when you can; eat slowly.</li>
+<li><strong>Be active and sleep well;</strong> diet is only part of health.</li>
+<li><strong>See a registered dietitian</strong> for personal advice, especially with a condition.</li>
+</ol>
+<h2 id="6-ask-your-doctor-or-dietitian"><a class="header" href="#6-ask-your-doctor-or-dietitian">6. Ask your doctor or dietitian</a></h2>
+<ol>
+<li>Is this diet or fast safe with my conditions and medicines?</li>
+<li>What does the evidence say for people like me?</li>
+<li>Which nutrients might I miss, and do I need a supplement?</li>
+<li>How will we know if it is working, and what warning signs mean I should stop?</li>
+<li>Can you give me a plan I can keep for years?</li>
+</ol>
+<h2 id="7-red-flags"><a class="header" href="#7-red-flags">7. Red flags</a></h2>
+<p>Stop the diet and get medical advice for: <strong>dizziness or fainting, palpitations, confusion, severe weakness, persistent vomiting, very low blood sugar, nausea with belly pain and fast breathing (possible ketoacidosis in diabetes), excessive hair fall with rapid weight loss, missed periods, or an intense fear of eating or weight gain</strong> (possible eating disorder).</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Intermittent fasting</strong> eating only in set windows · <strong>Ketogenic diet</strong> very low carbohydrate, high fat · <strong>Ketones</strong> fuel molecules from fat · <strong>Gluten</strong> a protein in wheat, barley and rye · <strong>Coeliac disease</strong> an immune reaction to gluten · <strong>Millet</strong> a group of small-seeded grains · <strong>DASH diet</strong> a blood-pressure-lowering eating pattern · <strong>Detox</strong> a marketing term for cleansing · <strong>Non-sugar sweetener</strong> an artificial or natural sugar substitute · <strong>Registered dietitian</strong> a trained nutrition professional · <strong>Eating disorder</strong> a serious illness involving unhealthy eating behaviour.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>Patikorn C, et al. Intermittent fasting and obesity-related health outcomes: an umbrella review. <em>JAMA Netw Open</em> 2021 (a time-restricted eating trial by Lowe et al., <em>JAMA Intern Med</em> 2020, was not checked). <code>⚠ verify</code></li>
+<li>ICMR-NIN <em>Dietary Guidelines for Indians</em> (2024); RSSDI-ESI guidance on diet in diabetes. <code>⚠ verify</code></li>
+<li>WHO guideline on non-sugar sweeteners (2023); IARC Monograph 114 on red and processed meat (2015). <code>⚠ verify</code></li>
+<li>Indian Society of Gastroenterology and coeliac disease prevalence studies in northern India. <code>⚠ verify</code></li>
+<li>Dietary supplement contamination reports; LiverTox (US NIH). <code>⚠ verify</code></li>
+</ol>
+<p><strong>Not verified:</strong> the intermittent-fasting and keto summaries, coeliac prevalence in northern India, the protein-supplement contamination statement, the WHO sweetener and IARC statements, and the single-food myth rows are claims to confirm against the cited sources.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../04-medicines/reading-a-prescription.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../05-nutrition/nutrition-and-the-indian-diet.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../04-medicines/reading-a-prescription.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../05-nutrition/nutrition-and-the-indian-diet.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

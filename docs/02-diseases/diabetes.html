@@ -1,0 +1,432 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Diabetes and Blood Sugar - Medical Literacy Handbook (India)</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A private, plain-language guide to understanding your body, reports and medicines, and to spotting misleading advice. Not medical advice.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-0392ca55.css">
+        <link rel="stylesheet" href="../css/chrome-fc474251.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom-679d5ced.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-ce60a1ab.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-61a5f9d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Medical Literacy Handbook (India)</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="diabetes-and-blood-sugar"><a class="header" href="#diabetes-and-blood-sugar">Diabetes and Blood Sugar</a></h1>
+<p><em>Status: Draft. A doctor has not reviewed it yet. Last checked: November 2026.</em></p>
+<p>Read <a href="../00-start-here/01-how-to-judge-medical-advice.html">How to judge medical advice</a> and <a href="../03-tests/01-how-lab-reports-work.html">How lab reports work</a> first.</p>
+<blockquote class="blockquote-tag blockquote-tag-note">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p><strong>Quick summary</strong></p>
+<ul>
+<li>Diabetes means too much sugar (glucose) stays in the blood because insulin is missing or not working well.</li>
+<li>Early type 2 diabetes often has no symptoms, so tests matter. One high reading is not enough: the result must be confirmed.</li>
+<li>HbA1c can be wrong in anaemia and some inherited blood conditions, which are common in India.</li>
+<li>Diabetes is controlled, not cured, by medicines. Never stop or change them on your own.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="1-what-is-it"><a class="header" href="#1-what-is-it">1. What is it?</a></h2>
+<p>Your body runs on <strong>glucose</strong>, a simple sugar made from the food you eat. Glucose travels in the blood and fuels every cell.</p>
+<p>Cells cannot just take glucose in. They need a "key": a hormone called <strong>insulin</strong>. (A hormone is a chemical messenger in the blood.) Insulin is made by the <strong>pancreas</strong>, an organ behind the stomach.</p>
+<p><strong>Diabetes</strong> means the system fails and glucose stays too high in the blood.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Kind</th><th>What goes wrong</th><th>The "key" picture</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Type 1</strong></td><td>The immune system destroys the cells that make insulin</td><td>No keys are made</td></tr>
+<tr><td><strong>Type 2</strong> (most common)</td><td>Cells respond poorly to insulin (<strong>insulin resistance</strong>) and later the pancreas makes less</td><td>Keys exist but fit badly; later, fewer keys</td></tr>
+<tr><td><strong>Gestational</strong></td><td>High sugar that starts in pregnancy</td><td>Pregnancy hormones make keys fit worse</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Prediabetes</strong> is sugar above normal but below the diabetes line. It is a warning stage and can often be reversed.</p>
+<p>India has very large numbers: an ICMR-INDIAB study estimated about 101 million people (11.4%) with diabetes and about 136 million (15.3%) with prediabetes in 2021. These are estimates extrapolated from a survey of 113,043 adults. [2] <code>⚠ verify</code></p>
+<h2 id="2-the-normal-body"><a class="header" href="#2-the-normal-body">2. The normal body</a></h2>
+<p><img src="../images/insulin-key.svg" alt="How insulin controls blood sugar: food becomes glucose, the pancreas releases insulin, insulin unlocks cells; type 1, type 2 and gestational diabetes are shown"></p>
+<p><em>Figure 1: How blood sugar is kept steady, and where each type of diabetes goes wrong.</em></p>
+<p><img src="../images/anatomy/liver-gallbladder-pancreas.png" alt="Liver, stomach, gallbladder and pancreas shown in the upper belly, with a body outline showing their position"></p>
+<p><em>Figure 2: Where the pancreas sits, behind the stomach. It makes insulin. Image: Blausen.com staff, CC BY 3.0 (see <a href="../IMAGE-CREDITS.html">IMAGE-CREDITS</a>).</em></p>
+<p>Blood sugar rises after a meal and falls over the next hours. Muscle activity pulls glucose out of the blood without needing much insulin, which is why exercise helps.</p>
+<p><img src="../images/blood-sugar-day.svg" alt="Illustrative blood sugar through a day with three meals: a small rise and quick return without diabetes, higher peaks and a slow return with poorly controlled diabetes"></p>
+<h2 id="3-what-goes-wrong"><a class="header" href="#3-what-goes-wrong">3. What goes wrong</a></h2>
+<p>Glucose stays high. Over years, high glucose damages <strong>small blood vessels and nerves</strong>, harming the eyes, kidneys, feet and heart (see Complications).</p>
+<h2 id="4-causes-and-risk-factors"><a class="header" href="#4-causes-and-risk-factors">4. Causes and risk factors</a></h2>
+<ul>
+<li><strong>Type 2:</strong> extra belly fat, little activity, family history, age, previous gestational diabetes, polycystic ovary syndrome (PCOS), high blood pressure and cholesterol.</li>
+<li><strong>Type 1:</strong> an autoimmune process (the immune system attacks the body's own cells). It is not caused by sugar intake.</li>
+<li>Many Indians develop type 2 diabetes at a <strong>lower body weight than people in Western countries</strong>, because more of the fat sits inside the belly (<strong>visceral fat</strong>). [3]</li>
+<li>Diets heavy in refined carbohydrate (white rice, maida, sugar, sweets) raise the risk.</li>
+</ul>
+<h2 id="5-symptoms"><a class="header" href="#5-symptoms">5. Symptoms</a></h2>
+<p>Early type 2 often causes <strong>none</strong>. When sugar is high: a lot of urine, extreme thirst, tiredness, blurred vision, slow-healing wounds, repeated infections, weight loss without trying.</p>
+<h2 id="6-diagnosis-and-tests"><a class="header" href="#6-diagnosis-and-tests">6. Diagnosis and tests</a></h2>
+<h3 id="marker-cards"><a class="header" href="#marker-cards">Marker cards</a></h3>
+<h4 id="fasting-plasma-glucose-fpg"><a class="header" href="#fasting-plasma-glucose-fpg">Fasting plasma glucose (FPG)</a></h4>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td>What it measures</td><td>Blood sugar after no food (no calories) for at least 8 hours</td></tr>
+<tr><td>Why the body needs it</td><td>Glucose is the body's fuel; the level shows how well insulin is working</td></tr>
+<tr><td>Can be raised by</td><td>Diabetes, prediabetes, eating before the test, illness, steroids</td></tr>
+<tr><td>Can be lowered by</td><td>Too much diabetes medicine, a long delay before the sample is processed (blood cells keep eating the sugar)</td></tr>
+<tr><td>What else you need</td><td>A repeat test, HbA1c, symptoms</td></tr>
+<tr><td>Example cut-offs</td><td>Normal below 100; prediabetes 100 to 125; diabetes 126 or more (in mg/dL, milligrams of glucose per decilitre of blood, from the American Diabetes Association, ADA). [1] <code>⚠ verify against current table</code> The WHO draws the prediabetes line at 110. [4]</td></tr>
+</tbody>
+</table>
+</div>
+<h4 id="2-hour-post-meal-glucose-and-ogtt"><a class="header" href="#2-hour-post-meal-glucose-and-ogtt">2-hour post-meal glucose and OGTT</a></h4>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td>What it measures</td><td>Sugar 2 hours after a meal, or 2 hours after a measured sugar drink (OGTT: oral glucose tolerance test, usually 75 g glucose)</td></tr>
+<tr><td>Example cut-offs (OGTT)</td><td>Normal below 140; prediabetes 140 to 199; diabetes 200 or more (mg/dL, ADA). [1] <code>⚠ verify</code></td></tr>
+<tr><td>Notes</td><td>OGTT is the main test for gestational diabetes. Eating a normal meal is not the same as an OGTT.</td></tr>
+</tbody>
+</table>
+</div>
+<h4 id="hba1c"><a class="header" href="#hba1c">HbA1c</a></h4>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><td>What it measures</td><td>Average blood sugar over about the last 2 to 3 months. Glucose sticks to <strong>haemoglobin</strong> (the oxygen-carrying protein in red blood cells). Red cells live about 120 days.</td></tr>
+<tr><td>Why it is useful</td><td>One number that is not affected by what you ate today</td></tr>
+<tr><td>Can be raised by</td><td>Poorly controlled sugar; <strong>iron-deficiency anaemia</strong> <code>⚠ verify</code></td></tr>
+<tr><td>Can be lowered by</td><td><strong>Blood loss, recent transfusion, red cells breaking down</strong>; some medicines. [1]</td></tr>
+<tr><td>Can be unreliable with</td><td><strong>Haemoglobin variants</strong> (abnormal inherited haemoglobin, common in India, such as HbE and HbS) and thalassaemia can read falsely high or falsely low depending on the variant and lab method <code>⚠ verify</code>, kidney disease, pregnancy</td></tr>
+<tr><td>Example cut-offs</td><td>Normal below 5.7%; prediabetes 5.7 to 6.4%; diabetes 6.5% or more. [1] <code>⚠ verify</code></td></tr>
+<tr><td>Example meaning</td><td>7% matches an average blood sugar of about 154 mg/dL (formula: 28.7 × HbA1c − 46.7). [5]</td></tr>
+</tbody>
+</table>
+</div>
+<blockquote class="blockquote-tag blockquote-tag-important">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p>
+<p>Diagnosis normally needs an abnormal result <strong>confirmed</strong> by a repeat, or two different abnormal tests, unless you have clear symptoms with a very high random sugar. [1] One high number is not enough.</p>
+</blockquote>
+<p>Anaemia and thalassaemia trait are common in India. If your HbA1c does not match your sugar readings, ask whether glucose tests should be used instead.</p>
+<h3 id="home-sugar-meters-glucometers"><a class="header" href="#home-sugar-meters-glucometers">Home sugar meters (glucometers)</a></h3>
+<ul>
+<li>Meters need only be within 15 mg/dL of a lab value below 100 mg/dL, or within 15% at 100 mg/dL and above, for 95 out of 100 readings. A single reading can be further off. [6]</li>
+<li><strong>Wash and dry your hands first.</strong> Sugar or fruit juice on the finger gives a false high.</li>
+<li>Check strip expiry dates and keep the box closed.</li>
+<li>Write each reading with the time and meal. Patterns matter more than one number.</li>
+</ul>
+<h2 id="7-treatment"><a class="header" href="#7-treatment">7. Treatment</a></h2>
+<blockquote class="blockquote-tag blockquote-tag-warning">
+<p class="blockquote-tag-title"><svg viewbox="0 0 16 16" width="18" height="18"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
+<p>No doses here. Never stop or change diabetes medicines on your own. Never adjust insulin without being taught how.</p>
+</blockquote>
+<p>Food, activity and weight loss are the base of treatment. [1] Targets: for many adults the HbA1c goal is <strong>below about 7%</strong>, but it is <strong>your doctor's</strong> decision. A looser target is often safer for older or frail people. [1]</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Group (examples)</th><th>What it does</th><th>Worth knowing</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Metformin</strong></td><td>Reduces sugar release from the liver; helps insulin work. Usually first</td><td>Can upset the stomach. Long use can lower vitamin B12, so periodic B12 testing is advised. [1] The doctor checks kidney function.</td></tr>
+<tr><td><strong>Sulfonylureas</strong> (glimepiride, gliclazide)</td><td>Push the pancreas to release more insulin</td><td>Can cause <strong>low sugar</strong> and weight gain</td></tr>
+<tr><td><strong>DPP-4 inhibitors</strong> (teneligliptin, sitagliptin, vildagliptin)</td><td>Gently raise the body's own insulin response after meals</td><td>Low risk of low sugar; often costlier</td></tr>
+<tr><td><strong>SGLT2 inhibitors</strong> (dapagliflozin, empagliflozin)</td><td>Kidneys pass sugar out in urine</td><td>May protect heart and kidneys; can cause genital infections and dehydration; rare ketoacidosis</td></tr>
+<tr><td><strong>Pioglitazone</strong></td><td>Makes cells respond better to insulin</td><td>Can cause fluid retention</td></tr>
+<tr><td><strong>Insulin</strong></td><td>Replaces or adds the "key". Needed in type 1 and in many with type 2 over time</td><td>Needs a doctor's teaching. Insulin does not cause complications. High sugar does.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Metformin and glimepiride are cheap generics in India. Whether each is on the National List of Essential Medicines 2022 should be checked in the NLEM document. <code>⚠ verify</code> Newer is not always better: ask what a newer drug adds for <strong>you</strong> and what it costs a month.</p>
+<h2 id="8-complications"><a class="header" href="#8-complications">8. Complications</a></h2>
+<ul>
+<li><strong>Eyes:</strong> retina damage, found early only by an eye exam.</li>
+<li><strong>Kidneys:</strong> protein leaking into urine first, later falling filtering ability.</li>
+<li><strong>Nerves:</strong> numb or burning feet, leading to unnoticed wounds.</li>
+<li><strong>Heart and vessels:</strong> heart attack and stroke.</li>
+<li><strong>Feet:</strong> a small cut can become a serious infection.</li>
+<li><strong>Emergencies:</strong> low sugar (hypoglycaemia) and diabetic ketoacidosis (DKA: the body, short of insulin, burns fat and makes acids; mainly type 1).</li>
+</ul>
+<p><strong>Yearly checks for everyone with diabetes:</strong> eye exam, urine albumin-creatinine ratio (protein in urine), kidney blood test (eGFR, an estimate of kidney filtering), foot exam, blood pressure, cholesterol. [1]</p>
+<h2 id="9-prevention-and-self-management"><a class="header" href="#9-prevention-and-self-management">9. Prevention and self-management</a></h2>
+<ul>
+<li><strong>Weight loss and activity</strong> reduce the risk of getting type 2 diabetes from prediabetes and improve control. [1]</li>
+<li>Prefer whole grains, pulses and vegetables over refined carbohydrate and sugary drinks.</li>
+<li>Check sugar as your doctor advises and bring the log to visits.</li>
+<li>Keep a <strong>fast sugar source</strong> at hand if you take insulin or sulfonylureas.</li>
+<li><strong>Remission:</strong> a supervised, intensive weight-loss programme (DiRECT trial) put 46% of participants into type 2 diabetes remission at 12 months compared with 4% on usual care. [7] Remission may not last: at 5 years about 13% of the diet-programme group were still in remission, against 5% of usual care. This needs medical supervision. <code>⚠ verify long-term figure</code></li>
+</ul>
+<h2 id="10-misinformation-and-how-you-get-misled-india"><a class="header" href="#10-misinformation-and-how-you-get-misled-india">10. Misinformation and how you get misled (India)</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>What happens</th><th>What to do instead</th></tr>
+</thead>
+<tbody>
+<tr><td>"Sugar cured in 30 days" products</td><td>Diabetes is <strong>controlled</strong>, not cured, by tablets or herbs. Supervised weight loss can cause remission, but not through supplements.</td></tr>
+<tr><td>Stopping tablets because a herbal product or good reading "cured" you</td><td>Ask your doctor first. The number is good <em>because</em> of treatment.</td></tr>
+<tr><td>"Diabetic" biscuits, sweets and flours</td><td>Often not better for sugar and more costly. Read the label.</td></tr>
+<tr><td>Herbal "sugar" products</td><td>Case reports and a Hong Kong series found some herbal diabetes products secretly contained real tablets such as glibenclamide, causing dangerous lows. One Indian study of 40 brands found none. So it has happened, but is not shown to be common in India. [8] Tell your doctor about every product you take.</td></tr>
+<tr><td>"Insulin is the last stage and causes blindness or kidney damage"</td><td>A myth. High sugar causes the damage. Delaying insulin you need allows more damage.</td></tr>
+<tr><td>Judging control by urine sugar</td><td>Urine sugar is a poor guide. Blood tests are used.</td></tr>
+<tr><td>HbA1c every month</td><td>It reflects about 3 months. Ask how often you really need it.</td></tr>
+<tr><td>A pill with three or four drugs ("fixed-dose combination")</td><td>Ask whether each is needed and what happens when one must be changed.</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="11-ask-your-doctor"><a class="header" href="#11-ask-your-doctor">11. Ask your doctor</a></h2>
+<ol>
+<li>Which test confirmed this, and was it repeated?</li>
+<li>Could anaemia or an inherited haemoglobin variant be affecting my HbA1c?</li>
+<li>What is <strong>my</strong> HbA1c target, and why?</li>
+<li>For each medicine: what does it do, what are the risks (especially low sugar), what does it cost a month?</li>
+<li>How and when should I check at home, and what numbers should make me call you?</li>
+<li>When are my yearly eye, kidney and foot checks?</li>
+<li>Should my vitamin B12 be checked (if on metformin)?</li>
+<li>What food and activity plan fits my life?</li>
+</ol>
+<h2 id="12-red-flags"><a class="header" href="#12-red-flags">12. Red flags</a></h2>
+<p><strong>Low sugar</strong> (shaking, sweating, hunger, confusion). If you can swallow and your meter reads <strong>below 70 mg/dL</strong>, the usual first step is <strong>15 grams of fast sugar</strong> (for example glucose tablets or about half a glass of juice), then <strong>recheck after 15 minutes</strong> and repeat if still low. [1] <strong>If the person cannot swallow or is very drowsy or unconscious: call emergency help. Do not put food in their mouth.</strong></p>
+<p><strong>Go to a hospital</strong> for: vomiting with belly pain and deep fast breathing, extreme thirst with drowsiness, very high readings with illness, a foot wound with redness or fever, sudden vision loss, chest pain.</p>
+<h2 id="key-terms"><a class="header" href="#key-terms">Key terms</a></h2>
+<p><strong>Glucose</strong> blood sugar, the body's fuel · <strong>Insulin</strong> the hormone that lets glucose into cells · <strong>Pancreas</strong> organ that makes insulin · <strong>Insulin resistance</strong> cells respond poorly to insulin · <strong>Prediabetes</strong> above normal, below diabetes · <strong>Gestational</strong> starting in pregnancy · <strong>HbA1c</strong> 2–3 month average sugar marker · <strong>Haemoglobin</strong> oxygen-carrying protein in red cells · <strong>OGTT</strong> timed sugar-drink test · <strong>Visceral fat</strong> fat inside the belly · <strong>Hypoglycaemia</strong> low blood sugar · <strong>DKA</strong> diabetic ketoacidosis · <strong>eGFR</strong> estimate of kidney filtering · <strong>Remission</strong> sugar normal without diabetes medicine · <strong>Fixed-dose combination</strong> several drugs in one tablet.</p>
+<h2 id="sources-and-not-verified"><a class="header" href="#sources-and-not-verified">Sources and not verified</a></h2>
+<ol>
+<li>American Diabetes Association. <em>Standards of Care in Diabetes</em> (annual; use the latest, e.g. <em>Diabetes Care</em> 2025;48 Suppl 1).</li>
+<li>ICMR-INDIAB: Anjana RM, et al. (author list to be confirmed against the DOI). <em>Lancet Diabetes Endocrinol</em> 2023;11(7):474-489.</li>
+<li>Chawla R, et al. RSSDI-ESI clinical practice recommendations for type 2 diabetes. <em>Indian J Endocrinol Metab</em> 2020;24(1):1-122. ICMR 2018 guidelines (not yet checked).</li>
+<li>WHO. Definition and diagnosis of diabetes mellitus and intermediate hyperglycaemia, 2006.</li>
+<li>Nathan DM, et al. A1c-derived average glucose (ADAG) study. <em>Diabetes Care</em> 2008.</li>
+<li>ISO 15197:2013, as described in the open literature (PMC4525642).</li>
+<li>Lean MEJ, et al. DiRECT trial. <em>Lancet</em> 2018;391:541-551.</li>
+<li>Case reports in <em>Exp Clin Endocrinol Diabetes</em> 2009; Hong Kong series; Indian brand study in <em>AYU</em> 2019;40(4).</li>
+</ol>
+<p><strong>Not verified:</strong> exact ADA prediabetes and OGTT table; the direction of effect of iron deficiency on HbA1c; thalassaemia effect on HbA1c; NLEM 2022 listing; the long-term DiRECT remission figure; the INDIAB author list. Marked <code>⚠ verify</code>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../02-diseases/coronary-heart-disease.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../02-diseases/high-blood-pressure.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../02-diseases/coronary-heart-disease.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../02-diseases/high-blood-pressure.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-c22b7243.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom-ed3645e9.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="t d">
+  <title id="t">Blood pressure readings in bands</title>
+  <desc id="d">Four bands from lowest to highest. Below 120 over 80 is normal. 120 to 139 over 80 to 89 is above the ideal and should be rechecked. 140 over 90 or higher is hypertension in Indian and European guidelines, confirmed on repeated readings. 180 over 120 or higher with symptoms is an emergency.</desc>
+  <style>
+    .title{font:700 20px sans-serif;fill:#134e4a}
+    .h{font:700 16px sans-serif}
+    .s{font:13px sans-serif;fill:#334155}
+    .e{fill:#fef2f2;stroke:#b91c1c;stroke-width:2}
+    .hy{fill:#fff7ed;stroke:#c2410c;stroke-width:2}
+    .up{fill:#fffbeb;stroke:#b45309;stroke-width:2}
+    .ok{fill:#f0fdf4;stroke:#15803d;stroke-width:2}
+    .note{font:italic 13px sans-serif;fill:#475569}
+  </style>
+  <rect width="760" height="360" fill="#fff" rx="10"/>
+  <text x="24" y="34" class="title">Blood pressure bands (examples)</text>
+  <rect class="e" x="20" y="52" width="720" height="56" rx="8"/>
+  <text class="h" x="36" y="76" style="fill:#b91c1c">180/120 or higher, with symptoms: emergency</text>
+  <text class="s" x="36" y="96">Severe headache, chest pain, breathlessness, vision change, confusion or weakness: call 112 or go to hospital.</text>
+  <rect class="hy" x="20" y="116" width="720" height="62" rx="8"/>
+  <text class="h" x="36" y="140" style="fill:#c2410c">140/90 or higher: hypertension (Indian and European guidelines)</text>
+  <text class="s" x="36" y="160">Confirmed on repeated readings, not one. US guidelines use 130/80. Your doctor decides what to do.</text>
+  <rect class="up" x="20" y="186" width="720" height="62" rx="8"/>
+  <text class="h" x="36" y="210" style="fill:#b45309">120 to 139 over 80 to 89: above ideal</text>
+  <text class="s" x="36" y="230">Recheck on another day. Salt, weight, activity, sleep and stress matter most here.</text>
+  <rect class="ok" x="20" y="256" width="720" height="56" rx="8"/>
+  <text class="h" x="36" y="280" style="fill:#15803d">Below 120/80: normal for most adults</text>
+  <text class="s" x="36" y="300">Keep checking at the interval your doctor advises.</text>
+  <text class="note" x="24" y="336">Either number can put you in a higher band. Targets are personal. See the chapter for how to measure correctly.</text>
+</svg>
