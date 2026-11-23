@@ -41,15 +41,14 @@
 
 /* Reading column and text */
 .content main {
-  max-width: 740px;
+  max-width: 880px;
 }
 .content p, .content li {
-  line-height: 1.8;
+  line-height: 1.75;
 }
 .content {
-  font-size: 1.12em;
+  font-size: 1.02em;
 }
-.content p { margin: 0 0 1.1em; }
 
 /* Headings */
 .content h1 {
@@ -60,16 +59,12 @@
   margin-bottom: 1em;
 }
 .content h2 {
-  margin-top: 2.4em;
-  margin-bottom: 0.7em;
-  font-weight: 700;
+  margin-top: 2em;
   padding-bottom: 0.25em;
   border-bottom: 1px solid var(--mlh-border);
 }
 .content h3 {
-  margin-top: 1.9em;
-  margin-bottom: 0.5em;
-  font-weight: 650;
+  margin-top: 1.6em;
   color: var(--mlh-accent);
 }
 .content .header, .content .header:link, .content .header:visited {
@@ -96,26 +91,17 @@
 .content a:hover { text-decoration-thickness: 2px; }
 
 /* Tables */
-.content .table-wrapper {
-  overflow: auto;
-  max-height: 75vh;
-  margin: 1.2em 0;
-  border: 1px solid var(--mlh-border);
-  border-radius: 8px;
-}
 .content table {
-  display: table;
-  width: 100%;
+  display: block;
+  overflow-x: auto;
   border-collapse: separate;
   border-spacing: 0;
-  border: none;
-  margin: 0;
+  border: 1px solid var(--mlh-border);
+  border-radius: 8px;
+  margin: 1.2em 0;
   font-size: 0.95em;
 }
 .content table thead th {
-  position: sticky;
-  top: 0;
-  z-index: 1;
   background: var(--mlh-accent-soft);
   color: var(--mlh-accent);
   text-align: left;
@@ -266,17 +252,3 @@
 @media (max-width: 620px) {
   .content img[src$=".svg"] { max-height: none; }
 }
-/* Named sections get a coloured side bar (tagged by custom.js) */
-.content .mlh-sec {
-  margin: 0.4em 0 1.4em;
-  padding: 0.2em 1.1em 0.4em;
-  border-left: 5px solid var(--mlh-accent);
-  border-radius: 8px;
-  background: var(--mlh-accent-soft);
-}
-.content .mlh-sec > h2 { margin-top: 0.6em; border-bottom: none; }
-.content .mlh-sec-redflags { border-left-color: var(--mlh-caution); background: var(--mlh-caution-bg); }
-.content .mlh-sec-redflags > h2 { color: var(--mlh-caution); }
-.content .mlh-sec-ask { border-left-color: var(--mlh-note); background: var(--mlh-note-bg); }
-.content .mlh-sec-verify { border-left-color: var(--mlh-warning); background: var(--mlh-warning-bg); }
-.content .mlh-sec-terms { border-left-color: var(--mlh-tip); background: var(--mlh-tip-bg); }
