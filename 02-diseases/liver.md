@@ -21,8 +21,8 @@ The **liver** is the body's main **factory and filter**. It sits in the upper ri
 | Job | Picture |
 |---|---|
 | Cleans the blood and breaks down medicines, alcohol and other chemicals | A water filter plant |
-| Makes **bile**, a fluid that helps digest fat | A soap for fats |
-| Makes proteins, including **albumin** (keeps fluid inside blood vessels) and the proteins that make blood **clot** | A protein factory |
+| Makes bile, a fluid that helps digest fat | A soap for fats |
+| Makes proteins, including albumin (keeps fluid inside blood vessels) and the proteins that make blood clot | A protein factory |
 | Stores energy as a sugar store (glycogen) and releases it between meals | A fuel tank |
 
 ![Liver, gallbladder, stomach and pancreas in the upper belly, with a body outline showing where they sit](../images/anatomy/liver-gallbladder-pancreas.png)
@@ -41,12 +41,12 @@ Liver cells hold **enzymes**. (An enzyme is a protein that speeds up a chemical 
 
 | Stage or condition | Meaning |
 |---|---|
-| **Fatty liver** | Fat builds up inside liver cells |
-| **Inflammation** | The liver is irritated; enzymes rise |
-| **Fibrosis** | Scar tissue forms |
-| **Cirrhosis** | The liver is badly scarred and stops working well |
-| **Hepatitis** | Inflammation of the liver, most often from a virus |
-| **Jaundice** | Yellow eyes and skin, usually with dark urine |
+| Fatty liver | Fat builds up inside liver cells |
+| Inflammation | The liver is irritated; enzymes rise |
+| Fibrosis | Scar tissue forms |
+| Cirrhosis | The liver is badly scarred and stops working well |
+| Hepatitis | Inflammation of the liver, most often from a virus |
+| Jaundice | Yellow eyes and skin, usually with dark urine |
 
 These are **not interchangeable**. Fatty liver is not cirrhosis.
 
@@ -60,7 +60,7 @@ These are **not interchangeable**. Fatty liver is not cirrhosis.
 
 New name since 2023: **MASLD** (metabolic dysfunction-associated steatotic liver disease; "steatotic" means fatty). [2] The older name is **NAFLD** (non-alcoholic fatty liver disease).
 
-Linked to **belly fat, high sugar, high cholesterol and high blood pressure**. About one in three Indian adults is estimated to have it (roughly 28% to 39%, depending on the group studied). [3] Most have no symptoms. In some, fat leads to inflammation, scarring and later cirrhosis. [4]
+Linked to belly fat, high sugar, high cholesterol and high blood pressure. About one in three Indian adults is estimated to have it (roughly 28% to 39%, depending on the group studied). [3] Most have no symptoms. In some, fat leads to inflammation, scarring and later cirrhosis. [4]
 
 ### Alcohol
 
@@ -70,12 +70,12 @@ Alcohol harms the liver in a dose-related way. Less is better. Tell your doctor 
 
 | Virus | How it spreads | Notes |
 |---|---|---|
-| **A and E** | Contaminated food and water | Usually a short illness that settles. Hepatitis E can be life-threatening in pregnancy, especially in the 2nd and 3rd trimester (three-month stages of pregnancy). [5] |
-| **B** | Blood, sex, mother to baby | Can become long-lasting. A **vaccine** prevents it. |
-| **C** | Mostly blood (unsafe needles, unscreened blood) | Can become long-lasting. **Modern tablets cure more than 95% of people. Treatment usually takes 12 to 24 weeks, depending on whether the liver is scarred; some people need only 8 to 12 weeks.** [6] |
-| **D** | Only in people who have hepatitis B | |
+| A and E | Contaminated food and water | Usually a short illness that settles. Hepatitis E can be life-threatening in pregnancy, especially in the 2nd and 3rd trimester (three-month stages of pregnancy). [5] |
+| B | Blood, sex, mother to baby | Can become long-lasting. A vaccine prevents it. |
+| C | Mostly blood (unsafe needles, unscreened blood) | Can become long-lasting. Modern tablets cure more than 95% of people. Treatment usually takes 12 to 24 weeks, depending on whether the liver is scarred; some people need only 8 to 12 weeks. [6] |
+| D | Only in people who have hepatitis B | |
 
-India's **National Viral Hepatitis Control Programme** offers free screening, testing and treatment for hepatitis B and C at government centres "in a phased manner", so ask which centre near you treats it. [6]
+India's National Viral Hepatitis Control Programme offers free screening, testing and treatment for hepatitis B and C at government centres "in a phased manner", so ask which centre near you treats it. [6]
 
 ### Medicines, herbs and supplements
 
@@ -87,7 +87,7 @@ Early disease usually causes none. Later: tiredness, loss of appetite, nausea, y
 
 ## 6. Diagnosis and tests
 
-### Marker cards (a liver function test, LFT, is a **panel**, not one number)
+### Marker cards (a liver function test, LFT, is a panel, not one number)
 
 #### ALT (SGPT)
 | | |
@@ -102,7 +102,7 @@ Early disease usually causes none. Later: tiredness, loss of appetite, nausea, y
 #### AST (SGOT)
 | | |
 |---|---|
-| What it measures | An enzyme in the liver **and** in muscle and heart |
+| What it measures | An enzyme in the liver and in muscle and heart |
 | Can be raised by | Liver injury; also hard exercise, muscle injury, heart problems |
 | What else you need | ALT. AST much higher than ALT can point to alcohol or advanced disease. |
 
@@ -122,10 +122,10 @@ Early disease usually causes none. Later: tiredness, loss of appetite, nausea, y
 | | |
 |---|---|
 | What they measure | Albumin: a protein made only by the liver. PT/INR (prothrombin time, international normalised ratio): how fast blood clots |
-| Why they matter | They show how well the liver is **working**. Low albumin or slow clotting suggests reduced working ability. |
+| Why they matter | They show how well the liver is working. Low albumin or slow clotting suggests reduced working ability. |
 
 > [!IMPORTANT]
-> **ALT/AST rising = injury** (cells leaking). **Albumin falling or INR rising = reduced working ability**, which is more serious. [1]
+> **ALT/AST rising = injury** (cells leaking). Albumin falling or INR rising = reduced working ability, which is more serious. [1]
 
 ### A mildly raised enzyme
 
@@ -134,7 +134,7 @@ Common first steps: repeat the test in a few weeks, review every medicine, herb 
 ### Is there scarring? FIB-4 and FibroScan
 
 When fatty liver is found, the key next question is **fibrosis**.
-- **FIB-4 score:** a simple formula using **age, AST, ALT and platelet count** (platelets are small blood cells that help clotting). A low score (below about 1.3) makes advanced scarring unlikely; a high score (above about 2.67) means see a liver specialist. [4]
+- FIB-4 score: a simple formula using age, AST, ALT and platelet count (platelets are small blood cells that help clotting). A low score (below about 1.3) makes advanced scarring unlikely; a high score (above about 2.67) means see a liver specialist. [4]
 - **FibroScan** (vibration-controlled transient elastography): a painless scan that measures liver **stiffness**. A stiffer liver means more scarring. [4]
 
 Ask for these **instead of** assuming a mild fatty-liver report needs liver tablets.
@@ -144,10 +144,10 @@ Ask for these **instead of** assuming a mild fatty-liver report needs liver tabl
 > [!WARNING]
 > No doses here. Do not stop a needed medicine because you fear "liver damage". Ask your doctor.
 
-- **Fatty liver:** no tablet cures it. What works is **gradual weight loss, regular activity, controlling sugar, cholesterol and blood pressure, and cutting alcohol**. Guidance says about 3 to 5% weight loss improves liver fat, and 10% or more is generally needed to improve inflammation and scarring. [4] `⚠ verify` (the 3 to 5% figure was not confirmed)
-- **Hepatitis B:** prevented by vaccine. Treated with long-term tablets when needed.
-- **Hepatitis C:** a short tablet course cures more than 95%. [6]
-- **Painkillers:** keep to the doctor's or label's limit for **paracetamol**.
+- Fatty liver: no tablet cures it. What works is gradual weight loss, regular activity, controlling sugar, cholesterol and blood pressure, and cutting alcohol. Guidance says about 3 to 5% weight loss improves liver fat, and 10% or more is generally needed to improve inflammation and scarring. [4] `⚠ verify` (the 3 to 5% figure was not confirmed)
+- Hepatitis B: prevented by vaccine. Treated with long-term tablets when needed.
+- Hepatitis C: a short tablet course cures more than 95%. [6]
+- Painkillers: keep to the doctor's or label's limit for **paracetamol**.
 - **"Liver protective" tablets** (ursodeoxycholic acid, silymarin or "milk thistle"): widely prescribed in India. There is no strong evidence for routine add-on use with other medicines (UDCA does have proven uses, for example in primary biliary cholangitis, a long-term bile duct disease), and they add cost. `⚠ verify` Ask what each one is **for** and for how long.
 - **Statins** (cholesterol tablets) are safe in people with fatty liver across the disease range, per AASLD (American Association for the Study of Liver Diseases) guidance. They are usually continued, with caution in advanced (decompensated, meaning with complications) cirrhosis. Do not stop them without asking. [4]
 
@@ -167,9 +167,9 @@ Cirrhosis; fluid in the belly (ascites); bleeding from swollen veins in the gull
 
 | What happens | What to do instead |
 |---|---|
-| **"Liver detox"** products, juices and kits | The liver detoxifies itself. No product is proven to "cleanse" it. |
-| **Herbal or Ayurvedic "liver tonics"** sold as safe for all | Some have injured the liver. Tell your doctor and check before starting. [7] |
-| A **"liver protective"** tablet added to every prescription | Ask what it is for and whether it can be dropped. |
+| "Liver detox" products, juices and kits | The liver detoxifies itself. No product is proven to "cleanse" it. |
+| Herbal or Ayurvedic "liver tonics" sold as safe for all | Some have injured the liver. Tell your doctor and check before starting. [7] |
+| A "liver protective" tablet added to every prescription | Ask what it is for and whether it can be dropped. |
 | Alarm over "grade 1 fatty liver" with a list of tablets | Ask for FIB-4 or FibroScan and a weight, sugar and activity plan. |
 | An LFT every few weeks without a reason | Ask what the result will change. |
 | Told to avoid all oil or all medicines | Ask which foods and medicines, and why. |
@@ -188,7 +188,7 @@ Cirrhosis; fluid in the belly (ascites); bleeding from swollen veins in the gull
 
 ## 12. Red flags
 
-**Go to a hospital today** for: yellow eyes or skin with **confusion or drowsiness**, **vomiting blood** or **black tarry stools**, a **swollen belly** with fever or pain, **very dark urine with severe weakness**, or jaundice in a pregnant woman. Also seek care if you have taken **too much paracetamol**, even if you feel well, because damage can start before symptoms.
+Go to a hospital today for: yellow eyes or skin with **confusion or drowsiness**, **vomiting blood** or **black tarry stools**, a **swollen belly** with fever or pain, very dark urine with severe weakness, or jaundice in a pregnant woman. Also seek care if you have taken **too much paracetamol**, even if you feel well, because damage can start before symptoms.
 
 ## 13. Hepatitis A, B, C and E: course and vaccines
 
@@ -196,10 +196,10 @@ Section 4 shows how each virus spreads. This table adds how long the illness las
 
 | Virus | Usual course | Vaccine |
 |---|---|---|
-| **A** | Acute, usually clears | Yes. Available privately and advised by the Indian Academy of Pediatrics (IAP); not in the free national schedule |
-| **B** | Can become chronic, especially if infected as a baby | Yes. The universal immunisation programme gives a birth dose (within 24 hours of birth) and later doses at 6, 10 and 14 weeks. See [Vaccines and immunisation](../07-prevention/vaccines-and-immunisation.md) |
-| **C** | Often chronic and silent | **None**, but curable |
-| **E** | Acute, usually clears. Can be severe in **pregnancy** | A recombinant vaccine (made in a lab from a single virus protein; brand Hevaxin) was reported approved in India in 2025 for adults 18 to 65, advised first for high-risk groups; ask your doctor `⚠ verify` |
+| A | Acute, usually clears | Yes. Available privately and advised by the Indian Academy of Pediatrics (IAP); not in the free national schedule |
+| B | Can become chronic, especially if infected as a baby | Yes. The universal immunisation programme gives a birth dose (within 24 hours of birth) and later doses at 6, 10 and 14 weeks. See [Vaccines and immunisation](../07-prevention/vaccines-and-immunisation.md) |
+| C | Often chronic and silent | None, but curable |
+| E | Acute, usually clears. Can be severe in pregnancy | A recombinant vaccine (made in a lab from a single virus protein; brand Hevaxin) was reported approved in India in 2025 for adults 18 to 65, advised first for high-risk groups; ask your doctor `⚠ verify` |
 
 Hepatitis A and E have no specific antiviral (a medicine that attacks a virus). Care is rest and fluids, and most people recover in weeks. Go to hospital for severe vomiting, drowsiness, bleeding, or if pregnant.
 
@@ -207,16 +207,16 @@ Hepatitis A and E have no specific antiviral (a medicine that attacks a virus). 
 
 | Test | What it shows |
 |---|---|
-| **HBsAg, anti-HBs, anti-HBc** | Hepatitis B infection, immunity (a vaccine response) and past contact |
-| **HBV DNA and HBeAg** | How active hepatitis B is (HBV is the hepatitis B virus; HBeAg is a protein it makes) |
-| **Anti-HCV, then HCV RNA** | (HCV is the hepatitis C virus; RNA is its genetic material.) The first shows contact with C. The RNA test shows **current** infection |
-| **IgM anti-HAV, IgM anti-HEV** | Recent A or E |
+| HBsAg, anti-HBs, anti-HBc | Hepatitis B infection, immunity (a vaccine response) and past contact |
+| HBV DNA and HBeAg | How active hepatitis B is (HBV is the hepatitis B virus; HBeAg is a protein it makes) |
+| Anti-HCV, then HCV RNA | (HCV is the hepatitis C virus; RNA is its genetic material.) The first shows contact with C. The RNA test shows current infection |
+| IgM anti-HAV, IgM anti-HEV | Recent A or E |
 
 **Hepatitis B.**
 - Many people with chronic hepatitis B need **no drug at first** but need **regular monitoring**. Doctors decide by HBV DNA, ALT and scarring.
 - Medicines (for example tenofovir or entecavir; generics are available in India) **suppress** the virus. They usually do **not cure** it, and treatment can be long-term. **Stopping on your own can cause a dangerous flare.** `⚠ verify`
-- **Pregnancy:** testing, extra medicine for high-risk mothers, and a newborn vaccine plus antibody injection protect the baby.
-- **Chemotherapy (cancer drugs) or strong immune-suppressing drugs** can reactivate hepatitis B. Tell your doctor if you have ever had it.
+- Pregnancy: testing, extra medicine for high-risk mothers, and a newborn vaccine plus antibody injection protect the baby.
+- Chemotherapy (cancer drugs) or strong immune-suppressing drugs can reactivate hepatitis B. Tell your doctor if you have ever had it.
 
 **Hepatitis C.** The cure rate and the NVHCP free-treatment offer are in Section 4. **Cure** is checked by a negative HCV RNA test 12 weeks after treatment (called **SVR**, sustained virological response). You can be infected again, and cure does not remove cirrhosis already formed.
 
@@ -235,13 +235,13 @@ Normal liver -> Inflammation -> Fibrosis (scarring)
 
 Scar tissue blocks blood flowing through the liver, so pressure rises in the **portal vein** (the vein that brings blood from the gut to the liver). This **portal hypertension** (high pressure) forces blood into small back-up veins and drives most complications.
 
-**Warning signs:** itching, easy bruising, a swollen belly (**ascites**, fluid in the belly) and legs, weight and muscle loss, **vomiting blood or black stools**, drowsiness or confusion (**hepatic encephalopathy**), spider-like veins on the skin, and red palms. A falling platelet count is also a clue, because a large spleen (an organ under the left ribs) traps platelets.
+**Warning signs:** itching, easy bruising, a swollen belly (**ascites**, fluid in the belly) and legs, weight and muscle loss, vomiting blood or black stools, drowsiness or confusion (**hepatic encephalopathy**), spider-like veins on the skin, and red palms. A falling platelet count is also a clue, because a large spleen (an organ under the left ribs) traps platelets.
 
 | Problem | What happens | Care |
 |---|---|---|
-| **Varices** | Swollen veins in the food pipe or stomach that can **burst and bleed** | Endoscopy screening (a camera test of the food pipe); beta-blocker medicines (they lower pressure in the veins) or **banding** (rubber bands around the veins); bleeding is an emergency |
-| **Ascites** | Fluid in the belly | Low-salt diet, water tablets, draining fluid when needed. Fluid infection (**SBP**) causes fever and belly pain |
-| **Malnutrition** | Muscle loss | Regular meals, a late-night snack and enough protein. **Do not cut protein** |
+| Varices | Swollen veins in the food pipe or stomach that can burst and bleed | Endoscopy screening (a camera test of the food pipe); beta-blocker medicines (they lower pressure in the veins) or banding (rubber bands around the veins); bleeding is an emergency |
+| Ascites | Fluid in the belly | Low-salt diet, water tablets, draining fluid when needed. Fluid infection (SBP) causes fever and belly pain |
+| Malnutrition | Muscle loss | Regular meals, a late-night snack and enough protein. Do not cut protein |
 
 Also: **vaccinate** against hepatitis A and B (if not immune), pneumococcus (a germ that causes pneumonia) and influenza. **Do not take NSAID painkillers** (anti-inflammatory painkillers, such as diclofenac or ibuprofen) in cirrhosis unless the liver doctor agrees. See [Painkillers, steroids, acidity and supplements](../04-medicines/painkillers-steroids-acidity-supplements.md). Liver transplant is an option for advanced disease. `⚠ verify`
 
@@ -271,6 +271,6 @@ Cirrhosis raises the risk of liver cancer (**HCC**, hepatocellular carcinoma). *
 10. EASL guidelines on hepatitis B, hepatitis C, decompensated cirrhosis and hepatocellular carcinoma; AASLD hepatitis B guidance; Baveno VII; NICE NG50 and CG165.
 11. ISG and INASL consensus guidelines; Lancet Gastroenterol Hepatol Commission on liver disease in India. `⚠ verify`
 
-**Checked against official pages (this pass):** WHO hepatitis C (cure over 95%, 12 to 24 weeks, no vaccine); WHO hepatitis E (pregnancy risk); NVHCP "about us" (free screening, diagnosis and treatment of B and C "in a phased manner"); MoHFW immunisation schedule (hepatitis B birth dose, then 6, 10 and 14 weeks); AASLD 2023 (FIB-4 cut-offs, statins, 6-monthly ultrasound with or without AFP in cirrhosis, via summaries); WHO hepatitis B (tenofovir or entecavir, often for life).
+Checked against official pages (this pass): WHO hepatitis C (cure over 95%, 12 to 24 weeks, no vaccine); WHO hepatitis E (pregnancy risk); NVHCP "about us" (free screening, diagnosis and treatment of B and C "in a phased manner"); MoHFW immunisation schedule (hepatitis B birth dose, then 6, 10 and 14 weeks); AASLD 2023 (FIB-4 cut-offs, statins, 6-monthly ultrasound with or without AFP in cirrhosis, via summaries); WHO hepatitis B (tenofovir or entecavir, often for life).
 
-**Not verified:** the usual Indian lab upper limit for ALT; paracetamol versus viral causes of acute liver failure in India; the evidence on ursodeoxycholic acid and silymarin; the "mildly raised enzyme" first steps; liver weight and general physiology; the 3 to 5% weight-loss figure; the "over 95%" cure rate in Indian patients; hepatitis E vaccine approval in India (only news reports found); the risk of a flare after stopping hepatitis B medicine; the surveillance rules for people with hepatitis B but no cirrhosis; transplant access and state schemes; and the advice about avoiding NSAIDs in cirrhosis. Marked `⚠ verify` where relevant.
+Not verified: the usual Indian lab upper limit for ALT; paracetamol versus viral causes of acute liver failure in India; the evidence on ursodeoxycholic acid and silymarin; the "mildly raised enzyme" first steps; liver weight and general physiology; the 3 to 5% weight-loss figure; the "over 95%" cure rate in Indian patients; hepatitis E vaccine approval in India (only news reports found); the risk of a flare after stopping hepatitis B medicine; the surveillance rules for people with hepatitis B but no cirrhosis; transplant access and state schemes; and the advice about avoiding NSAIDs in cirrhosis. Marked `⚠ verify` where relevant.

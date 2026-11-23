@@ -18,9 +18,9 @@ A **hormone** is made by a gland, released into the blood, and carried everywher
 
 | Type | Examples | How it acts |
 |---|---|---|
-| **Peptide hormones** (chains of amino acids) | Insulin, glucagon, TSH, growth hormone | Dissolve in blood; bind receptors on the **cell surface** and trigger a fast signal inside |
-| **Steroid hormones** (made from cholesterol) | Cortisol, aldosterone, oestrogen, testosterone | Pass into the cell and **switch genes on or off**; slower but longer-lasting |
-| **Thyroid hormones** | T4, T3 | Travel bound to proteins; enter cells and act on genes like steroid hormones |
+| Peptide hormones (chains of amino acids) | Insulin, glucagon, TSH, growth hormone | Dissolve in blood; bind receptors on the cell surface and trigger a fast signal inside |
+| Steroid hormones (made from cholesterol) | Cortisol, aldosterone, oestrogen, testosterone | Pass into the cell and switch genes on or off; slower but longer-lasting |
+| Thyroid hormones | T4, T3 | Travel bound to proteins; enter cells and act on genes like steroid hormones |
 
 Control is by **negative feedback**: when the final hormone is high, it tells the top of the chain to ease off.
 
@@ -34,14 +34,14 @@ The **hypothalamus** is a small region of the brain that senses the body's state
 
 | Pituitary hormone | Target | Effect |
 |---|---|---|
-| **TSH** | Thyroid | Make thyroid hormone |
-| **ACTH** | Adrenal cortex | Make cortisol |
-| **LH and FSH** | Ovaries, testes | Egg and sperm development; sex hormones |
-| **Growth hormone** | Liver, bone, muscle | Growth and repair |
-| **Prolactin** | Breast | Milk production |
-| **ADH** (stored here, made in the hypothalamus) | Kidney | Keep water (see [Kidneys](kidneys.md)) |
+| TSH | Thyroid | Make thyroid hormone |
+| ACTH | Adrenal cortex | Make cortisol |
+| LH and FSH | Ovaries, testes | Egg and sperm development; sex hormones |
+| Growth hormone | Liver, bone, muscle | Growth and repair |
+| Prolactin | Breast | Milk production |
+| ADH (stored here, made in the hypothalamus) | Kidney | Keep water (see [Kidneys](kidneys.md)) |
 
-Three main **axes**:
+Three main axes:
 
 ```
  Thyroid axis : hypothalamus --TRH--> pituitary --TSH--> thyroid --T4,T3-->
@@ -64,13 +64,13 @@ A butterfly-shaped gland at the front of the neck, with two lobes joined by a br
 1. The thyroid **traps iodide** from the blood (iodine from food and iodised salt), using a special pump (the sodium-iodide symporter).
 2. An enzyme, **thyroid peroxidase (TPO)**, attaches the iodine onto building blocks (tyrosine) that sit on thyroglobulin. This makes **T3** (three iodine atoms) and **T4** (four iodine atoms), still attached to the thyroglobulin in the colloid store.
 3. When the pituitary sends **TSH**, follicle cells take up some colloid and cut the hormones free.
-4. **T4 and T3 are released into the blood.** The thyroid's main output is T4, with only a small share as T3. `⚠ verify`
+4. T4 and T3 are released into the blood. The thyroid's main output is T4, with only a small share as T3. `⚠ verify`
 5. In the body's tissues, enzymes remove one iodine from T4 to make the **more active T3**. Most circulating T3 is made this way. `⚠ verify`
 
 Why this matters for reports:
 - **Anti-TPO antibodies** are the immune system attacking that enzyme, which is how Hashimoto's thyroiditis is detected.
 - **Iodine** deficiency or excess both disturb this process.
-- **Over 99% of thyroid hormone in blood is attached to carrier proteins** and is inactive. Only the small **free** fraction acts, which is why **free T4** is measured instead of total T4. `⚠ verify`
+- Over 99% of thyroid hormone in blood is attached to carrier proteins and is inactive. Only the small **free** fraction acts, which is why **free T4** is measured instead of total T4. `⚠ verify`
 
 ### What thyroid hormone does
 
@@ -86,9 +86,9 @@ The pancreas has two parts: the **exocrine** part makes digestive juices (covere
 
 | Islet cell | Hormone | Job |
 |---|---|---|
-| **Beta cell** | **Insulin** | Lowers blood sugar |
-| **Alpha cell** | **Glucagon** | Raises blood sugar |
-| **Delta cell** | Somatostatin | Puts a brake on both |
+| Beta cell | Insulin | Lowers blood sugar |
+| Alpha cell | Glucagon | Raises blood sugar |
+| Delta cell | Somatostatin | Puts a brake on both |
 
 ### How a beta cell senses sugar and releases insulin
 
@@ -102,13 +102,13 @@ Insulin comes out in two waves: a quick burst from stores, then a slower sustain
 
 ### The gut helps: incretins
 
-When food reaches the gut, gut cells release **incretin hormones** (GLP-1 and GIP) that boost insulin release **only when glucose is high**. An enzyme, **DPP-4**, breaks incretins down quickly. **DPP-4 inhibitors** (diabetes tablets) block this enzyme; **GLP-1 drugs** copy the hormone. This is why meals taken by mouth raise insulin more than the same sugar given into a vein.
+When food reaches the gut, gut cells release **incretin hormones** (GLP-1 and GIP) that boost insulin release only when glucose is high. An enzyme, **DPP-4**, breaks incretins down quickly. **DPP-4 inhibitors** (diabetes tablets) block this enzyme; **GLP-1 drugs** copy the hormone. This is why meals taken by mouth raise insulin more than the same sugar given into a vein.
 
 ### What insulin does
 
-- **Muscle and fat cells:** insulin moves glucose "doorways" (**GLUT4** transporters) to the cell surface so glucose can enter.
-- **Liver:** store glucose as glycogen; stop making new glucose.
-- **Fat tissue:** store fat; stop releasing it.
+- Muscle and fat cells: insulin moves glucose "doorways" (**GLUT4** transporters) to the cell surface so glucose can enter.
+- Liver: store glucose as glycogen; stop making new glucose.
+- Fat tissue: store fat; stop releasing it.
 
 **Glucagon** does the opposite: it tells the liver to release glucose when blood sugar is low (fasting, between meals).
 
@@ -118,10 +118,10 @@ Two small glands, one on top of each kidney.
 
 | Part | Hormones | Jobs |
 |---|---|---|
-| **Cortex** (outer) | **Cortisol** (stress and sugar hormone) | Raises blood sugar; dampens inflammation; follows a daily rhythm, highest in the morning |
-| | **Aldosterone** | Makes the kidney keep salt and water (part of the RAAS) |
+| Cortex (outer) | Cortisol (stress and sugar hormone) | Raises blood sugar; dampens inflammation; follows a daily rhythm, highest in the morning |
+| | Aldosterone | Makes the kidney keep salt and water (part of the RAAS) |
 | | Small amounts of sex hormones | |
-| **Medulla** (inner) | **Adrenaline and noradrenaline** | The "fight or flight" response: faster heart, more sugar, widened airways |
+| Medulla (inner) | Adrenaline and noradrenaline | The "fight or flight" response: faster heart, more sugar, widened airways |
 
 **Steroid tablets** (such as prednisolone) imitate cortisol. After long use the body stops making its own cortisol. **Do not stop long-term steroids suddenly. Ask your doctor how to reduce them.**
 
@@ -133,20 +133,20 @@ The gonad axis controls the ovaries and testes. In women LH and FSH drive the mo
 
 | Test | What it shows |
 |---|---|
-| **TSH** | The pituitary's signal (see [Thyroid](../02-diseases/thyroid.md)) |
-| **Free T4, free T3** | Active thyroid hormone |
-| **Anti-TPO** | Autoimmune thyroid disease |
-| **Fasting glucose, HbA1c** | Sugar control |
-| **C-peptide** | How much insulin the pancreas is **making** (it is released along with insulin) |
-| **Cortisol** | Adrenal function; morning level matters |
-| **Calcium, PTH** | Calcium and parathyroid balance |
-| **LH, FSH, oestrogen, testosterone, prolactin** | Gonad and pituitary function |
+| TSH | The pituitary's signal (see [Thyroid](../02-diseases/thyroid.md)) |
+| Free T4, free T3 | Active thyroid hormone |
+| Anti-TPO | Autoimmune thyroid disease |
+| Fasting glucose, HbA1c | Sugar control |
+| C-peptide | How much insulin the pancreas is making (it is released along with insulin) |
+| Cortisol | Adrenal function; morning level matters |
+| Calcium, PTH | Calcium and parathyroid balance |
+| LH, FSH, oestrogen, testosterone, prolactin | Gonad and pituitary function |
 
 ## 8. Why this matters for your reports
 
-- A hormone level is a **snapshot of a feedback loop**. Always ask which part of the chain the number belongs to: the top (TSH), the gland's output (T4) or the target.
+- A hormone level is a snapshot of a feedback loop. Always ask which part of the chain the number belongs to: the top (TSH), the gland's output (T4) or the target.
 - Because hormones follow daily rhythms (cortisol, TSH), **timing** of the blood draw matters.
-- Because most hormone in blood is bound to carrier proteins, conditions that change those proteins (pregnancy, some medicines) can change **total** hormone numbers without changing function. This is why **free** hormone is the better test.
+- Because most hormone in blood is bound to carrier proteins, conditions that change those proteins (pregnancy, some medicines) can change **total** hormone numbers without changing function. This is why free hormone is the better test.
 
 ## Key terms
 
@@ -158,4 +158,4 @@ The gonad axis controls the ovaries and testes. In women LH and FSH drive the mo
 2. Jonklaas J, et al. ATA guidelines for hypothyroidism, *Thyroid* 2014 (thyroid physiology background).
 3. Guyton and Hall, *Textbook of Medical Physiology* (edition to be named). `⚠ verify`
 
-**Not verified:** the T4:T3 output ratio, the share of T3 made in tissues, protein-bound fraction (over 99%), and the islet share of the pancreas are standard figures to confirm against the cited sources.
+Not verified: the T4:T3 output ratio, the share of T3 made in tissues, protein-bound fraction (over 99%), and the islet share of the pancreas are standard figures to confirm against the cited sources.

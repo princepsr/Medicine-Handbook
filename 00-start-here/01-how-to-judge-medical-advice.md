@@ -31,9 +31,9 @@ You can ask about each one. A weak link in any of the three is where you get mis
 
 ### 1. "Normal range" is not "healthy vs sick"
 
-A **reference range** (the "normal range" printed on a report) is built by testing many healthy people. It is set so that about **95 out of 100 healthy people** fall inside it.
+A **reference range** (the "normal range" printed on a report) is built by testing many healthy people. It is set so that about 95 out of 100 healthy people fall inside it.
 
-That means **5 in 100 healthy people fall outside it**, with nothing wrong.
+That means 5 in 100 healthy people fall outside it, with nothing wrong.
 
 Now picture a health checkup with 20 separate tests. Each one has a 5% chance of flagging a healthy person. The chance that a perfectly healthy person gets **at least one** flagged result is about 64% (this is `1 − 0.95^20`, a maths calculation, assuming the tests are independent, which is an approximation).
 
@@ -48,7 +48,7 @@ If the answer is "nothing", the test mostly adds worry and cost.
 ### 3. Screening vs diagnosis
 
 - A **screening test** looks for a disease in people with **no symptoms** (for example, a mammogram for breast cancer). It is meant to catch trouble early.
-- A **diagnostic test** is used when you **already have a symptom or a suspicious result**, to find the cause.
+- A **diagnostic test** is used when you already have a symptom or a suspicious result, to find the cause.
 
 Screening in the wrong people causes harm: false alarms, extra tests, and sometimes treatment you did not need. Ask: *"Is this screening or diagnosis? Is it recommended for someone my age?"*
 

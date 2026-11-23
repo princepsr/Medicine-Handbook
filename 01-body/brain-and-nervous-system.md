@@ -23,8 +23,8 @@ The adult brain weighs about 1.3 to 1.4 kg and holds on the order of 86 billion 
 
 | Division | Parts | Job |
 |---|---|---|
-| **Central nervous system (CNS)** | Brain and spinal cord | Processing and decisions |
-| **Peripheral nervous system (PNS)** | All nerves outside the brain and spinal cord | Carry signals to and from the body |
+| Central nervous system (CNS) | Brain and spinal cord | Processing and decisions |
+| Peripheral nervous system (PNS) | All nerves outside the brain and spinal cord | Carry signals to and from the body |
 
 ### The neuron: the basic cell
 
@@ -44,28 +44,28 @@ The adult brain weighs about 1.3 to 1.4 kg and holds on the order of 86 billion 
 
 | Region | Where | Main jobs |
 |---|---|---|
-| **Cerebrum** (two hemispheres) | The large upper part | Thinking, memory, language, voluntary movement, senses |
-| **Frontal lobe** | Front | Planning, judgement, personality, voluntary movement |
-| **Parietal lobe** | Top and middle | Touch and body position |
-| **Temporal lobe** | Side | Hearing, memory, language understanding |
-| **Occipital lobe** | Back | Vision |
-| **Cerebellum** | Back and below | Coordination, balance, smooth movement |
-| **Brainstem** (midbrain, pons, medulla) | Joins brain to spinal cord | **Breathing, heart rate, blood pressure, consciousness, swallowing**; damage here is life-threatening |
-| **Thalamus** | Deep | Relay station for senses |
-| **Hypothalamus** | Deep, just above the pituitary | Controls temperature, hunger, thirst, sleep and the pituitary hormones (see [The endocrine system](endocrine-system.md)) |
-| **Hippocampus** | Deep in the temporal lobe | Forming new memories |
-| **Basal ganglia** | Deep | Smooth control of movement (affected in Parkinson's disease) |
+| Cerebrum (two hemispheres) | The large upper part | Thinking, memory, language, voluntary movement, senses |
+| Frontal lobe | Front | Planning, judgement, personality, voluntary movement |
+| Parietal lobe | Top and middle | Touch and body position |
+| Temporal lobe | Side | Hearing, memory, language understanding |
+| Occipital lobe | Back | Vision |
+| Cerebellum | Back and below | Coordination, balance, smooth movement |
+| Brainstem (midbrain, pons, medulla) | Joins brain to spinal cord | Breathing, heart rate, blood pressure, consciousness, swallowing; damage here is life-threatening |
+| Thalamus | Deep | Relay station for senses |
+| Hypothalamus | Deep, just above the pituitary | Controls temperature, hunger, thirst, sleep and the pituitary hormones (see [The endocrine system](endocrine-system.md)) |
+| Hippocampus | Deep in the temporal lobe | Forming new memories |
+| Basal ganglia | Deep | Smooth control of movement (affected in Parkinson's disease) |
 
-**Crossed control:** the left hemisphere mainly controls the **right** side of the body and vice versa. So a stroke on the left side of the brain typically weakens the right arm and leg. Language is usually handled by the left hemisphere.
+Crossed control: the left hemisphere mainly controls the **right** side of the body and vice versa. So a stroke on the left side of the brain typically weakens the right arm and leg. Language is usually handled by the left hemisphere.
 
 ### Protection
 
 | Layer | What it does |
 |---|---|
-| **Skull and vertebrae** | Bony armour |
-| **Meninges** | Three membranes (dura, arachnoid, pia) around the brain and cord. **Meningitis** is infection of them. |
-| **Cerebrospinal fluid (CSF)** | A clear fluid made in cavities inside the brain (ventricles); cushions the brain and clears waste. Roughly 150 mL in total. `⚠ verify` |
-| **Blood-brain barrier** | Tightly joined cells lining brain capillaries that **block most germs, toxins and many medicines** from entering. |
+| Skull and vertebrae | Bony armour |
+| Meninges | Three membranes (dura, arachnoid, pia) around the brain and cord. Meningitis is infection of them. |
+| Cerebrospinal fluid (CSF) | A clear fluid made in cavities inside the brain (ventricles); cushions the brain and clears waste. Roughly 150 mL in total. `⚠ verify` |
+| Blood-brain barrier | Tightly joined cells lining brain capillaries that block most germs, toxins and many medicines from entering. |
 
 ## 2. How it works, step by step
 
@@ -78,12 +78,12 @@ The adult brain weighs about 1.3 to 1.4 kg and holds on the order of 86 billion 
 
 | Neurotransmitter | Main role |
 |---|---|
-| **Glutamate** | Main excitatory (speed-up) messenger |
-| **GABA** | Main inhibitory (slow-down) messenger |
-| **Dopamine** | Movement, motivation, reward; low in Parkinson's disease |
-| **Serotonin** | Mood, sleep, appetite |
-| **Noradrenaline** | Alertness, stress response |
-| **Acetylcholine** | Muscle contraction, memory |
+| Glutamate | Main excitatory (speed-up) messenger |
+| GABA | Main inhibitory (slow-down) messenger |
+| Dopamine | Movement, motivation, reward; low in Parkinson's disease |
+| Serotonin | Mood, sleep, appetite |
+| Noradrenaline | Alertness, stress response |
+| Acetylcholine | Muscle contraction, memory |
 
 Many medicines work at this step: antidepressants raise serotonin or noradrenaline; anti-epileptic medicines damp excess firing; sedatives boost GABA. That is why stopping some of them suddenly can be dangerous, and why a doctor adjusts them gradually.
 
@@ -91,7 +91,7 @@ Many medicines work at this step: antidepressants raise serotonin or noradrenali
 
 Four arteries (two **carotid** at the front of the neck and two **vertebral** at the back) feed a ring of vessels at the base of the brain, the **circle of Willis**, which spreads blood to all regions and gives some back-up if one artery narrows.
 
-The brain **stores almost no oxygen or glucose**. If blood flow stops, unconsciousness comes within seconds and permanent damage within minutes. Likewise, **low blood sugar starves the brain**, causing confusion, sweating, fits or fainting. (See the diabetes chapter for the 15-gram rule.)
+The brain stores almost no oxygen or glucose. If blood flow stops, unconsciousness comes within seconds and permanent damage within minutes. Likewise, low blood sugar starves the brain, causing confusion, sweating, fits or fainting. (See the diabetes chapter for the 15-gram rule.)
 
 ### Sensing and moving: the reflex arc
 
@@ -103,8 +103,8 @@ This runs organs without conscious control.
 
 | Side | Effect |
 |---|---|
-| **Sympathetic** ("fight or flight") | Faster heart, widened airways, more sugar released, digestion slowed |
-| **Parasympathetic** ("rest and digest") | Slower heart, digestion active (the **vagus nerve** is its main route) |
+| Sympathetic ("fight or flight") | Faster heart, widened airways, more sugar released, digestion slowed |
+| Parasympathetic ("rest and digest") | Slower heart, digestion active (the vagus nerve is its main route) |
 
 ## 3. The senses
 
@@ -122,25 +122,25 @@ Sound waves vibrate the **eardrum**, three tiny bones carry the vibration, and t
 
 | Test | What it shows |
 |---|---|
-| **Neurological examination** | Strength, reflexes, sensation, coordination, speech, vision, memory |
-| **CT scan** | Quick scan; excellent for bleeding and stroke in emergencies |
-| **MRI** | More detailed picture of brain tissue, with no radiation |
-| **EEG** (electroencephalogram) | Records brain electrical activity; used in epilepsy |
-| **Nerve conduction studies and EMG** | Speed of nerve signals; muscle electrical activity |
-| **Lumbar puncture** | A sample of CSF, to check for infection or inflammation |
-| **Blood tests** | Sugar, sodium, B12, thyroid, which often cause neurological symptoms |
+| Neurological examination | Strength, reflexes, sensation, coordination, speech, vision, memory |
+| CT scan | Quick scan; excellent for bleeding and stroke in emergencies |
+| MRI | More detailed picture of brain tissue, with no radiation |
+| EEG (electroencephalogram) | Records brain electrical activity; used in epilepsy |
+| Nerve conduction studies and EMG | Speed of nerve signals; muscle electrical activity |
+| Lumbar puncture | A sample of CSF, to check for infection or inflammation |
+| Blood tests | Sugar, sodium, B12, thyroid, which often cause neurological symptoms |
 
 ## 5. When the system fails (summary)
 
 | Problem | What goes wrong |
 |---|---|
-| **Stroke** | Blood supply to part of the brain is cut off by a **clot** (the commoner kind, **ischaemic**) or a **burst vessel** (**haemorrhagic**) |
-| **Epilepsy** | Recurrent bursts of abnormal electrical activity (seizures) |
-| **Migraine** | Recurrent severe headaches, often with nausea and light sensitivity |
-| **Parkinson's disease** | Loss of dopamine-making cells: tremor, stiffness, slow movement |
-| **Dementia** (for example Alzheimer's) | Progressive loss of memory and thinking |
-| **Neuropathy** | Damage to peripheral nerves (diabetes, B12 deficiency, alcohol): numbness, burning, weakness |
-| **Meningitis** | Infection or inflammation of the membranes around the brain |
+| Stroke | Blood supply to part of the brain is cut off by a clot (the commoner kind, ischaemic) or a burst vessel (haemorrhagic) |
+| Epilepsy | Recurrent bursts of abnormal electrical activity (seizures) |
+| Migraine | Recurrent severe headaches, often with nausea and light sensitivity |
+| Parkinson's disease | Loss of dopamine-making cells: tremor, stiffness, slow movement |
+| Dementia (for example Alzheimer's) | Progressive loss of memory and thinking |
+| Neuropathy | Damage to peripheral nerves (diabetes, B12 deficiency, alcohol): numbness, burning, weakness |
+| Meningitis | Infection or inflammation of the membranes around the brain |
 
 ### Stroke: recognise it fast
 
@@ -162,7 +162,7 @@ The brain itself has no pain nerves. Headache pain comes from the covering of th
 
 **Migraine** in plain words: repeated attacks of throbbing pain, often on one side, with nausea (feeling sick) and dislike of light and noise, lasting hours to about 3 days. Some people get an **aura** first (flashing lights or zig-zag lines for a few minutes). Migraine runs in families and is more common in women. Triggers differ by person: missed meals, poor sleep, stress, periods, bright light. A diary of triggers helps. Most typical migraine does not need a brain scan (a CT or MRI picture of the brain). Many "sinus headaches" are really migraine.
 
-**Medication-overuse headache:** taking painkillers on most days can itself keep headaches going. Guidelines usually mean pain medicine on 10 or more days a month (simple painkillers: 15 or more). `⚠ verify` Treatment is to cut down the overused painkiller **under a doctor's guidance**. Headache often gets worse for days before it improves. See [Painkillers, steroids and acidity medicines](../04-medicines/painkillers-steroids-acidity-supplements.md).
+Medication-overuse headache: taking painkillers on most days can itself keep headaches going. Guidelines usually mean pain medicine on 10 or more days a month (simple painkillers: 15 or more). `⚠ verify` Treatment is to cut down the overused painkiller **under a doctor's guidance**. Headache often gets worse for days before it improves. See [Painkillers, steroids and acidity medicines](../04-medicines/painkillers-steroids-acidity-supplements.md).
 
 ### Epilepsy and seizures
 
@@ -174,24 +174,24 @@ A **seizure** is a short burst of abnormal electrical activity in the brain. It 
 - **Never stop epilepsy medicine suddenly.** It can cause severe, repeated seizures. Any slow withdrawal must be planned by the doctor.
 - **Do not switch brands casually** and ask a doctor before pregnancy: some medicines (notably valproate) carry a higher risk of birth defects.
 
-**Myths that cause harm:**
-- An **iron key, shoe or onion** in the hand does **not** stop a seizure. Never put a spoon, cloth or finger in the mouth: it can break teeth or block the airway.
-- Epilepsy is **not** a curse, possession or an infection you can catch.
+Myths that cause harm:
+- An iron key, shoe or onion in the hand does **not** stop a seizure. Never put a spoon, cloth or finger in the mouth: it can break teeth or block the airway.
+- Epilepsy is not a curse, possession or an infection you can catch.
 - A healer cannot replace medicine. Delay means more injuries.
 - Epilepsy medicines are not addictive and do not "ruin the brain".
 
-**Driving:** rules differ by country and state. In India the licence application asks you to declare conditions such as epilepsy. Driving with uncontrolled seizures is unsafe. Ask your neurologist (a brain and nerve doctor) for written advice on when driving is safe. Many doctors advise a seizure-free period first, often a year or more. `⚠ verify`
+Driving: rules differ by country and state. In India the licence application asks you to declare conditions such as epilepsy. Driving with uncontrolled seizures is unsafe. Ask your neurologist (a brain and nerve doctor) for written advice on when driving is safe. Many doctors advise a seizure-free period first, often a year or more. `⚠ verify`
 
 **Seizure first aid** is in [First aid and emergencies](../10-practical/first-aid-and-emergencies.md). Call 112 or 108 if a seizure lasts over 5 minutes.
 
 ## 6. Red flags
 
-Go to emergency care for: **sudden weakness, numbness, face droop, speech or vision loss, a sudden severe "worst ever" headache, seizure for the first time, confusion with fever and neck stiffness, or loss of consciousness.**
+Go to emergency care for: sudden weakness, numbness, face droop, speech or vision loss, a sudden severe "worst ever" headache, seizure for the first time, confusion with fever and neck stiffness, or loss of consciousness.
 
 ## 7. Why this matters for your reports
 
 - A **normal CT or MRI** does not rule out every cause of symptoms; many problems (migraine, epilepsy between seizures) look normal on scans.
-- **B12, sugar, thyroid and sodium** are cheap blood tests that explain a surprising number of nerve and brain symptoms. They are worth checking before concluding something worse.
+- B12, sugar, thyroid and sodium are cheap blood tests that explain a surprising number of nerve and brain symptoms. They are worth checking before concluding something worse.
 - Scans often show **incidental findings** (small harmless changes common with age). Ask whether a finding explains your symptoms before accepting treatment for it.
 
 ## Key terms
@@ -206,4 +206,4 @@ Go to emergency care for: **sudden weakness, numbness, face droop, speech or vis
 4. International Headache Society, ICHD-3; NICE guidelines on headaches (CG150) and epilepsies (NG217). `⚠ verify`
 5. International League Against Epilepsy (ILAE) and WHO fact sheet on epilepsy; ICMR and Indian Academy of Neurology publications on epilepsy burden and neurocysticercosis. `⚠ verify`
 
-**Not verified:** brain weight, neuron count, the one-fifth oxygen figure, CSF volume and stroke treatment time windows are standard figures or claims to confirm against the cited sources. In the headache and epilepsy section, also confirm the Indian epilepsy prevalence, the medication-overuse day counts, valproate risk wording and current Indian driving rules. Confirmed against the WHO epilepsy fact sheet: seizure-free share (worded as up to 7 in 10; earlier text said two-thirds) and neurocysticercosis as a cause. WHO gives 4 to 10 per 1,000 worldwide; the India figure of 5 to 6 per 1,000 is still unconfirmed. The ICHD-3 text could not be opened, so the medication-overuse day counts (seen only in reviews) stay unconfirmed.
+Not verified: brain weight, neuron count, the one-fifth oxygen figure, CSF volume and stroke treatment time windows are standard figures or claims to confirm against the cited sources. In the headache and epilepsy section, also confirm the Indian epilepsy prevalence, the medication-overuse day counts, valproate risk wording and current Indian driving rules. Confirmed against the WHO epilepsy fact sheet: seizure-free share (worded as up to 7 in 10; earlier text said two-thirds) and neurocysticercosis as a cause. WHO gives 4 to 10 per 1,000 worldwide; the India figure of 5 to 6 per 1,000 is still unconfirmed. The ICHD-3 text could not be opened, so the medication-overuse day counts (seen only in reviews) stay unconfirmed.

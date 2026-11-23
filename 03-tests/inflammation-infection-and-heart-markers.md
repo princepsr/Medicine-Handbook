@@ -8,7 +8,7 @@ Read [How lab reports work](01-how-lab-reports-work.md) and [The immune system](
 > **Quick summary**
 > - **CRP and ESR** show that something is inflamed. They cannot say what. A normal value does not exclude disease.
 > - **Infection tests** work in different ways: grow the germ (culture), detect its parts (antigen, PCR), or detect your antibodies (serology). Timing and sample matter.
-> - Some popular Indian tests are poor guides. **The Widal test for typhoid is unreliable;** blood culture is the better test.
+> - Some popular Indian tests are poor guides. The Widal test for typhoid is unreliable; blood culture is the better test.
 > - **Troponin** is the key blood marker of heart-muscle injury; **BNP** helps with heart failure; **D-dimer** helps rule **out** clots.
 
 ---
@@ -26,7 +26,7 @@ Read [How lab reports work](01-how-lab-reports-work.md) and [The immune system](
 | What else you need | Symptoms, WBC, the trend over days |
 | Example range | Often below about 5 to 10 mg/L; very high values (above 100) suggest serious infection or inflammation `⚠ verify` |
 
-**hs-CRP** (high-sensitivity CRP) is a more sensitive version, used to look at **low-grade inflammation and heart risk** (values below about 1 mg/L are low-risk; above 3 higher). It is a different test with different units from ordinary CRP; **do not mix them up.** `⚠ verify`
+**hs-CRP** (high-sensitivity CRP) is a more sensitive version, used to look at low-grade inflammation and heart risk (values below about 1 mg/L are low-risk; above 3 higher). It is a different test with different units from ordinary CRP; **do not mix them up.** `⚠ verify`
 
 ## 2. ESR (erythrocyte sedimentation rate)
 
@@ -36,7 +36,7 @@ Read [How lab reports work](01-how-lab-reports-work.md) and [The immune system](
 | Can be raised by | Infection, inflammation, anaemia, pregnancy, older age, kidney disease, some cancers |
 | Can be lowered by | Very high red cell count, some blood conditions |
 | What else you need | CRP, symptoms |
-| Notes | Rises slowly and falls slowly, so it is **less useful in acute illness** than CRP. The upper limit rises with age (a rough rule: age ÷ 2 for men, (age + 10) ÷ 2 for women). `⚠ verify` |
+| Notes | Rises slowly and falls slowly, so it is less useful in acute illness than CRP. The upper limit rises with age (a rough rule: age ÷ 2 for men, (age + 10) ÷ 2 for women). `⚠ verify` |
 
 ## 3. Procalcitonin
 
@@ -59,15 +59,15 @@ A marker that rises more in **serious bacterial infection** than in viral illnes
 
 | Method | How it works | Good for | Limits |
 |---|---|---|---|
-| **Culture** | Grows the germ from blood, urine, stool, sputum or pus | Identifying the exact germ and which antibiotics work (sensitivity) | Takes 1 to several days; **must be taken before antibiotics**; contamination possible |
-| **Antigen test** (including many rapid tests) | Detects a piece of the germ | Quick answers (dengue NS1, malaria, strep) | Can miss early or low-level infection; false positives possible |
-| **PCR / NAAT** (nucleic acid test) | Detects the germ's genetic material | Very sensitive and specific for many viruses and for TB (Xpert/CBNAAT) | Costly; may stay positive after the germ is dead |
-| **Serology** (antibody tests) | Detects **your** antibodies (IgM, IgG) | Past infection, immunity, some current infections | Antibodies take days to appear, so early tests may be negative; IgG can stay positive for years |
+| Culture | Grows the germ from blood, urine, stool, sputum or pus | Identifying the exact germ and which antibiotics work (sensitivity) | Takes 1 to several days; must be taken before antibiotics; contamination possible |
+| Antigen test (including many rapid tests) | Detects a piece of the germ | Quick answers (dengue NS1, malaria, strep) | Can miss early or low-level infection; false positives possible |
+| PCR / NAAT (nucleic acid test) | Detects the germ's genetic material | Very sensitive and specific for many viruses and for TB (Xpert/CBNAAT) | Costly; may stay positive after the germ is dead |
+| Serology (antibody tests) | Detects your antibodies (IgM, IgG) | Past infection, immunity, some current infections | Antibodies take days to appear, so early tests may be negative; IgG can stay positive for years |
 
 ### Reading antibody results
 
 - **IgM** usually appears first and suggests a **recent** infection. **IgG** appears later and can mean past infection or vaccination.
-- A positive **IgG** does not mean the infection is active.
+- A positive IgG does not mean the infection is active.
 - The **window period** is the time after infection before a test can detect it; a negative result too early can be a false reassurance, so repeat if suspicion remains.
 
 ### Culture reports
@@ -80,17 +80,17 @@ A culture lists the organism and a table of antibiotics marked **S** (sensitive:
 
 | Test | Notes |
 |---|---|
-| **Blood culture** | The best test; ideally before antibiotics. Sensitivity is not perfect, so a negative does not always exclude it. `⚠ verify` |
-| **Widal test** | **Unreliable.** In India many healthy people have raised antibody levels from past exposure or vaccination, and cross-reactions with other fevers are common. It is widely used but discouraged by expert bodies. `⚠ verify` |
+| Blood culture | The best test; ideally before antibiotics. Sensitivity is not perfect, so a negative does not always exclude it. `⚠ verify` |
+| Widal test | Unreliable. In India many healthy people have raised antibody levels from past exposure or vaccination, and cross-reactions with other fevers are common. It is widely used but discouraged by expert bodies. `⚠ verify` |
 | Newer rapid antibody tests | Limited accuracy; not a substitute for culture |
 
 ### Dengue
 
 | Test | When it helps |
 |---|---|
-| **NS1 antigen** | Usually positive in the **first several days** of fever |
-| **IgM antibody** | Becomes positive around day 4 to 5 onward |
-| **CBC** | Platelet trend and **haematocrit** are key to following severity (see [CBC](cbc.md)) |
+| NS1 antigen | Usually positive in the first several days of fever |
+| IgM antibody | Becomes positive around day 4 to 5 onward |
+| CBC | Platelet trend and haematocrit are key to following severity (see [CBC](cbc.md)) |
 
 Most dengue is mild; the dangerous period is often **when the fever falls** (days 3 to 7), with warning signs such as belly pain, repeated vomiting, bleeding, drowsiness, a rising haematocrit with falling platelets, or fluid in the belly or chest. `⚠ verify`
 
@@ -102,10 +102,10 @@ Most dengue is mild; the dangerous period is often **when the fever falls** (day
 
 | Test | What it shows |
 |---|---|
-| **Sputum smear and Xpert/CBNAAT** | Detects TB germs or their genes and rifampicin resistance |
-| **Culture** | Confirms and tests drug resistance |
-| **Chest X-ray** | Suggestive changes |
-| **Mantoux (tuberculin skin test) and IGRA** | Show **exposure or latent infection**, **not active disease**. Prior BCG vaccination can cause a false-positive Mantoux; IGRA is not affected by BCG. |
+| Sputum smear and Xpert/CBNAAT | Detects TB germs or their genes and rifampicin resistance |
+| Culture | Confirms and tests drug resistance |
+| Chest X-ray | Suggestive changes |
+| Mantoux (tuberculin skin test) and IGRA | Show exposure or latent infection, not active disease. Prior BCG vaccination can cause a false-positive Mantoux; IGRA is not affected by BCG. |
 
 A positive Mantoux or IGRA alone does not mean you have TB disease.
 
@@ -122,12 +122,12 @@ Most fevers with a cough, runny nose or sore throat are **viral**. Blood tests a
 
 | What happens | What to do |
 |---|---|
-| Treating typhoid on a **single Widal titre** | Ask for a blood culture, ideally before antibiotics |
+| Treating typhoid on a single Widal titre | Ask for a blood culture, ideally before antibiotics |
 | Antibiotics started for "viral fever" with a normal or mildly raised CRP | Ask what bacterial infection is suspected and what the antibiotic is for |
-| A positive **IgG** read as "active infection" | IgG often means past exposure |
-| A positive **Mantoux** read as "TB" | Latent infection or BCG; active TB needs sputum and imaging |
+| A positive IgG read as "active infection" | IgG often means past exposure |
+| A positive Mantoux read as "TB" | Latent infection or BCG; active TB needs sputum and imaging |
 | Many "fever panel" combinations for every fever | Ask which tests are justified by your symptoms and days of illness |
-| Culture sent **after** several antibiotic doses | The result may be falsely negative; give the sample first when possible |
+| Culture sent after several antibiotic doses | The result may be falsely negative; give the sample first when possible |
 
 ---
 
@@ -137,28 +137,28 @@ Most fevers with a cough, runny nose or sore throat are **viral**. Blood tests a
 
 | | |
 |---|---|
-| What it measures | A protein inside heart muscle cells (**troponin I or T**) that leaks into blood when those cells are injured |
+| What it measures | A protein inside heart muscle cells (troponin I or T) that leaks into blood when those cells are injured |
 | Why the body has it | It helps heart muscle contract; it is not meant to be in blood |
-| Can be raised by | **Heart attack**; also other heart muscle injury (myocarditis, heart failure, severe infection), a pulmonary embolism, kidney failure, and very hard endurance exercise |
+| Can be raised by | Heart attack; also other heart muscle injury (myocarditis, heart failure, severe infection), a pulmonary embolism, kidney failure, and very hard endurance exercise |
 | Can be lowered by | It falls over days after an injury ends |
-| What else you need | **Symptoms, the ECG, and a repeat troponin a few hours later** (a rising pattern is key) |
-| Notes | By the Fourth Universal Definition of MI (2018), a heart attack needs a rise and/or fall of troponin with at least one value above the 99th percentile, plus evidence of heart-muscle oxygen shortage (symptoms, ECG or imaging). **High-sensitivity troponin** tests detect very small rises; a raised value is not always a heart attack, so it is interpreted with the rest of the picture. |
+| What else you need | Symptoms, the ECG, and a repeat troponin a few hours later (a rising pattern is key) |
+| Notes | By the Fourth Universal Definition of MI (2018), a heart attack needs a rise and/or fall of troponin with at least one value above the 99th percentile, plus evidence of heart-muscle oxygen shortage (symptoms, ECG or imaging). High-sensitivity troponin tests detect very small rises; a raised value is not always a heart attack, so it is interpreted with the rest of the picture. |
 
 ## 9. CK-MB, BNP and NT-proBNP
 
 | Test | What it shows |
 |---|---|
-| **CK-MB** | An older marker of heart muscle damage; mostly replaced by troponin |
-| **BNP / NT-proBNP** | Released when the heart's chambers are stretched. **High in heart failure.** Also raised by kidney disease, age and some lung conditions. A normal value makes heart failure unlikely. |
+| CK-MB | An older marker of heart muscle damage; mostly replaced by troponin |
+| BNP / NT-proBNP | Released when the heart's chambers are stretched. High in heart failure. Also raised by kidney disease, age and some lung conditions. A normal value makes heart failure unlikely. |
 
 ## 10. D-dimer: card
 
 | | |
 |---|---|
 | What it measures | A fragment released when a blood clot dissolves |
-| Can be raised by | Clots in the leg veins or lungs; also **pregnancy, infection, cancer, recent surgery, older age, inflammation** |
+| Can be raised by | Clots in the leg veins or lungs; also pregnancy, infection, cancer, recent surgery, older age, inflammation |
 | What else you need | A clinical probability assessment |
-| Use | **A normal D-dimer helps rule OUT a clot** in low-risk people. **A high D-dimer does not prove a clot;** it needs imaging. |
+| Use | A normal D-dimer helps rule OUT a clot in low-risk people. A high D-dimer does not prove a clot; it needs imaging. |
 
 ## 11. Misled about heart tests
 
@@ -180,7 +180,7 @@ Most fevers with a cough, runny nose or sore throat are **viral**. Blood tests a
 
 ## 13. Red flags
 
-**Emergency:** chest pressure, breathlessness, fainting, **sudden calf swelling with breathlessness**, confusion with high fever, a stiff neck with fever and headache, a **rash that does not fade when pressed**, fever with severe belly pain and bleeding, a baby with fever who is drowsy or not feeding.
+**Emergency:** chest pressure, breathlessness, fainting, sudden calf swelling with breathlessness, confusion with high fever, a stiff neck with fever and headache, a rash that does not fade when pressed, fever with severe belly pain and bleeding, a baby with fever who is drowsy or not feeding.
 
 ## Key terms
 
@@ -194,4 +194,4 @@ Most fevers with a cough, runny nose or sore throat are **viral**. Blood tests a
 4. WHO and Indian National TB Elimination Programme guidance on TB diagnosis. `⚠ verify`
 5. Ridker PM. C-reactive protein and heart-risk literature. `⚠ verify`
 
-**Not verified:** all example ranges and rules of thumb, the Widal statement, the dengue timing statements and the TB test statements are common claims to confirm against the cited sources.
+Not verified: all example ranges and rules of thumb, the Widal statement, the dengue timing statements and the TB test statements are common claims to confirm against the cited sources.

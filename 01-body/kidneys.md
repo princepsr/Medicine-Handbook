@@ -23,10 +23,10 @@ Cut a kidney open and you find:
 
 | Part | What it is |
 |---|---|
-| **Cortex** | The outer layer; contains the filters (glomeruli) |
-| **Medulla** | The inner layer, arranged in cone-shaped **pyramids**; contains the long tubes that concentrate urine |
-| **Calyces and renal pelvis** | A funnel that collects urine |
-| **Ureter** | A tube carrying urine from each kidney to the bladder |
+| Cortex | The outer layer; contains the filters (glomeruli) |
+| Medulla | The inner layer, arranged in cone-shaped pyramids; contains the long tubes that concentrate urine |
+| Calyces and renal pelvis | A funnel that collects urine |
+| Ureter | A tube carrying urine from each kidney to the bladder |
 
 Then the **bladder** stores urine, and the **urethra** carries it out.
 
@@ -59,7 +59,7 @@ Three processes make urine.
 
 ### Step 1: Filtration (in the glomerulus)
 
-Blood pressure pushes fluid through the thin walls of the glomerular capillaries. The filter lets through **water, salts, glucose, amino acids, urea and creatinine**. It holds back **blood cells and large proteins** such as albumin.
+Blood pressure pushes fluid through the thin walls of the glomerular capillaries. The filter lets through water, salts, glucose, amino acids, urea and creatinine. It holds back blood cells and large proteins such as albumin.
 
 The volume filtered is enormous, around 150 to 180 litres of fluid a day (about 125 mL a minute in men and somewhat less in women). `⚠ verify` This rate is the **GFR (glomerular filtration rate)**, the single best measure of kidney function.
 
@@ -69,12 +69,12 @@ Filtering 180 litres and losing it all would be fatal, so the tubules **take bac
 
 | Part of tube | What it does |
 |---|---|
-| **Proximal tubule** | Reclaims most of the water and sodium, and **almost all the glucose and amino acids** |
-| **Loop of Henle** | Pumps salt out to create a salty region in the medulla, so water can later be pulled out of the urine |
-| **Distal tubule** | Fine-tunes sodium and potassium, under the hormone **aldosterone**; adjusts acid |
-| **Collecting duct** | Final control of water, under the hormone **ADH** (antidiuretic hormone, from the pituitary): more ADH, more water kept, more concentrated urine |
+| Proximal tubule | Reclaims most of the water and sodium, and almost all the glucose and amino acids |
+| Loop of Henle | Pumps salt out to create a salty region in the medulla, so water can later be pulled out of the urine |
+| Distal tubule | Fine-tunes sodium and potassium, under the hormone aldosterone; adjusts acid |
+| Collecting duct | Final control of water, under the hormone ADH (antidiuretic hormone, from the pituitary): more ADH, more water kept, more concentrated urine |
 
-**Glucose spill:** the tubules can only reclaim glucose up to a limit. When blood sugar is very high (above roughly 180 mg/dL), glucose spills into urine. `⚠ verify` That is why untreated diabetes causes sugar in urine and a lot of urine. SGLT2 inhibitor diabetes drugs deliberately block glucose reclaim to lower blood sugar.
+Glucose spill: the tubules can only reclaim glucose up to a limit. When blood sugar is very high (above roughly 180 mg/dL), glucose spills into urine. `⚠ verify` That is why untreated diabetes causes sugar in urine and a lot of urine. SGLT2 inhibitor diabetes drugs deliberately block glucose reclaim to lower blood sugar.
 
 ### Step 3: Secretion
 
@@ -88,12 +88,12 @@ Of the 180 litres filtered, about 1 to 2 litres leave as urine: water, **urea** 
 
 | Job | How |
 |---|---|
-| **Water balance** | ADH and the tubules adjust how much water to keep |
-| **Electrolyte balance** | Control sodium, potassium, calcium, phosphate and magnesium (see [Hormones, metabolism and homeostasis](hormones-metabolism-homeostasis.md)) |
-| **Acid-base balance** | Remove acid and rebuild bicarbonate, keeping blood acidity in a very narrow range |
-| **Blood pressure** | The **renin-angiotensin-aldosterone system (RAAS)**, below |
-| **Red blood cell production** | The kidney releases **erythropoietin (EPO)** when oxygen is low; EPO tells the bone marrow to make red cells |
-| **Vitamin D activation** | The kidney converts vitamin D into its active form, which helps absorb calcium |
+| Water balance | ADH and the tubules adjust how much water to keep |
+| Electrolyte balance | Control sodium, potassium, calcium, phosphate and magnesium (see [Hormones, metabolism and homeostasis](hormones-metabolism-homeostasis.md)) |
+| Acid-base balance | Remove acid and rebuild bicarbonate, keeping blood acidity in a very narrow range |
+| Blood pressure | The renin-angiotensin-aldosterone system (RAAS), below |
+| Red blood cell production | The kidney releases erythropoietin (EPO) when oxygen is low; EPO tells the bone marrow to make red cells |
+| Vitamin D activation | The kidney converts vitamin D into its active form, which helps absorb calcium |
 
 ### The RAAS in four steps
 
@@ -112,13 +112,13 @@ Damaged kidneys make less EPO, so red cell production falls (**anaemia of kidney
 
 | Test | What it measures | Notes |
 |---|---|---|
-| **Creatinine** (blood) | A waste product of muscle | Rises only after a good deal of function is lost. Depends on **muscle mass**: a thin or elderly person can have "normal" creatinine with reduced function. |
-| **eGFR** (estimated GFR) | A calculated filtering estimate from creatinine, age and sex | The usual way to stage kidney disease. It is an estimate, not a direct measurement. |
-| **Urea / BUN** (blood) | A waste from protein breakdown | Also rises with dehydration, a high-protein diet and some drugs, so it is less specific |
-| **Urine albumin-creatinine ratio (ACR) or urine protein** | Leakage of albumin into urine | An **early** marker of damage, often before eGFR falls |
-| **Urine routine** | Protein, blood, sugar, cells | A screening look |
-| **Electrolytes** (sodium, potassium) | Salt balance | Potassium matters for heart rhythm |
-| **Ultrasound** | Size and shape; stones, blockage | |
+| Creatinine (blood) | A waste product of muscle | Rises only after a good deal of function is lost. Depends on muscle mass: a thin or elderly person can have "normal" creatinine with reduced function. |
+| eGFR (estimated GFR) | A calculated filtering estimate from creatinine, age and sex | The usual way to stage kidney disease. It is an estimate, not a direct measurement. |
+| Urea / BUN (blood) | A waste from protein breakdown | Also rises with dehydration, a high-protein diet and some drugs, so it is less specific |
+| Urine albumin-creatinine ratio (ACR) or urine protein | Leakage of albumin into urine | An early marker of damage, often before eGFR falls |
+| Urine routine | Protein, blood, sugar, cells | A screening look |
+| Electrolytes (sodium, potassium) | Salt balance | Potassium matters for heart rhythm |
+| Ultrasound | Size and shape; stones, blockage | |
 
 ### Staging chronic kidney disease (CKD)
 
@@ -128,18 +128,18 @@ Doctors stage CKD by eGFR (in mL/min/1.73 m²): **G1** 90 or more (with other si
 
 | Problem | What goes wrong |
 |---|---|
-| **Acute kidney injury** | A sudden fall in function (severe dehydration, infection, certain drugs, blocked urine flow); often reversible if treated early |
-| **Chronic kidney disease** | A slow, long-term loss of nephrons. **Diabetes and high blood pressure are among the commonest causes.** `⚠ verify India` |
-| **Kidney stones** | Crystals form in urine, causing severe pain and sometimes blockage |
-| **Urinary tract infection** | Bacteria in the bladder (or kidney); needs the right antibiotic |
+| Acute kidney injury | A sudden fall in function (severe dehydration, infection, certain drugs, blocked urine flow); often reversible if treated early |
+| Chronic kidney disease | A slow, long-term loss of nephrons. Diabetes and high blood pressure are among the commonest causes. `⚠ verify India` |
+| Kidney stones | Crystals form in urine, causing severe pain and sometimes blockage |
+| Urinary tract infection | Bacteria in the bladder (or kidney); needs the right antibiotic |
 
-**Why early disease is silent:** when some nephrons die, the rest filter harder to compensate. Total filtration stays near normal for a long time. By the time symptoms appear, much function is gone. That is why people with diabetes or high blood pressure need yearly urine and eGFR checks.
+Why early disease is silent: when some nephrons die, the rest filter harder to compensate. Total filtration stays near normal for a long time. By the time symptoms appear, much function is gone. That is why people with diabetes or high blood pressure need yearly urine and eGFR checks.
 
-**Painkillers matter:** NSAIDs (such as ibuprofen and diclofenac) narrow the vessels that supply the glomerulus. In dehydrated people or those with existing kidney disease they can cause kidney injury. Ask before taking them regularly.
+Painkillers matter: NSAIDs (such as ibuprofen and diclofenac) narrow the vessels that supply the glomerulus. In dehydrated people or those with existing kidney disease they can cause kidney injury. Ask before taking them regularly.
 
 ## 6. Why this matters for your reports
 
-- A "normal" **creatinine** does not mean normal kidneys in a low-muscle person. Ask for the **eGFR** and a **urine ACR**.
+- A "normal" creatinine does not mean normal kidneys in a low-muscle person. Ask for the **eGFR** and a **urine ACR**.
 - **Protein in urine** is the earliest sign of kidney damage in diabetes.
 - A raised **potassium** needs attention because it can disturb heart rhythm.
 - Dehydration can raise creatinine and urea temporarily. Repeat after fluids before labelling kidney disease.
@@ -154,4 +154,4 @@ Doctors stage CKD by eGFR (in mL/min/1.73 m²): **G1** 90 or more (with other si
 2. KDIGO 2012 (updated 2024) Clinical Practice Guideline for the Evaluation and Management of CKD: staging by eGFR and albuminuria. `⚠ verify`
 3. Guyton and Hall, *Textbook of Medical Physiology* (edition to be named). `⚠ verify`
 
-**Not verified:** nephron count, 20% cardiac output, GFR and daily filtrate volume, the glucose-spill threshold, and the Indian causes of CKD are standard figures to confirm against the cited sources.
+Not verified: nephron count, 20% cardiac output, GFR and daily filtrate volume, the glucose-spill threshold, and the Indian causes of CKD are standard figures to confirm against the cited sources.

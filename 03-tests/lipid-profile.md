@@ -7,7 +7,7 @@ Read [How lab reports work](01-how-lab-reports-work.md) and the cholesterol sect
 > [!NOTE]
 > **Quick summary**
 > - A lipid profile reports cholesterol and blood fat: total, LDL, HDL, triglycerides, and often non-HDL.
-> - **LDL is the main number to lower. The target depends on your overall heart risk, not on the lab's printed "normal".**
+> - LDL is the main number to lower. The target depends on your overall heart risk, not on the lab's printed "normal".
 > - Before starting a lifelong cholesterol medicine, check for causes that can be treated (underactive thyroid, diabetes, kidney or liver problems, some drugs).
 > - Do not stop a prescribed statin because of fear or social media advice. Talk to your doctor.
 > - Inherited high cholesterol (familial hypercholesterolaemia) needs medicine whatever you eat. Most statin myths are wrong (Section 7).
@@ -26,10 +26,10 @@ A blood test, usually from a vein in the arm. **Fasting** (8 to 12 hours, water 
 |---|---|
 | What it measures | Cholesterol carried in LDL particles, the ones that deliver cholesterol to tissues and can enter artery walls |
 | Why the body needs cholesterol | Cell walls, bile acids, vitamin D, hormones |
-| Can be raised by | Saturated and trans fats, inherited high cholesterol (familial hypercholesterolaemia), **underactive thyroid**, **diabetes**, **kidney disease** (including nephrotic syndrome, where the kidneys leak protein), obesity, some medicines (steroids, some blood-pressure drugs), pregnancy |
+| Can be raised by | Saturated and trans fats, inherited high cholesterol (familial hypercholesterolaemia), underactive thyroid, diabetes, kidney disease (including nephrotic syndrome, where the kidneys leak protein), obesity, some medicines (steroids, some blood-pressure drugs), pregnancy |
 | Can be lowered by | Statins and other lipid medicines, weight loss, less saturated fat, more fibre, hyperthyroidism (overactive thyroid), severe illness |
 | What else you need | Age, blood pressure, diabetes, smoking, family history, other lipids |
-| How reported | **Calculated** from total, HDL and triglycerides in most labs (the Friedewald formula, which becomes unreliable if triglycerides are above about 400 mg/dL), or measured **directly**. `⚠ verify` |
+| How reported | Calculated from total, HDL and triglycerides in most labs (the Friedewald formula, which becomes unreliable if triglycerides are above about 400 mg/dL), or measured directly. `⚠ verify` |
 
 ### HDL cholesterol: card
 
@@ -38,16 +38,16 @@ A blood test, usually from a vein in the arm. **Fasting** (8 to 12 hours, water 
 | What it measures | Cholesterol in HDL particles, which carry cholesterol back to the liver |
 | Can be raised by | Exercise, moderate weight loss, stopping smoking, some inherited traits |
 | Can be lowered by | Insulin resistance (the body responds poorly to insulin), obesity, smoking, a sedentary life, high triglycerides |
-| Notes | Low HDL is a risk marker. **Raising HDL with medicines or supplements has not been shown to prevent heart attacks**, so it is not a treatment target by itself. `⚠ verify` |
+| Notes | Low HDL is a risk marker. Raising HDL with medicines or supplements has not been shown to prevent heart attacks, so it is not a treatment target by itself. `⚠ verify` |
 
 ### Triglycerides: card
 
 | | |
 |---|---|
 | What it measures | Blood fat from food and from the liver |
-| Can be raised by | A recent meal, **alcohol**, sugary drinks and refined carbohydrate, obesity, diabetes, an underactive thyroid, kidney disease, some medicines |
+| Can be raised by | A recent meal, alcohol, sugary drinks and refined carbohydrate, obesity, diabetes, an underactive thyroid, kidney disease, some medicines |
 | Can be lowered by | Weight loss, less alcohol and sugar, controlling diabetes, exercise, some medicines |
-| Why it matters | Moderately high levels travel with insulin resistance and fatty liver. **Very high levels can trigger pancreatitis** (an inflamed pancreas, with severe belly pain), which is an emergency. Treatment is usually started above about 500 mg/dL, and the risk of pancreatitis rises steeply above about 880 mg/dL (10 mmol/L, millimoles per litre, the unit used outside India). `⚠ verify` |
+| Why it matters | Moderately high levels travel with insulin resistance and fatty liver. Very high levels can trigger pancreatitis (an inflamed pancreas, with severe belly pain), which is an emergency. Treatment is usually started above about 500 mg/dL, and the risk of pancreatitis rises steeply above about 880 mg/dL (10 mmol/L, millimoles per litre, the unit used outside India). `⚠ verify` |
 
 ### Total and non-HDL cholesterol
 
@@ -58,13 +58,13 @@ A blood test, usually from a vein in the arm. **Fasting** (8 to 12 hours, water 
 
 | Test | What it is for |
 |---|---|
-| **ApoB** (apolipoprotein B, a protein carried on each "bad" particle) | Counts the number of "bad" particles; a refinement |
-| **Lp(a)** (lipoprotein a) | An inherited particle; commonly measured **once in a lifetime** to find those with very high levels. `⚠ verify` |
-| **hs-CRP** (high-sensitivity CRP) | A low-level inflammation marker sometimes added to risk assessment. It is a different test from ordinary CRP. |
+| ApoB (apolipoprotein B, a protein carried on each "bad" particle) | Counts the number of "bad" particles; a refinement |
+| Lp(a) (lipoprotein a) | An inherited particle; commonly measured once in a lifetime to find those with very high levels. `⚠ verify` |
+| hs-CRP (high-sensitivity CRP) | A low-level inflammation marker sometimes added to risk assessment. It is a different test from ordinary CRP. |
 
 ## 3. Example numbers (not targets)
 
-These are common reference values; **your personal target depends on your risk.** `⚠ verify`
+These are common reference values; your personal target depends on your risk. `⚠ verify`
 
 | Marker | Often labelled "desirable" |
 |---|---|
@@ -73,14 +73,14 @@ These are common reference values; **your personal target depends on your risk.*
 | HDL | Above about 40 mg/dL in men and 50 mg/dL in women |
 | Triglycerides | Below about 150 mg/dL |
 
-**Why your target may be lower:** current guidelines ask your doctor to estimate your total cardiovascular risk (age, sex, blood pressure, diabetes, smoking, kidney disease, family history, existing heart or stroke disease) and then set an LDL goal. People who have already had a heart attack or stroke, or who have diabetes with other risks, are given much lower LDL goals. Indian expert groups also propose stricter targets for high-risk Indians. The Lipid Association of India 2020 statement suggests an LDL below 50 mg/dL for very-high-risk people (including those with existing heart disease) and 30 mg/dL or lower for the extreme-risk group. `⚠ verify`
+Why your target may be lower: current guidelines ask your doctor to estimate your total cardiovascular risk (age, sex, blood pressure, diabetes, smoking, kidney disease, family history, existing heart or stroke disease) and then set an LDL goal. People who have already had a heart attack or stroke, or who have diabetes with other risks, are given much lower LDL goals. Indian expert groups also propose stricter targets for high-risk Indians. The Lipid Association of India 2020 statement suggests an LDL below 50 mg/dL for very-high-risk people (including those with existing heart disease) and 30 mg/dL or lower for the extreme-risk group. `⚠ verify`
 
 ## 4. Look for treatable causes first
 
 Before labelling the cholesterol as inherited or diet-related:
 - **TSH** (thyroid-stimulating hormone, the usual thyroid blood test; underactive thyroid raises LDL; see [Thyroid](../02-diseases/thyroid.md)).
 - **Blood sugar / HbA1c** (the 3-month average sugar test; [Diabetes](../02-diseases/diabetes.md)).
-- **Kidney tests and urine protein** ([Liver and kidney tests](liver-and-kidney-tests.md)).
+- Kidney tests and urine protein ([Liver and kidney tests](liver-and-kidney-tests.md)).
 - **Liver tests** and alcohol intake.
 - **Medicines** that raise lipids.
 
@@ -88,16 +88,16 @@ Before labelling the cholesterol as inherited or diet-related:
 
 | Approach | Notes |
 |---|---|
-| **Food and activity** | Less saturated and trans fat (some fried foods, bakery items, vanaspati/hydrogenated oils), more fibre, whole grains, pulses, nuts, vegetables, regular exercise, a healthy weight, no smoking. Lowers LDL modestly and improves triglycerides more. |
-| **Statins** | The best-proven medicines for preventing heart attack and stroke in people at risk. They block cholesterol production in the liver, so the liver pulls more LDL from the blood. |
-| **Ezetimibe** | Blocks cholesterol absorption in the gut; added to statins when needed |
-| **Newer injections** (PCSK9 inhibitors, which help the liver remove more LDL, and others) | For very high risk or inherited high cholesterol; costly |
-| **Fibrates, omega-3 prescription** (two kinds of fat-lowering medicine) | Mainly for very high triglycerides, chosen by the doctor |
+| Food and activity | Less saturated and trans fat (some fried foods, bakery items, vanaspati/hydrogenated oils), more fibre, whole grains, pulses, nuts, vegetables, regular exercise, a healthy weight, no smoking. Lowers LDL modestly and improves triglycerides more. |
+| Statins | The best-proven medicines for preventing heart attack and stroke in people at risk. They block cholesterol production in the liver, so the liver pulls more LDL from the blood. |
+| Ezetimibe | Blocks cholesterol absorption in the gut; added to statins when needed |
+| Newer injections (PCSK9 inhibitors, which help the liver remove more LDL, and others) | For very high risk or inherited high cholesterol; costly |
+| Fibrates, omega-3 prescription (two kinds of fat-lowering medicine) | Mainly for very high triglycerides, chosen by the doctor |
 
 ### About statins
 
 - Some people notice muscle aches. In large trials that compared a statin with a **placebo** (a dummy tablet), muscle pain or weakness was reported by 27.1% of people on a statin and 26.6% on placebo, so more than 90% of muscle symptoms in statin users were not caused by the drug. A small excess (about 11 per 1,000 people a year, roughly 1 in 100) appears in the first year only. A few people have real muscle problems. Report them; do not just stop. [4]
-- **Serious muscle injury and liver injury are rare.** Statins slightly raise blood sugar in some people, but the heart-protective benefit in high-risk people generally outweighs this. `⚠ verify`
+- Serious muscle injury and liver injury are rare. Statins slightly raise blood sugar in some people, but the heart-protective benefit in high-risk people generally outweighs this. `⚠ verify`
 - A doctor may check liver tests and sometimes a muscle enzyme blood test (CK, creatine kinase) if symptoms occur.
 - Statins are not for everyone with a mildly high number. Ask whether you are in a group that benefits.
 
@@ -105,17 +105,17 @@ Before labelling the cholesterol as inherited or diet-related:
 
 ## 6. Why the target depends on your risk
 
-Damage adds up: it depends on how high LDL is **and for how many years**, so inherited high LDL is very dangerous.
+Damage adds up: it depends on how high LDL is and for how many years, so inherited high LDL is very dangerous.
 
 1. **Work out your risk.** Doctors combine age, sex, blood pressure, diabetes, tobacco, family history, kidney disease and any past heart attack or stroke. A **risk score** turns this into low, moderate, high or very high risk. Indian guidance notes that standard Western calculators may **under-estimate** risk in South Asians. `⚠ verify`
-2. **Set the goal by risk group.** These are guideline directions, not personal targets.
+2. Set the goal by risk group. These are guideline directions, not personal targets.
 
 | Risk group | Example approach |
 |---|---|
-| **Low risk** | Lifestyle first; a moderate LDL is acceptable |
-| **Moderate to high** (diabetes, high BP, kidney disease, strong family history) | Lower LDL goal; a statin is usually advised |
-| **Very high** (past heart attack, stroke, stents) | **Lowest goals.** ESC/EAS (the European societies of cardiology and of atherosclerosis) aims below 55 mg/dL and a fall of at least 50% from baseline [1]; the Lipid Association of India (2020) sets below 50 mg/dL for very high risk and 30 mg/dL or lower for an "extreme risk" group `⚠ verify` |
-| **Familial hypercholesterolaemia** | Treat from a young age, often with combination medicines |
+| Low risk | Lifestyle first; a moderate LDL is acceptable |
+| Moderate to high (diabetes, high BP, kidney disease, strong family history) | Lower LDL goal; a statin is usually advised |
+| Very high (past heart attack, stroke, stents) | Lowest goals. ESC/EAS (the European societies of cardiology and of atherosclerosis) aims below 55 mg/dL and a fall of at least 50% from baseline [1]; the Lipid Association of India (2020) sets below 50 mg/dL for very high risk and 30 mg/dL or lower for an "extreme risk" group `⚠ verify` |
+| Familial hypercholesterolaemia | Treat from a young age, often with combination medicines |
 
 **Lower is better** for LDL in people who already have artery disease. Studies so far have not shown clear harm at very low LDL, but your doctor decides your goal. `⚠ verify` For what this leads to, see [Coronary heart disease](../02-diseases/coronary-heart-disease.md) and [Stroke](../02-diseases/stroke.md).
 
@@ -123,20 +123,20 @@ Damage adds up: it depends on how high LDL is **and for how many years**, so inh
 
 | Myth | What the evidence says |
 |---|---|
-| "Statins ruin the liver" | A mild, usually harmless rise in liver enzymes in a few people. Serious liver injury is very rare. Fatty liver is **not** a reason to avoid a statin you need. See [Liver](../02-diseases/liver.md) |
+| "Statins ruin the liver" | A mild, usually harmless rise in liver enzymes in a few people. Serious liver injury is very rare. Fatty liver is not a reason to avoid a statin you need. See [Liver](../02-diseases/liver.md) |
 | "Statins cause diabetes" | A small rise in blood sugar in some people already near diabetes. The heart benefit is much larger |
-| "Muscle pain is common" | See Section 5. In a blinded n-of-1 trial (each person took statin and dummy tablets in turn), muscle symptoms were mostly the same with a dummy tablet, called the **nocebo effect** (side effects caused by expecting harm). Report severe pain or dark urine at once |
+| "Muscle pain is common" | See Section 5. In a blinded n-of-1 trial (each person took statin and dummy tablets in turn), muscle symptoms were mostly the same with a dummy tablet, called the nocebo effect (side effects caused by expecting harm). Report severe pain or dark urine at once |
 | "Once on, never off" | The benefit lasts only while you take it, like a BP medicine. Stopping lets LDL rise again |
 | "Natural products work as well" | Red yeast rice contains an uncontrolled statin-like substance. Other supplements lack proof of fewer heart attacks |
-| "Only high cholesterol needs a statin" | In high-risk people a statin helps **even if LDL is near normal** |
+| "Only high cholesterol needs a statin" | In high-risk people a statin helps even if LDL is near normal |
 
 Diet and activity cannot replace a statin in familial hypercholesterolaemia or after a heart attack. Use both. See [Common drug classes](../04-medicines/common-drug-classes.md).
 
 ## 8. Inherited high cholesterol and Lp(a)
 
-**Familial hypercholesterolaemia (FH)** is an **inherited** condition: very high LDL from birth. Suspect it when LDL is very high (for example above about 190 mg/dL in an adult, an example cut-off) with a family history, yellowish lumps on the tendons or a **heart attack in the 30s to 50s**. It affects roughly 1 in 250 people worldwide and is **widely under-diagnosed in India**. `⚠ verify` **Test the children and siblings** (cascade screening).
+**Familial hypercholesterolaemia (FH)** is an **inherited** condition: very high LDL from birth. Suspect it when LDL is very high (for example above about 190 mg/dL in an adult, an example cut-off) with a family history, yellowish lumps on the tendons or a heart attack in the 30s to 50s. It affects roughly 1 in 250 people worldwide and is **widely under-diagnosed in India**. `⚠ verify` Test the children and siblings (cascade screening).
 
-**Lp(a)** is an LDL-like particle with an extra sticky protein. It is set almost entirely by genes and barely changes with diet or exercise. Statins do not lower it, and no widely available drug is proven yet. Many guidelines suggest **measuring it once** in adults, especially with early heart disease in the family. `⚠ verify` A high value means being **stricter about every other risk factor**. It is not a reason to panic or buy supplements.
+**Lp(a)** is an LDL-like particle with an extra sticky protein. It is set almost entirely by genes and barely changes with diet or exercise. Statins do not lower it, and no widely available drug is proven yet. Many guidelines suggest **measuring it once** in adults, especially with early heart disease in the family. `⚠ verify` A high value means being stricter about every other risk factor. It is not a reason to panic or buy supplements.
 
 ## 9. How you get misled
 
@@ -162,7 +162,7 @@ Diet and activity cannot replace a statin in familial hypercholesterolaemia or a
 
 ## 11. Red flags
 
-**Emergency:** chest pressure or pain, pain spreading to the arm or jaw, breathlessness, sweating, or fainting. **Prompt review:** severe unexplained muscle pain or weakness with dark urine, or severe belly pain with a very high triglyceride result.
+**Emergency:** chest pressure or pain, pain spreading to the arm or jaw, breathlessness, sweating, or fainting. Prompt review: severe unexplained muscle pain or weakness with dark urine, or severe belly pain with a very high triglyceride result.
 
 ## Key terms
 
@@ -179,6 +179,6 @@ Diet and activity cannot replace a statin in familial hypercholesterolaemia or a
 8. Nordestgaard BG, et al. EAS consensus on lipoprotein(a). *Eur Heart J* 2022.
 9. NICE guideline NG238 on cardiovascular disease risk and lipid modification.
 
-**Confirmed this pass:** ESC/EAS LDL goal for very high risk (below 55 mg/dL and a 50% fall); statin muscle-symptom figures (CTT, *Lancet* 2022).
+Confirmed this pass: ESC/EAS LDL goal for very high risk (below 55 mg/dL and a 50% fall); statin muscle-symptom figures (CTT, *Lancet* 2022).
 
-**Not verified:** example "desirable" thresholds, the Friedewald limit, the triglyceride pancreatitis threshold, non-fasting sampling, the HDL statement, statin liver and sugar statements, and the Lipid Association of India goals (found only in summaries of the 2020 statement, which has since been updated). Also unverified: the FH frequency and cut-off, the Lp(a) once-in-life advice, fish-oil evidence, and the Western risk-calculator under-estimation in South Asians. ACC/AHA 2018 was not opened.
+Not verified: example "desirable" thresholds, the Friedewald limit, the triglyceride pancreatitis threshold, non-fasting sampling, the HDL statement, statin liver and sugar statements, and the Lipid Association of India goals (found only in summaries of the 2020 statement, which has since been updated). Also unverified: the FH frequency and cut-off, the Lp(a) once-in-life advice, fish-oil evidence, and the Western risk-calculator under-estimation in South Asians. ACC/AHA 2018 was not opened.

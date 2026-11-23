@@ -31,11 +31,11 @@
 
 | Part | Job |
 |---|---|
-| **Ovaries** (two) | Store eggs; release an egg each cycle; make **oestrogen** and **progesterone** |
-| **Fallopian tubes** | Carry the egg to the womb; usual place where fertilisation happens |
-| **Uterus (womb)** | A muscular organ whose lining (**endometrium**) thickens each cycle and where a pregnancy grows |
-| **Cervix** | The neck of the womb |
-| **Vagina** | The birth canal |
+| Ovaries (two) | Store eggs; release an egg each cycle; make oestrogen and progesterone |
+| Fallopian tubes | Carry the egg to the womb; usual place where fertilisation happens |
+| Uterus (womb) | A muscular organ whose lining (endometrium) thickens each cycle and where a pregnancy grows |
+| Cervix | The neck of the womb |
+| Vagina | The birth canal |
 
 A girl is born with all the eggs she will ever have (about one to two million, falling to a few hundred thousand by puberty). `⚠ verify`
 
@@ -45,23 +45,23 @@ A typical cycle is about 28 days, but anything from about 21 to 35 days can be n
 
 | Phase | Roughly | What happens |
 |---|---|---|
-| **Menstruation** | Days 1 to 5 | The womb lining sheds as a period |
-| **Follicular phase** | Days 1 to 13 | FSH grows several follicles (egg sacs); one becomes dominant and makes more **oestrogen**, which rebuilds the womb lining |
-| **Ovulation** | About day 14 | A surge in **LH** makes the dominant follicle release its egg |
-| **Luteal phase** | Days 15 to 28 | The empty follicle becomes the **corpus luteum**, which makes **progesterone** to keep the lining ready |
-| **If no pregnancy** | End of cycle | The corpus luteum fades, hormones drop, and the lining sheds: a new period |
+| Menstruation | Days 1 to 5 | The womb lining sheds as a period |
+| Follicular phase | Days 1 to 13 | FSH grows several follicles (egg sacs); one becomes dominant and makes more oestrogen, which rebuilds the womb lining |
+| Ovulation | About day 14 | A surge in LH makes the dominant follicle release its egg |
+| Luteal phase | Days 15 to 28 | The empty follicle becomes the corpus luteum, which makes progesterone to keep the lining ready |
+| If no pregnancy | End of cycle | The corpus luteum fades, hormones drop, and the lining sheds: a new period |
 
-**If an egg is fertilised** it implants in the lining. The developing placenta makes **hCG** (human chorionic gonadotropin), which keeps the corpus luteum going and is the hormone **pregnancy tests detect**. A pregnancy lasts about 40 weeks.
+If an egg is fertilised it implants in the lining. The developing placenta makes **hCG** (human chorionic gonadotropin), which keeps the corpus luteum going and is the hormone **pregnancy tests detect**. A pregnancy lasts about 40 weeks.
 
 ### What disturbs the cycle
 
 | Factor | Why |
 |---|---|
-| **Thyroid disease** (under- or overactive) | Thyroid hormones affect the gonad axis (see [Thyroid](../02-diseases/thyroid.md)) |
-| **High prolactin** | Suppresses ovulation |
-| **PCOS** (polycystic ovary syndrome) | Raised male-type hormones and insulin resistance disturb ovulation; periods become infrequent. A commonly used definition requires two of: irregular ovulation, signs or blood tests of high androgens, and polycystic-looking ovaries on ultrasound. `⚠ verify` |
-| **Weight loss, stress, heavy exercise** | Suppress the hypothalamus |
-| **Pregnancy, perimenopause** | Normal causes of change |
+| Thyroid disease (under- or overactive) | Thyroid hormones affect the gonad axis (see [Thyroid](../02-diseases/thyroid.md)) |
+| High prolactin | Suppresses ovulation |
+| PCOS (polycystic ovary syndrome) | Raised male-type hormones and insulin resistance disturb ovulation; periods become infrequent. A commonly used definition requires two of: irregular ovulation, signs or blood tests of high androgens, and polycystic-looking ovaries on ultrasound. `⚠ verify` |
+| Weight loss, stress, heavy exercise | Suppress the hypothalamus |
+| Pregnancy, perimenopause | Normal causes of change |
 
 ### Menopause
 
@@ -73,16 +73,16 @@ Menopause is the permanent end of periods, confirmed after 12 months without one
 
 | Part | Job |
 |---|---|
-| **Testes** (two) | Make sperm and **testosterone**. They hang in the scrotum because sperm need a temperature a little below body temperature. |
-| **Epididymis** | A coiled tube on each testis where sperm mature and are stored |
-| **Vas deferens** | The tube carrying sperm toward the urethra |
-| **Seminal vesicles and prostate** | Add fluid that nourishes sperm; together with sperm this makes **semen** |
-| **Urethra and penis** | Carry urine and semen out |
+| Testes (two) | Make sperm and testosterone. They hang in the scrotum because sperm need a temperature a little below body temperature. |
+| Epididymis | A coiled tube on each testis where sperm mature and are stored |
+| Vas deferens | The tube carrying sperm toward the urethra |
+| Seminal vesicles and prostate | Add fluid that nourishes sperm; together with sperm this makes semen |
+| Urethra and penis | Carry urine and semen out |
 
 ### How it works
 
-- **FSH** supports sperm production in the **seminiferous tubules** (coiled tubes inside the testis). Making a sperm takes roughly 2 to 3 months. `⚠ verify`
-- **LH** makes the **Leydig cells** produce **testosterone**, which drives male features, muscle, bone, libido and sperm production.
+- FSH supports sperm production in the **seminiferous tubules** (coiled tubes inside the testis). Making a sperm takes roughly 2 to 3 months. `⚠ verify`
+- LH makes the **Leydig cells** produce **testosterone**, which drives male features, muscle, bone, libido and sperm production.
 
 ### The prostate
 
@@ -94,17 +94,17 @@ The prostate is a walnut-sized gland that **surrounds the urethra** just below t
 
 | Test | What it shows |
 |---|---|
-| **FSH, LH, oestradiol, progesterone, testosterone** | Gonad function, timed to the cycle in women |
-| **Prolactin and TSH** | Common causes of cycle or fertility problems |
-| **AMH** (anti-Müllerian hormone) | An indicator of egg reserve |
-| **Pelvic ultrasound** | Ovaries, womb, cysts, fibroids |
-| **Semen analysis** | Sperm count, movement and shape |
-| **Pap smear / HPV test / VIA** (visual inspection with acetic acid) | Screening for cervical cancer. The HPV test looks for the virus that causes it. In India's national programme, women aged 30 to 65 are offered VIA every 5 years at health centres. `⚠ verify India` |
-| **PSA** | Prostate marker, interpreted carefully |
+| FSH, LH, oestradiol, progesterone, testosterone | Gonad function, timed to the cycle in women |
+| Prolactin and TSH | Common causes of cycle or fertility problems |
+| AMH (anti-Müllerian hormone) | An indicator of egg reserve |
+| Pelvic ultrasound | Ovaries, womb, cysts, fibroids |
+| Semen analysis | Sperm count, movement and shape |
+| Pap smear / HPV test / VIA (visual inspection with acetic acid) | Screening for cervical cancer. The HPV test looks for the virus that causes it. In India's national programme, women aged 30 to 65 are offered VIA every 5 years at health centres. `⚠ verify India` |
+| PSA | Prostate marker, interpreted carefully |
 
 ## 5. Red flags
 
-See a doctor promptly for: **very heavy bleeding** (soaking pads hourly), **bleeding after menopause**, **severe pelvic pain**, **a missed period with abdominal pain** (possible ectopic pregnancy, an emergency), **a lump in the breast or testis**, or **sudden severe testicular pain** (possible torsion: a twisted testis, which needs surgery within hours).
+See a doctor promptly for: **very heavy bleeding** (soaking pads hourly), **bleeding after menopause**, **severe pelvic pain**, a missed period with abdominal pain (possible ectopic pregnancy, an emergency), a lump in the breast or testis, or **sudden severe testicular pain** (possible torsion: a twisted testis, which needs surgery within hours).
 
 ## 6. Why this matters for your reports
 
@@ -122,4 +122,4 @@ See a doctor promptly for: **very heavy bleeding** (soaking pads hourly), **blee
 2. Rotterdam consensus on PCOS; Indian PCOS guidance. `⚠ verify`
 3. Guyton and Hall, *Textbook of Medical Physiology* (edition to be named). `⚠ verify`
 
-**Not verified:** egg numbers, cycle length range, age at menopause, the sperm production time, the PCOS criteria and Indian screening guidance should be checked against the cited sources.
+Not verified: egg numbers, cycle length range, age at menopause, the sperm production time, the PCOS criteria and Indian screening guidance should be checked against the cited sources.

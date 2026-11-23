@@ -30,25 +30,25 @@ Each kidney has about a million filters (nephrons) that clean the blood, balance
 ## 3. What goes wrong
 
 - Nephrons are lost or scarred one by one. The remaining ones filter harder to compensate, which strains them further. That feedback explains why early damage can progress.
-- **Albumin leaks into the urine** (the filter becomes leaky).
+- Albumin leaks into the urine (the filter becomes leaky).
 - Waste products (urea, creatinine) and acid build up; fluid and potassium are retained; hormone jobs fail (anaemia, weak bones).
 
 ## 4. Causes and risk factors
 
 | Cause | Notes |
 |---|---|
-| **Diabetes** (diabetic kidney disease) | Leading cause; albumin in urine appears first |
-| **High blood pressure** | Damages kidney vessels; also made worse by kidney disease |
-| **Glomerulonephritis** | Inflammation of the filters, often immune-driven |
-| **Obstruction and stones, recurrent infections, enlarged prostate** | Back-pressure damages the kidney |
-| **Polycystic kidney disease** | Inherited cysts |
-| **Medicines and toxins** | **NSAID painkillers**, some antibiotics, contrast dye, certain herbal and "bhasma" products containing metals `⚠ verify` |
-| **CKD of unknown cause (CKDu)** | Reported in some farming regions of India; heat, dehydration, agrochemicals and other factors are being studied `⚠ verify` |
-| **Low birth weight, older age, smoking, obesity, family history** | Raise risk |
+| Diabetes (diabetic kidney disease) | Leading cause; albumin in urine appears first |
+| High blood pressure | Damages kidney vessels; also made worse by kidney disease |
+| Glomerulonephritis | Inflammation of the filters, often immune-driven |
+| Obstruction and stones, recurrent infections, enlarged prostate | Back-pressure damages the kidney |
+| Polycystic kidney disease | Inherited cysts |
+| Medicines and toxins | NSAID painkillers, some antibiotics, contrast dye, certain herbal and "bhasma" products containing metals `⚠ verify` |
+| CKD of unknown cause (CKDu) | Reported in some farming regions of India; heat, dehydration, agrochemicals and other factors are being studied `⚠ verify` |
+| Low birth weight, older age, smoking, obesity, family history | Raise risk |
 
 ## 5. Symptoms
 
-Early stages: **none**. Later (usually eGFR below about 30): tiredness, swelling of face, legs or feet, **foamy urine**, passing urine more at night, **loss of appetite, nausea, itching, cramps, breathlessness, pallor**, a metallic taste, and confusion in advanced cases.
+Early stages: **none**. Later (usually eGFR below about 30): tiredness, swelling of face, legs or feet, **foamy urine**, passing urine more at night, loss of appetite, nausea, itching, cramps, breathlessness, pallor, a metallic taste, and confusion in advanced cases.
 
 ## 6. Diagnosis and tests
 
@@ -70,27 +70,27 @@ Early stages: **none**. Later (usually eGFR below about 30): tiredness, swelling
 | Categories | A1 below 30 mg/g · A2 30–300 · A3 above 300 `⚠ verify` |
 | Notes | Repeat on a resting morning sample; the earliest sign of damage in diabetes and hypertension |
 
-Doctors combine the **eGFR stage** and **albumin category** (for example "G3a, A2") to judge risk. Other tests: kidney **ultrasound** (size, stones, blockage), blood **haemoglobin**, **calcium, phosphate, PTH, vitamin D**, **potassium and bicarbonate**, urine microscopy, and sometimes a **kidney biopsy**.
+Doctors combine the **eGFR stage** and **albumin category** (for example "G3a, A2") to judge risk. Other tests: kidney **ultrasound** (size, stones, blockage), blood **haemoglobin**, calcium, phosphate, PTH, vitamin D, **potassium and bicarbonate**, urine microscopy, and sometimes a **kidney biopsy**.
 
 ## 7. Treatment
 
 > [!WARNING]
-> No doses here. Several medicines change in kidney disease. **Tell every doctor and pharmacist that you have CKD and your eGFR.**
+> No doses here. Several medicines change in kidney disease. Tell every doctor and pharmacist that you have CKD and your eGFR.
 
 ### Slowing it down
 
 | Step | Why |
 |---|---|
-| **Control blood pressure** | KDIGO 2024 suggests a systolic pressure below 120 mmHg when tolerated and measured with a standardised method, individualised for frail people or those who get dizzy on standing; many guidelines still use 130/80 `⚠ verify` |
-| **ACE inhibitor or ARB** | Lower pressure and reduce albumin leak; protect the kidney when albumin is present |
-| **Control blood sugar** | See [Diabetes](diabetes.md); some diabetes medicines protect the kidney |
-| **SGLT2 inhibitors** | Shown to slow CKD progression; KDIGO 2024 recommends one for adults with eGFR 20 or above who have type 2 diabetes, heavy albuminuria or heart failure (with or without diabetes in the last two groups), and suggests one at eGFR 20 to 45 with lower albuminuria `⚠ verify` |
-| **Statin** | Lower heart risk, which is high in CKD |
-| **Stop smoking, lose weight, reduce salt** | Each helps |
-| **Avoid NSAIDs and unproven herbal products** | A common, avoidable cause of harm |
-| **Dose-adjust medicines** | Many antibiotics, diabetes and other drugs need adjustment |
-| **Sick-day rules** | During vomiting, diarrhoea or dehydration, ask which medicines to pause (see [Interactions and special groups](../04-medicines/interactions-and-special-groups.md)) |
-| **Vaccines** | Influenza, pneumococcal, hepatitis B (especially before dialysis) |
+| Control blood pressure | KDIGO 2024 suggests a systolic pressure below 120 mmHg when tolerated and measured with a standardised method, individualised for frail people or those who get dizzy on standing; many guidelines still use 130/80 `⚠ verify` |
+| ACE inhibitor or ARB | Lower pressure and reduce albumin leak; protect the kidney when albumin is present |
+| Control blood sugar | See [Diabetes](diabetes.md); some diabetes medicines protect the kidney |
+| SGLT2 inhibitors | Shown to slow CKD progression; KDIGO 2024 recommends one for adults with eGFR 20 or above who have type 2 diabetes, heavy albuminuria or heart failure (with or without diabetes in the last two groups), and suggests one at eGFR 20 to 45 with lower albuminuria `⚠ verify` |
+| Statin | Lower heart risk, which is high in CKD |
+| Stop smoking, lose weight, reduce salt | Each helps |
+| Avoid NSAIDs and unproven herbal products | A common, avoidable cause of harm |
+| Dose-adjust medicines | Many antibiotics, diabetes and other drugs need adjustment |
+| Sick-day rules | During vomiting, diarrhoea or dehydration, ask which medicines to pause (see [Interactions and special groups](../04-medicines/interactions-and-special-groups.md)) |
+| Vaccines | Influenza, pneumococcal, hepatitis B (especially before dialysis) |
 
 ### Diet
 
@@ -100,9 +100,9 @@ Advice depends on your stage and blood tests. Common points: **reduce salt** at 
 
 | Problem | Treatment |
 |---|---|
-| **Anaemia** | Iron, and **erythropoietin** injections when needed |
-| **Bone and mineral problems** | Phosphate control (including phosphate binders), vitamin D, managing PTH |
-| **High potassium, acidosis, fluid overload** | Diet, medicines, dialysis if severe |
+| Anaemia | Iron, and erythropoietin injections when needed |
+| Bone and mineral problems | Phosphate control (including phosphate binders), vitamin D, managing PTH |
+| High potassium, acidosis, fluid overload | Diet, medicines, dialysis if severe |
 
 ### Kidney failure: dialysis and transplant
 
@@ -110,12 +110,12 @@ When kidney function falls very low (eGFR below about 10 to 15, or with symptoms
 
 | Option | What it is |
 |---|---|
-| **Haemodialysis** | A machine cleans the blood, usually three times a week at a centre, through a fistula (a prepared vein) or a catheter |
-| **Peritoneal dialysis** | The belly lining is used as a filter at home with fluid exchanges |
-| **Kidney transplant** | A kidney from a living or deceased donor; the best treatment for suitable people, needing lifelong immune-suppressing medicines |
-| **Conservative care** | Symptom-focused care without dialysis, a valid choice for some older or frail people |
+| Haemodialysis | A machine cleans the blood, usually three times a week at a centre, through a fistula (a prepared vein) or a catheter |
+| Peritoneal dialysis | The belly lining is used as a filter at home with fluid exchanges |
+| Kidney transplant | A kidney from a living or deceased donor; the best treatment for suitable people, needing lifelong immune-suppressing medicines |
+| Conservative care | Symptom-focused care without dialysis, a valid choice for some older or frail people |
 
-In India, the **Pradhan Mantri National Dialysis Programme** (started 2016) offers free dialysis to below-poverty-line patients at district hospitals, and others can pay the government rate there; Ayushman Bharat-empanelled hospitals are linked to the programme, so check your eligibility with the hospital or the programme portal. `⚠ verify` Organ donation is regulated by the **Transplantation of Human Organs and Tissues Act**, and **buying or selling organs is illegal**. `⚠ verify`
+In India, the Pradhan Mantri National Dialysis Programme (started 2016) offers free dialysis to below-poverty-line patients at district hospitals, and others can pay the government rate there; Ayushman Bharat-empanelled hospitals are linked to the programme, so check your eligibility with the hospital or the programme portal. `⚠ verify` Organ donation is regulated by the Transplantation of Human Organs and Tissues Act, and buying or selling organs is illegal. `⚠ verify`
 
 ## 8. Complications
 
@@ -123,11 +123,11 @@ Heart disease (the main cause of death in CKD), stroke, anaemia, bone disease, h
 
 ## 9. Prevention and self-management
 
-- **If you have diabetes or high blood pressure:** a yearly **eGFR and urine ACR**.
-- **Keep sugar, pressure and cholesterol in range.**
+- If you have diabetes or high blood pressure: a yearly **eGFR and urine ACR**.
+- Keep sugar, pressure and cholesterol in range.
 - **Avoid regular NSAIDs.** Ask for kidney-safe pain options.
 - **Drink enough** (not excessive amounts) in heat and during illness.
-- **Treat urinary infections and stones promptly.**
+- Treat urinary infections and stones promptly.
 - **Know your stage** and your numbers; bring reports to each visit.
 
 ## 10. Misinformation and how you get misled (India)
@@ -154,7 +154,7 @@ Heart disease (the main cause of death in CKD), stroke, anaemia, bone disease, h
 
 ## 12. Red flags
 
-**Emergency:** very little or no urine, severe breathlessness (fluid on the lungs), chest pain, severe weakness with a very slow or irregular heartbeat (possible high potassium), confusion or fits, persistent vomiting with inability to keep fluids down. **Prompt review:** new leg swelling, foamy urine, or reduced urine.
+**Emergency:** very little or no urine, severe breathlessness (fluid on the lungs), chest pain, severe weakness with a very slow or irregular heartbeat (possible high potassium), confusion or fits, persistent vomiting with inability to keep fluids down. Prompt review: new leg swelling, foamy urine, or reduced urine.
 
 ## Key terms
 
@@ -168,4 +168,4 @@ Heart disease (the main cause of death in CKD), stroke, anaemia, bone disease, h
 4. Transplantation of Human Organs and Tissues Act, 1994 (amended 2011). `⚠ verify`
 5. EMPA-KIDNEY and DAPA-CKD trials on SGLT2 inhibitors in CKD. `⚠ verify`
 
-**Not verified:** the Indian CKD prevalence range, CKDu in Indian regions, the herbal and bhasma toxicity statement, the dialysis programme details, and the pressure target are claims to confirm against the cited sources.
+Not verified: the Indian CKD prevalence range, CKDu in Indian regions, the herbal and bhasma toxicity statement, the dialysis programme details, and the pressure target are claims to confirm against the cited sources.

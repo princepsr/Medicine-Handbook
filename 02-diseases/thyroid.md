@@ -39,14 +39,14 @@ The thyroid is controlled by the brain:
 
 | Name | What it is |
 |---|---|
-| **TSH** (thyroid-stimulating hormone) | The **message from the brain** telling the thyroid to work. The pituitary makes it, not the thyroid. |
-| **T4** (thyroxine) | The main hormone the thyroid releases. |
-| **T3** | The more active form. Most is made from T4 in the body's tissues. |
+| TSH (thyroid-stimulating hormone) | The message from the brain telling the thyroid to work. The pituitary makes it, not the thyroid. |
+| T4 (thyroxine) | The main hormone the thyroid releases. |
+| T3 | The more active form. Most is made from T4 in the body's tissues. |
 
 The thyroid needs **iodine**, a mineral from food and iodised salt, to make its hormones.
 
 > [!IMPORTANT]
-> **TSH moves opposite to the thyroid's output.** Underactive thyroid: the brain pushes harder, so TSH goes **up**. Overactive thyroid: the brain backs off, so TSH goes **down**.
+> TSH moves opposite to the thyroid's output. Underactive thyroid: the brain pushes harder, so TSH goes **up**. Overactive thyroid: the brain backs off, so TSH goes **down**.
 
 Thyroid hormones act on almost every organ: the heart (rate and strength), the gut (speed of digestion), skin and hair, body temperature, mood, periods and fertility, and the growth and brain development of children.
 
@@ -54,11 +54,11 @@ Thyroid hormones act on almost every organ: the heart (rate and strength), the g
 
 | Condition | Meaning |
 |---|---|
-| **Hypothyroidism** | Underactive thyroid. Too little hormone. |
-| **Hyperthyroidism** | Overactive thyroid. Too much hormone. |
-| **Subclinical hypothyroidism** | TSH is above the lab's range but T4 is normal. Often no clear symptoms. |
-| **Goitre** | Swelling of the thyroid. |
-| **Thyroid nodule** | A lump in the thyroid. |
+| Hypothyroidism | Underactive thyroid. Too little hormone. |
+| Hyperthyroidism | Overactive thyroid. Too much hormone. |
+| Subclinical hypothyroidism | TSH is above the lab's range but T4 is normal. Often no clear symptoms. |
+| Goitre | Swelling of the thyroid. |
+| Thyroid nodule | A lump in the thyroid. |
 
 ![An enlarged thyroid (goitre) with arrows showing the swelling in all directions, next to a body outline showing where the thyroid sits](../images/anatomy/thyroid-goiter.png)
 
@@ -111,9 +111,9 @@ mIU/L means milli-international units per litre.
 | Example range | Varies by lab and method |
 
 #### Free T3 (FT3), Anti-TPO antibodies, Ultrasound
-- **Free T3:** mainly used when an overactive thyroid is suspected. Often not needed for an underactive one.
-- **Anti-TPO antibodies:** show an autoimmune cause such as Hashimoto's. They do not by themselves mean you need treatment.
-- **Thyroid ultrasound:** shows size and nodules. It does not tell you how well the gland works. Nodules are scored (often **TI-RADS**), and a high score may lead to **FNAC** (fine-needle aspiration cytology: a thin needle takes a few cells to look at).
+- Free T3: mainly used when an overactive thyroid is suspected. Often not needed for an underactive one.
+- Anti-TPO antibodies: show an autoimmune cause such as Hashimoto's. They do not by themselves mean you need treatment.
+- Thyroid ultrasound: shows size and nodules. It does not tell you how well the gland works. Nodules are scored (often **TI-RADS**), and a high score may lead to **FNAC** (fine-needle aspiration cytology: a thin needle takes a few cells to look at).
 
 ### Common patterns (examples; your doctor interprets them)
 
@@ -132,11 +132,11 @@ A rare pituitary problem can give a "normal" TSH with low T4. A doctor looks for
 - **Time of day.** TSH is highest at night and in the early hours and lowest in the daytime. [6] Repeat at a similar time.
 - **Recent illness.** Wait until you have recovered, then repeat.
 - **Biotin** (vitamin B7, found in hair, skin and nail tablets). In common thyroid tests it can make TSH read falsely low and T4/T3 falsely high, which looks like an overactive thyroid. [7] Tell the lab and ask your doctor whether to pause it first.
-- **Taking your thyroid tablet right before the test.** Ask whether to take it after the blood draw.
+- Taking your thyroid tablet right before the test. Ask whether to take it after the blood draw.
 
 ### Subclinical hypothyroidism: the commonest confusion
 
-- A single raised TSH is often **temporary**. European guidance advises **repeating TSH, free T4 and antibodies after about 2 to 3 months**. [3]
+- A single raised TSH is often **temporary**. European guidance advises repeating TSH, free T4 and antibodies after about 2 to 3 months. [3]
 - Whether to treat depends on how high the TSH is, your age, symptoms, antibodies, and pregnancy or planning pregnancy. [3]
 - In a large trial of 737 adults aged 65 and over with persistently mildly raised TSH, thyroid tablets gave **no benefit** for tiredness or hypothyroid symptoms compared with placebo (a dummy tablet) at one year. [8]
 
@@ -149,8 +149,8 @@ A rare pituitary problem can give a "normal" TSH with low T4. A doctor looks for
 
 **Levothyroxine** is a manufactured copy of T4. It replaces what your thyroid is not making. Many people need it for a long time, but ask your doctor how long **you** will need it. `⚠ verify`
 
-- Guidelines advise taking it **consistently, with water, about 60 minutes before breakfast or at bedtime**. Keep it apart from **iron and calcium tablets**, which can reduce absorption. [1] Soy foods can also interfere, so keep timing consistent. `⚠ verify`
-- A **TSH test about 6 to 8 weeks after any dose change** shows whether the dose is right. Do not judge a dose before that. [9]
+- Guidelines advise taking it consistently, with water, about 60 minutes before breakfast or at bedtime. Keep it apart from **iron and calcium tablets**, which can reduce absorption. [1] Soy foods can also interfere, so keep timing consistent. `⚠ verify`
+- A TSH test about 6 to 8 weeks after any dose change shows whether the dose is right. Do not judge a dose before that. [9]
 - **Stay on one brand** where possible, so the dose behaves consistently. If a chemist swaps the brand, tell your doctor. [1]
 - **Too much** is not harmless. It can cause a racing heart, poor sleep and thinner bones. A TSH pushed very low by medicine needs review.
 - **Never use thyroid tablets to lose weight.** It is dangerous.
@@ -169,10 +169,10 @@ Thyroid hormone matters for the baby's brain. If you are pregnant or planning to
 
 ## 8. Complications
 
-- **Untreated underactive thyroid:** raised cholesterol, heart strain, infertility, problems in pregnancy; very rarely a life-threatening slowdown (myxoedema coma).
-- **Untreated overactive thyroid:** irregular heartbeat (atrial fibrillation), thinner bones, and rarely a dangerous surge (thyroid storm).
-- **Too much treatment:** the same problems as an overactive thyroid.
-- **Nodules:** cancer is found in a minority, about 7 to 15% of nodules. Most are not cancer. [11]
+- Untreated underactive thyroid: raised cholesterol, heart strain, infertility, problems in pregnancy; very rarely a life-threatening slowdown (myxoedema coma).
+- Untreated overactive thyroid: irregular heartbeat (atrial fibrillation), thinner bones, and rarely a dangerous surge (thyroid storm).
+- Too much treatment: the same problems as an overactive thyroid.
+- Nodules: cancer is found in a minority, about 7 to 15% of nodules. Most are not cancer. [11]
 
 ## 9. Prevention and self-management
 
@@ -185,9 +185,9 @@ Thyroid hormone matters for the baby's brain. If you are pregnant or planning to
 
 | What happens | What to ask or do |
 |---|---|
-| Levothyroxine started after **one** slightly high TSH | "Can we repeat TSH with an FT4 in 2 to 3 months before starting?" |
+| Levothyroxine started after one slightly high TSH | "Can we repeat TSH with an FT4 in 2 to 3 months before starting?" |
 | Treating mildly high TSH in an older person with no symptoms | Ask about the TRUST trial result. Ask what benefit is expected. |
-| A **"thyroid package"** with many tests for everyone | Ask which tests you need. TSH is usually the start. |
+| A "thyroid package" with many tests for everyone | Ask which tests you need. TSH is usually the start. |
 | "Thyroid cure" with herbs or diets | No diet or herb has been shown to replace thyroid hormone. In one study, some "thyroid support" supplements made from animal thyroid ("glandular" products) contained measurable real thyroid hormone, which can harm you silently. [12] |
 | Told to avoid cabbage, cauliflower and soy completely | These matter mainly with iodine deficiency or very large intakes. Ask before cutting out foods. `⚠ verify` |
 | Blaming the thyroid for every symptom | Ask what else could cause it and which test would show it. |
@@ -205,7 +205,7 @@ Thyroid hormone matters for the baby's brain. If you are pregnant or planning to
 
 ## 12. Red flags
 
-**See a doctor promptly:** a lump that grows quickly, a hoarse voice that does not clear, or trouble swallowing or breathing with a neck swelling.
+See a doctor promptly: a lump that grows quickly, a hoarse voice that does not clear, or trouble swallowing or breathing with a neck swelling.
 
 **Go to emergency care:** severe drowsiness, confusion or a very slow heartbeat with known underactive thyroid; or a very fast heartbeat, high fever, agitation or fainting with an overactive thyroid.
 
@@ -228,4 +228,4 @@ Thyroid hormone matters for the baby's brain. If you are pregnant or planning to
 11. Haugen BR, et al. 2015 ATA guidelines on thyroid nodules and thyroid cancer. *Thyroid* 2016;26(1):1-133.
 12. Kang GY, et al. Thyroid hormone content of dietary supplements. *Thyroid* 2013. (A later letter noted the method may give false positives.)
 
-**Not verified:** Hashimoto's as commonest cause in India; how long levothyroxine is needed; typical TSH range printed by Indian labs; the soy and goitrogen statements. Marked `⚠ verify`.
+Not verified: Hashimoto's as commonest cause in India; how long levothyroxine is needed; typical TSH range printed by Indian labs; the soy and goitrogen statements. Marked `⚠ verify`.

@@ -10,9 +10,9 @@ A lab report looks exact: a number, a range, a flag. But the number is the end o
 
 Think of a lab test like a weighing scale in a shop. Three things decide whether the weight is right:
 
-1. **Before weighing:** was the item prepared properly?
-2. **During weighing:** is the scale accurate and used correctly?
-3. **After weighing:** was the reading written down correctly and compared to the right standard?
+1. Before weighing: was the item prepared properly?
+2. During weighing: is the scale accurate and used correctly?
+3. After weighing: was the reading written down correctly and compared to the right standard?
 
 Lab people call these the **pre-analytical** (before), **analytical** (during) and **post-analytical** (after) stages. Roughly half or more of lab errors happen in the first stage, **before** the sample reaches the machine. [1]
 
@@ -26,11 +26,11 @@ Lab people call these the **pre-analytical** (before), **analytical** (during) a
 
 | What | Why it can change the result |
 |---|---|
-| **Fasting** (nothing but water for about 8 to 12 hours, as the test requires) | Food raises sugar and fats in the blood. A tea with sugar counts as eating. |
-| **Time of day** | Some hormones, such as TSH (Chapter 3), change through the day. |
-| **Recent illness, hard exercise, alcohol** | Can raise liver enzymes, sugar or inflammation markers for days. |
-| **Medicines and supplements** | Some change the result, or fool the test machine itself. Example: biotin (vitamin B7, found in hair and nail tablets) can make some hormone results falsely low and others falsely high. Always tell the lab what you take. |
-| **How the sample is taken and stored** | A long tourniquet, a delay before the sample is spun, or heat during transport can shift results. For example, if blood for sugar is left too long, the blood cells keep eating the sugar, and the number drops. |
+| Fasting (nothing but water for about 8 to 12 hours, as the test requires) | Food raises sugar and fats in the blood. A tea with sugar counts as eating. |
+| Time of day | Some hormones, such as TSH (Chapter 3), change through the day. |
+| Recent illness, hard exercise, alcohol | Can raise liver enzymes, sugar or inflammation markers for days. |
+| Medicines and supplements | Some change the result, or fool the test machine itself. Example: biotin (vitamin B7, found in hair and nail tablets) can make some hormone results falsely low and others falsely high. Always tell the lab what you take. |
+| How the sample is taken and stored | A long tourniquet, a delay before the sample is spun, or heat during transport can shift results. For example, if blood for sugar is left too long, the blood cells keep eating the sugar, and the number drops. |
 
 ### Stage 2: In the machine
 
@@ -40,10 +40,10 @@ In India, look for a lab accredited by **NABL** (National Accreditation Board fo
 
 ### Stage 3: After the test (the report)
 
-- **Reference range:** the "normal" band, explained in Chapter 1. It depends on age, sex, and sometimes pregnancy. Read the range **printed on your report**, not a range from the internet.
-- **Flags:** H (high), L (low). These only mean "outside this lab's range".
-- **Units:** the same test can be written in different units, such as mg/dL or mmol/L. A number only makes sense with its unit. Never compare numbers from two reports without checking the units.
-- **Critical values:** results so far out of range that a lab should phone the doctor.
+- Reference range: the "normal" band, explained in Chapter 1. It depends on age, sex, and sometimes pregnancy. Read the range **printed on your report**, not a range from the internet.
+- Flags: H (high), L (low). These only mean "outside this lab's range".
+- Units: the same test can be written in different units, such as mg/dL or mmol/L. A number only makes sense with its unit. Never compare numbers from two reports without checking the units.
+- Critical values: results so far out of range that a lab should phone the doctor.
 
 ---
 
@@ -61,10 +61,10 @@ In India, look for a lab accredited by **NABL** (National Accreditation Board fo
 
 ## Reading Your Report: a 6-step habit
 
-1. **Check your details:** name, age, sex, date and time of the sample.
-2. **Check the test and the unit.**
-3. **Compare to the range printed on the same report.**
-4. **Ask: was I fasting, ill, or on any supplement that day?**
+1. Check your details: name, age, sex, date and time of the sample.
+2. Check the test and the unit.
+3. Compare to the range printed on the same report.
+4. Ask: was I fasting, ill, or on any supplement that day?
 5. **Look at the trend.** Is this number new, or similar to last year's? One value matters less than the direction over time.
 6. **Never act on the number alone.** Take it to a doctor along with your symptoms.
 
@@ -75,10 +75,10 @@ In India, look for a lab accredited by **NABL** (National Accreditation Board fo
 
 ## How You Get Misled
 
-- **Health packages with 60 to 100 tests.** More tests mean more chances of a false flag (Chapter 1). Ask your doctor which tests are needed for your age and risk.
-- **"Immunity" or "full body" panels.** The names sound serious but have no fixed medical definition. Ask exactly which tests are inside.
-- **Over-testing of vitamin D and B12 in people who feel fine.** Whether to test depends on symptoms and risk. `⚠ verify against Indian guidance`
-- **Reports from a lab that is "on a commission".** Some doctors send patients to labs for a share of the fee. You are allowed to choose an accredited lab yourself. This practice is called "cut practice". Whether it is legal or banned is covered by Indian medical ethics rules. `⚠ verify the current NMC rule`
+- Health packages with 60 to 100 tests. More tests mean more chances of a false flag (Chapter 1). Ask your doctor which tests are needed for your age and risk.
+- "Immunity" or "full body" panels. The names sound serious but have no fixed medical definition. Ask exactly which tests are inside.
+- Over-testing of vitamin D and B12 in people who feel fine. Whether to test depends on symptoms and risk. `⚠ verify against Indian guidance`
+- Reports from a lab that is "on a commission". Some doctors send patients to labs for a share of the fee. You are allowed to choose an accredited lab yourself. This practice is called "cut practice". Whether it is legal or banned is covered by Indian medical ethics rules. `⚠ verify the current NMC rule`
 - **Alarming language.** "Borderline", "abnormal" and "high risk" on a report are labels, not diagnoses.
 
 ---

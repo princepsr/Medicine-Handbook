@@ -7,7 +7,7 @@ Read [The heart and circulation](../01-body/heart-and-circulation.md) first, esp
 > [!NOTE]
 > **Quick summary**
 > - High blood pressure usually causes **no symptoms** but quietly damages the heart, brain, kidneys and eyes over years.
-> - One high clinic reading is not a diagnosis. Diagnosis needs **correctly measured readings on more than one occasion**, often with a home monitor.
+> - One high clinic reading is not a diagnosis. Diagnosis needs correctly measured readings on more than one occasion, often with a home monitor.
 > - Salt, weight, activity and alcohol matter. Most people also need medicine, usually for life.
 > - Never stop blood pressure tablets because the reading is normal. It is normal *because* of the tablets.
 
@@ -42,12 +42,12 @@ In most people (about nine in ten) no single cause is found: **primary (essentia
 
 | Secondary cause | Clue |
 |---|---|
-| **Kidney disease** | Abnormal urine tests, high creatinine |
-| **Narrowed kidney artery** | Sudden onset, hard to control |
-| **Hormone excess** (for example **primary aldosteronism**, thyroid disease, **phaeochromocytoma**) | Low potassium, sweating and palpitations in attacks |
-| **Sleep apnoea** (breathing stops in sleep) | Loud snoring, daytime sleepiness |
-| **Medicines** | NSAID painkillers, steroids, some cold remedies (decongestants), some contraceptive pills, some herbal products |
-| **Pregnancy** | Pre-eclampsia (see your obstetrician) |
+| Kidney disease | Abnormal urine tests, high creatinine |
+| Narrowed kidney artery | Sudden onset, hard to control |
+| Hormone excess (for example primary aldosteronism, thyroid disease, phaeochromocytoma) | Low potassium, sweating and palpitations in attacks |
+| Sleep apnoea (breathing stops in sleep) | Loud snoring, daytime sleepiness |
+| Medicines | NSAID painkillers, steroids, some cold remedies (decongestants), some contraceptive pills, some herbal products |
+| Pregnancy | Pre-eclampsia (see your obstetrician) |
 
 Young people with hypertension and people whose pressure is very high or hard to control are checked for secondary causes.
 
@@ -58,7 +58,7 @@ Young people with hypertension and people whose pressure is very high or hard to
 - **Alcohol**; **tobacco**; **stress and poor sleep**
 - **Age** and **family history**
 - **Diabetes** and **kidney disease**
-- Indian diets are often high in salt (pickles, papad, namkeen, processed food) and ICMR surveys estimate an average intake of roughly 8 to 11 g a day, above the WHO limit of **less than 5 g of salt a day** (about a teaspoon). `⚠ verify`
+- Indian diets are often high in salt (pickles, papad, namkeen, processed food) and ICMR surveys estimate an average intake of roughly 8 to 11 g a day, above the WHO limit of less than 5 g of salt a day (about a teaspoon). `⚠ verify`
 
 ## 5. Symptoms
 
@@ -70,19 +70,19 @@ Usually **none**. That is why it is called the "silent" condition. Headache, diz
 
 A wrong technique can change the reading by 10 mmHg or more.
 
-- Sit quietly for **5 minutes**, back supported, feet flat, **arm resting at heart level**.
+- Sit quietly for **5 minutes**, back supported, feet flat, arm resting at heart level.
 - No caffeine, smoking or exercise for 30 minutes before.
 - Use the **right cuff size** (a cuff that is too small reads too high).
-- Do not talk. Take **two readings a minute apart** and average.
+- Do not talk. Take two readings a minute apart and average.
 - At the first visit measure **both arms**.
 
 ### Confirming the diagnosis
 
 | Method | Use |
 |---|---|
-| **Clinic readings on separate visits** | Standard confirmation |
-| **Home blood pressure monitor** (a validated upper-arm device) | Confirms and tracks; avoids the "white-coat effect" (high only in the clinic) and finds **masked hypertension** (normal in clinic, high at home) |
-| **24-hour ambulatory monitoring** | A wearable cuff taking readings through the day and night; the most complete test |
+| Clinic readings on separate visits | Standard confirmation |
+| Home blood pressure monitor (a validated upper-arm device) | Confirms and tracks; avoids the "white-coat effect" (high only in the clinic) and finds masked hypertension (normal in clinic, high at home) |
+| 24-hour ambulatory monitoring | A wearable cuff taking readings through the day and night; the most complete test |
 
 Home monitoring: use a **validated upper-arm** device, measure at the same times (morning and evening) for about a week before a visit, and write the numbers down. Wrist and finger devices are less reliable. `⚠ verify`
 
@@ -90,11 +90,11 @@ Home monitoring: use a **validated upper-arm** device, measure at the same times
 
 | Test | What it looks for |
 |---|---|
-| **Urine albumin-creatinine ratio, creatinine, eGFR** | Kidney damage (see [Urine tests](../03-tests/urine-tests.md), [Liver and kidney tests](../03-tests/liver-and-kidney-tests.md)) |
-| **Sodium and potassium** | Hormone causes, medicine effects |
-| **Blood sugar, lipid profile** | Other heart risks (see [Diabetes](diabetes.md), [Lipid profile](../03-tests/lipid-profile.md)) |
-| **ECG, sometimes echo** | Heart strain |
-| **Eye examination** | Retina damage |
+| Urine albumin-creatinine ratio, creatinine, eGFR | Kidney damage (see [Urine tests](../03-tests/urine-tests.md), [Liver and kidney tests](../03-tests/liver-and-kidney-tests.md)) |
+| Sodium and potassium | Hormone causes, medicine effects |
+| Blood sugar, lipid profile | Other heart risks (see [Diabetes](diabetes.md), [Lipid profile](../03-tests/lipid-profile.md)) |
+| ECG, sometimes echo | Heart strain |
+| Eye examination | Retina damage |
 
 ## 7. Treatment
 
@@ -105,17 +105,17 @@ Home monitoring: use a **validated upper-arm** device, measure at the same times
 
 | Step | Notes |
 |---|---|
-| **Cut salt** | Aim for less than 5 g a day; limit pickles, papad, packaged snacks, instant noodles and restaurant food. Using less iodised salt is fine; do not avoid iodised salt altogether. |
-| **More potassium from food** | Fruit, vegetables, pulses. Ask first if you have kidney disease |
-| **DASH-style eating** | Fruit, vegetables, pulses, whole grains, low-fat dairy, little processed food |
-| **Weight loss** | A loss of a few kilograms lowers pressure |
-| **Activity** | Regular brisk activity, roughly 150 minutes a week |
-| **Alcohol and tobacco** | Limit alcohol; stop tobacco |
-| **Sleep and stress** | Treat sleep apnoea; enough sleep |
+| Cut salt | Aim for less than 5 g a day; limit pickles, papad, packaged snacks, instant noodles and restaurant food. Using less iodised salt is fine; do not avoid iodised salt altogether. |
+| More potassium from food | Fruit, vegetables, pulses. Ask first if you have kidney disease |
+| DASH-style eating | Fruit, vegetables, pulses, whole grains, low-fat dairy, little processed food |
+| Weight loss | A loss of a few kilograms lowers pressure |
+| Activity | Regular brisk activity, roughly 150 minutes a week |
+| Alcohol and tobacco | Limit alcohol; stop tobacco |
+| Sleep and stress | Treat sleep apnoea; enough sleep |
 
 ### Medicines
 
-Most people need one to three medicines. The common classes (see [Common drug classes](../04-medicines/common-drug-classes.md)): **ACE inhibitors, ARBs, calcium channel blockers, thiazide-like water tablets**, and sometimes beta-blockers or others. Single tablets that combine two or three drugs are common and reasonable.
+Most people need one to three medicines. The common classes (see [Common drug classes](../04-medicines/common-drug-classes.md)): ACE inhibitors, ARBs, calcium channel blockers, thiazide-like water tablets, and sometimes beta-blockers or others. Single tablets that combine two or three drugs are common and reasonable.
 
 Points to know:
 - Tablets are **not addictive** and do **not** harm the kidneys when used properly. In people with diabetes or kidney disease, some actually protect the kidneys.
@@ -175,4 +175,4 @@ Stroke, heart attack, heart failure, kidney disease, eye damage, damage to the m
 4. WHO. Guideline for the pharmacological treatment of hypertension in adults (2021); WHO salt-intake recommendation. `⚠ verify`
 5. NFHS-5 and ICMR-INDIAB data on hypertension prevalence in India. `⚠ verify`
 
-**Not verified:** the home and ambulatory thresholds, the prevalence and Indian salt-intake figures, the "doubles the risk per 20 mmHg" statement and the secondary-cause list are standard figures and claims to confirm against the cited sources.
+Not verified: the home and ambulatory thresholds, the prevalence and Indian salt-intake figures, the "doubles the risk per 20 mmHg" statement and the secondary-cause list are standard figures and claims to confirm against the cited sources.

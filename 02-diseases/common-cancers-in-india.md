@@ -7,10 +7,10 @@ Read [Cells and cancer basics](../01-body/cells-and-cancer-basics.md) first. For
 > [!NOTE]
 > **Quick summary**
 > - **Cancer** is the uncontrolled growth of body cells that can invade nearby tissue and spread. India has about 1.4 million new cases a year (GLOBOCAN 2022, the World Health Organization's global cancer estimates: 1.41 million `⚠ verify`; the ICMR registry (Indian Council of Medical Research) projects about 1.57 million for 2025).
-> - The commonest are **breast, mouth, cervix, lung, colorectal, stomach, gallbladder and prostate**. Tobacco and areca nut (supari) cause a very large share, especially mouth cancer.
+> - The commonest are breast, mouth, cervix, lung, colorectal, stomach, gallbladder and prostate. Tobacco and areca nut (supari) cause a very large share, especially mouth cancer.
 > - Cancers found **early** are far more curable. In India, many are found late (stage 3 or 4, the advanced stages; see section 4).
-> - Screening that works: **mouth examination, breast examination, cervical screening**. **HPV vaccination** (against the human papillomavirus, the virus behind most cervical cancer) prevents most of it. Stopping **tobacco and areca nut** is the biggest single step.
-> - A **biopsy** (a small piece of tissue examined under a microscope) is the only way to confirm cancer. Treatment has five main tools. **No diet, spice, powder or stem-cell injection cures cancer.**
+> - Screening that works: mouth examination, breast examination, cervical screening. **HPV vaccination** (against the human papillomavirus, the virus behind most cervical cancer) prevents most of it. Stopping **tobacco and areca nut** is the biggest single step.
+> - A **biopsy** (a small piece of tissue examined under a microscope) is the only way to confirm cancer. Treatment has five main tools. No diet, spice, powder or stem-cell injection cures cancer.
 
 ---
 
@@ -24,22 +24,22 @@ Roughly 1 in 3 or more Indian cancers is linked to **tobacco**. `⚠ verify` Ind
 
 | Cancer | Main risk factors (India focus) | Warning signs |
 |---|---|---|
-| **Mouth** | Chewed **tobacco, gutka, khaini (chewing tobacco mixes), areca nut**, smoking, alcohol | Ulcer **not healing in 2 weeks**, white or red patch, lump, loose teeth, trouble opening the mouth |
-| **Breast** | Age, late or no childbirth, obesity after menopause, alcohol, family history, **BRCA** (inherited faulty genes) | **Painless lump**, skin dimpling, nipple pulling in or bloody discharge |
-| **Cervix** (neck of the womb) | Long infection with **HPV** (human papillomavirus, a common sexually transmitted virus), early marriage, many pregnancies, smoking, HIV | **Bleeding between periods, after sex or after menopause**, foul discharge |
-| **Lung** | **Bidi and cigarette smoke**, passive smoke, **air pollution**, cooking smoke. A sizeable share occur in **non-smokers**; the exact share is unconfirmed. `⚠ verify` | **Cough over 3 weeks**, coughing blood, weight loss. Overlaps with [tuberculosis](tuberculosis.md) |
-| **Colorectal** (colon and rectum) | Age, low fibre, red and processed meat, obesity, polyps (small growths in the bowel lining), family history | Blood in stool, lasting change in bowel habit, [anaemia](anaemia.md). Do not assume piles |
-| **Stomach** | *Helicobacter pylori* (a stomach germ), salted or smoked food, tobacco | Lasting indigestion, early fullness, vomiting, black stools |
-| **Gallbladder** | **Gallstones** over years, chronic infection, obesity. Very high in the **Gangetic belt**, reported from hospital data. `⚠ verify` | Right upper belly pain, **jaundice** (yellow eyes and skin), weight loss. Often silent until late |
-| **Prostate** (a gland below the bladder in men) | Age, family history | Weak or frequent urine flow, waking at night to pass urine. Early cancer often has no signs |
+| Mouth | Chewed tobacco, gutka, khaini (chewing tobacco mixes), areca nut, smoking, alcohol | Ulcer not healing in 2 weeks, white or red patch, lump, loose teeth, trouble opening the mouth |
+| Breast | Age, late or no childbirth, obesity after menopause, alcohol, family history, BRCA (inherited faulty genes) | Painless lump, skin dimpling, nipple pulling in or bloody discharge |
+| Cervix (neck of the womb) | Long infection with HPV (human papillomavirus, a common sexually transmitted virus), early marriage, many pregnancies, smoking, HIV | Bleeding between periods, after sex or after menopause, foul discharge |
+| Lung | Bidi and cigarette smoke, passive smoke, air pollution, cooking smoke. A sizeable share occur in non-smokers; the exact share is unconfirmed. `⚠ verify` | Cough over 3 weeks, coughing blood, weight loss. Overlaps with [tuberculosis](tuberculosis.md) |
+| Colorectal (colon and rectum) | Age, low fibre, red and processed meat, obesity, polyps (small growths in the bowel lining), family history | Blood in stool, lasting change in bowel habit, [anaemia](anaemia.md). Do not assume piles |
+| Stomach | *Helicobacter pylori* (a stomach germ), salted or smoked food, tobacco | Lasting indigestion, early fullness, vomiting, black stools |
+| Gallbladder | Gallstones over years, chronic infection, obesity. Very high in the Gangetic belt, reported from hospital data. `⚠ verify` | Right upper belly pain, jaundice (yellow eyes and skin), weight loss. Often silent until late |
+| Prostate (a gland below the bladder in men) | Age, family history | Weak or frequent urine flow, waking at night to pass urine. Early cancer often has no signs |
 
 ## 3. Prevention and screening that works
 
 ### Prevention
 
-- **No tobacco in any form, and no areca nut.** Smokeless tobacco is **not safe**. Quitting at any age lowers risk. India's helpline is the National Tobacco Quit Line (1800-11-2356, toll free). See [Lifestyle, tobacco and alcohol](../07-prevention/lifestyle-activity-sleep-tobacco-alcohol.md).
+- No tobacco in any form, and no areca nut. Smokeless tobacco is **not safe**. Quitting at any age lowers risk. India's helpline is the National Tobacco Quit Line (1800-11-2356, toll free). See [Lifestyle, tobacco and alcohol](../07-prevention/lifestyle-activity-sleep-tobacco-alcohol.md).
 - **HPV vaccine** for girls. India launched a free national drive on 28 February 2026: a single dose for 14-year-old girls at government facilities (girls turning 15 within 90 days of the launch were also eligible, with parental consent). See [Vaccines and immunisation](../07-prevention/vaccines-and-immunisation.md). The vaccine does not replace screening in later life.
-- **Healthy weight, activity, less alcohol, more fibre**, less processed and salted food.
+- Healthy weight, activity, less alcohol, more fibre, less processed and salted food.
 - **Hepatitis B vaccine** lowers liver cancer risk (see [Liver](liver.md)). Treat *H. pylori* and symptomatic gallstones as advised.
 
 ### Screening: finding cancer before symptoms
@@ -48,32 +48,32 @@ The National Programme for Prevention and Control of Non-Communicable Diseases (
 
 | Screen | What works | Notes |
 |---|---|---|
-| **Mouth** | A trained worker or dentist looks in the mouth yearly, for users of tobacco and areca nut | In a large Kerala trial, mouth examination reduced oral cancer deaths among tobacco or alcohol users; across everyone screened the drop was not statistically significant `⚠ verify` |
-| **Breast** | **Clinical breast examination** by a trained person. **Mammography** (breast X-ray) from about 40 or 45 to 50, as your doctor advises | Guidelines differ by country and age `⚠ verify` |
-| **Cervix** | **HPV test** (best, about every 5 years), or **VIA** (looking at the cervix after applying vinegar), or **Pap smear** (cells examined), from about 30 to 65 | Free at many government centres |
-| **Colorectal** | **Stool blood test** or **colonoscopy** (a camera test of the bowel) from about 45 to 50 | Not yet a national programme in India `⚠ verify` |
-| **Lung** | **Low-dose CT** only for **heavy long-term smokers** in structured programmes | A chest X-ray is not a good cancer screen |
-| **Prostate** | **PSA** (a blood protein made by the prostate) blood test is debated | See [Screening and check-ups](../07-prevention/screening-and-checkups.md) |
+| Mouth | A trained worker or dentist looks in the mouth yearly, for users of tobacco and areca nut | In a large Kerala trial, mouth examination reduced oral cancer deaths among tobacco or alcohol users; across everyone screened the drop was not statistically significant `⚠ verify` |
+| Breast | Clinical breast examination by a trained person. Mammography (breast X-ray) from about 40 or 45 to 50, as your doctor advises | Guidelines differ by country and age `⚠ verify` |
+| Cervix | HPV test (best, about every 5 years), or VIA (looking at the cervix after applying vinegar), or Pap smear (cells examined), from about 30 to 65 | Free at many government centres |
+| Colorectal | Stool blood test or colonoscopy (a camera test of the bowel) from about 45 to 50 | Not yet a national programme in India `⚠ verify` |
+| Lung | Low-dose CT only for heavy long-term smokers in structured programmes | A chest X-ray is not a good cancer screen |
+| Prostate | PSA (a blood protein made by the prostate) blood test is debated | See [Screening and check-ups](../07-prevention/screening-and-checkups.md) |
 
-**Beware of "full-body cancer screening" packages** and tumour-marker panels sold to healthy people. They cause false alarms and needless tests. See [Choosing a lab and spotting wrong reports](../03-tests/choosing-a-lab-and-spotting-wrong-reports.md).
+Beware of "full-body cancer screening" packages and tumour-marker panels sold to healthy people. They cause false alarms and needless tests. See [Choosing a lab and spotting wrong reports](../03-tests/choosing-a-lab-and-spotting-wrong-reports.md).
 
 ## 4. Diagnosis: the biopsy report and staging
 
-A **biopsy** removes a small sample. A **pathologist** (a doctor who studies tissue) examines it. The report decides treatment. A correctly done biopsy does not spread cancer.
+A biopsy removes a small sample. A **pathologist** (a doctor who studies tissue) examines it. The report decides treatment. A correctly done biopsy does not spread cancer.
 
 | Term in the report | Plain meaning |
 |---|---|
-| **Benign / malignant** | Not cancer / cancer |
-| **Carcinoma** | Cancer from the lining cells of an organ. The commonest type |
-| **Adenocarcinoma** | Carcinoma from gland cells (breast, colon, stomach, prostate) |
-| **Squamous cell carcinoma** | Carcinoma from flat, skin-like lining cells (mouth, cervix, some lung) |
-| **Grade** (1, 2, 3, or "well, moderately, poorly differentiated") | How abnormal the cells look. **Higher grade usually grows faster** |
-| **Margins** (after surgery) | Whether cancer cells reach the cut edge. "Clear" or "negative" is good |
-| **Lymph nodes (for example 2 of 15)** | How many nodes contain cancer |
-| **Lymphovascular invasion** | Cancer cells inside small vessels, a higher chance of spread |
-| **ER, PR, HER2** (breast) | Markers that decide whether hormone or targeted treatment will work |
-| **IHC** (immunohistochemistry) | Special stains to identify the cell type or markers |
-| **Gleason score** (prostate) | A pattern score for how aggressive the cancer looks |
+| Benign / malignant | Not cancer / cancer |
+| Carcinoma | Cancer from the lining cells of an organ. The commonest type |
+| Adenocarcinoma | Carcinoma from gland cells (breast, colon, stomach, prostate) |
+| Squamous cell carcinoma | Carcinoma from flat, skin-like lining cells (mouth, cervix, some lung) |
+| Grade (1, 2, 3, or "well, moderately, poorly differentiated") | How abnormal the cells look. Higher grade usually grows faster |
+| Margins (after surgery) | Whether cancer cells reach the cut edge. "Clear" or "negative" is good |
+| Lymph nodes (for example 2 of 15) | How many nodes contain cancer |
+| Lymphovascular invasion | Cancer cells inside small vessels, a higher chance of spread |
+| ER, PR, HER2 (breast) | Markers that decide whether hormone or targeted treatment will work |
+| IHC (immunohistochemistry) | Special stains to identify the cell type or markers |
+| Gleason score (prostate) | A pattern score for how aggressive the cancer looks |
 
 **Stage** describes how far the cancer has spread. **0**: abnormal cells only on the surface ("in situ"). **1**: small, within the organ. **2**: larger, or just reaching nearby nodes. **3**: locally advanced, more nodes. **4**: spread to distant organs. Doctors also use **TNM**: **T** (tumour size), **N** (nodes), **M** (metastasis). Ask for your grade and TNM stage in writing. **Imaging** (see [Imaging and ECG reports](../03-tests/imaging-and-ecg-reports.md)) and **endoscopy** (a camera tube) show size and spread. **Tumour markers** (blood proteins such as PSA, CA 125, CEA) can help follow a known cancer but are **poor screening tests**, and a normal value does not rule out cancer.
 
@@ -83,11 +83,11 @@ The aim may be **cure** (gone for good), **control** (kept from growing, sometim
 
 | Tool | In plain words | Main benefits | Main risks |
 |---|---|---|---|
-| **Surgery** | Cutting out the tumour, sometimes with nearby nodes | The main **cure** for many early solid cancers | Pain, infection, bleeding, loss of function or an organ |
-| **Chemotherapy** | Drugs that kill fast-dividing cells, by drip or tablet in **cycles** with rest between | Cures some cancers (some blood, testicular, childhood), shrinks tumours, lowers relapse | **Hair loss, nausea, mouth sores, tiredness, low blood counts** (infection risk). Mostly temporary and manageable |
-| **Radiotherapy** ("sekai") | Focused high-energy beams on one area | Cures or controls many cancers (mouth, cervix, prostate, breast), relieves pain | Skin soreness, tiredness, effects on the treated area. It does **not** make you radioactive |
-| **Targeted therapy** | Drugs aimed at a specific fault (for example HER2 or EGFR), only if the **marker test** shows it | Often fewer general side effects | Rashes, diarrhoea, resistance. Costly (some generics exist) |
-| **Immunotherapy** | Drugs that help the [immune system](../01-body/immune-system.md) recognise cancer | Long control in some cancers (some lung, skin, kidney) | Immune attack on healthy organs (gut, lungs, thyroid, liver). Helps only a share of patients. Costly |
+| Surgery | Cutting out the tumour, sometimes with nearby nodes | The main cure for many early solid cancers | Pain, infection, bleeding, loss of function or an organ |
+| Chemotherapy | Drugs that kill fast-dividing cells, by drip or tablet in cycles with rest between | Cures some cancers (some blood, testicular, childhood), shrinks tumours, lowers relapse | Hair loss, nausea, mouth sores, tiredness, low blood counts (infection risk). Mostly temporary and manageable |
+| Radiotherapy ("sekai") | Focused high-energy beams on one area | Cures or controls many cancers (mouth, cervix, prostate, breast), relieves pain | Skin soreness, tiredness, effects on the treated area. It does not make you radioactive |
+| Targeted therapy | Drugs aimed at a specific fault (for example HER2 or EGFR), only if the marker test shows it | Often fewer general side effects | Rashes, diarrhoea, resistance. Costly (some generics exist) |
+| Immunotherapy | Drugs that help the [immune system](../01-body/immune-system.md) recognise cancer | Long control in some cancers (some lung, skin, kidney) | Immune attack on healthy organs (gut, lungs, thyroid, liver). Helps only a share of patients. Costly |
 
 Other tools: **hormone therapy** (for hormone-driven breast and prostate cancer), **bone marrow transplant** (some blood cancers) and **supportive care**.
 
@@ -102,11 +102,11 @@ Other tools: **hormone therapy** (for hormone-driven breast and prostate cancer)
 
 | Resource | What to know |
 |---|---|
-| **Ayushman Bharat PM-JAY** (Pradhan Mantri Jan Arogya Yojana) | Government insurance for eligible poorer families, covering treatment up to Rs 5 lakh per family per year at listed hospitals, including many cancer packages `⚠ verify`. Since October 2024, every citizen aged 70 or above is eligible whatever their income. Check eligibility at pmjay.gov.in or the helpline |
-| **Tata Memorial Centre and network, AIIMS, Regional Cancer Centres, state institutes** | Good care at subsidised cost. The **National Cancer Grid** also negotiates lower drug prices `⚠ verify` |
-| **Health Minister's Cancer Patient Fund / Rashtriya Arogya Nidhi** | Help for poor patients at government hospitals (up to Rs 5 lakh per a 2025 government document; confirm the current status) `⚠ verify` |
-| **Generic and biosimilar drugs** (near copies of off-patent brand and biological drugs) | Much cheaper. See [Generic, brand and prices](../04-medicines/generic-brand-and-prices.md). Buy only from licensed sources |
-| **Bills and insurance** | See [Hospitals, bills and insurance](../09-indian-healthcare/hospitals-bills-and-insurance.md) and [Patient rights](../09-indian-healthcare/patient-rights-and-complaints.md) |
+| Ayushman Bharat PM-JAY (Pradhan Mantri Jan Arogya Yojana) | Government insurance for eligible poorer families, covering treatment up to Rs 5 lakh per family per year at listed hospitals, including many cancer packages `⚠ verify`. Since October 2024, every citizen aged 70 or above is eligible whatever their income. Check eligibility at pmjay.gov.in or the helpline |
+| Tata Memorial Centre and network, AIIMS, Regional Cancer Centres, state institutes | Good care at subsidised cost. The National Cancer Grid also negotiates lower drug prices `⚠ verify` |
+| Health Minister's Cancer Patient Fund / Rashtriya Arogya Nidhi | Help for poor patients at government hospitals (up to Rs 5 lakh per a 2025 government document; confirm the current status) `⚠ verify` |
+| Generic and biosimilar drugs (near copies of off-patent brand and biological drugs) | Much cheaper. See [Generic, brand and prices](../04-medicines/generic-brand-and-prices.md). Buy only from licensed sources |
+| Bills and insurance | See [Hospitals, bills and insurance](../09-indian-healthcare/hospitals-bills-and-insurance.md) and [Patient rights](../09-indian-healthcare/patient-rights-and-complaints.md) |
 
 Ask for a **written estimate** and ask the hospital **social worker** about schemes before treatment begins. Dropping treatment because of cost is a common, serious cause of failure. Say so early, because cheaper effective options often exist.
 
@@ -118,15 +118,15 @@ Cancer scares people, so it attracts sellers. See also [Health misinformation](.
 |---|---|
 | "Chewing tobacco or supari is safer than cigarettes" | Both cause cancer. Areca nut alone is classed as a carcinogen by IARC (the World Health Organization's cancer research agency) |
 | "Biopsy or surgery makes cancer spread" | Done properly, they do not. Delay does |
-| **"Turmeric (curcumin) cures cancer"** | Lab studies show effects on cells in dishes. Human trials have **not** shown it treats cancer, and it is poorly absorbed. Turmeric in food is fine. Tell your doctor about supplements because some interact with drugs `⚠ verify` |
-| **"Alkaline diet or water starves cancer"** | Food cannot change the acid level of your blood, which the body keeps tightly fixed. No evidence it treats cancer |
-| **"Baking soda cures cancer"** | No. Large amounts can cause dangerous salt and acid-base imbalance `⚠ verify` |
-| **"Stop all sugar to starve the tumour"** | All cells use glucose. Extreme diets cause weakness, which worsens outcomes. See [Diet myths and special diets](../05-nutrition/diet-myths-and-special-diets.md) |
-| **"Stem-cell clinic injections reverse cancer"** | Stem-cell treatment is proven only for certain blood cancers, in transplant units. Clinics selling it for solid cancers are unproven, costly and unsafe. The ICMR and Department of Biotechnology national guidelines (2017) say stem cells may be given to people only inside approved clinical trials, except established blood stem-cell (bone marrow) transplant. |
-| **"Chemo kills you, not the cancer"** | Chemo has real side effects, but for many cancers it **saves lives**. Deaths are mainly from the cancer. Side effects are usually temporary and treatable |
-| "Ayurvedic or herbal cures are guaranteed" | No product is proven to cure cancer. Some herbal products contain **heavy metals** that damage liver and kidneys, and some interact with chemotherapy |
+| "Turmeric (curcumin) cures cancer" | Lab studies show effects on cells in dishes. Human trials have not shown it treats cancer, and it is poorly absorbed. Turmeric in food is fine. Tell your doctor about supplements because some interact with drugs `⚠ verify` |
+| "Alkaline diet or water starves cancer" | Food cannot change the acid level of your blood, which the body keeps tightly fixed. No evidence it treats cancer |
+| "Baking soda cures cancer" | No. Large amounts can cause dangerous salt and acid-base imbalance `⚠ verify` |
+| "Stop all sugar to starve the tumour" | All cells use glucose. Extreme diets cause weakness, which worsens outcomes. See [Diet myths and special diets](../05-nutrition/diet-myths-and-special-diets.md) |
+| "Stem-cell clinic injections reverse cancer" | Stem-cell treatment is proven only for certain blood cancers, in transplant units. Clinics selling it for solid cancers are unproven, costly and unsafe. The ICMR and Department of Biotechnology national guidelines (2017) say stem cells may be given to people only inside approved clinical trials, except established blood stem-cell (bone marrow) transplant. |
+| "Chemo kills you, not the cancer" | Chemo has real side effects, but for many cancers it saves lives. Deaths are mainly from the cancer. Side effects are usually temporary and treatable |
+| "Ayurvedic or herbal cures are guaranteed" | No product is proven to cure cancer. Some herbal products contain heavy metals that damage liver and kidneys, and some interact with chemotherapy |
 
-**Complementary versus alternative:** Yoga, meditation, gentle exercise and a good diet can ease stress **alongside** treatment. **Alternative** means *instead of* treatment, and studies show people who choose it alone have a higher risk of death. `⚠ verify` **Scam red flags:** a "secret" or "ancient" cure, guaranteed results, testimonials instead of trial data, payment up front, "stop your hospital treatment" and pressure to decide today.
+Complementary versus alternative: Yoga, meditation, gentle exercise and a good diet can ease stress **alongside** treatment. **Alternative** means *instead of* treatment, and studies show people who choose it alone have a higher risk of death. `⚠ verify` Scam red flags: a "secret" or "ancient" cure, guaranteed results, testimonials instead of trial data, payment up front, "stop your hospital treatment" and pressure to decide today.
 
 ## 8. Ask your doctor
 
@@ -138,7 +138,7 @@ Cancer scares people, so it attracts sellers. See also [Health misinformation](.
 
 ## 9. Red flags
 
-See a doctor within days for a **mouth ulcer or patch over 2 weeks**, a **new breast lump**, **abnormal vaginal bleeding**, **blood in stool or sputum**, a **cough over 3 weeks**, **swallowing difficulty**, **jaundice** or **unexplained weight loss**. During treatment, go to the hospital the **same day** for **fever**, **uncontrolled vomiting**, **bleeding**, **breathlessness**, **chest pain** or **a swollen painful leg**.
+See a doctor within days for a mouth ulcer or patch over 2 weeks, a **new breast lump**, **abnormal vaginal bleeding**, blood in stool or sputum, a **cough over 3 weeks**, **swallowing difficulty**, **jaundice** or **unexplained weight loss**. During treatment, go to the hospital the **same day** for **fever**, **uncontrolled vomiting**, **bleeding**, **breathlessness**, **chest pain** or **a swollen painful leg**.
 
 ## Key terms
 
@@ -153,4 +153,4 @@ See a doctor within days for a **mouth ulcer or patch over 2 weeks**, a **new br
 5. National Cancer Institute (cancer.gov); American Cancer Society; ESMO Patient Guides.
 6. Sankaranarayanan R, et al. Kerala oral cancer screening trial. Johnson SB, et al. *JNCI* 2018 (alternative medicine and survival). Gupta SC, et al. curcumin reviews (PubMed).
 
-**Not verified:** the GLOBOCAN 2022 total (the IARC fact sheet would not open; the 1.56 million seen earlier is a GLOBOCAN estimate for 2024, a different year), the share of cancers caused by tobacco, the non-smoker lung cancer share, gallbladder regional rates, screening ages and intervals, the colorectal programme status, the National Cancer Grid size and drug-price role, the Cancer Patient Fund amount and status, current PM-JAY cancer packages, the palliative-care availability and morphine-safety statements, the baking soda reports, the turmeric evidence, the Kerala trial result and the survival difference with alternative medicine. Confirmed from official pages: the ICMR 2025 projection, the quit line number, the 2026 HPV drive, the NP-NCD screening age and programme, the PM-JAY Rs 5 lakh cover, the stem-cell guideline and the 2014 narcotics change. Scheme details change often, so confirm with the hospital.
+Not verified: the GLOBOCAN 2022 total (the IARC fact sheet would not open; the 1.56 million seen earlier is a GLOBOCAN estimate for 2024, a different year), the share of cancers caused by tobacco, the non-smoker lung cancer share, gallbladder regional rates, screening ages and intervals, the colorectal programme status, the National Cancer Grid size and drug-price role, the Cancer Patient Fund amount and status, current PM-JAY cancer packages, the palliative-care availability and morphine-safety statements, the baking soda reports, the turmeric evidence, the Kerala trial result and the survival difference with alternative medicine. Confirmed from official pages: the ICMR 2025 projection, the quit line number, the 2026 HPV drive, the NP-NCD screening age and programme, the PM-JAY Rs 5 lakh cover, the stem-cell guideline and the 2014 narcotics change. Scheme details change often, so confirm with the hospital.

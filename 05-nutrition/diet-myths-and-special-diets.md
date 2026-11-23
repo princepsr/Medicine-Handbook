@@ -5,14 +5,14 @@
 Read [Nutrition and the Indian diet](nutrition-and-the-indian-diet.md) first.
 
 > [!WARNING]
-> If you have diabetes (especially on insulin or sulfonylureas), kidney or liver disease, heart disease, an eating disorder, or you are pregnant, breastfeeding, a child or an older adult, **talk to your doctor before starting a special diet or a fast.** Some (strict fasting, very low-carbohydrate diets) can be dangerous with certain medicines.
+> If you have diabetes (especially on insulin or sulfonylureas), kidney or liver disease, heart disease, an eating disorder, or you are pregnant, breastfeeding, a child or an older adult, talk to your doctor before starting a special diet or a fast. Some (strict fasting, very low-carbohydrate diets) can be dangerous with certain medicines.
 
 > [!NOTE]
 > **Quick summary**
 > - Most "special diets" work, when they work, by **reducing calories** or **removing ultra-processed food**, not by magic.
-> - The best diet is the one that is **safe, nutritionally adequate, affordable, and that you can follow for years**.
+> - The best diet is the one that is safe, nutritionally adequate, affordable, and that you can follow for years.
 > - Claims of **cure** (diabetes, cancer, thyroid, fatty liver) from a diet alone are false. Diet supports treatment.
-> - Be wary of anything that **cuts out whole food groups** without a medical reason.
+> - Be wary of anything that cuts out whole food groups without a medical reason.
 
 ---
 
@@ -20,45 +20,45 @@ Read [Nutrition and the Indian diet](nutrition-and-the-indian-diet.md) first.
 
 Ask:
 1. **Is it nutritionally complete** (protein, fibre, vitamins, minerals)?
-2. **Can I follow it for years,** at home, with my family and budget?
+2. Can I follow it for years, at home, with my family and budget?
 3. **What is the evidence** in people like me, not just in animals or claims?
 4. **Who profits** (products, supplements, programmes)?
-5. **Does it say a food group is "poison"?** A red flag.
+5. Does it say a food group is "poison"? A red flag.
 6. **Does it ask me to stop medicines?** A big red flag.
-7. **Is it safe with my conditions and medicines?**
+7. Is it safe with my conditions and medicines?
 
 ## 2. Popular diets and what the evidence says
 
 ### Intermittent fasting and time-restricted eating
 
-- **What:** eating only in certain hours (for example an 8-hour window) or on certain days.
-- **Evidence:** it can help weight loss and sugar control modestly, with umbrella-review evidence of modest weight and cardiometabolic benefit in adults with overweight or obesity (long-term outcomes are unknown). It is not magic. `⚠ verify`
-- **Cautions:** **diabetes on insulin or sulfonylureas** (risk of low sugar), **pregnancy and breastfeeding**, **eating disorders**, **children and teenagers**, older frail people, those with a history of gallstones or low blood pressure. Take medicines as advised; get a plan from your doctor.
+- What: eating only in certain hours (for example an 8-hour window) or on certain days.
+- Evidence: it can help weight loss and sugar control modestly, with umbrella-review evidence of modest weight and cardiometabolic benefit in adults with overweight or obesity (long-term outcomes are unknown). It is not magic. `⚠ verify`
+- Cautions: diabetes on insulin or sulfonylureas (risk of low sugar), **pregnancy and breastfeeding**, **eating disorders**, **children and teenagers**, older frail people, those with a history of gallstones or low blood pressure. Take medicines as advised; get a plan from your doctor.
 - **Fasting for religious reasons** (for example Navratri, Ramadan, Ekadashi): people with diabetes, kidney disease or heart disease should ask their doctor **beforehand** how to adjust medicines and meals and what warning signs to watch for.
 
 ### Low-carbohydrate and ketogenic ("keto") diets
 
-- **What:** very low carbohydrate, high fat, causing the body to burn fat and make **ketones**.
-- **Evidence:** can cause quick weight loss and lower blood sugar in the short term; long-term benefit over other diets is unclear, and many people cannot keep them up. `⚠ verify`
-- **Cautions:** **diabetes medicines** (insulin, sulfonylureas, SGLT2 inhibitors: risk of low sugar or ketoacidosis), **kidney disease**, **liver disease**, **pancreatitis or gallbladder disease**, **pregnancy**, high LDL cholesterol in some people, constipation, nutrient gaps. Medical supervision is needed with diabetes.
+- What: very low carbohydrate, high fat, causing the body to burn fat and make **ketones**.
+- Evidence: can cause quick weight loss and lower blood sugar in the short term; long-term benefit over other diets is unclear, and many people cannot keep them up. `⚠ verify`
+- Cautions: **diabetes medicines** (insulin, sulfonylureas, SGLT2 inhibitors: risk of low sugar or ketoacidosis), **kidney disease**, **liver disease**, **pancreatitis or gallbladder disease**, **pregnancy**, high LDL cholesterol in some people, constipation, nutrient gaps. Medical supervision is needed with diabetes.
 - A more moderate **lower refined-carbohydrate** diet (less white rice, maida and sugar, more pulses, vegetables and whole grains) is easier and safer.
 
 ### High-protein diets and protein supplements
 
 - Many Indians eat **too little protein** and could benefit from more pulses, dairy, eggs, fish, meat, soy and nuts.
-- **Protein powders and shakes** are rarely necessary for healthy people with a decent diet. Quality varies, and **some products have been found to contain contaminants or undeclared ingredients.** `⚠ verify`
-- **Kidney disease** needs advice on protein amounts; **liver disease** also needs a plan.
+- **Protein powders and shakes** are rarely necessary for healthy people with a decent diet. Quality varies, and some products have been found to contain contaminants or undeclared ingredients. `⚠ verify`
+- Kidney disease needs advice on protein amounts; liver disease also needs a plan.
 - **Whole foods first.** If you use a supplement, choose a trusted brand and tell your doctor.
 
 ### Vegetarian and vegan diets
 
-- **Can be healthy and nutritionally complete** if planned.
-- **Watch:** **vitamin B12** (vegans need a supplement or fortified foods; vegetarians often need one), **iron**, **calcium**, **protein quality** (combine pulses and grains: dal with rice or roti), **zinc**, **omega-3** (flaxseed, walnuts, algae supplements).
+- Can be healthy and nutritionally complete if planned.
+- Watch: **vitamin B12** (vegans need a supplement or fortified foods; vegetarians often need one), **iron**, **calcium**, **protein quality** (combine pulses and grains: dal with rice or roti), **zinc**, **omega-3** (flaxseed, walnuts, algae supplements).
 - Very **low B12** causes anaemia and nerve damage (see [Vitamin and iron tests](../03-tests/vitamins-and-iron-studies.md)).
 
 ### Gluten-free diets
 
-- **Needed** for **coeliac disease** (an immune reaction to gluten, a protein in wheat, barley and rye) and some gluten-sensitive people. Coeliac disease is reported in about 1% of adults in northern India in large surveys (about 1.0 to 1.2%; lower in the south), and is **diagnosed by blood tests and a biopsy while still eating gluten**. `⚠ verify`
+- **Needed** for **coeliac disease** (an immune reaction to gluten, a protein in wheat, barley and rye) and some gluten-sensitive people. Coeliac disease is reported in about 1% of adults in northern India in large surveys (about 1.0 to 1.2%; lower in the south), and is diagnosed by blood tests and a biopsy while still eating gluten. `⚠ verify`
 - **Not healthier** for people without these conditions. Starting a gluten-free diet **before testing** can hide coeliac disease.
 - Gluten-free packaged foods can be higher in sugar and fat.
 
@@ -113,12 +113,12 @@ The body keeps blood pH tightly controlled (see [Metabolism](../01-body/hormones
 
 ## 5. A sensible approach
 
-1. **Eat mostly whole, minimally processed food;** half the plate vegetables and fruit.
+1. Eat mostly whole, minimally processed food; half the plate vegetables and fruit.
 2. **Cut back** on sugary drinks, sweets, fried snacks, refined flour, and salt.
-3. **Make a few changes at a time** and keep them.
+3. Make a few changes at a time and keep them.
 4. **Include protein** with each meal.
 5. **Cook at home** when you can; eat slowly.
-6. **Be active and sleep well;** diet is only part of health.
+6. Be active and sleep well; diet is only part of health.
 7. **See a registered dietitian** for personal advice, especially with a condition.
 
 ## 6. Ask your doctor or dietitian
@@ -131,7 +131,7 @@ The body keeps blood pH tightly controlled (see [Metabolism](../01-body/hormones
 
 ## 7. Red flags
 
-Stop the diet and get medical advice for: **dizziness or fainting, palpitations, confusion, severe weakness, persistent vomiting, very low blood sugar, nausea with belly pain and fast breathing (possible ketoacidosis in diabetes), excessive hair fall with rapid weight loss, missed periods, or an intense fear of eating or weight gain** (possible eating disorder).
+Stop the diet and get medical advice for: dizziness or fainting, palpitations, confusion, severe weakness, persistent vomiting, very low blood sugar, nausea with belly pain and fast breathing (possible ketoacidosis in diabetes), excessive hair fall with rapid weight loss, missed periods, or an intense fear of eating or weight gain (possible eating disorder).
 
 ## Key terms
 
@@ -145,4 +145,4 @@ Stop the diet and get medical advice for: **dizziness or fainting, palpitations,
 4. Indian Society of Gastroenterology and coeliac disease prevalence studies in northern India. `⚠ verify`
 5. Dietary supplement contamination reports; LiverTox (US NIH). `⚠ verify`
 
-**Not verified:** the intermittent-fasting and keto summaries, coeliac prevalence in northern India, the protein-supplement contamination statement, the WHO sweetener and IARC statements, and the single-food myth rows are claims to confirm against the cited sources.
+Not verified: the intermittent-fasting and keto summaries, coeliac prevalence in northern India, the protein-supplement contamination statement, the WHO sweetener and IARC statements, and the single-food myth rows are claims to confirm against the cited sources.

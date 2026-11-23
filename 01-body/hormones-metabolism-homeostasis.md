@@ -15,7 +15,7 @@ Read [The endocrine system](endocrine-system.md) first.
 
 ## 1. Homeostasis and feedback
 
-**Homeostasis** means keeping conditions inside the body steady. The tool is **negative feedback**: a sensor detects drift, a control centre compares it with a set point, and an effector pushes it back.
+Homeostasis means keeping conditions inside the body steady. The tool is **negative feedback**: a sensor detects drift, a control centre compares it with a set point, and an effector pushes it back.
 
 | Variable | Set point (approx.) | Sensor and controller | Effector |
 |---|---|---|---|
@@ -28,11 +28,11 @@ Read [The endocrine system](endocrine-system.md) first.
 
 **Positive feedback** (rarer) amplifies a change until a job is done, for example clotting and childbirth contractions.
 
-**Reading reports this way:** a test number is the current state of a loop. That is why trends and repeat tests matter more than a single value.
+Reading reports this way: a test number is the current state of a loop. That is why trends and repeat tests matter more than a single value.
 
 ## 2. Metabolism: energy in the cell
 
-**Metabolism** is all the chemical reactions that keep you alive: **catabolism** (breaking things down to release energy) and **anabolism** (building things up).
+Metabolism is all the chemical reactions that keep you alive: **catabolism** (breaking things down to release energy) and **anabolism** (building things up).
 
 ### The energy currency: ATP
 
@@ -40,23 +40,23 @@ Cells run on **ATP** (adenosine triphosphate). It is made mainly in the **mitoch
 
 | Fuel | Path (simplified) |
 |---|---|
-| **Glucose** | Split in the cell (**glycolysis**) into smaller pieces, then burned in the mitochondria with oxygen (the **Krebs cycle** and **oxidative phosphorylation**) |
-| **Fatty acids** | Chopped into small units (**beta-oxidation**) and fed into the same mitochondrial machinery |
-| **Amino acids** | Used for building protein; burned for energy mainly when other fuel runs short |
+| Glucose | Split in the cell (glycolysis) into smaller pieces, then burned in the mitochondria with oxygen (the Krebs cycle and oxidative phosphorylation) |
+| Fatty acids | Chopped into small units (beta-oxidation) and fed into the same mitochondrial machinery |
+| Amino acids | Used for building protein; burned for energy mainly when other fuel runs short |
 
 Burning with oxygen gives much more ATP than burning without it. Without oxygen, cells make only a little ATP and produce **lactate**.
 
 ### Fed state and fasting state
 
-| | **Fed state** (after eating, a few hours) | **Fasting state** (between meals, overnight, longer) |
+| | Fed state (after eating, a few hours) | Fasting state (between meals, overnight, longer) |
 |---|---|---|
-| **Main hormone** | **Insulin** high | **Glucagon** up, insulin low |
-| **Blood sugar source** | The meal | Liver releases stored **glycogen**, later makes new glucose (**gluconeogenesis**) |
-| **Fat** | Stored in fat cells | Released from fat cells and burned |
-| **Liver** | Stores glycogen, makes fat | Releases glucose; makes **ketones** when fasting lasts long |
-| **Muscle** | Takes up glucose, stores glycogen | Burns fat; protein is spared |
+| Main hormone | Insulin high | Glucagon up, insulin low |
+| Blood sugar source | The meal | Liver releases stored glycogen, later makes new glucose (gluconeogenesis) |
+| Fat | Stored in fat cells | Released from fat cells and burned |
+| Liver | Stores glycogen, makes fat | Releases glucose; makes ketones when fasting lasts long |
+| Muscle | Takes up glucose, stores glycogen | Burns fat; protein is spared |
 
-**Ketones** are fuel molecules the liver makes from fat during prolonged fasting or very low-carbohydrate eating, and the brain can use them. In **type 1 diabetes without insulin**, ketones build up dangerously (**diabetic ketoacidosis**). See [Diabetes](../02-diseases/diabetes.md).
+**Ketones** are fuel molecules the liver makes from fat during prolonged fasting or very low-carbohydrate eating, and the brain can use them. In type 1 diabetes without insulin, ketones build up dangerously (**diabetic ketoacidosis**). See [Diabetes](../02-diseases/diabetes.md).
 
 ### Energy balance
 
@@ -70,7 +70,7 @@ When cells respond poorly to insulin, the pancreas makes more to compensate. Hig
 
 ### What cholesterol is and why the body needs it
 
-**Cholesterol** is a waxy fat used to build cell membranes, **bile acids**, **vitamin D** and **steroid hormones** (cortisol, sex hormones). Most of the body's cholesterol is made by the body itself, mainly in the **liver** (and gut); roughly a fifth comes from food. `⚠ verify` Eating cholesterol-rich food raises blood cholesterol less than saturated and trans fats, in most people.
+Cholesterol is a waxy fat used to build cell membranes, **bile acids**, **vitamin D** and **steroid hormones** (cortisol, sex hormones). Most of the body's cholesterol is made by the body itself, mainly in the **liver** (and gut); roughly a fifth comes from food. `⚠ verify` Eating cholesterol-rich food raises blood cholesterol less than saturated and trans fats, in most people.
 
 ### Why it needs packaging
 
@@ -91,11 +91,11 @@ Fat does not dissolve in watery blood, so it travels inside **lipoproteins**: a 
 
 | Lipoprotein | Carries | Why it matters |
 |---|---|---|
-| **Chylomicron** | Dietary fat | Appears after a meal |
-| **VLDL** | Triglycerides made by the liver | Raised in insulin resistance, alcohol and excess sugar |
-| **LDL** | Cholesterol out to tissues | The main "bad" particle: when too much circulates, some enters artery walls |
-| **HDL** | Cholesterol back to the liver | The "good" particle; low levels are a risk marker |
-| **Lp(a)** | An inherited LDL-like particle | High in some families; largely genetic |
+| Chylomicron | Dietary fat | Appears after a meal |
+| VLDL | Triglycerides made by the liver | Raised in insulin resistance, alcohol and excess sugar |
+| LDL | Cholesterol out to tissues | The main "bad" particle: when too much circulates, some enters artery walls |
+| HDL | Cholesterol back to the liver | The "good" particle; low levels are a risk marker |
+| Lp(a) | An inherited LDL-like particle | High in some families; largely genetic |
 
 ### How plaque starts
 
@@ -114,37 +114,37 @@ The liver clears LDL using **LDL receptors**. **Statins** block the liver's chol
 
 | Number | What it is | Notes |
 |---|---|---|
-| **Total cholesterol** | All cholesterol in all particles | Less useful alone |
-| **LDL cholesterol** | Cholesterol in LDL; often calculated, sometimes measured directly | The main target of treatment |
-| **HDL cholesterol** | Cholesterol in HDL | Low is a risk marker |
-| **Triglycerides** | Blood fat | Rises after meals and with alcohol, sugar and insulin resistance; fasting may be advised if high |
-| **Non-HDL cholesterol** | Total minus HDL | Captures all the "bad" particles |
+| Total cholesterol | All cholesterol in all particles | Less useful alone |
+| LDL cholesterol | Cholesterol in LDL; often calculated, sometimes measured directly | The main target of treatment |
+| HDL cholesterol | Cholesterol in HDL | Low is a risk marker |
+| Triglycerides | Blood fat | Rises after meals and with alcohol, sugar and insulin resistance; fasting may be advised if high |
+| Non-HDL cholesterol | Total minus HDL | Captures all the "bad" particles |
 
-Fasting is not always required for a lipid profile, and some guidelines accept a non-fasting sample. `⚠ verify` Targets depend on your total heart-risk, not on one number, and are set by your doctor. Many Indians show a pattern of **low HDL with high triglycerides**, which links to insulin resistance. `⚠ verify`
+Fasting is not always required for a lipid profile, and some guidelines accept a non-fasting sample. `⚠ verify` Targets depend on your total heart-risk, not on one number, and are set by your doctor. Many Indians show a pattern of low HDL with high triglycerides, which links to insulin resistance. `⚠ verify`
 
 ## 4. Inflammation
 
 **Inflammation** is the body's response to injury or infection.
 
-- **Acute inflammation:** vessels widen and leak, white cells arrive, causing the four signs **redness, heat, swelling and pain**. It is short and protective (a cut, a sore throat).
-- **Chronic inflammation:** a low-grade, long-lasting state, fed by things such as excess belly fat, smoking and persistent infection. It contributes to heart disease, fatty liver, diabetes and arthritis.
+- Acute inflammation: vessels widen and leak, white cells arrive, causing the four signs redness, heat, swelling and pain. It is short and protective (a cut, a sore throat).
+- Chronic inflammation: a low-grade, long-lasting state, fed by things such as excess belly fat, smoking and persistent infection. It contributes to heart disease, fatty liver, diabetes and arthritis.
 
 **Signalling molecules** called **cytokines** (for example IL-6) tell the liver to make **CRP** (C-reactive protein), an "acute-phase" protein. That is why CRP rises within hours of infection or injury. **ESR** (erythrocyte sedimentation rate) measures how fast red cells settle in a tube, which rises when inflammatory proteins are high. Both are **non-specific**: they say "something is inflamed" but not what. A normal ESR or CRP does not exclude disease.
 
 ## 5. Electrolytes in detail
 
-**Electrolytes** are salts that dissolve in body water and carry electric charge. The body keeps a sharp difference between the inside and outside of cells using **sodium-potassium pumps**: sodium is high outside cells and potassium is high inside. This difference gives nerves and muscle (including the heart) their electrical activity.
+Electrolytes are salts that dissolve in body water and carry electric charge. The body keeps a sharp difference between the inside and outside of cells using **sodium-potassium pumps**: sodium is high outside cells and potassium is high inside. This difference gives nerves and muscle (including the heart) their electrical activity.
 
 | Electrolyte | Example blood range (varies by lab) `⚠ verify` | Main roles | Common causes of imbalance |
 |---|---|---|---|
-| **Sodium** | About 135 to 145 mmol/L | Water balance, nerve signals | Vomiting, diarrhoea, water pills, heart, kidney or hormone problems. Low sodium causes headache and confusion; severe cases cause fits. |
-| **Potassium** | About 3.5 to 5.0 mmol/L | Heart rhythm, muscle | Water pills (low), kidney disease and some blood-pressure drugs (high). Both extremes can disturb heart rhythm. |
-| **Calcium** | About 8.5 to 10.5 mg/dL | Bones, muscle, nerves, clotting | Parathyroid and vitamin D problems |
-| **Magnesium** | Varies | Enzymes, muscle, nerves | Poor intake, some drugs, alcohol |
+| Sodium | About 135 to 145 mmol/L | Water balance, nerve signals | Vomiting, diarrhoea, water pills, heart, kidney or hormone problems. Low sodium causes headache and confusion; severe cases cause fits. |
+| Potassium | About 3.5 to 5.0 mmol/L | Heart rhythm, muscle | Water pills (low), kidney disease and some blood-pressure drugs (high). Both extremes can disturb heart rhythm. |
+| Calcium | About 8.5 to 10.5 mg/dL | Bones, muscle, nerves, clotting | Parathyroid and vitamin D problems |
+| Magnesium | Varies | Enzymes, muscle, nerves | Poor intake, some drugs, alcohol |
 
 (mmol/L means millimoles per litre.)
 
-**Water balance:** thirst and the hormone **ADH** keep body water steady. Dehydration concentrates the blood; overhydration dilutes sodium. The kidneys do the fine-tuning (see [Kidneys](kidneys.md)).
+Water balance: thirst and the hormone **ADH** keep body water steady. Dehydration concentrates the blood; overhydration dilutes sodium. The kidneys do the fine-tuning (see [Kidneys](kidneys.md)).
 
 Electrolyte problems are managed by doctors with blood tests. Do not treat them with home remedies or "electrolyte" products when you are unwell without checking.
 
@@ -154,16 +154,16 @@ Blood must stay between **pH 7.35 and 7.45** (pH measures acidity: lower is more
 
 | Defender | Speed | How |
 |---|---|---|
-| **Buffers** (mainly **bicarbonate**) | Instant | Soak up extra acid or base |
-| **Lungs** | Minutes | Breathing out carbon dioxide (which acts as an acid) |
-| **Kidneys** | Hours to days | Excrete acid, rebuild bicarbonate |
+| Buffers (mainly bicarbonate) | Instant | Soak up extra acid or base |
+| Lungs | Minutes | Breathing out carbon dioxide (which acts as an acid) |
+| Kidneys | Hours to days | Excrete acid, rebuild bicarbonate |
 
 | Condition | Cause examples |
 |---|---|
-| **Metabolic acidosis** (too much acid) | Diabetic ketoacidosis, severe diarrhoea, kidney failure |
-| **Respiratory acidosis** | Carbon dioxide not breathed out (severe lung disease) |
-| **Respiratory alkalosis** | Over-breathing (anxiety attacks, high altitude) |
-| **Metabolic alkalosis** | Prolonged vomiting |
+| Metabolic acidosis (too much acid) | Diabetic ketoacidosis, severe diarrhoea, kidney failure |
+| Respiratory acidosis | Carbon dioxide not breathed out (severe lung disease) |
+| Respiratory alkalosis | Over-breathing (anxiety attacks, high altitude) |
+| Metabolic alkalosis | Prolonged vomiting |
 
 An **arterial blood gas (ABG)** measures pH, carbon dioxide, oxygen and bicarbonate.
 
@@ -172,7 +172,7 @@ An **arterial blood gas (ABG)** measures pH, carbon dioxide, oxygen and bicarbon
 
 ## 7. Why this matters for your reports
 
-- Many reports are a **fuel (glucose), fat (lipids), salt (electrolytes) or hormone**. Knowing the loop tells you what a high or low value means.
+- Many reports are a fuel (glucose), fat (lipids), salt (electrolytes) or hormone. Knowing the loop tells you what a high or low value means.
 - **Fasting versus fed state** changes glucose and triglycerides, which is why test preparation matters (see [How lab reports work](../03-tests/01-how-lab-reports-work.md)).
 - **CRP and ESR** are alarms, not diagnoses.
 - Insulin resistance links sugar, fat, blood pressure and liver numbers, so treating weight and activity helps several at once.
@@ -187,4 +187,4 @@ An **arterial blood gas (ABG)** measures pH, carbon dioxide, oxygen and bicarbon
 2. Guyton and Hall, *Textbook of Medical Physiology* (edition to be named). `⚠ verify`
 3. Lipid guidance: ESC/EAS dyslipidaemia guidelines; Indian lipid association guidance (to be added in the heart chapter). `⚠ verify`
 
-**Not verified:** BMR share, the share of cholesterol made by the liver, the non-fasting lipid statement, the Indian lipid pattern and the example electrolyte ranges should be checked against the cited sources.
+Not verified: BMR share, the share of cholesterol made by the liver, the non-fasting lipid statement, the Indian lipid pattern and the example electrolyte ranges should be checked against the cited sources.

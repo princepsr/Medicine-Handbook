@@ -7,7 +7,7 @@ Read [Lungs and breathing](../01-body/lungs-and-breathing.md) and [Antibiotics a
 > [!NOTE]
 > **Quick summary**
 > - TB is a **curable** infection, caused by a slow-growing bacterium. It usually affects the lungs but can affect any organ.
-> - India has about a quarter of the world's TB cases. **A cough lasting more than 2 weeks** needs a TB test.
+> - India has about a quarter of the world's TB cases. A cough lasting more than 2 weeks needs a TB test.
 > - Treatment is **at least six months** of several drugs, free under India's national programme. **Stopping early is dangerous**: it breeds drug-resistant TB.
 > - A positive skin or blood test for exposure is **not** the same as active disease.
 
@@ -15,15 +15,15 @@ Read [Lungs and breathing](../01-body/lungs-and-breathing.md) and [Antibiotics a
 
 ## 1. What is it?
 
-**Tuberculosis (TB)** is caused by ***Mycobacterium tuberculosis***. It spreads through the **air** when a person with TB of the lungs coughs, sneezes or talks and others breathe in the tiny droplets. It does **not** spread by touching, sharing food or utensils.
+**Tuberculosis (TB)** is caused by ***Mycobacterium tuberculosis***. It spreads through the **air** when a person with TB of the lungs coughs, sneezes or talks and others breathe in the tiny droplets. It does not spread by touching, sharing food or utensils.
 
 | Stage | Meaning |
 |---|---|
-| **TB infection (latent TB)** | Germs are in the body but contained by the immune system. No symptoms, **not infectious** |
-| **TB disease (active TB)** | The germs are multiplying and causing illness. Pulmonary TB can be **infectious** |
-| **Drug-resistant TB** | The germ is resistant to key drugs, usually from incomplete or wrong treatment |
+| TB infection (latent TB) | Germs are in the body but contained by the immune system. No symptoms, not infectious |
+| TB disease (active TB) | The germs are multiplying and causing illness. Pulmonary TB can be infectious |
+| Drug-resistant TB | The germ is resistant to key drugs, usually from incomplete or wrong treatment |
 
-India has the world's highest TB burden, around a quarter of all cases. `⚠ verify` India has set a goal to end TB sooner than the global target through the **National TB Elimination Programme (NTEP)**. `⚠ verify`
+India has the world's highest TB burden, around a quarter of all cases. `⚠ verify` India has set a goal to end TB sooner than the global target through the National TB Elimination Programme (NTEP). `⚠ verify`
 
 ## 2. The normal body
 
@@ -31,32 +31,32 @@ Most people who breathe in TB germs clear them or contain them. Immune cells wal
 
 ## 3. What goes wrong
 
-In active TB, the bacteria multiply in the lungs, destroying tissue and forming cavities. They can spread through blood or lymph to the **lymph nodes, pleura (lung lining), bones and spine, brain coverings (TB meningitis), gut, kidneys** and elsewhere (**extrapulmonary TB**).
+In active TB, the bacteria multiply in the lungs, destroying tissue and forming cavities. They can spread through blood or lymph to the lymph nodes, pleura (lung lining), bones and spine, brain coverings (TB meningitis), gut, kidneys and elsewhere (**extrapulmonary TB**).
 
 ## 4. Causes and risk factors
 
 - **Close contact** with an infectious person (household contacts have the highest risk)
-- **Weak immunity:** **HIV**, **diabetes** (a major risk factor in India), **malnutrition**, **steroids and other immune-suppressing drugs**, chronic kidney disease, cancer treatment
+- Weak immunity: **HIV**, **diabetes** (a major risk factor in India), **malnutrition**, steroids and other immune-suppressing drugs, chronic kidney disease, cancer treatment
 - **Smoking, alcohol**, crowded or poorly ventilated housing, workplaces such as mines
 - **Young children** and older adults
 
 ## 5. Symptoms
 
-**Pulmonary TB:** cough for **more than 2 weeks**, sometimes with sputum or **blood**, **fever**, **night sweats**, **weight loss**, tiredness, loss of appetite, chest pain. **Extrapulmonary TB:** painless neck swelling (lymph node), back pain, headache with fever and drowsiness (meningitis), belly pain, joint swelling.
+Pulmonary TB: cough for **more than 2 weeks**, sometimes with sputum or **blood**, **fever**, **night sweats**, **weight loss**, tiredness, loss of appetite, chest pain. Extrapulmonary TB: painless neck swelling (lymph node), back pain, headache with fever and drowsiness (meningitis), belly pain, joint swelling.
 
 ## 6. Diagnosis and tests
 
 | Test | What it shows |
 |---|---|
-| **Sputum NAAT (CBNAAT / Xpert / Truenat)** | Detects TB genes and often **rifampicin resistance** within hours; widely available free at government centres in India |
-| **Sputum smear microscopy** | Finds TB germs; less sensitive |
-| **Culture** | Confirms and tests drug sensitivity; takes weeks |
-| **Chest X-ray** | Suggestive changes; used to screen; cannot confirm TB alone |
-| **Biopsy or fluid tests** | For extrapulmonary TB |
-| **Mantoux (skin test) and IGRA (blood test)** | Show **exposure or latent infection**, not active disease; BCG vaccination can make the Mantoux falsely positive (not the IGRA) |
-| **HIV and diabetes tests** | Offered to everyone with TB, because they change treatment |
+| Sputum NAAT (CBNAAT / Xpert / Truenat) | Detects TB genes and often rifampicin resistance within hours; widely available free at government centres in India |
+| Sputum smear microscopy | Finds TB germs; less sensitive |
+| Culture | Confirms and tests drug sensitivity; takes weeks |
+| Chest X-ray | Suggestive changes; used to screen; cannot confirm TB alone |
+| Biopsy or fluid tests | For extrapulmonary TB |
+| Mantoux (skin test) and IGRA (blood test) | Show exposure or latent infection, not active disease; BCG vaccination can make the Mantoux falsely positive (not the IGRA) |
+| HIV and diabetes tests | Offered to everyone with TB, because they change treatment |
 
-**A chest X-ray or a blood test for antibodies alone should not be used to diagnose TB.** Antibody (serology) tests for TB are not recommended by the WHO and the Indian programme. `⚠ verify`
+A chest X-ray or a blood test for antibodies alone should not be used to diagnose TB. Antibody (serology) tests for TB are not recommended by the WHO and the Indian programme. `⚠ verify`
 
 ## 7. Treatment
 
@@ -65,12 +65,12 @@ In active TB, the bacteria multiply in the lungs, destroying tissue and forming 
 
 ### Drug-sensitive TB
 
-- A standard course is **four drugs for 2 months, then three drugs for 4 months** (about 6 months in total), taken **daily**. Longer courses (often about 10 to 12 months for TB of the brain coverings) are used for TB of the brain coverings or bones, as your doctor decides. `⚠ verify`
-- The drugs are **isoniazid, rifampicin, pyrazinamide and ethambutol** (the first two months), then isoniazid, rifampicin and ethambutol for four months in India's national programme.
+- A standard course is four drugs for 2 months, then three drugs for 4 months (about 6 months in total), taken **daily**. Longer courses (often about 10 to 12 months for TB of the brain coverings) are used for TB of the brain coverings or bones, as your doctor decides. `⚠ verify`
+- The drugs are isoniazid, rifampicin, pyrazinamide and ethambutol (the first two months), then isoniazid, rifampicin and ethambutol for four months in India's national programme.
 - **Fixed-dose combination tablets** are used in the national programme and are appropriate here, because taking all the drugs together protects against resistance.
-- Treatment is **free** at government centres. A health worker or family member may support taking each dose (**directly observed or supported treatment**), and the national Ni-kshay Poshan Yojana pays Rs 1,000 a month for the whole treatment (raised from Rs 500 in October 2024). `⚠ verify`
-- **Side effects** to report: nausea and vomiting, **yellow eyes or dark urine** (liver injury), rash, **joint pain**, numbness and tingling, vision changes. Do not stop on your own; call your doctor or the programme helpline.
-- Infectiousness falls as treatment works, but the time varies, so follow your doctor's advice on when it is safe to mix with others. Most people feel better within weeks, but **the full course is still needed** to cure the disease.
+- Treatment is **free** at government centres. A health worker or family member may support taking each dose (directly observed or supported treatment), and the national Ni-kshay Poshan Yojana pays Rs 1,000 a month for the whole treatment (raised from Rs 500 in October 2024). `⚠ verify`
+- **Side effects** to report: nausea and vomiting, yellow eyes or dark urine (liver injury), rash, **joint pain**, numbness and tingling, vision changes. Do not stop on your own; call your doctor or the programme helpline.
+- Infectiousness falls as treatment works, but the time varies, so follow your doctor's advice on when it is safe to mix with others. Most people feel better within weeks, but the full course is still needed to cure the disease.
 
 ### Drug-resistant TB
 
@@ -84,8 +84,8 @@ People at high risk (young household contacts, people with HIV, those starting i
 
 - **Good nutrition** (protein-rich food, energy) and treating diabetes.
 - **No alcohol or tobacco.**
-- **Cover your mouth when coughing**; keep rooms ventilated; infectiousness falls as treatment works.
-- **Test and, if needed, protect close contacts**, especially young children.
+- Cover your mouth when coughing; keep rooms ventilated; infectiousness falls as treatment works.
+- Test and, if needed, protect close contacts, especially young children.
 
 ## 8. Complications
 
@@ -98,20 +98,20 @@ Lung damage and breathlessness after cure, bleeding from the lungs, spread to ot
 - **Screen contacts** and, where advised, give preventive treatment.
 - **Control diabetes** and avoid tobacco and alcohol.
 - **Ventilation and masks** in crowded or high-risk settings.
-- **TB is a notifiable disease in India:** doctors and labs must report cases (through the **Ni-kshay** system), which links patients to free treatment and support. `⚠ verify`
+- TB is a notifiable disease in India: doctors and labs must report cases (through the **Ni-kshay** system), which links patients to free treatment and support. `⚠ verify`
 
 ## 10. Misinformation and how you get misled (India)
 
 | What happens | What to do |
 |---|---|
 | Treating a long cough with several rounds of antibiotics without a TB test | Ask for a sputum test (CBNAAT) |
-| **Quinolone antibiotics** used for "chest infection", which can partly treat TB and **delay diagnosis** | Ask for a TB test before or with such antibiotics |
-| Diagnosing TB from an **antibody blood test** | Not reliable; ask for a sputum NAAT or other proper test |
-| Treating a positive **Mantoux or IGRA** as "you have TB disease" | These show exposure or latent infection |
-| **Stopping treatment** when symptoms go, or giving "short courses" | Complete all six months; stopping breeds resistant TB |
-| Private doctors prescribing **unregulated or non-standard regimens**, or selling "TB cures" | Ask whether the treatment follows the national guidelines; free treatment is available |
-| "TB spreads through shared plates" or stigma and **isolation of families** | TB spreads by air; with treatment infectiousness falls, and a doctor will advise when it is safe to mix with others |
-| **Herbal or "natural" cures** instead of TB medicine | Not proven; delay can be fatal |
+| Quinolone antibiotics used for "chest infection", which can partly treat TB and delay diagnosis | Ask for a TB test before or with such antibiotics |
+| Diagnosing TB from an antibody blood test | Not reliable; ask for a sputum NAAT or other proper test |
+| Treating a positive Mantoux or IGRA as "you have TB disease" | These show exposure or latent infection |
+| Stopping treatment when symptoms go, or giving "short courses" | Complete all six months; stopping breeds resistant TB |
+| Private doctors prescribing unregulated or non-standard regimens, or selling "TB cures" | Ask whether the treatment follows the national guidelines; free treatment is available |
+| "TB spreads through shared plates" or stigma and isolation of families | TB spreads by air; with treatment infectiousness falls, and a doctor will advise when it is safe to mix with others |
+| Herbal or "natural" cures instead of TB medicine | Not proven; delay can be fatal |
 
 ## 11. Ask your doctor
 
@@ -125,7 +125,7 @@ Lung damage and breathlessness after cure, bleeding from the lungs, spread to ot
 
 ## 12. Red flags
 
-**Emergency:** coughing up a lot of blood, severe breathlessness, severe headache with fever and drowsiness or confusion, **yellow eyes with vomiting** while on TB treatment, fits, or spinal weakness. **Prompt review:** a cough lasting more than 2 weeks, fever with night sweats or weight loss, or **running out of TB medicine**.
+**Emergency:** coughing up a lot of blood, severe breathlessness, severe headache with fever and drowsiness or confusion, **yellow eyes with vomiting** while on TB treatment, fits, or spinal weakness. Prompt review: a cough lasting more than 2 weeks, fever with night sweats or weight loss, or running out of TB medicine.
 
 ## Key terms
 
@@ -138,4 +138,4 @@ Lung damage and breathlessness after cure, bleeding from the lungs, spread to ot
 3. Indian Standards for TB Care (Standards of TB care in India). `⚠ verify`
 4. Nahid P, et al. ATS/CDC/ERS/IDSA clinical practice guideline: drug-susceptible TB (2016). `⚠ verify`
 
-**Not verified:** India's share of global TB cases, the regimen durations and drug names, the BPaLM eligibility, the preventive treatment groups, the nutrition support details, the quinolone-delay statement and the notification system are claims to confirm against the cited sources.
+Not verified: India's share of global TB cases, the regimen durations and drug names, the BPaLM eligibility, the preventive treatment groups, the nutrition support details, the quinolone-delay statement and the notification system are claims to confirm against the cited sources.

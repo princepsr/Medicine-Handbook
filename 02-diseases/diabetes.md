@@ -23,9 +23,9 @@ Cells cannot just take glucose in. They need a "key": a hormone called **insulin
 
 | Kind | What goes wrong | The "key" picture |
 |---|---|---|
-| **Type 1** | The immune system destroys the cells that make insulin | No keys are made |
-| **Type 2** (most common) | Cells respond poorly to insulin (**insulin resistance**) and later the pancreas makes less | Keys exist but fit badly; later, fewer keys |
-| **Gestational** | High sugar that starts in pregnancy | Pregnancy hormones make keys fit worse |
+| Type 1 | The immune system destroys the cells that make insulin | No keys are made |
+| Type 2 (most common) | Cells respond poorly to insulin (insulin resistance) and later the pancreas makes less | Keys exist but fit badly; later, fewer keys |
+| Gestational | High sugar that starts in pregnancy | Pregnancy hormones make keys fit worse |
 
 **Prediabetes** is sugar above normal but below the diabetes line. It is a warning stage and can often be reversed.
 
@@ -47,13 +47,13 @@ Blood sugar rises after a meal and falls over the next hours. Muscle activity pu
 
 ## 3. What goes wrong
 
-Glucose stays high. Over years, high glucose damages **small blood vessels and nerves**, harming the eyes, kidneys, feet and heart (see Complications).
+Glucose stays high. Over years, high glucose damages small blood vessels and nerves, harming the eyes, kidneys, feet and heart (see Complications).
 
 ## 4. Causes and risk factors
 
-- **Type 2:** extra belly fat, little activity, family history, age, previous gestational diabetes, polycystic ovary syndrome (PCOS), high blood pressure and cholesterol.
-- **Type 1:** an autoimmune process (the immune system attacks the body's own cells). It is not caused by sugar intake.
-- Many Indians develop type 2 diabetes at a **lower body weight than people in Western countries**, because more of the fat sits inside the belly (**visceral fat**). [3]
+- Type 2: extra belly fat, little activity, family history, age, previous gestational diabetes, polycystic ovary syndrome (PCOS), high blood pressure and cholesterol.
+- Type 1: an autoimmune process (the immune system attacks the body's own cells). It is not caused by sugar intake.
+- Many Indians develop type 2 diabetes at a lower body weight than people in Western countries, because more of the fat sits inside the belly (**visceral fat**). [3]
 - Diets heavy in refined carbohydrate (white rice, maida, sugar, sweets) raise the risk.
 
 ## 5. Symptoms
@@ -84,11 +84,11 @@ Early type 2 often causes **none**. When sugar is high: a lot of urine, extreme 
 #### HbA1c
 | | |
 |---|---|
-| What it measures | Average blood sugar over about the last 2 to 3 months. Glucose sticks to **haemoglobin** (the oxygen-carrying protein in red blood cells). Red cells live about 120 days. |
+| What it measures | Average blood sugar over about the last 2 to 3 months. Glucose sticks to haemoglobin (the oxygen-carrying protein in red blood cells). Red cells live about 120 days. |
 | Why it is useful | One number that is not affected by what you ate today |
-| Can be raised by | Poorly controlled sugar; **iron-deficiency anaemia** `⚠ verify` |
-| Can be lowered by | **Blood loss, recent transfusion, red cells breaking down**; some medicines. [1] |
-| Can be unreliable with | **Haemoglobin variants** (abnormal inherited haemoglobin, common in India, such as HbE and HbS) and thalassaemia can read falsely high or falsely low depending on the variant and lab method `⚠ verify`, kidney disease, pregnancy |
+| Can be raised by | Poorly controlled sugar; iron-deficiency anaemia `⚠ verify` |
+| Can be lowered by | Blood loss, recent transfusion, red cells breaking down; some medicines. [1] |
+| Can be unreliable with | Haemoglobin variants (abnormal inherited haemoglobin, common in India, such as HbE and HbS) and thalassaemia can read falsely high or falsely low depending on the variant and lab method `⚠ verify`, kidney disease, pregnancy |
 | Example cut-offs | Normal below 5.7%; prediabetes 5.7 to 6.4%; diabetes 6.5% or more. [1] `⚠ verify` |
 | Example meaning | 7% matches an average blood sugar of about 154 mg/dL (formula: 28.7 × HbA1c − 46.7). [5] |
 
@@ -100,7 +100,7 @@ Anaemia and thalassaemia trait are common in India. If your HbA1c does not match
 ### Home sugar meters (glucometers)
 
 - Meters need only be within 15 mg/dL of a lab value below 100 mg/dL, or within 15% at 100 mg/dL and above, for 95 out of 100 readings. A single reading can be further off. [6]
-- **Wash and dry your hands first.** Sugar or fruit juice on the finger gives a false high.
+- Wash and dry your hands first. Sugar or fruit juice on the finger gives a false high.
 - Check strip expiry dates and keep the box closed.
 - Write each reading with the time and meal. Patterns matter more than one number.
 
@@ -113,25 +113,25 @@ Food, activity and weight loss are the base of treatment. [1] Targets: for many 
 
 | Group (examples) | What it does | Worth knowing |
 |---|---|---|
-| **Metformin** | Reduces sugar release from the liver; helps insulin work. Usually first | Can upset the stomach. Long use can lower vitamin B12, so periodic B12 testing is advised. [1] The doctor checks kidney function. |
-| **Sulfonylureas** (glimepiride, gliclazide) | Push the pancreas to release more insulin | Can cause **low sugar** and weight gain |
-| **DPP-4 inhibitors** (teneligliptin, sitagliptin, vildagliptin) | Gently raise the body's own insulin response after meals | Low risk of low sugar; often costlier |
-| **SGLT2 inhibitors** (dapagliflozin, empagliflozin) | Kidneys pass sugar out in urine | May protect heart and kidneys; can cause genital infections and dehydration; rare ketoacidosis |
-| **Pioglitazone** | Makes cells respond better to insulin | Can cause fluid retention |
-| **Insulin** | Replaces or adds the "key". Needed in type 1 and in many with type 2 over time | Needs a doctor's teaching. Insulin does not cause complications. High sugar does. |
+| Metformin | Reduces sugar release from the liver; helps insulin work. Usually first | Can upset the stomach. Long use can lower vitamin B12, so periodic B12 testing is advised. [1] The doctor checks kidney function. |
+| Sulfonylureas (glimepiride, gliclazide) | Push the pancreas to release more insulin | Can cause low sugar and weight gain |
+| DPP-4 inhibitors (teneligliptin, sitagliptin, vildagliptin) | Gently raise the body's own insulin response after meals | Low risk of low sugar; often costlier |
+| SGLT2 inhibitors (dapagliflozin, empagliflozin) | Kidneys pass sugar out in urine | May protect heart and kidneys; can cause genital infections and dehydration; rare ketoacidosis |
+| Pioglitazone | Makes cells respond better to insulin | Can cause fluid retention |
+| Insulin | Replaces or adds the "key". Needed in type 1 and in many with type 2 over time | Needs a doctor's teaching. Insulin does not cause complications. High sugar does. |
 
 Metformin and glimepiride are cheap generics in India. Whether each is on the National List of Essential Medicines 2022 should be checked in the NLEM document. `⚠ verify` Newer is not always better: ask what a newer drug adds for **you** and what it costs a month.
 
 ## 8. Complications
 
-- **Eyes:** retina damage, found early only by an eye exam.
-- **Kidneys:** protein leaking into urine first, later falling filtering ability.
-- **Nerves:** numb or burning feet, leading to unnoticed wounds.
-- **Heart and vessels:** heart attack and stroke.
-- **Feet:** a small cut can become a serious infection.
+- Eyes: retina damage, found early only by an eye exam.
+- Kidneys: protein leaking into urine first, later falling filtering ability.
+- Nerves: numb or burning feet, leading to unnoticed wounds.
+- Heart and vessels: heart attack and stroke.
+- Feet: a small cut can become a serious infection.
 - **Emergencies:** low sugar (hypoglycaemia) and diabetic ketoacidosis (DKA: the body, short of insulin, burns fat and makes acids; mainly type 1).
 
-**Yearly checks for everyone with diabetes:** eye exam, urine albumin-creatinine ratio (protein in urine), kidney blood test (eGFR, an estimate of kidney filtering), foot exam, blood pressure, cholesterol. [1]
+Yearly checks for everyone with diabetes: eye exam, urine albumin-creatinine ratio (protein in urine), kidney blood test (eGFR, an estimate of kidney filtering), foot exam, blood pressure, cholesterol. [1]
 
 ## 9. Prevention and self-management
 
@@ -139,13 +139,13 @@ Metformin and glimepiride are cheap generics in India. Whether each is on the Na
 - Prefer whole grains, pulses and vegetables over refined carbohydrate and sugary drinks.
 - Check sugar as your doctor advises and bring the log to visits.
 - Keep a **fast sugar source** at hand if you take insulin or sulfonylureas.
-- **Remission:** a supervised, intensive weight-loss programme (DiRECT trial) put 46% of participants into type 2 diabetes remission at 12 months compared with 4% on usual care. [7] Remission may not last: at 5 years about 13% of the diet-programme group were still in remission, against 5% of usual care. This needs medical supervision. `⚠ verify long-term figure`
+- Remission: a supervised, intensive weight-loss programme (DiRECT trial) put 46% of participants into type 2 diabetes remission at 12 months compared with 4% on usual care. [7] Remission may not last: at 5 years about 13% of the diet-programme group were still in remission, against 5% of usual care. This needs medical supervision. `⚠ verify long-term figure`
 
 ## 10. Misinformation and how you get misled (India)
 
 | What happens | What to do instead |
 |---|---|
-| "Sugar cured in 30 days" products | Diabetes is **controlled**, not cured, by tablets or herbs. Supervised weight loss can cause remission, but not through supplements. |
+| "Sugar cured in 30 days" products | Diabetes is controlled, not cured, by tablets or herbs. Supervised weight loss can cause remission, but not through supplements. |
 | Stopping tablets because a herbal product or good reading "cured" you | Ask your doctor first. The number is good *because* of treatment. |
 | "Diabetic" biscuits, sweets and flours | Often not better for sugar and more costly. Read the label. |
 | Herbal "sugar" products | Case reports and a Hong Kong series found some herbal diabetes products secretly contained real tablets such as glibenclamide, causing dangerous lows. One Indian study of 40 brands found none. So it has happened, but is not shown to be common in India. [8] Tell your doctor about every product you take. |
@@ -167,7 +167,7 @@ Metformin and glimepiride are cheap generics in India. Whether each is on the Na
 
 ## 12. Red flags
 
-**Low sugar** (shaking, sweating, hunger, confusion). If you can swallow and your meter reads **below 70 mg/dL**, the usual first step is **15 grams of fast sugar** (for example glucose tablets or about half a glass of juice), then **recheck after 15 minutes** and repeat if still low. [1] **If the person cannot swallow or is very drowsy or unconscious: call emergency help. Do not put food in their mouth.**
+**Low sugar** (shaking, sweating, hunger, confusion). If you can swallow and your meter reads **below 70 mg/dL**, the usual first step is 15 grams of fast sugar (for example glucose tablets or about half a glass of juice), then **recheck after 15 minutes** and repeat if still low. [1] **If the person cannot swallow or is very drowsy or unconscious: call emergency help. Do not put food in their mouth.**
 
 **Go to a hospital** for: vomiting with belly pain and deep fast breathing, extreme thirst with drowsiness, very high readings with illness, a foot wound with redness or fever, sudden vision loss, chest pain.
 
@@ -186,4 +186,4 @@ Metformin and glimepiride are cheap generics in India. Whether each is on the Na
 7. Lean MEJ, et al. DiRECT trial. *Lancet* 2018;391:541-551.
 8. Case reports in *Exp Clin Endocrinol Diabetes* 2009; Hong Kong series; Indian brand study in *AYU* 2019;40(4).
 
-**Not verified:** exact ADA prediabetes and OGTT table; the direction of effect of iron deficiency on HbA1c; thalassaemia effect on HbA1c; NLEM 2022 listing; the long-term DiRECT remission figure; the INDIAB author list. Marked `⚠ verify`.
+Not verified: exact ADA prediabetes and OGTT table; the direction of effect of iron deficiency on HbA1c; thalassaemia effect on HbA1c; NLEM 2022 listing; the long-term DiRECT remission figure; the INDIAB author list. Marked `⚠ verify`.

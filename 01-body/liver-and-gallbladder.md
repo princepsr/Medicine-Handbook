@@ -24,8 +24,8 @@ The liver is the body's largest internal organ, about 1.4 to 1.5 kg. `⚠ verify
 
 | Vessel | Brings | Share of liver blood |
 |---|---|---|
-| **Portal vein** | Blood from the gut and spleen, rich in nutrients and also in anything swallowed, including drugs and alcohol | About two-thirds to three-quarters `⚠ verify` |
-| **Hepatic artery** | Oxygen-rich blood from the heart | About one-quarter to one-third of the flow, but about half of the oxygen |
+| Portal vein | Blood from the gut and spleen, rich in nutrients and also in anything swallowed, including drugs and alcohol | About two-thirds to three-quarters `⚠ verify` |
+| Hepatic artery | Oxygen-rich blood from the heart | About one-quarter to one-third of the flow, but about half of the oxygen |
 
 Blood leaves through the **hepatic veins** to the heart.
 
@@ -35,10 +35,10 @@ The liver is built from a very large number of tiny hexagon-shaped **lobules**. 
 
 | Cell | What it does |
 |---|---|
-| **Hepatocytes** | The main liver cells (about 80%); do almost all the metabolic work |
-| **Kupffer cells** | Immune cells lining the sinusoids; catch bacteria arriving from the gut |
-| **Stellate cells** | Store vitamin A; when the liver is injured over a long time they make **scar tissue**, which is how fibrosis begins |
-| **Bile duct cells** | Line the ducts that carry bile away |
+| Hepatocytes | The main liver cells (about 80%); do almost all the metabolic work |
+| Kupffer cells | Immune cells lining the sinusoids; catch bacteria arriving from the gut |
+| Stellate cells | Store vitamin A; when the liver is injured over a long time they make scar tissue, which is how fibrosis begins |
+| Bile duct cells | Line the ducts that carry bile away |
 
 ### Bile pathway
 
@@ -50,9 +50,9 @@ Hepatocytes pass bile into tiny channels (**canaliculi**), which join into ducts
 
 | When | What the liver does |
 |---|---|
-| **After a meal** (insulin high) | Takes in glucose and stores it as **glycogen** |
-| **Between meals** | Breaks glycogen down and releases glucose to keep blood sugar steady (**glycogenolysis**) |
-| **Long fasting** | Makes **new** glucose from amino acids and other raw materials (**gluconeogenesis**) |
+| After a meal (insulin high) | Takes in glucose and stores it as glycogen |
+| Between meals | Breaks glycogen down and releases glucose to keep blood sugar steady (glycogenolysis) |
+| Long fasting | Makes new glucose from amino acids and other raw materials (gluconeogenesis) |
 
 Insulin tells the liver to stop releasing sugar. In **insulin resistance** the liver ignores that signal and keeps releasing glucose, which is one reason fasting blood sugar is high in type 2 diabetes. **Metformin** works partly by reducing this release. See [Diabetes](../02-diseases/diabetes.md).
 
@@ -89,16 +89,16 @@ Old red blood cells are broken down in the spleen. Their haemoglobin releases **
 
 | Type | Problem | Typical clues |
 |---|---|---|
-| **Before the liver** | Too many red cells breaking down | Mostly unconjugated bilirubin |
-| **In the liver** | Liver cells cannot process bilirubin | Both types raised; enzymes (ALT/AST) often raised |
-| **After the liver** | Bile duct blocked (a stone, a tumour) | Dark urine, **pale stools**, itching; ALP and GGT high |
+| Before the liver | Too many red cells breaking down | Mostly unconjugated bilirubin |
+| In the liver | Liver cells cannot process bilirubin | Both types raised; enzymes (ALT/AST) often raised |
+| After the liver | Bile duct blocked (a stone, a tumour) | Dark urine, pale stools, itching; ALP and GGT high |
 
 ### Job 5: Drugs, alcohol and toxins
 
 Almost everything you swallow goes to the liver before the rest of the body (the **first-pass effect**).
 
-- **Phase 1:** a family of enzymes (**cytochrome P450**) chemically changes the molecule.
-- **Phase 2:** the liver attaches a water-soluble group (**conjugation**) so the kidney or bile can remove it.
+- Phase 1: a family of enzymes (**cytochrome P450**) chemically changes the molecule.
+- Phase 2: the liver attaches a water-soluble group (**conjugation**) so the kidney or bile can remove it.
 
 Consequences worth knowing:
 - Some drugs are **inactivated** on first pass, so they have to be taken in higher amounts or by injection. Others are **activated** (a **prodrug**).
@@ -108,10 +108,10 @@ Consequences worth knowing:
 
 ### Other roles
 
-- **Storage:** glycogen, iron (as ferritin), vitamins A, D, B12.
-- **Filter:** Kupffer cells clear bacteria from gut blood.
-- **Hormone clearance:** breaks down used hormones.
-- **Regeneration:** a healthy liver can regrow after part is removed. `⚠ verify`
+- Storage: glycogen, iron (as ferritin), vitamins A, D, B12.
+- Filter: Kupffer cells clear bacteria from gut blood.
+- Hormone clearance: breaks down used hormones.
+- Regeneration: a healthy liver can regrow after part is removed. `⚠ verify`
 
 ## 3. How the liver is controlled
 
@@ -123,15 +123,15 @@ Consequences worth knowing:
 
 | Test | Which job it points to |
 |---|---|
-| **ALT, AST** (enzymes inside liver cells) | **Injury**: cells leaking |
-| **ALP, GGT** (in bile duct cells) | **Bile flow problems** |
-| **Bilirubin** (total, direct) | **Job 4**: waste handling and bile flow |
-| **Albumin** | **Job 3**: protein making. It lasts about 3 weeks in blood, so it falls only after **long-standing** problems. `⚠ verify` |
-| **PT / INR** (clotting time) | **Job 3**: clotting factors. Some have a very short life, so INR shifts **quickly**, a sign of recent severe problems. `⚠ verify` |
-| **Ammonia** (blood, special tests only) | **Job 3**: urea cycle |
-| **Glucose** | **Job 1**, indirectly |
+| ALT, AST (enzymes inside liver cells) | Injury: cells leaking |
+| ALP, GGT (in bile duct cells) | Bile flow problems |
+| Bilirubin (total, direct) | Job 4: waste handling and bile flow |
+| Albumin | Job 3: protein making. It lasts about 3 weeks in blood, so it falls only after long-standing problems. `⚠ verify` |
+| PT / INR (clotting time) | Job 3: clotting factors. Some have a very short life, so INR shifts quickly, a sign of recent severe problems. `⚠ verify` |
+| Ammonia (blood, special tests only) | Job 3: urea cycle |
+| Glucose | Job 1, indirectly |
 
-The key distinction: **ALT/AST show injury; albumin and INR show how well the liver is working.** (Albumin and INR can also change for other reasons, such as poor nutrition, protein loss through the kidney, warfarin or low vitamin K.) A person can have very high enzymes and a liver that still works fine, or normal enzymes and a badly scarred liver that no longer works well.
+The key distinction: ALT/AST show injury; albumin and INR show how well the liver is working. (Albumin and INR can also change for other reasons, such as poor nutrition, protein loss through the kidney, warfarin or low vitamin K.) A person can have very high enzymes and a liver that still works fine, or normal enzymes and a badly scarred liver that no longer works well.
 
 ## 5. Why this matters
 
@@ -150,4 +150,4 @@ The key distinction: **ALT/AST show injury; albumin and INR show how well the li
 2. Guyton and Hall, *Textbook of Medical Physiology* (edition to be named). `⚠ verify`
 3. LiverTox (US NIH): drug metabolism and liver injury. `⚠ verify`
 
-**Not verified:** liver weight, the share of blood from the portal vein, albumin and clotting-factor half-lives, and the regeneration statement are standard figures to confirm against the cited sources.
+Not verified: liver weight, the share of blood from the portal vein, albumin and clotting-factor half-lives, and the regeneration statement are standard figures to confirm against the cited sources.

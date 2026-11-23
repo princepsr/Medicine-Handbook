@@ -23,21 +23,21 @@ The heart is a muscular pump about the size of your fist. It sits in the chest s
 
 | Chamber | Receives blood from | Sends blood to |
 |---|---|---|
-| **Right atrium** | The body (through the two large veins, the vena cavae) | Right ventricle |
-| **Right ventricle** | Right atrium | The lungs (through the pulmonary artery) |
-| **Left atrium** | The lungs (through the pulmonary veins) | Left ventricle |
-| **Left ventricle** | Left atrium | The whole body (through the aorta, the largest artery) |
+| Right atrium | The body (through the two large veins, the vena cavae) | Right ventricle |
+| Right ventricle | Right atrium | The lungs (through the pulmonary artery) |
+| Left atrium | The lungs (through the pulmonary veins) | Left ventricle |
+| Left ventricle | Left atrium | The whole body (through the aorta, the largest artery) |
 
-The **atria** (upper chambers) are collecting rooms. The **ventricles** (lower chambers) are the pumps. The **left ventricle has the thickest wall**, because it must push blood through the whole body. A wall (the **septum**) keeps right-side blood and left-side blood apart.
+The **atria** (upper chambers) are collecting rooms. The **ventricles** (lower chambers) are the pumps. The left ventricle has the thickest wall, because it must push blood through the whole body. A wall (the **septum**) keeps right-side blood and left-side blood apart.
 
 ### Four valves (one-way doors)
 
 | Valve | Between | Opens to let blood go |
 |---|---|---|
-| **Tricuspid** | Right atrium and right ventricle | Right atrium to right ventricle |
-| **Pulmonary** | Right ventricle and pulmonary artery | Right ventricle to lungs |
-| **Mitral** | Left atrium and left ventricle | Left atrium to left ventricle |
-| **Aortic** | Left ventricle and aorta | Left ventricle to body |
+| Tricuspid | Right atrium and right ventricle | Right atrium to right ventricle |
+| Pulmonary | Right ventricle and pulmonary artery | Right ventricle to lungs |
+| Mitral | Left atrium and left ventricle | Left atrium to left ventricle |
+| Aortic | Left ventricle and aorta | Left ventricle to body |
 
 If a valve is **narrow** (stenosis) the heart works harder to push blood through. If a valve **leaks** (regurgitation) some blood flows backwards. Both can be heard as a **murmur** (an extra whooshing sound through a stethoscope) and are confirmed by an echocardiogram.
 
@@ -75,8 +75,8 @@ The heart muscle cannot take oxygen from the blood inside its chambers. It has i
 
 | Phase | What happens | Sound |
 |---|---|---|
-| **Diastole** (relaxing and filling) | Valves between atria and ventricles are open; ventricles fill | — |
-| **Systole** (contracting) | Ventricles squeeze; the inlet valves snap shut, outlet valves open; blood leaves | The first heart sound ("lub") is the inlet valves closing. The second ("dub") is the outlet valves closing. |
+| Diastole (relaxing and filling) | Valves between atria and ventricles are open; ventricles fill | — |
+| Systole (contracting) | Ventricles squeeze; the inlet valves snap shut, outlet valves open; blood leaves | The first heart sound ("lub") is the inlet valves closing. The second ("dub") is the outlet valves closing. |
 
 At rest the heart spends about two-thirds of each beat in diastole. A typical resting heart rate for a healthy adult is roughly 60 to 100 beats a minute. `⚠ verify`
 
@@ -90,26 +90,26 @@ The heart does not need the brain to beat. It has its own pacemaker.
 4. The signal then races down special fibres (**bundle of His** and **Purkinje fibres**) to the ventricles, which contract almost together, from the bottom up.
 
 An **ECG** (electrocardiogram) records this electrical activity from the skin:
-- **P wave:** the atria activating.
-- **QRS complex:** the ventricles activating (the tall spike).
-- **T wave:** the ventricles recovering.
+- P wave: the atria activating.
+- QRS complex: the ventricles activating (the tall spike).
+- T wave: the ventricles recovering.
 
 An ECG shows rhythm and electrical problems. It can be normal in someone who still has a blockage, so a normal ECG does not rule out heart disease.
 
 ### Output of the pump
 
-- **Stroke volume:** blood pushed out by one beat (roughly 70 mL at rest). `⚠ verify`
-- **Cardiac output:** stroke volume × heart rate. At rest about 5 litres a minute, roughly the whole blood volume every minute. `⚠ verify`
-- **Ejection fraction (EF):** the share of blood in the left ventricle that is pushed out with each beat. A commonly quoted normal is about 55 to 70%. `⚠ verify` A low EF means the pump is weak (heart failure).
+- Stroke volume: blood pushed out by one beat (roughly 70 mL at rest). `⚠ verify`
+- Cardiac output: stroke volume × heart rate. At rest about 5 litres a minute, roughly the whole blood volume every minute. `⚠ verify`
+- Ejection fraction (EF): the share of blood in the left ventricle that is pushed out with each beat. A commonly quoted normal is about 55 to 70%. `⚠ verify` A low EF means the pump is weak (heart failure).
 
 ## 3. The blood vessels
 
 | Vessel | Structure | Job |
 |---|---|---|
-| **Arteries** | Thick, elastic walls | Carry blood away from the heart under high pressure; stretch with each beat |
-| **Arterioles** | Small, muscular | Act as **taps**: they widen or narrow to control blood pressure and how much blood each organ gets |
-| **Capillaries** | One cell thick, microscopic | Where oxygen, sugar and waste actually cross between blood and tissue |
-| **Venules and veins** | Thin walls, one-way valves | Return blood to the heart at low pressure; leg veins have valves so blood does not fall back |
+| Arteries | Thick, elastic walls | Carry blood away from the heart under high pressure; stretch with each beat |
+| Arterioles | Small, muscular | Act as taps: they widen or narrow to control blood pressure and how much blood each organ gets |
+| Capillaries | One cell thick, microscopic | Where oxygen, sugar and waste actually cross between blood and tissue |
+| Venules and veins | Thin walls, one-way valves | Return blood to the heart at low pressure; leg veins have valves so blood does not fall back |
 
 The **endothelium**, a one-cell-thick lining inside all vessels, is not just a pipe wall. It releases chemicals that relax or tighten vessels and keep blood from clotting. Damage to it (from high sugar, smoking, high blood pressure, high LDL cholesterol) is where **atherosclerosis** starts.
 
@@ -121,16 +121,16 @@ The **endothelium**, a one-cell-thick lining inside all vessels, is not just a p
 - **Diastolic** (bottom number): pressure between beats.
 - Shown as, for example, **120/80 mmHg** (millimetres of mercury, the unit).
 
-**Blood pressure = cardiac output × resistance of the vessels.** Raise either one and pressure rises.
+Blood pressure = cardiac output × resistance of the vessels. Raise either one and pressure rises.
 
 ### What controls it
 
 | Controller | How |
 |---|---|
-| **Nervous system (autonomic)** | The **sympathetic** side speeds the heart and narrows vessels. The **parasympathetic** side (the **vagus nerve**) slows the heart. **Baroreceptors**, pressure sensors in the neck and chest, report pressure to the brain, which corrects it within seconds. |
-| **Kidneys** | Change how much salt and water the body keeps, and release **renin** (see [Kidneys](kidneys.md)) |
-| **Hormones** | Adrenaline raises heart rate; angiotensin II narrows vessels; aldosterone retains salt and water |
-| **Vessel health** | Stiff or narrowed arteries raise resistance |
+| Nervous system (autonomic) | The sympathetic side speeds the heart and narrows vessels. The parasympathetic side (the vagus nerve) slows the heart. Baroreceptors, pressure sensors in the neck and chest, report pressure to the brain, which corrects it within seconds. |
+| Kidneys | Change how much salt and water the body keeps, and release renin (see [Kidneys](kidneys.md)) |
+| Hormones | Adrenaline raises heart rate; angiotensin II narrows vessels; aldosterone retains salt and water |
+| Vessel health | Stiff or narrowed arteries raise resistance |
 
 ### What counts as high?
 
@@ -140,13 +140,13 @@ Different guidelines draw different lines, for example 130/80 or 140/90 mmHg. Th
 
 | Problem | What goes wrong |
 |---|---|
-| **Atherosclerosis** | Fatty plaque builds inside artery walls and narrows them |
-| **Angina** | Chest discomfort when a narrowed coronary artery cannot supply enough oxygen during effort |
-| **Heart attack (myocardial infarction)** | A plaque cracks, a clot forms, a coronary artery blocks and the heart muscle it feeds starts to die |
-| **Stroke** | The same process in brain arteries (or a burst vessel) |
-| **Heart failure** | The pump cannot meet the body's needs; fluid backs up (breathlessness, ankle swelling) |
-| **Arrhythmia** | Abnormal rhythm, such as **atrial fibrillation**, a fast, irregular rhythm from the atria that raises stroke risk |
-| **Hypertension** | Persistently high pressure, which strains the heart and damages vessels, kidneys, eyes and brain |
+| Atherosclerosis | Fatty plaque builds inside artery walls and narrows them |
+| Angina | Chest discomfort when a narrowed coronary artery cannot supply enough oxygen during effort |
+| Heart attack (myocardial infarction) | A plaque cracks, a clot forms, a coronary artery blocks and the heart muscle it feeds starts to die |
+| Stroke | The same process in brain arteries (or a burst vessel) |
+| Heart failure | The pump cannot meet the body's needs; fluid backs up (breathlessness, ankle swelling) |
+| Arrhythmia | Abnormal rhythm, such as atrial fibrillation, a fast, irregular rhythm from the atria that raises stroke risk |
+| Hypertension | Persistently high pressure, which strains the heart and damages vessels, kidneys, eyes and brain |
 
 Time matters in a heart attack: heart muscle without blood begins to die within minutes to hours, so chest pain with sweating or breathlessness is an **emergency**.
 
@@ -154,13 +154,13 @@ Time matters in a heart attack: heart muscle without blood begins to die within 
 
 | Test | What it tells you |
 |---|---|
-| **Blood pressure** | Pressure in the arteries |
-| **ECG** | Heart rhythm; signs of a past or current heart attack |
-| **Echocardiogram ("echo")** | An ultrasound of the heart: chamber size, valve function, ejection fraction |
-| **Troponin** (blood test) | A protein released when heart muscle is injured; the key blood test for a heart attack |
-| **Lipid profile** | LDL, HDL and triglycerides, which show cholesterol risk |
-| **Treadmill (stress) test** | The ECG during exercise, to uncover narrowing that shows only on effort |
-| **Angiography** | A dye test that shows the coronary arteries directly |
+| Blood pressure | Pressure in the arteries |
+| ECG | Heart rhythm; signs of a past or current heart attack |
+| Echocardiogram ("echo") | An ultrasound of the heart: chamber size, valve function, ejection fraction |
+| Troponin (blood test) | A protein released when heart muscle is injured; the key blood test for a heart attack |
+| Lipid profile | LDL, HDL and triglycerides, which show cholesterol risk |
+| Treadmill (stress) test | The ECG during exercise, to uncover narrowing that shows only on effort |
+| Angiography | A dye test that shows the coronary arteries directly |
 
 ## 7. Why this matters for your reports
 
@@ -179,4 +179,4 @@ Time matters in a heart attack: heart muscle without blood begins to die within 
 2. Guyton and Hall, *Textbook of Medical Physiology* (edition to be named). `⚠ verify`
 3. Blood-pressure thresholds: ESC/ESH and ACC/AHA hypertension guidelines; Hypertension Society of India, Indian Guidelines on Hypertension-IV (2019). `⚠ verify`
 
-**Not verified:** heart weight, resting heart-rate range, stroke volume, cardiac output and normal ejection fraction are standard textbook figures that should be checked against the cited sources.
+Not verified: heart weight, resting heart-rate range, stroke volume, cardiac output and normal ejection fraction are standard textbook figures that should be checked against the cited sources.

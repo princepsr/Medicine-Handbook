@@ -17,13 +17,13 @@ For blood cells, see [Blood](blood.md). This chapter explains how the defence sy
 
 | Part | Role |
 |---|---|
-| **Skin, mucus, tears, stomach acid** | Barriers that keep germs out |
-| **Bone marrow** | Makes all immune cells |
-| **Thymus** | A small gland behind the breastbone where **T cells** are trained (most active in childhood) |
-| **Lymph nodes** | Bean-shaped filter stations in the neck, armpits, groin and elsewhere. They swell when fighting infection. |
-| **Lymph vessels** | A second drainage network that returns fluid from tissues to the blood and carries immune cells |
-| **Spleen** | Filters blood; removes old red cells and some germs |
-| **Tonsils and gut patches** | Immune tissue guarding the mouth and gut |
+| Skin, mucus, tears, stomach acid | Barriers that keep germs out |
+| Bone marrow | Makes all immune cells |
+| Thymus | A small gland behind the breastbone where T cells are trained (most active in childhood) |
+| Lymph nodes | Bean-shaped filter stations in the neck, armpits, groin and elsewhere. They swell when fighting infection. |
+| Lymph vessels | A second drainage network that returns fluid from tissues to the blood and carries immune cells |
+| Spleen | Filters blood; removes old red cells and some germs |
+| Tonsils and gut patches | Immune tissue guarding the mouth and gut |
 
 ## 2. The innate response: fast and general
 
@@ -31,7 +31,7 @@ It reacts in minutes to hours, the same way to every germ.
 
 1. **Barriers** stop most germs. Skin, mucus, cilia, stomach acid and normal friendly gut bacteria all block entry.
 2. **Sentinel cells** (macrophages and **dendritic cells**) recognise common germ patterns and sound the alarm.
-3. **Inflammation** follows. Nearby vessels widen and leak, so fluid and white cells pour into the area. The four classic signs are **redness, heat, swelling and pain**.
+3. **Inflammation** follows. Nearby vessels widen and leak, so fluid and white cells pour into the area. The four classic signs are redness, heat, swelling and pain.
 4. **Neutrophils** arrive first and eat bacteria. **Natural killer (NK) cells** destroy infected or abnormal cells.
 5. **Complement**, a set of blood proteins, punches holes in germs and marks them for eating.
 
@@ -58,10 +58,10 @@ It takes days the first time, but is much faster and stronger the second time.
 
 | Cell | Job |
 |---|---|
-| **Helper T cell** | The coordinator; activates other cells |
-| **Cytotoxic (killer) T cell** | Finds and kills body cells infected by viruses, and some abnormal cells |
-| **B cell** | Makes antibodies |
-| **Memory cells** | Long-lived copies that respond quickly on the next exposure |
+| Helper T cell | The coordinator; activates other cells |
+| Cytotoxic (killer) T cell | Finds and kills body cells infected by viruses, and some abnormal cells |
+| B cell | Makes antibodies |
+| Memory cells | Long-lived copies that respond quickly on the next exposure |
 
 ### Antibodies
 
@@ -69,10 +69,10 @@ An **antibody** (immunoglobulin) is a Y-shaped protein that locks onto one speci
 
 | Class | Main role |
 |---|---|
-| **IgM** | The first antibody made in a new infection |
-| **IgG** | The main long-lasting antibody in blood; crosses the placenta to protect a newborn |
-| **IgA** | Guards the gut, airways and breast milk |
-| **IgE** | Involved in allergy and parasite defence |
+| IgM | The first antibody made in a new infection |
+| IgG | The main long-lasting antibody in blood; crosses the placenta to protect a newborn |
+| IgA | Guards the gut, airways and breast milk |
+| IgE | Involved in allergy and parasite defence |
 
 This is why a test for IgM versus IgG can show how recent an infection is, and why a newborn is partly protected by its mother's antibodies.
 
@@ -82,11 +82,11 @@ A **vaccine** shows the adaptive system an antigen without causing the disease, 
 
 | Type | How it works | Examples |
 |---|---|---|
-| **Live attenuated** | A weakened germ | Measles, MR/MMR, oral polio, BCG, rotavirus |
-| **Inactivated** | A killed germ | Injectable polio, hepatitis A |
-| **Subunit / conjugate** | A piece of the germ | Hepatitis B, pneumococcal, typhoid conjugate |
-| **Toxoid** | A made-safe toxin | Tetanus, diphtheria |
-| **mRNA / viral vector** | Instructions for the body to make an antigen | Some COVID-19 vaccines |
+| Live attenuated | A weakened germ | Measles, MR/MMR, oral polio, BCG, rotavirus |
+| Inactivated | A killed germ | Injectable polio, hepatitis A |
+| Subunit / conjugate | A piece of the germ | Hepatitis B, pneumococcal, typhoid conjugate |
+| Toxoid | A made-safe toxin | Tetanus, diphtheria |
+| mRNA / viral vector | Instructions for the body to make an antigen | Some COVID-19 vaccines |
 
 Facts worth knowing:
 - Some vaccines need **boosters** because antibody levels fall over time.
@@ -102,10 +102,10 @@ The immune system must tell **self** from **non-self**. When this fails:
 
 | Problem | What happens | Examples |
 |---|---|---|
-| **Allergy** | **IgE** on **mast cells** reacts to a harmless substance and releases **histamine**, causing itching, swelling, runny nose, hives | Hay fever, food allergy, eczema |
-| **Anaphylaxis** | A sudden whole-body allergic reaction: swelling of face or throat, wheeze, faintness, drop in blood pressure. **A medical emergency**: it needs adrenaline and urgent hospital care. | Peanut, insect sting, drug allergy |
-| **Autoimmune disease** | The immune system attacks the body's own tissue | Type 1 diabetes, Hashimoto's and Graves' thyroid disease, rheumatoid arthritis, lupus, coeliac disease, psoriasis |
-| **Immunodeficiency** | The system is weak | Primary (inherited) or secondary: **HIV**, uncontrolled diabetes, malnutrition, chemotherapy, long-term steroids |
+| Allergy | IgE on mast cells reacts to a harmless substance and releases histamine, causing itching, swelling, runny nose, hives | Hay fever, food allergy, eczema |
+| Anaphylaxis | A sudden whole-body allergic reaction: swelling of face or throat, wheeze, faintness, drop in blood pressure. A medical emergency: it needs adrenaline and urgent hospital care. | Peanut, insect sting, drug allergy |
+| Autoimmune disease | The immune system attacks the body's own tissue | Type 1 diabetes, Hashimoto's and Graves' thyroid disease, rheumatoid arthritis, lupus, coeliac disease, psoriasis |
+| Immunodeficiency | The system is weak | Primary (inherited) or secondary: HIV, uncontrolled diabetes, malnutrition, chemotherapy, long-term steroids |
 
 **Immunosuppressant medicines** (such as steroids) are used to calm autoimmune disease and prevent transplant rejection, at the price of higher infection risk.
 
@@ -127,13 +127,13 @@ A product claiming to "boost immunity" has no medical definition. Ask what it co
 
 | Test | What it tells you |
 |---|---|
-| **CBC with differential** | Counts of white cell types |
-| **CRP, ESR** | Non-specific inflammation markers |
-| **Immunoglobulin levels** | Antibody production |
-| **Antibody tests (IgM, IgG)** | Past or recent infection; immunity after vaccination (titres) |
-| **ANA and other autoantibodies, anti-TPO** | Autoimmune disease |
-| **Allergy tests** (skin prick, specific IgE) | Allergic sensitisation. A positive test means sensitised, not always symptomatic. |
-| **HIV test** | Needs counselling and confirmation |
+| CBC with differential | Counts of white cell types |
+| CRP, ESR | Non-specific inflammation markers |
+| Immunoglobulin levels | Antibody production |
+| Antibody tests (IgM, IgG) | Past or recent infection; immunity after vaccination (titres) |
+| ANA and other autoantibodies, anti-TPO | Autoimmune disease |
+| Allergy tests (skin prick, specific IgE) | Allergic sensitisation. A positive test means sensitised, not always symptomatic. |
+| HIV test | Needs counselling and confirmation |
 
 ## 9. Why this matters for your reports
 
@@ -151,4 +151,4 @@ A product claiming to "boost immunity" has no medical definition. Ask what it co
 2. India's Universal Immunisation Programme, Ministry of Health and Family Welfare (schedule). `⚠ verify`
 3. WHO and ICMR material on vaccines and antibiotic resistance (to be added). `⚠ verify`
 
-**Not verified:** the vaccine examples by type, the Indian schedule and the "immunity boosting" statement should be checked against the cited sources.
+Not verified: the vaccine examples by type, the Indian schedule and the "immunity boosting" statement should be checked against the cited sources.

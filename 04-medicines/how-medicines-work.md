@@ -20,14 +20,14 @@ Medicines work in a small number of ways:
 
 | Way | Picture | Examples |
 |---|---|---|
-| **Fit a receptor and switch it on** (an **agonist**) | A key that opens a lock | Insulin; salbutamol (opens airways) |
-| **Fit a receptor and block it** (an **antagonist**) | A key that jams the lock | Beta-blockers; antihistamines |
-| **Block an enzyme** | Stopping a machine on the production line | Statins (cholesterol production); aspirin and NSAIDs (pain chemicals); PPIs (acid pump) |
-| **Replace something missing** | Refilling an empty tank | Levothyroxine; insulin; iron; vitamin B12 |
-| **Kill or stop a germ** | Targeting a part the germ has and you do not | Antibiotics |
-| **Change the body's water or salt balance** | Opening or closing a tap | Water tablets (diuretics) |
+| Fit a receptor and switch it on (an agonist) | A key that opens a lock | Insulin; salbutamol (opens airways) |
+| Fit a receptor and block it (an antagonist) | A key that jams the lock | Beta-blockers; antihistamines |
+| Block an enzyme | Stopping a machine on the production line | Statins (cholesterol production); aspirin and NSAIDs (pain chemicals); PPIs (acid pump) |
+| Replace something missing | Refilling an empty tank | Levothyroxine; insulin; iron; vitamin B12 |
+| Kill or stop a germ | Targeting a part the germ has and you do not | Antibiotics |
+| Change the body's water or salt balance | Opening or closing a tap | Water tablets (diuretics) |
 
-(An **enzyme** is a protein that speeds up a chemical reaction. A **receptor** is a protein on or in a cell that responds to a particular chemical.)
+(An enzyme is a protein that speeds up a chemical reaction. A receptor is a protein on or in a cell that responds to a particular chemical.)
 
 A medicine that acts on one receptor can have effects elsewhere where the same receptor exists. That is why most medicines have **side effects**.
 
@@ -50,25 +50,25 @@ Doctors describe the journey in four steps, ADME: **A**bsorption, **D**istributi
 
 | Route | Notes |
 |---|---|
-| **By mouth (tablet, capsule, syrup)** | Most convenient. Goes through the gut and **liver first** (see below). Food, antacids, iron and calcium can reduce absorption of some medicines. |
-| **Under the tongue (sublingual)** | Absorbed directly into blood, skipping the liver; fast (for example, a heart-pain tablet) |
-| **Injection** | Into a vein (IV, fastest), muscle (IM), or under the skin (SC, for example insulin) |
-| **Inhaled** | Goes straight to the lungs; small amounts reach the rest of the body |
-| **Skin patch or cream** | Slow absorption through skin; creams act mostly locally, but strong steroid creams can also be absorbed |
-| **Drops (eye, ear, nose)** | Local action; some drains into the blood through the nose |
+| By mouth (tablet, capsule, syrup) | Most convenient. Goes through the gut and liver first (see below). Food, antacids, iron and calcium can reduce absorption of some medicines. |
+| Under the tongue (sublingual) | Absorbed directly into blood, skipping the liver; fast (for example, a heart-pain tablet) |
+| Injection | Into a vein (IV, fastest), muscle (IM), or under the skin (SC, for example insulin) |
+| Inhaled | Goes straight to the lungs; small amounts reach the rest of the body |
+| Skin patch or cream | Slow absorption through skin; creams act mostly locally, but strong steroid creams can also be absorbed |
+| Drops (eye, ear, nose) | Local action; some drains into the blood through the nose |
 
 **Bioavailability** is the fraction of the dose that reaches the blood unchanged. An injected medicine has 100%. Tablets often have less.
 
-**The first-pass effect:** blood from the gut goes to the liver before the rest of the body, and the liver may change or destroy part of the medicine. This is why some medicines work only as injections or under the tongue. (See [Liver and gallbladder](../01-body/liver-and-gallbladder.md).)
+The first-pass effect: blood from the gut goes to the liver before the rest of the body, and the liver may change or destroy part of the medicine. This is why some medicines work only as injections or under the tongue. (See [Liver and gallbladder](../01-body/liver-and-gallbladder.md).)
 
 ### Forms of tablets: why "do not crush" matters
 
 | Form | What it does | Why it matters |
 |---|---|---|
-| **Enteric-coated (EC)** | Coating that survives stomach acid and dissolves in the intestine | Crushing destroys the protection |
-| **Sustained, extended or controlled release (SR, ER, CR, XR)** | Releases the medicine slowly over many hours | Crushing or chewing releases it all at once and can cause overdose |
-| **Dispersible, effervescent** | Dissolve in water before drinking | Swallowing whole may not work as planned |
-| **Chewable, orally disintegrating** | Made to be chewed or melt on the tongue | |
+| Enteric-coated (EC) | Coating that survives stomach acid and dissolves in the intestine | Crushing destroys the protection |
+| Sustained, extended or controlled release (SR, ER, CR, XR) | Releases the medicine slowly over many hours | Crushing or chewing releases it all at once and can cause overdose |
+| Dispersible, effervescent | Dissolve in water before drinking | Swallowing whole may not work as planned |
+| Chewable, orally disintegrating | Made to be chewed or melt on the tongue | |
 
 Ask your pharmacist before splitting, crushing or opening any tablet or capsule.
 
@@ -85,11 +85,11 @@ The liver's **cytochrome P450 enzymes** change medicines into forms that can be 
 
 ### D. Excretion: removed, mostly by the kidneys
 
-The kidneys filter medicines and their products into urine (see [Kidneys](../01-body/kidneys.md)). Some leave in bile and stool. In **kidney disease** many medicines build up, so doctors adjust the dose or choose another medicine. **Always tell every doctor and pharmacist if you have kidney or liver disease.**
+The kidneys filter medicines and their products into urine (see [Kidneys](../01-body/kidneys.md)). Some leave in bile and stool. In **kidney disease** many medicines build up, so doctors adjust the dose or choose another medicine. Always tell every doctor and pharmacist if you have kidney or liver disease.
 
 ## 3. Half-life and "how often"
 
-The **half-life** is the time it takes for the blood level to fall by half.
+The half-life is the time it takes for the blood level to fall by half.
 
 - A **short half-life** medicine wears off quickly and must be taken more than once a day (or as a slow-release form).
 - A **long half-life** medicine lasts, and can be taken once a day.
@@ -104,14 +104,14 @@ Each medicine has a **minimum effective level** and a **toxic level**. The gap b
 
 | Term | Meaning |
 |---|---|
-| **Side effect** | An effect other than the one wanted. Common and often mild (a dry mouth, mild nausea) |
-| **Adverse drug reaction (ADR)** | A harmful, unintended response at normal doses |
-| **Dose-related reaction** | Predictable; gets worse with higher levels (for example, low sugar from too much insulin) |
-| **Allergic reaction** | An immune reaction; not dose-related; can be severe (rash, swelling, breathing trouble) |
-| **Intolerance** | A non-allergic bad reaction in some people (for example stomach upset) |
-| **Toxicity** | Harm from too high a level |
+| Side effect | An effect other than the one wanted. Common and often mild (a dry mouth, mild nausea) |
+| Adverse drug reaction (ADR) | A harmful, unintended response at normal doses |
+| Dose-related reaction | Predictable; gets worse with higher levels (for example, low sugar from too much insulin) |
+| Allergic reaction | An immune reaction; not dose-related; can be severe (rash, swelling, breathing trouble) |
+| Intolerance | A non-allergic bad reaction in some people (for example stomach upset) |
+| Toxicity | Harm from too high a level |
 
-**Allergy versus intolerance:** a rash, hives, swelling of lips or face, wheeze or collapse after a medicine suggests allergy and needs urgent care and a record, because the drug should be avoided. Nausea or loose stools is more often an intolerance or side effect.
+Allergy versus intolerance: a rash, hives, swelling of lips or face, wheeze or collapse after a medicine suggests allergy and needs urgent care and a record, because the drug should be avoided. Nausea or loose stools is more often an intolerance or side effect.
 
 ### Reading a leaflet sensibly
 
@@ -122,9 +122,9 @@ Package leaflets list every side effect ever reported, including very rare ones.
 - **Adherence** means taking it as prescribed. Many treatment failures are missed doses, not weak drugs.
 - **Do not stop a long-term medicine because you feel well.** Blood pressure, diabetes, thyroid and cholesterol medicines usually work *because* you take them.
 - **Do not take leftovers** or share medicines.
-- **Missed dose:** the safe general rule is to read the leaflet or ask the pharmacist; do not double up unless told to.
-- **Storage:** keep in a cool, dry place away from sunlight, out of children's reach. Some (insulin, some syrups) need a fridge. Never use after the **expiry date**; after opening, syrups and drops often have a short use-by period.
-- **Pregnancy, breastfeeding, children, older people, and kidney or liver disease** change what is safe. See [Interactions and special groups](interactions-and-special-groups.md).
+- Missed dose: the safe general rule is to read the leaflet or ask the pharmacist; do not double up unless told to.
+- Storage: keep in a cool, dry place away from sunlight, out of children's reach. Some (insulin, some syrups) need a fridge. Never use after the **expiry date**; after opening, syrups and drops often have a short use-by period.
+- Pregnancy, breastfeeding, children, older people, and kidney or liver disease change what is safe. See [Interactions and special groups](interactions-and-special-groups.md).
 
 ## 6. Questions to ask about any medicine
 
@@ -139,7 +139,7 @@ Package leaflets list every side effect ever reported, including very rare ones.
 
 ## 7. Red flags
 
-Seek urgent care for: **swelling of the face, lips or throat, difficulty breathing, widespread rash with fever or mouth sores, blistering skin, fainting, chest pain, yellow eyes, black stools, or any reaction that feels severe** after taking a medicine. Stop the medicine only on medical advice, except for a severe allergic reaction, where you seek emergency help immediately.
+Seek urgent care for: swelling of the face, lips or throat, difficulty breathing, widespread rash with fever or mouth sores, blistering skin, fainting, chest pain, yellow eyes, black stools, or any reaction that feels severe after taking a medicine. Stop the medicine only on medical advice, except for a severe allergic reaction, where you seek emergency help immediately.
 
 ## Key terms
 
@@ -152,4 +152,4 @@ Seek urgent care for: **swelling of the face, lips or throat, difficulty breathi
 3. WHO definition of adverse drug reaction; Pharmacovigilance Programme of India (PvPI) materials. `⚠ verify`
 4. MSD Manual (consumer edition): drug absorption and metabolism overviews. `⚠ verify`
 
-**Not verified:** this chapter is general pharmacology from standard teaching; the frequency bands for side-effect words and the half-life rule of thumb (four to five half-lives) should be checked against the cited sources.
+Not verified: this chapter is general pharmacology from standard teaching; the frequency bands for side-effect words and the half-life rule of thumb (four to five half-lives) should be checked against the cited sources.
