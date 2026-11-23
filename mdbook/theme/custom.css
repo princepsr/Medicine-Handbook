@@ -1,185 +1,109 @@
-/* Medical Literacy Handbook: custom look for mdBook.
-   Calm teal accent, roomier reading text, softer tables, clearer callouts. */
+/* Medical Literacy Handbook: calm, quiet reading style.
+   One neutral text colour, one soft accent for links, thin grey boxes,
+   very little bold. Figure and print rules at the end. */
 
 :root {
-  --mlh-accent: #0f766e;
-  --mlh-accent-soft: #e6f4f2;
-  --mlh-note: #2563eb;
-  --mlh-note-bg: #eff6ff;
-  --mlh-tip: #15803d;
-  --mlh-tip-bg: #f0fdf4;
-  --mlh-important: #7c3aed;
-  --mlh-important-bg: #f5f3ff;
-  --mlh-warning: #b45309;
-  --mlh-warning-bg: #fffbeb;
-  --mlh-caution: #b91c1c;
-  --mlh-caution-bg: #fef2f2;
-  --mlh-verify: #92400e;
-  --mlh-verify-bg: #fef3c7;
-  --mlh-table-stripe: rgba(15, 118, 110, 0.05);
+  --mlh-accent: #3f6f6a;
+  --mlh-box-bg: rgba(0, 0, 0, 0.035);
   --mlh-border: rgba(0, 0, 0, 0.12);
+  --mlh-table-stripe: rgba(0, 0, 0, 0.025);
 }
-
 .coal, .navy, .ayu {
-  --mlh-accent: #5eead4;
-  --mlh-accent-soft: rgba(94, 234, 212, 0.1);
-  --mlh-note: #93c5fd;
-  --mlh-note-bg: rgba(59, 130, 246, 0.12);
-  --mlh-tip: #86efac;
-  --mlh-tip-bg: rgba(34, 197, 94, 0.12);
-  --mlh-important: #c4b5fd;
-  --mlh-important-bg: rgba(139, 92, 246, 0.14);
-  --mlh-warning: #fcd34d;
-  --mlh-warning-bg: rgba(245, 158, 11, 0.14);
-  --mlh-caution: #fca5a5;
-  --mlh-caution-bg: rgba(239, 68, 68, 0.14);
-  --mlh-verify: #fde68a;
-  --mlh-verify-bg: rgba(245, 158, 11, 0.2);
-  --mlh-table-stripe: rgba(94, 234, 212, 0.06);
+  --mlh-accent: #8fc1ba;
+  --mlh-box-bg: rgba(255, 255, 255, 0.05);
   --mlh-border: rgba(255, 255, 255, 0.15);
+  --mlh-table-stripe: rgba(255, 255, 255, 0.03);
 }
 
 /* Reading column and text */
-.content main {
-  max-width: 880px;
-}
-.content p, .content li {
-  line-height: 1.75;
-}
-.content {
-  font-size: 1.02em;
-}
+.content main { max-width: 820px; }
+.content { font-size: 1.04em; }
+.content p, .content li { line-height: 1.75; }
+.content strong { font-weight: 600; }
 
-/* Headings */
-.content h1 {
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  padding-bottom: 0.4em;
-  border-bottom: 3px solid var(--mlh-accent);
-  margin-bottom: 1em;
+/* Headings: same colour as the text, differ by size and spacing only */
+.content h1, .content h2, .content h3, .content h4 {
+  font-weight: 600;
+  color: inherit;
 }
+.content .header, .content .header:link, .content .header:visited { color: inherit; }
+.content h1 { margin-bottom: 1em; }
 .content h2 {
-  margin-top: 2em;
+  margin-top: 2.2em;
   padding-bottom: 0.25em;
   border-bottom: 1px solid var(--mlh-border);
 }
-.content h3 {
-  margin-top: 1.6em;
-  color: var(--mlh-accent);
-}
-.content .header, .content .header:link, .content .header:visited {
-  color: inherit;
-}
-.content h3 .header { color: var(--mlh-accent); }
+.content h3 { margin-top: 1.7em; }
 
-/* The italic line under the title acts as a lead paragraph */
-.content h1 + p > em:only-child {
-  display: block;
-  padding: 0.7em 1em;
-  background: var(--mlh-accent-soft);
-  border-left: 4px solid var(--mlh-accent);
-  border-radius: 6px;
-  font-style: normal;
-}
-
-/* Links */
+/* Links: one quiet colour */
 .content a:link, .content a:visited {
   color: var(--mlh-accent);
-  text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
-.content a:hover { text-decoration-thickness: 2px; }
 
 /* Tables */
 .content table {
   display: block;
   overflow-x: auto;
-  border-collapse: separate;
-  border-spacing: 0;
-  border: 1px solid var(--mlh-border);
-  border-radius: 8px;
+  border-collapse: collapse;
   margin: 1.2em 0;
   font-size: 0.95em;
 }
 .content table thead th {
-  background: var(--mlh-accent-soft);
-  color: var(--mlh-accent);
   text-align: left;
-  font-weight: 650;
-  border-bottom: 2px solid var(--mlh-accent);
+  font-weight: 600;
+  border-bottom: 1px solid var(--mlh-border);
+  background: none;
 }
 .content table td, .content table th {
-  padding: 0.65em 0.9em;
+  padding: 0.6em 0.9em;
   border: none;
   border-bottom: 1px solid var(--mlh-border);
   vertical-align: top;
 }
 /* Hide table headers that have no text (marker cards use blank headers) */
 .content table thead:not(:has(th:not(:empty))) { display: none; }
-.content table thead:not(:has(th:not(:empty))) + tbody tr:first-child td { border-top: none; }
 .content table tbody tr:nth-child(even) { background: var(--mlh-table-stripe); }
-.content table tbody tr:last-child td { border-bottom: none; }
 
-/* Callouts (GitHub-style alerts) */
+/* Callouts: all the same quiet grey box, only the small label tells them apart */
 .content blockquote {
   margin: 1.3em 0;
-  padding: 0.8em 1.1em;
-  border-radius: 8px;
+  padding: 0.7em 1.1em;
   border: 1px solid var(--mlh-border);
-  border-left: 5px solid var(--mlh-accent);
-  background: var(--mlh-accent-soft);
+  border-left: 3px solid var(--mlh-border);
+  border-radius: 6px;
+  background: var(--mlh-box-bg);
 }
 .content blockquote > :first-child { margin-top: 0; }
 .content blockquote > :last-child { margin-bottom: 0; }
-.content blockquote.blockquote-tag-note      { border-left-color: var(--mlh-note);      background: var(--mlh-note-bg); }
-.content blockquote.blockquote-tag-tip       { border-left-color: var(--mlh-tip);       background: var(--mlh-tip-bg); }
-.content blockquote.blockquote-tag-important { border-left-color: var(--mlh-important); background: var(--mlh-important-bg); }
-.content blockquote.blockquote-tag-warning   { border-left-color: var(--mlh-warning);   background: var(--mlh-warning-bg); }
-.content blockquote.blockquote-tag-caution   { border-left-color: var(--mlh-caution);   background: var(--mlh-caution-bg); }
 .content blockquote.blockquote-tag .blockquote-tag-title {
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-size: 0.82em;
+  font-size: 0.78em;
+  opacity: 0.75;
 }
-.content blockquote.blockquote-tag-note .blockquote-tag-title      { color: var(--mlh-note); }
-.content blockquote.blockquote-tag-tip .blockquote-tag-title       { color: var(--mlh-tip); }
-.content blockquote.blockquote-tag-important .blockquote-tag-title { color: var(--mlh-important); }
-.content blockquote.blockquote-tag-warning .blockquote-tag-title   { color: var(--mlh-warning); }
-.content blockquote.blockquote-tag-caution .blockquote-tag-title   { color: var(--mlh-caution); }
 
-/* "verify" flags: marked by custom.js */
+/* "verify" flags (marked by custom.js): plain small text, no colour block */
 .content code.mlh-verify {
-  background: var(--mlh-verify-bg);
-  color: var(--mlh-verify);
-  border: 1px solid transparent;
+  background: none;
+  border: 1px solid var(--mlh-border);
   border-radius: 999px;
   padding: 0.05em 0.6em;
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 400;
   white-space: nowrap;
 }
 
 /* Code and ASCII figures */
 .content pre {
   border: 1px solid var(--mlh-border);
-  border-radius: 8px;
+  border-radius: 6px;
   line-height: 1.45;
 }
-.content :not(pre) > code {
-  border-radius: 4px;
-  padding: 0.1em 0.35em;
-}
+.content :not(pre) > code { border-radius: 4px; padding: 0.1em 0.35em; }
 
-/* Figures */
-.content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
-}
-
-/* Horizontal rule between sections */
 .content hr {
   border: none;
   height: 1px;
@@ -187,20 +111,9 @@
   margin: 2em 0;
 }
 
-/* Sidebar polish */
-.sidebar .chapter li.part-title {
-  color: var(--mlh-accent);
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-size: 0.78em;
-  margin-top: 1.4em;
-}
-.sidebar .chapter li a.active {
-  color: var(--mlh-accent);
-  font-weight: 650;
-}
-.menu-title { font-weight: 650; }
+/* Sidebar */
+.sidebar .chapter li.part-title { font-weight: 600; }
+.sidebar .chapter li a.active { font-weight: 600; }
 
 /* Phones */
 @media (max-width: 620px) {
@@ -208,14 +121,9 @@
   .content table { font-size: 0.88em; }
 }
 
-/* Print: keep it clean, show link targets off */
+/* Print */
 @media print {
   .content blockquote, .content table { break-inside: avoid; }
-  .content h1 { border-bottom-width: 2px; }
-}
-
-/* Print: hide navigation, use the full page width */
-@media print {
   .sidebar, #menu-bar, .nav-wrapper { display: none !important; }
   .content main { max-width: none; }
 }
@@ -252,8 +160,3 @@
 @media (max-width: 620px) {
   .content img[src$=".svg"] { max-height: none; }
 }
-/* Body font trial: serif for reading, sans for headings and UI */
-.content main p, .content main li, .content main td, .content main blockquote {
-  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
-}
-.content main { font-size: 1.05em; }
