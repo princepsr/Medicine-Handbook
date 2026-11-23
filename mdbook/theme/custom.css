@@ -252,3 +252,8 @@
 @media (max-width: 620px) {
   .content img[src$=".svg"] { max-height: none; }
 }
+/* Body font trial: serif for reading, sans for headings and UI */
+.content main p, .content main li, .content main td, .content main blockquote {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+}
+.content main { font-size: 1.05em; }
